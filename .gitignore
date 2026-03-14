@@ -1,0 +1,12 @@
+videos/
+audios/
+*.mp4
+*.mp3
+__pycache__/
+.env
+whisper/
+chunks.json
+output.json
+requirements.txt
+*.txt
+df_embeddings.joblib

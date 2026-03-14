@@ -1,0 +1,509 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 8.32,
+            "text": " 2. Machine Learning has improved our lives in a number of wonderful ways. Today, let's",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 8.32,
+            "end": 12.4,
+            "text": " talk about some of these. I'm Rahul from SimplyLearn and these are the top 10 applications",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 12.4,
+            "end": 17.48,
+            "text": " of machine learning. First, let's talk about virtual personal assistance, Google Assistant,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 17.48,
+            "end": 22.6,
+            "text": " Alexa, Cortana and Siri. Now, we've all used one of these at least at some point in our",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 22.6,
+            "end": 26.32,
+            "text": " lives. Now, these help improve our lives in a great number of ways. For example, you",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 26.32,
+            "end": 29.560000000000002,
+            "text": " could tell them to call someone. You could tell them to play some music. You could tell",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 29.56,
+            "end": 33.44,
+            "text": " them to even schedule an appointment. So how do these things actually work? First, they",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 33.44,
+            "end": 38.239999999999995,
+            "text": " record what you're saying, send it over to a server, which is usually in a cloud, decode",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 38.239999999999995,
+            "end": 42.4,
+            "text": " it with the help of machine learning and neural networks, and then provide you with an output.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 42.4,
+            "end": 46.28,
+            "text": " So if you've ever noticed that these systems don't work very well without the internet,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 46.28,
+            "end": 50.8,
+            "text": " that's because the server couldn't be contacted. Next, let's talk about traffic predictions.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 50.8,
+            "end": 54.92,
+            "text": " Now say I wanted to travel from Buckingham Palace to Lott's Cricket Round. The first",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 54.92,
+            "end": 80.84,
+            "text": " thing I would probably do is to get on Google Maps. So search it. And let's put it here.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 80.84,
+            "end": 84.56,
+            "text": " So here we have the path you should take to get to Lott's Cricket Round. Now here,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 84.56,
+            "end": 90.12,
+            "text": " the map is a combination of red, yellow and blue. But the blue regions signify a clear",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 90.12,
+            "end": 95.2,
+            "text": " road that is you won't encounter traffic there. The yellow indicate that they're slightly congested",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 95.2,
+            "end": 99.08000000000001,
+            "text": " and red means they're heavily congested. So let's look at the map, a different version",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 99.08000000000001,
+            "end": 103.64,
+            "text": " of the same map. And here, as I told you before, red means heavily congested, yellow means slow",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 103.64,
+            "end": 109.24000000000001,
+            "text": " moving and blue means clear. So how exactly is Google able to tell you that the traffic",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 109.24,
+            "end": 113.64,
+            "text": " is clear, slow moving or heavily congested? So this is the help of machine learning and",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 113.64,
+            "end": 118.03999999999999,
+            "text": " with the help of two important measures. First is the average time that's taken on specific",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 118.03999999999999,
+            "end": 123.24,
+            "text": " days at specific times on that route. The second one is the real time location data of vehicles",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 123.24,
+            "end": 127.56,
+            "text": " from Google Maps and with the help of sensors. Some of the other popular map services are",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 127.56,
+            "end": 132.88,
+            "text": " Bing Maps, Maps.me and here we go. Next up, we have social media personalization. So say",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 132.88,
+            "end": 138.24,
+            "text": " I want to buy a drone and I'm on Amazon and I want to buy a DJI Mavic Pro. The thing is",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 138.24,
+            "end": 142.0,
+            "text": " it's close to one lap. So I don't want to buy it right now. But the next time I'm on Facebook,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 142.0,
+            "end": 146.16,
+            "text": " I'll see an advertisement for the product. Next time I'm on YouTube, I'll see an advertisement.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 146.16,
+            "end": 150.16,
+            "text": " Even on Instagram, I'll see an advertisement. So here with the help of machine learning,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 150.16,
+            "end": 154.96,
+            "text": " Google has understood that I'm interested in this particular product. Hence, it's targeting me",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 154.96,
+            "end": 158.72,
+            "text": " with these advertisements. This is also with the help of machine learning. Let's talk about",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 158.72,
+            "end": 164.08,
+            "text": " email spam filtering. Now, this is a spam that's in my inbox. Now, how does Gmail know what spam",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 164.16000000000003,
+            "end": 168.32000000000002,
+            "text": " and what's not spam? So Gmail has an entire collection of emails, which have already been",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 168.32000000000002,
+            "end": 174.08,
+            "text": " labeled as spam or not spam. So after analyzing this data, Gmail is able to find some characteristics",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 174.08,
+            "end": 179.52,
+            "text": " like the word lottery or winner from then on any new email that comes to your inbox goes through a",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 179.52,
+            "end": 184.32000000000002,
+            "text": " few spam filters to decide whether it's spam or not. Now, some of the popular spam filters that",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 184.32000000000002,
+            "end": 190.08,
+            "text": " Gmail uses is content filters, header filters, general blacklist filters and so on. Next,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 190.16000000000003,
+            "end": 194.24,
+            "text": " we have online fraud detection. Now, there are several ways that online fraud can take place.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 194.24,
+            "end": 198.4,
+            "text": " For example, there's identity theft where they steal your identity, fake accounts where these",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 198.4,
+            "end": 203.12,
+            "text": " accounts only last for how long the transaction takes place and stop existing after that and man",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 203.12,
+            "end": 206.64000000000001,
+            "text": " in the middle attacks where they steal your money while the transaction is taking place.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 206.64000000000001,
+            "end": 211.28,
+            "text": " The feed forward neural network helps determine whether a transaction is genuine or fraudulent.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 211.28,
+            "end": 216.48000000000002,
+            "text": " So what happens with feed forward neural networks are that the outputs are converted into hash values",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 216.48,
+            "end": 221.51999999999998,
+            "text": " and these values become the inputs for the next run. So for every real transaction that takes place,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 221.51999999999998,
+            "end": 224.95999999999998,
+            "text": " there's a specific pattern. A fraudulent transaction would stand out because of the",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 224.95999999999998,
+            "end": 229.67999999999998,
+            "text": " significant changes that it would cause with the hash values. Stock market trading. Machine learning",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 229.67999999999998,
+            "end": 234.32,
+            "text": " is used extensively when it comes to stock market trading. Now, you have stock market indices like",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 234.32,
+            "end": 239.6,
+            "text": " Nikhai. They use long short term memory neural networks. Now, these are used to classify process",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 239.6,
+            "end": 243.76,
+            "text": " and predict data when there are time-lags of unknown size and duration. Now, this is used to",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 243.84,
+            "end": 248.88,
+            "text": " predict stock market trends. Assistive medical technology. Now, medical technology has been",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 248.88,
+            "end": 253.2,
+            "text": " innovated with the help of machine learning diagnosing diseases as an easier from which we",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 253.2,
+            "end": 257.92,
+            "text": " can create 3D models that can predict where exactly there are lesions in the brain. It works just",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 257.92,
+            "end": 262.4,
+            "text": " as well for brain tumors and eye-skimmick stroke lesions. They can also be used in fetal imaging",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 262.4,
+            "end": 266.88,
+            "text": " and cardiac analysis. Now, some of the medical fields that machine learning will help assist in",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 266.88,
+            "end": 272.48,
+            "text": " is disease identification, personalized treatment, drug discovery, clinical research and ideology.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 272.48,
+            "end": 276.32,
+            "text": " And finally, we have automatic translation. Now, say you're in a foreign country and you see",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 276.32,
+            "end": 279.92,
+            "text": " built-burden signs that you don't understand. That's where automatic translation comes of",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 279.92,
+            "end": 284.56,
+            "text": " health. Now, how does automatic translation actually work? The technology behind it is the same as",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 284.56,
+            "end": 288.0,
+            "text": " the sequence-to-sequence learning, which is the same thing that's used with chatbots. Here,",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 288.0,
+            "end": 292.72,
+            "text": " the image recognition happens using convolutional neural networks and the text is identified using",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 292.72,
+            "end": 296.8,
+            "text": " optical character recognition. Furthermore, the sequence-to-sequence algorithm is also used to",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 296.8,
+            "end": 300.96000000000004,
+            "text": " translate the text from one language to the other. And that brings us to the end of this video.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 300.96,
+            "end": 305.03999999999996,
+            "text": " I hope you guys found this video helpful and informative. Thank you for watching and stay",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 305.03999999999996,
+            "end": 306.47999999999996,
+            "text": " tuned for more from Simplilog.",
+            "topic": "Top 10 Applications of Machine Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " 2. Machine Learning has improved our lives in a number of wonderful ways. Today, let's talk about some of these. I'm Rahul from SimplyLearn and these are the top 10 applications of machine learning. First, let's talk about virtual personal assistance, Google Assistant, Alexa, Cortana and Siri. Now, we've all used one of these at least at some point in our lives. Now, these help improve our lives in a great number of ways. For example, you could tell them to call someone. You could tell them to play some music. You could tell them to even schedule an appointment. So how do these things actually work? First, they record what you're saying, send it over to a server, which is usually in a cloud, decode it with the help of machine learning and neural networks, and then provide you with an output. So if you've ever noticed that these systems don't work very well without the internet, that's because the server couldn't be contacted. Next, let's talk about traffic predictions. Now say I wanted to travel from Buckingham Palace to Lott's Cricket Round. The first thing I would probably do is to get on Google Maps. So search it. And let's put it here. So here we have the path you should take to get to Lott's Cricket Round. Now here, the map is a combination of red, yellow and blue. But the blue regions signify a clear road that is you won't encounter traffic there. The yellow indicate that they're slightly congested and red means they're heavily congested. So let's look at the map, a different version of the same map. And here, as I told you before, red means heavily congested, yellow means slow moving and blue means clear. So how exactly is Google able to tell you that the traffic is clear, slow moving or heavily congested? So this is the help of machine learning and with the help of two important measures. First is the average time that's taken on specific days at specific times on that route. The second one is the real time location data of vehicles from Google Maps and with the help of sensors. Some of the other popular map services are Bing Maps, Maps.me and here we go. Next up, we have social media personalization. So say I want to buy a drone and I'm on Amazon and I want to buy a DJI Mavic Pro. The thing is it's close to one lap. So I don't want to buy it right now. But the next time I'm on Facebook, I'll see an advertisement for the product. Next time I'm on YouTube, I'll see an advertisement. Even on Instagram, I'll see an advertisement. So here with the help of machine learning, Google has understood that I'm interested in this particular product. Hence, it's targeting me with these advertisements. This is also with the help of machine learning. Let's talk about email spam filtering. Now, this is a spam that's in my inbox. Now, how does Gmail know what spam and what's not spam? So Gmail has an entire collection of emails, which have already been labeled as spam or not spam. So after analyzing this data, Gmail is able to find some characteristics like the word lottery or winner from then on any new email that comes to your inbox goes through a few spam filters to decide whether it's spam or not. Now, some of the popular spam filters that Gmail uses is content filters, header filters, general blacklist filters and so on. Next, we have online fraud detection. Now, there are several ways that online fraud can take place. For example, there's identity theft where they steal your identity, fake accounts where these accounts only last for how long the transaction takes place and stop existing after that and man in the middle attacks where they steal your money while the transaction is taking place. The feed forward neural network helps determine whether a transaction is genuine or fraudulent. So what happens with feed forward neural networks are that the outputs are converted into hash values and these values become the inputs for the next run. So for every real transaction that takes place, there's a specific pattern. A fraudulent transaction would stand out because of the significant changes that it would cause with the hash values. Stock market trading. Machine learning is used extensively when it comes to stock market trading. Now, you have stock market indices like Nikhai. They use long short term memory neural networks. Now, these are used to classify process and predict data when there are time-lags of unknown size and duration. Now, this is used to predict stock market trends. Assistive medical technology. Now, medical technology has been innovated with the help of machine learning diagnosing diseases as an easier from which we can create 3D models that can predict where exactly there are lesions in the brain. It works just as well for brain tumors and eye-skimmick stroke lesions. They can also be used in fetal imaging and cardiac analysis. Now, some of the medical fields that machine learning will help assist in is disease identification, personalized treatment, drug discovery, clinical research and ideology. And finally, we have automatic translation. Now, say you're in a foreign country and you see built-burden signs that you don't understand. That's where automatic translation comes of health. Now, how does automatic translation actually work? The technology behind it is the same as the sequence-to-sequence learning, which is the same thing that's used with chatbots. Here, the image recognition happens using convolutional neural networks and the text is identified using optical character recognition. Furthermore, the sequence-to-sequence algorithm is also used to translate the text from one language to the other. And that brings us to the end of this video. I hope you guys found this video helpful and informative. Thank you for watching and stay tuned for more from Simplilog."
+}

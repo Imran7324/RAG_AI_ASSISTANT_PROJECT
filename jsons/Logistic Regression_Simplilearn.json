@@ -1,0 +1,2893 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 10.4,
+            "text": " Hello and welcome to this session on Logistic Regression. I am Mohan Kumar from SimplyLearn.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 10.4,
+            "end": 15.72,
+            "text": " What is Logistic Regression? Let's say we have to build a predictive model or a machine",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 15.72,
+            "end": 21.96,
+            "text": " learning model to predict whether the passengers of the Titanic ship have survived or not the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 21.96,
+            "end": 27.32,
+            "text": " shipwrecked. So how do we do that? So we use Logistic Regression to build a model for",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 27.32,
+            "end": 33.480000000000004,
+            "text": " this. How do we use Logistic Regression? So we have the information about the passengers,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 33.480000000000004,
+            "end": 38.84,
+            "text": " their ID, whether they have survived or not, their class and name and so on and so forth.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 38.84,
+            "end": 44.400000000000006,
+            "text": " And we use this information where we already know whether the person has survived or not.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 44.400000000000006,
+            "end": 51.0,
+            "text": " That is the labeled information and we have the system to train based on this information,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 51.0,
+            "end": 55.519999999999996,
+            "text": " with based on this labeled data. This is known as labeled data. And during the process",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 55.52,
+            "end": 62.160000000000004,
+            "text": " of building the model, we probably will remove some of the non-essential parameters or attributes",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 62.160000000000004,
+            "end": 66.92,
+            "text": " here. We only take those attributes which are really required to make these predictions.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 66.92,
+            "end": 72.4,
+            "text": " And once we train the model, we run new data through it whereby the model will predict whether",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 72.4,
+            "end": 78.4,
+            "text": " the passenger has survived or not. So let's see what we will learn in this video. We will",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 78.4,
+            "end": 83.92,
+            "text": " talk about what is supervised learning and we will go into details about classification,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 83.92,
+            "end": 88.96000000000001,
+            "text": " which is one of the techniques for supervised learning. And then we will further focus on",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 88.96000000000001,
+            "end": 94.24000000000001,
+            "text": " Logistic Regression, which is one of the algorithms for performing classification,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 94.24000000000001,
+            "end": 99.12,
+            "text": " especially binary classification. Then we will compare linear and Logistic regression.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 99.12,
+            "end": 103.6,
+            "text": " And what are some of the Logistic regression applications? And finally, we will end with",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 103.6,
+            "end": 110.8,
+            "text": " a use case or a demo of actual Python code for doing Logistic regression in Jupyter node.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 110.8,
+            "end": 117.36,
+            "text": " Alright, so let's start with what is supervised learning. Supervised learning is one of the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 117.36,
+            "end": 124.56,
+            "text": " two main types of machine learning methods. Here we use what is known as labeled data to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 124.56,
+            "end": 130.24,
+            "text": " help the system learn. This is very similar to how we human beings learn. So let's say you want",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 130.24,
+            "end": 137.28,
+            "text": " to teach a child to recognize an apple. How do we do that? We never tell the child, okay, this is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 137.28,
+            "end": 143.12,
+            "text": " an apple has a certain diameter on the top, a certain diameter at the bottom, this has a certain",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 143.12,
+            "end": 149.36,
+            "text": " RGB color. No, we just show an apple to the child and tell the child this is apple. And then next",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 149.36,
+            "end": 154.88,
+            "text": " time when we show an apple, the child immediately recognizes yes, this is an apple. Supervised learning",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 154.88,
+            "end": 161.84,
+            "text": " works very similar on the similar lines. So where does Logistic regression fit into the overall",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 161.84,
+            "end": 167.76,
+            "text": " machine learning process? Machine learning is divided into two types, mainly two types.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 167.76,
+            "end": 172.56,
+            "text": " There is a third one called reinforcement learning, but we will not talk about that right now.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 172.56,
+            "end": 177.68,
+            "text": " So one is supervised learning and the other is unsupervised learning. Unsupervised learning",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 177.68,
+            "end": 183.84,
+            "text": " uses techniques like clustering and association and supervised learning uses techniques like",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 183.84,
+            "end": 189.36,
+            "text": " classification and regression. Now supervised learning is used when you have labeled data. You",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 189.36,
+            "end": 195.20000000000002,
+            "text": " have historical data, then you use supervised learning. When you don't have labeled data,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 195.20000000000002,
+            "end": 200.8,
+            "text": " then you used unsupervised learning. It's supervised learning. There are two types of techniques",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 200.8,
+            "end": 205.04000000000002,
+            "text": " that are used classification and regression based on what is the kind of problem we are",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 205.04000000000002,
+            "end": 211.60000000000002,
+            "text": " solving. Let's say we want to take the data and classify it. It could be binary classification",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 211.60000000000002,
+            "end": 217.28000000000003,
+            "text": " like a zero or a one, an example of classification. We have just seen whether the passenger has",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 217.28,
+            "end": 222.88,
+            "text": " survived or not survived. It's like a zero or one that is known as binary classification.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 222.88,
+            "end": 228.72,
+            "text": " Regression on the other hand is you need to predict a value. What is known as a continuous value.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 228.72,
+            "end": 234.24,
+            "text": " Classification is for discrete values. Regression is for continuous values. Let's say you want to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 234.24,
+            "end": 238.64,
+            "text": " predict a shared price or you want to predict the temperature that will be there. What will be",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 238.64,
+            "end": 243.04,
+            "text": " the temperature tomorrow? That is where you use regression. Whereas classification are",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 243.04,
+            "end": 248.48,
+            "text": " discrete values. Will the customer buy the product or will not buy the product? Will",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 248.48,
+            "end": 253.28,
+            "text": " you get a promotion or you will not get a promotion? I hope you're getting the idea.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 253.28,
+            "end": 259.76,
+            "text": " Or it could be multi-class classification as well. Let's say you want to build an image classification",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 259.76,
+            "end": 266.32,
+            "text": " model. The image classification model would take an image as an input and classify into multiple",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 266.32,
+            "end": 271.92,
+            "text": " classes, whether this image is on a chat or a dog or an elephant or a tiger. So there are multiple",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 271.92,
+            "end": 276.96000000000004,
+            "text": " classes or not necessarily binary classification. That is known as multi-class classification.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 276.96000000000004,
+            "end": 285.04,
+            "text": " We are going to focus on classification because logistic regression is one of the algorithms",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 285.04,
+            "end": 292.16,
+            "text": " used for classification. The name may be a little confusing. In fact, whenever people come across",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 292.16,
+            "end": 297.92,
+            "text": " logistic regression, it always causes confusion because the name has a regression in it but we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 298.0,
+            "end": 304.96000000000004,
+            "text": " are actually using this for performing classification. So yes, it is logistic regression but it is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 304.96000000000004,
+            "end": 310.48,
+            "text": " used for classification. In case you're wondering, is there something similar for regression? Yes.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 310.48,
+            "end": 316.16,
+            "text": " For regression, we have linear regression. Keep that in mind. So linear regression is used for",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 316.16,
+            "end": 324.32,
+            "text": " regression. Logistic regression is used for classification. In this video, we are going to focus on",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 324.32,
+            "end": 330.24,
+            "text": " supervised learning and within supervised learning, we're going to focus on classification and then",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 330.24,
+            "end": 336.0,
+            "text": " within classification, we are going to focus on logistic regression algorithm. So first of all,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 336.0,
+            "end": 342.8,
+            "text": " classification. So what are the way use algorithms available for performing classification? The first",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 342.8,
+            "end": 348.15999999999997,
+            "text": " one is decision tree. There are of course multiple algorithms but here we will talk about a few.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 348.24,
+            "end": 354.32000000000005,
+            "text": " Mission trees are quite popular and very easy to understand and therefore they use for classification.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 354.32000000000005,
+            "end": 359.04,
+            "text": " Then we have K nearest neighbors. This is another algorithm for performing",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 359.04,
+            "end": 363.68,
+            "text": " classification and then there is logistic regression and this is what we are going to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 363.68,
+            "end": 369.28000000000003,
+            "text": " focus on in this video and we are going to go into little bit of details about logistic regression.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 369.28000000000003,
+            "end": 372.56,
+            "text": " All right. What is logistic regression? As I mentioned earlier,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 372.56,
+            "end": 378.96,
+            "text": " first regression is an algorithm for performing binary classification. So let's take an example",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 378.96,
+            "end": 385.28000000000003,
+            "text": " and see how this works. That's a your car has not been serviced for quite a few years and now",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 385.28000000000003,
+            "end": 391.04,
+            "text": " you want to find out if it is going to break down in the future. So this is like a classification",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 391.04,
+            "end": 397.28,
+            "text": " problem. Find out whether your car will break down or not. So how are we going to perform this",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 397.28,
+            "end": 404.23999999999995,
+            "text": " classification? So here's how it looks. If we plot the information along the x and y axis,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 404.23999999999995,
+            "end": 410.55999999999995,
+            "text": " x is the number of years since the last service was performed and y is the probability of your",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 410.55999999999995,
+            "end": 417.35999999999996,
+            "text": " car breaking down and let's say this information was this data rather was collected from several",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 417.35999999999996,
+            "end": 424.32,
+            "text": " car users. It's not just your car but several car users. So that is our labeled data. So the data",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 424.32,
+            "end": 431.59999999999997,
+            "text": " has been collected and for the number of years and when the car broke down and what was the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 431.59999999999997,
+            "end": 439.04,
+            "text": " probability and that has been plotted along x and y axis. So this provides an idea or from this",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 439.68,
+            "end": 445.6,
+            "text": " graph we can find out whether your car will break down or not. We'll see how. So first of all,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 445.6,
+            "end": 452.96,
+            "text": " the probability can go from 0 to 1 as you're aware. Probability can be between 0 and 1 and",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 452.96,
+            "end": 460.23999999999995,
+            "text": " as we can imagine it is intuitive as well as the number of years are on the lower side. Maybe",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 460.23999999999995,
+            "end": 466.79999999999995,
+            "text": " one year, two years or three years till after the service, the chances of your car breaking down",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 466.79999999999995,
+            "end": 472.24,
+            "text": " are very limited. So for example, chances of your car breaking down or the probability of your",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 472.24,
+            "end": 478.0,
+            "text": " car breaking down within two years of your last service are 0.1 probability. Similarly,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 478.0,
+            "end": 484.88,
+            "text": " three years is maybe 0.3 and so on. But as the number of years increases, let's say if it was",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 484.88,
+            "end": 489.92,
+            "text": " six or seven years, there is almost a certainty that your car is going to break down. That is what",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 489.92,
+            "end": 496.72,
+            "text": " this graph shows. So this is an example of a application of the classification algorithm and",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 496.72,
+            "end": 502.24,
+            "text": " we will see in little details how exactly logistic regression is applied here. One more thing needs",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 502.24,
+            "end": 509.12,
+            "text": " to be added here is that the dependent variables outcome is discrete. So if we are talking about",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 509.12,
+            "end": 515.2,
+            "text": " whether the car is going to break down or not. So that is a discrete value. The y that we are",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 515.2,
+            "end": 519.84,
+            "text": " talking about, the dependent variable that we are talking about, what we are looking at is whether",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 519.84,
+            "end": 525.28,
+            "text": " the car is going to break down or not. Yes or no. That is what we are talking about. So here,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 525.28,
+            "end": 532.0,
+            "text": " the outcome is discrete and not a continuous value. So this is how the logistic regression curve",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 532.0,
+            "end": 536.4,
+            "text": " looks. Let me explain a little bit what exactly how exactly we are going to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 537.6,
+            "end": 544.96,
+            "text": " determine the class at the outcome rather. So for a logistic regression curve, a threshold has to be",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 544.96,
+            "end": 550.0,
+            "text": " set saying that because this is a probability calculation. Remember, this is a probability",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 550.0,
+            "end": 557.36,
+            "text": " calculation and the probability itself will not be 0 or 1. But based on the probability,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 557.36,
+            "end": 562.88,
+            "text": " we need to decide what the outcome should be. So there has to be a threshold. Like for example,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 562.88,
+            "end": 570.08,
+            "text": " 0.5 can be the threshold. Let's say in this case. So any value of the probability below 0.5",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 95,
+            "start": 570.08,
+            "end": 578.96,
+            "text": " is considered to be 0 and any value above 0.5 is considered to be 1. So an output of let's say 0.8",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 96,
+            "start": 578.96,
+            "end": 584.96,
+            "text": " will mean that the car will break down. So that is considered as an output of 1. And let's say",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 97,
+            "start": 585.52,
+            "end": 592.0,
+            "text": " an output of 0.29 is considered as 0, which means that the car will not break down. So that's the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 98,
+            "start": 592.0,
+            "end": 597.76,
+            "text": " way logistic regression works. Now let's do a quick comparison between logistic regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 99,
+            "start": 597.76,
+            "end": 603.36,
+            "text": " and linear regression because they both have the term regression in them. So it can cause",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 100,
+            "start": 603.36,
+            "end": 609.0400000000001,
+            "text": " confusion. So let's try to remove that confusion. So what is linear regression? Linear regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 101,
+            "start": 609.04,
+            "end": 616.48,
+            "text": " is a process is once again an algorithm for supervised learning. However, here you are going to find",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 102,
+            "start": 616.48,
+            "end": 621.28,
+            "text": " a continuous value. You're going to determine a continuous value. It could be the price of a",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 103,
+            "start": 621.28,
+            "end": 626.16,
+            "text": " real estate property. It could be your height, how much height you're going to get or it could be",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 104,
+            "start": 626.16,
+            "end": 632.0,
+            "text": " a stock price. These are all continuous values. These are not discrete compared to a yes or a no",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 105,
+            "start": 632.0,
+            "end": 637.5999999999999,
+            "text": " kind of response that we are looking for in logistic regression. So this is one example of a linear",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 106,
+            "start": 637.6,
+            "end": 643.36,
+            "text": " regression. Let's say the HR team of a company tries to find out what should be the salary",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 107,
+            "start": 643.36,
+            "end": 648.5600000000001,
+            "text": " height of an employee. So they collect all the details of their existing employees, their ratings",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 108,
+            "start": 648.5600000000001,
+            "end": 654.4,
+            "text": " and their salary hikes, what has been given. And that is the labeled information that is available.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 109,
+            "start": 654.4,
+            "end": 660.16,
+            "text": " And the system learns from us. It is trained and it learns from this labeled information.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 110,
+            "start": 660.16,
+            "end": 665.28,
+            "text": " So that when a new employee's information is fed based on the rating, it will determine what",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 111,
+            "start": 665.28,
+            "end": 670.24,
+            "text": " should be the height. So this is a linear regression problem and a linear regression.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 112,
+            "start": 670.24,
+            "end": 679.92,
+            "text": " Example now salary is a continuous value. You can get 5000, 5000, 500, 5000, 600. It is not",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 113,
+            "start": 679.92,
+            "end": 686.8,
+            "text": " discrete like a cat or a dog or an apple or a banana. These are discrete or a yes or a no. These",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 114,
+            "start": 686.8,
+            "end": 694.4,
+            "text": " are discrete values. So this way you're trying to find continuous values is where we use linear",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 115,
+            "start": 694.4,
+            "end": 700.72,
+            "text": " regression. So let's say just to extend on this scenario, we now want to find out whether this",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 116,
+            "start": 700.72,
+            "end": 707.04,
+            "text": " employee is going to get a promotion or not. So we want to find out that is a discrete problem,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 117,
+            "start": 707.04,
+            "end": 714.0,
+            "text": " right? A yes or no kind of a problem. In this case, we actually cannot use linear regression.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 118,
+            "start": 714.0,
+            "end": 719.12,
+            "text": " Even though we may have labeled data. So this is the labeled data. So based on the employee",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 119,
+            "start": 719.12,
+            "end": 725.52,
+            "text": " rating, these are the ratings and then some people got the promotion and this is the ratings",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 120,
+            "start": 725.52,
+            "end": 731.36,
+            "text": " for which people did not get promotion. That is a no and this is the rating for which people got",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 121,
+            "start": 731.36,
+            "end": 737.28,
+            "text": " promotion. We just plotted the data about whether a person has got an employee has got promotion",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 122,
+            "start": 737.28,
+            "end": 742.32,
+            "text": " or not. Yes, no, right? So there is nothing in between and what is the employee's rating, okay?",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 123,
+            "start": 742.32,
+            "end": 747.92,
+            "text": " And ratings can be continuous. That is not a issue. But the output is discrete in this case.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 124,
+            "start": 747.92,
+            "end": 754.0799999999999,
+            "text": " Whether employee got promotion. Yes, no, okay? So if we try to plot that and we try to find",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 125,
+            "start": 754.0799999999999,
+            "end": 759.68,
+            "text": " a straight line, this is how it would look. And as you can see, it doesn't look very right because",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 126,
+            "start": 759.68,
+            "end": 764.88,
+            "text": " looks like there will be lot of errors. This root mean square error, if you remember for linear",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 127,
+            "start": 764.88,
+            "end": 772.8,
+            "text": " regression would be very, very high. And also the values cannot go beyond zero or beyond one. So the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 128,
+            "start": 772.8,
+            "end": 778.4799999999999,
+            "text": " graph should probably look somewhat like this, clipped at zero and one. But still,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 129,
+            "start": 778.4799999999999,
+            "end": 785.92,
+            "text": " the straight line doesn't look right. Therefore, instead of using a linear equation, we need to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 130,
+            "start": 785.92,
+            "end": 791.8399999999999,
+            "text": " come up with something different. And therefore, the logistic regression model looks somewhat like",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 131,
+            "start": 791.8399999999999,
+            "end": 798.16,
+            "text": " this. So we calculate the probability. And if we plot that probability, not in the form of a",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 132,
+            "start": 798.16,
+            "end": 802.64,
+            "text": " straight line, but we need to use some other equation, we will see very soon what that equation",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 133,
+            "start": 802.64,
+            "end": 808.3199999999999,
+            "text": " is, then it is a gradual process, right? So you see here, people with some of these ratings are",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 134,
+            "start": 808.3199999999999,
+            "end": 815.12,
+            "text": " not getting any promotions and then slowly at certain rating, they get promotions. So that",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 135,
+            "start": 815.12,
+            "end": 822.64,
+            "text": " is a gradual process. And this is how the math behind logistic regression looks. So we are trying",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 136,
+            "start": 822.64,
+            "end": 829.36,
+            "text": " to find the odds for a particular event happening. And this is the formula for finding the odds. So",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 137,
+            "start": 829.36,
+            "end": 836.56,
+            "text": " the probability of an event happening divided by the probability of the event not happening. So p,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 138,
+            "start": 836.56,
+            "end": 841.36,
+            "text": " if it is the probability of the event happening, probability of the person getting a promotion,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 139,
+            "start": 841.36,
+            "end": 846.4,
+            "text": " and divided by the probability of the person not getting a promotion, that is 1 minus p.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 140,
+            "start": 847.28,
+            "end": 854.88,
+            "text": " So this is how you measure the odds. Now the values of the odds range from 0 to infinity. So when",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 141,
+            "start": 854.88,
+            "end": 861.4399999999999,
+            "text": " this probability is 0, then the odds will, the value of the odds is equal to 0. And when the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 142,
+            "start": 861.4399999999999,
+            "end": 868.8,
+            "text": " probability becomes 1, then the value of the odds is 1 by 0, that will be infinity. But the probability",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 143,
+            "start": 868.8,
+            "end": 875.84,
+            "text": " itself remains between 0 and 1. Now this is how an equation of a straight line looks. So y is equal",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 144,
+            "start": 875.84,
+            "end": 882.1600000000001,
+            "text": " to beta 0 plus beta 1x, where beta 0 is the y intercept and beta 1 is the slope of the line.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 145,
+            "start": 882.1600000000001,
+            "end": 889.44,
+            "text": " If we take the odds equation and take a log of both sides, then this would look somewhat like",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 146,
+            "start": 889.44,
+            "end": 896.0,
+            "text": " this. And the term logistic is actually derived from the fact that we are doing this. We take a log",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 147,
+            "start": 896.0,
+            "end": 901.84,
+            "text": " of px by 1 minus px. This is an extension of the calculation of odds that we have seen.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 148,
+            "start": 902.32,
+            "end": 907.76,
+            "text": " And that is equal to beta 0 plus beta 1x, which is the equation of the straight line. And now from",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 149,
+            "start": 907.76,
+            "end": 915.12,
+            "text": " here, if you want to find out the value of px, you will see we can take the exponential on both",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 150,
+            "start": 915.12,
+            "end": 922.08,
+            "text": " sides. And then if we solve that equation, we will get the equation of px, like this. px is equal",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 151,
+            "start": 922.08,
+            "end": 929.2800000000001,
+            "text": " to 1 by 1 plus e to the power of minus beta 0 plus beta 1x. And recall, this is nothing but the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 152,
+            "start": 929.28,
+            "end": 934.56,
+            "text": " equation of the line, which is equal to y. y is equal to beta 0 plus beta 1x.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 153,
+            "start": 934.56,
+            "end": 940.4,
+            "text": " So that this is the equation also known as the sigmoid function. And this is the equation of",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 154,
+            "start": 940.4,
+            "end": 946.64,
+            "text": " the logistic regression algorithm. And if this is plotted, this is how the sigmoid curve is obtained.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 155,
+            "start": 947.36,
+            "end": 953.4399999999999,
+            "text": " So let's compare linear and logistic regression, how they are different from each other. Let's go",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 156,
+            "start": 953.44,
+            "end": 961.2800000000001,
+            "text": " back. So linear regression is solved or used to solve regression problems. And logistic regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 157,
+            "start": 961.2800000000001,
+            "end": 967.12,
+            "text": " is used to solve classification problems. So both are called regression, but linear regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 158,
+            "start": 967.12,
+            "end": 973.0400000000001,
+            "text": " is used for solving regression problems, where we predict continuous values. Whereas logistic",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 159,
+            "start": 973.0400000000001,
+            "end": 979.12,
+            "text": " regression is used for solving classification problems, where we have have to predict discrete",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 160,
+            "start": 979.12,
+            "end": 984.4,
+            "text": " values. The response variables in case of linear regression are continuous in nature,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 161,
+            "start": 984.4,
+            "end": 991.04,
+            "text": " whereas here they are categorical or discrete in nature. And linear regression helps to estimate",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 162,
+            "start": 991.04,
+            "end": 996.32,
+            "text": " the dependent variable when there is a change in the independent variable. Whereas here,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 163,
+            "start": 996.32,
+            "end": 1001.52,
+            "text": " in case of logistic regression, it helps to calculate the probability or the possibility",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 164,
+            "start": 1001.52,
+            "end": 1006.5600000000001,
+            "text": " of a particular event happening. And linear regression as the name suggests is a straight line.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 165,
+            "start": 1006.56,
+            "end": 1012.9599999999999,
+            "text": " That's why it's called linear regression. Whereas logistic regression is a sigmoid function. And",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 166,
+            "start": 1012.9599999999999,
+            "end": 1018.88,
+            "text": " the curve is the shape of the curve is s. It's an s-shaped curve. This is another example of",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 167,
+            "start": 1018.88,
+            "end": 1024.56,
+            "text": " application of logistic regression in weather prediction, that it's going to rain or not rain.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 168,
+            "start": 1024.56,
+            "end": 1030.72,
+            "text": " Now keep in mind, both are used in weather prediction. If we want to find the discrete values, like",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 169,
+            "start": 1030.72,
+            "end": 1035.92,
+            "text": " whether it's going to rain or not rain, that is a classification problem. We use logistic",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 170,
+            "start": 1035.92,
+            "end": 1040.72,
+            "text": " regression. But if we want to determine what is going to be the temperature tomorrow, then we use",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 171,
+            "start": 1040.72,
+            "end": 1045.68,
+            "text": " linear regression. So just keep in mind that in weather prediction, we actually use both. But",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 172,
+            "start": 1045.68,
+            "end": 1050.0,
+            "text": " these are some examples of logistic regression. So we want to find out whether it's going to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 173,
+            "start": 1050.0,
+            "end": 1055.04,
+            "text": " rain or not, is going to be sunny or not, is going to snow or not. These are all logistic",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 174,
+            "start": 1055.04,
+            "end": 1060.32,
+            "text": " regression examples. A few more examples, classification of objects. This is a",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 175,
+            "start": 1060.32,
+            "end": 1066.0,
+            "text": " again, another example of logistic regression. Now here, of course, one distinction is that",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 176,
+            "start": 1066.0,
+            "end": 1074.24,
+            "text": " these are multi-class classification. So logistic regression is not used in its original form,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 177,
+            "start": 1074.24,
+            "end": 1080.3999999999999,
+            "text": " but it is used in a slightly different form. So we say whether it is a dog or not a dog. I",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 178,
+            "start": 1080.3999999999999,
+            "end": 1085.76,
+            "text": " hope you understand. So instead of saying, is it a dog or a cat or elephant, we convert this into",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 179,
+            "start": 1085.76,
+            "end": 1092.8,
+            "text": " saying. So because we need to keep it to binary classification. So we say, is it a dog or not a",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 180,
+            "start": 1092.8,
+            "end": 1098.08,
+            "text": " dog? Is it a cat or not a cat? So that's the way logistic regression can be used for",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 181,
+            "start": 1098.08,
+            "end": 1103.28,
+            "text": " classifying objects. Otherwise, there are other techniques which can be used for performing",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 182,
+            "start": 1103.28,
+            "end": 1109.36,
+            "text": " multi-class classification. In half-care, logistic regression is used to find the survival rate of",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 183,
+            "start": 1109.36,
+            "end": 1115.84,
+            "text": " a patient. So they take multiple parameters like trauma score, age and so on and so forth,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 184,
+            "start": 1115.84,
+            "end": 1122.7199999999998,
+            "text": " and they try to predict the rate of survival. All right. Now finally, let's take an example and see",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 185,
+            "start": 1122.7199999999998,
+            "end": 1129.04,
+            "text": " how we can apply logistic regression to predict the number that is shown in the image. So this is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 186,
+            "start": 1129.04,
+            "end": 1135.84,
+            "text": " actually a live demo. I will take you into jibber notebook and show the code. But before that,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 187,
+            "start": 1135.84,
+            "end": 1140.6399999999999,
+            "text": " let me take you to a couple of slides to explain what we are trying to do. So let's say you have",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 188,
+            "start": 1140.6399999999999,
+            "end": 1148.3999999999999,
+            "text": " an 8 by 8 image and the image has a number 1, 2, 3, 4, and you need to train your model to predict",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 189,
+            "start": 1148.3999999999999,
+            "end": 1154.32,
+            "text": " what this number is. So how do we do this? So the first thing is obviously, in any machine learning",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 190,
+            "start": 1154.32,
+            "end": 1160.8799999999999,
+            "text": " process, you train your model. So in this case, we are using logistic regression. So and then we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 191,
+            "start": 1160.96,
+            "end": 1167.68,
+            "text": " provide a training set to train the model and then we test how accurate our model is with the test",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 192,
+            "start": 1167.68,
+            "end": 1173.6000000000001,
+            "text": " data, which means that like any machine learning process, we split our initial data into two parts,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 193,
+            "start": 1173.6000000000001,
+            "end": 1177.92,
+            "text": " training set and test set. With the training set, we train our model and then with the test set,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 194,
+            "start": 1177.92,
+            "end": 1186.0800000000002,
+            "text": " we test the model, then we get good accuracy and then we use it for inference. So that is typical",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 195,
+            "start": 1186.08,
+            "end": 1191.9199999999998,
+            "text": " methodology of training, testing and then deploying of machine learning models.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 196,
+            "start": 1191.9199999999998,
+            "end": 1197.6,
+            "text": " So let's take a look at the code and see what we are doing. So I will not go line by line,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 197,
+            "start": 1197.6,
+            "end": 1202.72,
+            "text": " but just take you through some of the blocks. So first thing we do is import all the libraries",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 198,
+            "start": 1202.72,
+            "end": 1208.72,
+            "text": " and then we basically take a look at the images and see what is the total number of images.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 199,
+            "start": 1208.72,
+            "end": 1215.84,
+            "text": " We can display using matplotlib, some of the images or a sample of these images and then we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 200,
+            "start": 1215.84,
+            "end": 1221.4399999999998,
+            "text": " split the data into training and test, as I mentioned earlier and we can do some exploratory",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 201,
+            "start": 1221.4399999999998,
+            "end": 1228.56,
+            "text": " analysis and then we build our model, we train our model with the training set and then we test",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 202,
+            "start": 1228.56,
+            "end": 1235.6,
+            "text": " it with our test set and find out how accurate our model is using the confusion matrix, the heat map",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 203,
+            "start": 1235.6,
+            "end": 1241.4399999999998,
+            "text": " and use heat map for visualizing this. And I will show you in the code what exactly is the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 204,
+            "start": 1241.44,
+            "end": 1248.3200000000002,
+            "text": " confusion matrix and how it can be used for finding the accuracy. In our example, we get an",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 205,
+            "start": 1248.3200000000002,
+            "end": 1254.4,
+            "text": " accuracy of about 0.94, which is pretty good or 94% which is pretty good. All right, so what is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 206,
+            "start": 1254.4,
+            "end": 1261.3600000000001,
+            "text": " a confusion matrix? This is an example of a confusion matrix and this is used for identifying",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 207,
+            "start": 1261.3600000000001,
+            "end": 1268.3200000000002,
+            "text": " the accuracy of a classification model or like a logistic regression model. So the most important",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 208,
+            "start": 1268.3999999999999,
+            "end": 1274.3999999999999,
+            "text": " part in a confusion matrix is that first of all this as you can see this is a matrix and the size",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 209,
+            "start": 1274.3999999999999,
+            "end": 1281.76,
+            "text": " of the matrix depends on how many outputs we are expecting. So the most important part here is that",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 210,
+            "start": 1281.76,
+            "end": 1289.84,
+            "text": " the model will be most accurate when we have the maximum numbers in its diagonal like in this case,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 211,
+            "start": 1289.84,
+            "end": 1297.4399999999998,
+            "text": " that's why it has almost 93, 94% because the diagonal should have the maximum numbers and the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 212,
+            "start": 1297.52,
+            "end": 1302.48,
+            "text": " others other than the diagnosed the cells other than the diagonal should have very few numbers.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 213,
+            "start": 1302.48,
+            "end": 1307.2,
+            "text": " So here that's what is happening. So there is a two here, there are there's a one here,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 214,
+            "start": 1307.2,
+            "end": 1314.56,
+            "text": " but most of them are along the diagonal. This what does this mean? This means that the number that",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 215,
+            "start": 1314.56,
+            "end": 1322.72,
+            "text": " has been fed is 0 and the number that has been detected is also 0. So the predicted value and",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 216,
+            "start": 1322.72,
+            "end": 1327.92,
+            "text": " actual value are the same. So along the diagonals that is true which means that let's",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 217,
+            "start": 1327.92,
+            "end": 1333.92,
+            "text": " let's take this diagonal. If the maximum number is here that means that like here in this case",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 218,
+            "start": 1333.92,
+            "end": 1340.24,
+            "text": " it is 34 which means that 34 of the images that have been fed or rather actually there are two",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 219,
+            "start": 1340.24,
+            "end": 1347.1200000000001,
+            "text": " misclassifications in there. So 36 images have been fed which have number 4 and out of which",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 220,
+            "start": 1347.1999999999998,
+            "end": 1354.4799999999998,
+            "text": " 34 have been predicted correctly as number 4 and one has been predicted as number 8 and another",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 221,
+            "start": 1354.4799999999998,
+            "end": 1360.8799999999999,
+            "text": " one has been predicted as number 9. So these are two misclassifications. So that is the meaning",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 222,
+            "start": 1360.8799999999999,
+            "end": 1365.6799999999998,
+            "text": " of saying that the maximum number should be in the diagonal. So if you have all of them, so for an",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 223,
+            "start": 1365.6799999999998,
+            "end": 1372.08,
+            "text": " ideal model which has let's say 100% accuracy everything will be only in the diagonal. There will be no",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 224,
+            "start": 1372.1599999999999,
+            "end": 1379.76,
+            "text": " numbers other than 0 in all other cells. So that is like 100% accurate model. So that's just",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 225,
+            "start": 1379.76,
+            "end": 1386.96,
+            "text": " of how to use this matrix, how to use this confusion matrix. I know the name is a little funny",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 226,
+            "start": 1386.96,
+            "end": 1392.08,
+            "text": " sounding confusion matrix but actually it is not very confusing. It's very straightforward. So you",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 227,
+            "start": 1392.08,
+            "end": 1398.1599999999999,
+            "text": " are just plotting what has been predicted and what is the labeled information or what is the actual",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 228,
+            "start": 1398.16,
+            "end": 1403.1200000000001,
+            "text": " data that's also known as the ground truth sometimes. These are some fancy terms that are used.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 229,
+            "start": 1403.1200000000001,
+            "end": 1408.8000000000002,
+            "text": " So predicted label and the actual label that's all it is. So we are showing a little bit more",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 230,
+            "start": 1408.8000000000002,
+            "end": 1414.0,
+            "text": " information here. So 38 have been predicted and here you will see that all of them have been",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 231,
+            "start": 1414.0,
+            "end": 1420.96,
+            "text": " predicted correctly. There have been 38 zeros and predicted value and actual value is exactly the same.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 232,
+            "start": 1420.96,
+            "end": 1431.3600000000001,
+            "text": " Whereas in this case it has there are I think 37 plus 5 42 have been fed the images 42 images",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 233,
+            "start": 1431.3600000000001,
+            "end": 1439.44,
+            "text": " are of digit 3 and the accuracy is only 37 of them have been accurately predicted. Three of them have",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 234,
+            "start": 1439.44,
+            "end": 1445.8400000000001,
+            "text": " been predicted as number 7 and two of them have been predicted as number 8 and so on and so forth.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 235,
+            "start": 1445.84,
+            "end": 1453.36,
+            "text": " Alright so with that let's go into Jupyter Notebook and see how the code looks. So this is the code",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 236,
+            "start": 1453.36,
+            "end": 1460.56,
+            "text": " in Jupyter Notebook for logistic regression. In this particular demo what we are going to do is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 237,
+            "start": 1460.56,
+            "end": 1469.6799999999998,
+            "text": " train our model to recognize digits which are the images which have digits from let's say 0 to 5",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 238,
+            "start": 1469.76,
+            "end": 1476.64,
+            "text": " or 0 to 9 and then we will see how well it is trained and whether it is able to predict these",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 239,
+            "start": 1476.64,
+            "end": 1484.4,
+            "text": " numbers correctly or not. So let's get started. So the first part is as usual we are importing some",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 240,
+            "start": 1484.4,
+            "end": 1493.1200000000001,
+            "text": " libraries that are required and then the last line on this block is to load the digits. So let's go",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 241,
+            "start": 1493.12,
+            "end": 1502.08,
+            "text": " ahead and run this code then here we will visualize the shape of these digits. So we can see here",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 242,
+            "start": 1502.08,
+            "end": 1510.2399999999998,
+            "text": " we take a look. This is how the shape is 1797 by 64 these are like 8 by 8 images. So that's what",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 243,
+            "start": 1510.2399999999998,
+            "end": 1516.2399999999998,
+            "text": " is reflected in this shape. Now from here onwards we are basically once again importing some of the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 244,
+            "start": 1516.2399999999998,
+            "end": 1522.9599999999998,
+            "text": " libraries that are required like NumPy and Mapplot and we will take a look at some of the samples",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 245,
+            "start": 1523.12,
+            "end": 1530.0,
+            "text": " images that we have loaded. So this one for example creates a figure and then we go ahead",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 246,
+            "start": 1530.0,
+            "end": 1536.1599999999999,
+            "text": " and take a few sample images to see how they look. So let's me run this code and so that it",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 247,
+            "start": 1536.1599999999999,
+            "end": 1543.36,
+            "text": " becomes easy to understand. So these are about five sample images that we are looking at 0, 1,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 248,
+            "start": 1543.36,
+            "end": 1551.04,
+            "text": " 2, 3, 4. So this is how the images this is how the data is okay and based on this we will actually",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 249,
+            "start": 1551.04,
+            "end": 1557.44,
+            "text": " train our logistic regression model and then we will test it and see how well it is able to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 250,
+            "start": 1557.44,
+            "end": 1563.92,
+            "text": " recognize. So the way it works is the pixel information. So as you can see here this is an 8",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 251,
+            "start": 1563.92,
+            "end": 1572.48,
+            "text": " by 8 pixel kind of a image and the each pixel whether it is activated or not activated that is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 252,
+            "start": 1572.48,
+            "end": 1578.8,
+            "text": " the information available for each pixel. Now based on the pattern of this activation and",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 253,
+            "start": 1578.8799999999999,
+            "end": 1586.08,
+            "text": " non-activation of the various pixels this will be identified as a 0 for example. Similarly as you",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 254,
+            "start": 1586.08,
+            "end": 1594.0,
+            "text": " can see so overall each of these numbers actually has a different pattern of the pixel activation",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 255,
+            "start": 1594.0,
+            "end": 1600.3999999999999,
+            "text": " and that's pretty much that our model needs to learn for which number what is the pattern of the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 256,
+            "start": 1600.3999999999999,
+            "end": 1606.96,
+            "text": " activation of the pixels. So that is what we are going to train our model. So the first thing we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 257,
+            "start": 1606.96,
+            "end": 1615.1200000000001,
+            "text": " need to do is to split our data into training and test dataset right. So whenever we perform",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 258,
+            "start": 1615.1200000000001,
+            "end": 1621.1200000000001,
+            "text": " any training we split the data into training and test so that the training dataset is used to train",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 259,
+            "start": 1621.1200000000001,
+            "end": 1628.0,
+            "text": " the system. So we pass this probably multiple times and then we test it with the test dataset",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 260,
+            "start": 1628.0,
+            "end": 1633.2,
+            "text": " and the split is usually in the form of there and there are various ways in which you can split this",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 261,
+            "start": 1633.2,
+            "end": 1640.4,
+            "text": " data it is up to the individual preferences. In our case here we are splitting in the form of 23",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 262,
+            "start": 1640.4,
+            "end": 1651.92,
+            "text": " and 77. So when we say test size as 23.23 that means 23% of that entire data is used for testing",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 263,
+            "start": 1651.92,
+            "end": 1658.48,
+            "text": " and the remaining 77% is used for training. So there is a readily available function which is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 264,
+            "start": 1659.1200000000001,
+            "end": 1664.64,
+            "text": " called train test split. So we don't have to write any special code for the splitting. It will",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 265,
+            "start": 1664.64,
+            "end": 1671.2,
+            "text": " automatically split the data based on the proportion that we give here which is test size. So we just",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 266,
+            "start": 1671.2,
+            "end": 1677.3600000000001,
+            "text": " give the test size automatically training size will be determined and we pass the data that we want",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 267,
+            "start": 1677.3600000000001,
+            "end": 1685.04,
+            "text": " to split and the results will be stored in X underscore train and Y underscore train for the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 268,
+            "start": 1685.04,
+            "end": 1691.2,
+            "text": " training dataset and what is X underscore train these are the features which is like the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 269,
+            "start": 1691.2,
+            "end": 1699.04,
+            "text": " independent variable and Y underscore train is the label. So in this case what happens is we have",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 270,
+            "start": 1699.04,
+            "end": 1704.24,
+            "text": " the input value which is or the features value which is in X underscore train and since this is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 271,
+            "start": 1704.24,
+            "end": 1711.76,
+            "text": " labeled data for each of them each of the observations we already have the label information saying",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 272,
+            "start": 1711.84,
+            "end": 1718.4,
+            "text": " whether this digit is a 0 or a 1 or a 2. So that this is what will be used for comparison to find",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 273,
+            "start": 1718.4,
+            "end": 1724.56,
+            "text": " out whether the system is able to recognize it correctly or there is an error for each observation",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 274,
+            "start": 1724.56,
+            "end": 1730.64,
+            "text": " it will compare with this. So this is the label. So the same way X underscore train Y underscore",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 275,
+            "start": 1730.64,
+            "end": 1736.64,
+            "text": " train is for the training dataset X underscore test Y underscore test is for the test dataset.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 276,
+            "start": 1737.1200000000001,
+            "end": 1741.8400000000001,
+            "text": " So let me go ahead and execute this code as well and then we can go and check quickly",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 277,
+            "start": 1741.8400000000001,
+            "end": 1748.48,
+            "text": " what is the how many entries are there and in each of them. So X underscore train the shape is 13",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 278,
+            "start": 1748.48,
+            "end": 1757.0400000000002,
+            "text": " 83 by 64 and Y underscore train has 13 83 because there is nothing like the second part is not",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 279,
+            "start": 1757.0400000000002,
+            "end": 1765.76,
+            "text": " required here and then X underscore test shape we see is 414. So actually there are 414 observations",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 280,
+            "start": 1765.76,
+            "end": 1772.72,
+            "text": " in test and 13 83 observations in train. So that's basically what these four lines of code are",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 281,
+            "start": 1772.72,
+            "end": 1780.8,
+            "text": " saying. Then we import the logistic regression library and which is a part of scikit-learn.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 282,
+            "start": 1780.8,
+            "end": 1785.76,
+            "text": " So we don't have to implement the logistic regression process itself we just call these",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 283,
+            "start": 1785.76,
+            "end": 1793.12,
+            "text": " the function and let me go ahead and execute that so that we have the logistic regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 284,
+            "start": 1793.12,
+            "end": 1799.12,
+            "text": " library imported. Now we create an instance of logistic regression right so logistic",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 285,
+            "start": 1799.12,
+            "end": 1806.2399999999998,
+            "text": " regr is a is an instance of logistic regression and then we use that for training our model. So",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 286,
+            "start": 1806.2399999999998,
+            "end": 1811.6799999999998,
+            "text": " let me first execute this code. So these two lines so the first line basically creates an",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 287,
+            "start": 1811.6799999999998,
+            "end": 1818.1599999999999,
+            "text": " instance of logistic regression model and then the second line is where we are passing our data",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 288,
+            "start": 1818.16,
+            "end": 1825.92,
+            "text": " the training data set and this is our the predictors and this is our target we are passing this data",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 289,
+            "start": 1825.92,
+            "end": 1833.92,
+            "text": " set to train our model. So once we do this in this case the data is not large but by and large",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 290,
+            "start": 1833.92,
+            "end": 1840.16,
+            "text": " the training is what takes usually a lot of time. So we spend in machine learning activities",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 291,
+            "start": 1840.16,
+            "end": 1846.24,
+            "text": " and machine learning projects we spend a lot of time for the training part of it. So here the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 292,
+            "start": 1846.32,
+            "end": 1851.92,
+            "text": " data set is relatively small so it was pretty quick. So all right so now our model has been trained",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 293,
+            "start": 1851.92,
+            "end": 1858.56,
+            "text": " using the training data set and we want to see how accurate this is. So what we'll do is we will",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 294,
+            "start": 1858.56,
+            "end": 1866.48,
+            "text": " test it out in probably faces so let me first try out how well this is working for one image",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 295,
+            "start": 1866.48,
+            "end": 1872.72,
+            "text": " okay I will just try it out with one image my the first entry in my test data set and see whether",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 296,
+            "start": 1872.72,
+            "end": 1879.76,
+            "text": " it is correctly predicting or not. So and in order to test it so for training purpose we use the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 297,
+            "start": 1879.76,
+            "end": 1885.6000000000001,
+            "text": " fit method there is a method called fit which is for training the model and once the training is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 298,
+            "start": 1885.6000000000001,
+            "end": 1892.72,
+            "text": " done if you want to test for a particular value new input you use the predict method okay. So let's",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 299,
+            "start": 1892.72,
+            "end": 1901.68,
+            "text": " run the predict method and we pass this particular image and we see that the shape is or the prediction",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 300,
+            "start": 1901.68,
+            "end": 1909.8400000000001,
+            "text": " is four. So let's try a few more let me see for the next 10 seems to be fine so let me just go",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 301,
+            "start": 1909.8400000000001,
+            "end": 1915.04,
+            "text": " ahead and test the entire data set okay that's basically what we will do. So now we want to find",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 302,
+            "start": 1915.04,
+            "end": 1922.5600000000002,
+            "text": " out how accurately this has performed so we use the score method to find what is the percentages",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 303,
+            "start": 1922.5600000000002,
+            "end": 1930.24,
+            "text": " of accuracy and we see here that it has performed up to 94% accurate okay. So that's on this part now",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 304,
+            "start": 1930.24,
+            "end": 1937.52,
+            "text": " what we can also do is we can also see this accuracy using what is known as a confusion",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 305,
+            "start": 1937.52,
+            "end": 1945.68,
+            "text": " matrix. So let us go ahead and try that as well so that we can also visualize how well this model",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 306,
+            "start": 1945.68,
+            "end": 1951.84,
+            "text": " has done. So let me execute this piece of code which will basically board some of the libraries",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 307,
+            "start": 1951.84,
+            "end": 1959.92,
+            "text": " that are required and we basically create a confusion matrix and instance of confusion matrix",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 308,
+            "start": 1959.92,
+            "end": 1967.44,
+            "text": " by running confusion matrix and passing these values. So we have so this confusion underscore",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 309,
+            "start": 1967.44,
+            "end": 1974.88,
+            "text": " matrix method takes two parameters. One is the y underscore test and the other is the prediction.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 310,
+            "start": 1974.88,
+            "end": 1980.3200000000002,
+            "text": " So what is the y underscore test? These are the labeled values which we already know for the test",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 311,
+            "start": 1980.3200000000002,
+            "end": 1988.0800000000002,
+            "text": " data set and predictions are what the system has predicted for the test data set okay. So this is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 312,
+            "start": 1988.08,
+            "end": 1996.08,
+            "text": " known to us and this is what the system has the model has generated. So we kind of create the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 313,
+            "start": 1996.08,
+            "end": 2001.28,
+            "text": " confusion matrix and we will print it and this is how the confusion matrix looks as the name",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 314,
+            "start": 2001.28,
+            "end": 2009.76,
+            "text": " suggests it is a matrix and the key point out here is that the accuracy of the model is determined by",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 315,
+            "start": 2009.76,
+            "end": 2016.24,
+            "text": " how many numbers are there in the diagonal. The more the numbers in the diagonal the better the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 316,
+            "start": 2016.24,
+            "end": 2022.48,
+            "text": " accuracy is okay and first of all the total sum of all the numbers in this whole matrix is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 317,
+            "start": 2022.48,
+            "end": 2028.32,
+            "text": " equal to the number of observations in the test data set that is the first thing right. So if you",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 318,
+            "start": 2028.32,
+            "end": 2034.16,
+            "text": " add up all these numbers that will be equal to the number of observations in the test data set and",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 319,
+            "start": 2034.16,
+            "end": 2040.0,
+            "text": " then out of that the maximum number of them should be in the diagonal that means the accuracy is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 320,
+            "start": 2040.0,
+            "end": 2045.1200000000001,
+            "text": " pretty good. If the numbers in the diagonal are less and in all other places there are a lot of",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 321,
+            "start": 2045.12,
+            "end": 2051.52,
+            "text": " numbers which means the accuracy is very low. The diagonal indicates a correct prediction that",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 322,
+            "start": 2051.52,
+            "end": 2056.96,
+            "text": " this means that the actual value is same as the predicted value. Here again actual value same as",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 323,
+            "start": 2056.96,
+            "end": 2062.56,
+            "text": " the predicted value and so on right. So the moment you see a number here that means the actual value",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 324,
+            "start": 2062.56,
+            "end": 2067.7599999999998,
+            "text": " is something and the predicted value is something else right. Similarly here the actual value is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 325,
+            "start": 2067.7599999999998,
+            "end": 2073.92,
+            "text": " something and the predicted value is something else. So that is basically how we read the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 326,
+            "start": 2073.92,
+            "end": 2081.6800000000003,
+            "text": " confusion matrix. Now how do we find the accuracy? You can actually add up the total values in the",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 327,
+            "start": 2081.6800000000003,
+            "end": 2089.12,
+            "text": " diagonal. So it's like 38 plus 44 plus 43 and so on and divide that by the total number of test",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 328,
+            "start": 2089.12,
+            "end": 2095.28,
+            "text": " observations that will give you the percentage accuracy using a confusion matrix. Now let us",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 329,
+            "start": 2095.28,
+            "end": 2102.4,
+            "text": " visualize this confusion matrix in a slightly more sophisticated way using a heat map. So we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 330,
+            "start": 2102.4,
+            "end": 2108.4,
+            "text": " will create a heat map with some, we'll add some colors as well. It's like a more visually",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 331,
+            "start": 2109.44,
+            "end": 2114.8,
+            "text": " more appealing. So that's the whole idea. So let me run this piece of code and this is how",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 332,
+            "start": 2114.8,
+            "end": 2122.56,
+            "text": " the heat map looks and as you can see here the diagonals again are all the values are here",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 333,
+            "start": 2122.56,
+            "end": 2128.08,
+            "text": " most of the values. So which means reasonably this seems to be reasonably accurate and yeah",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 334,
+            "start": 2128.08,
+            "end": 2133.92,
+            "text": " basically the accuracy score is 94%. This is calculated as I mentioned by adding all these",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 335,
+            "start": 2133.92,
+            "end": 2139.92,
+            "text": " numbers divided by the total test values or the total number of observations in test data set.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 336,
+            "start": 2141.12,
+            "end": 2145.36,
+            "text": " So this is the confusion matrix for logistic regression.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 337,
+            "start": 2146.64,
+            "end": 2154.56,
+            "text": " All right so now that we have seen the confusion matrix let's take a quick sample and see how well",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 338,
+            "start": 2154.56,
+            "end": 2162.32,
+            "text": " the system has classified and we will take a few examples of the data. So if we see here we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 339,
+            "start": 2162.32,
+            "end": 2168.48,
+            "text": " picked up randomly a few of them. So this is number four which is the actual value and also",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 340,
+            "start": 2168.48,
+            "end": 2174.64,
+            "text": " the predicted value both are four. This is an image of zero. So the predicted value is also",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 341,
+            "start": 2174.64,
+            "end": 2181.2,
+            "text": " zero. Actual values of course zero then this is the image of nine. So this has also been predicted",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 342,
+            "start": 2181.2,
+            "end": 2187.2799999999997,
+            "text": " correctly nine and actual value is nine and this is the image of one and again this has been",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 343,
+            "start": 2187.2799999999997,
+            "end": 2194.3199999999997,
+            "text": " predicted correctly as like the actual value. So this was a quick demo of logistic regression,",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 344,
+            "start": 2194.3199999999997,
+            "end": 2202.3999999999996,
+            "text": " how to use logistic regression to identify images. Okay so let's summarize what we have learned",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 345,
+            "start": 2202.3999999999996,
+            "end": 2210.0,
+            "text": " in this video. We discussed about what is logistic regression and how it fits into the overall",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 346,
+            "start": 2210.08,
+            "end": 2215.2,
+            "text": " machine learning. We discussed about the different types of machine learning and how logistic",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 347,
+            "start": 2215.2,
+            "end": 2221.04,
+            "text": " regression is one of the algorithms for classification and then we compared logistic regression with",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 348,
+            "start": 2221.04,
+            "end": 2226.56,
+            "text": " linear regression because the names may be sounding similar but these are completely different",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 349,
+            "start": 2226.56,
+            "end": 2232.72,
+            "text": " algorithms linear regression is used for predicting continuous values whereas logistic regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 350,
+            "start": 2232.72,
+            "end": 2238.8,
+            "text": " is used for finding discrete values and then we talked about the math behind logistic regression",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 351,
+            "start": 2238.8,
+            "end": 2244.5600000000004,
+            "text": " and we derived that function as well the sigmoid function. We did a quick table or comparison between",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 352,
+            "start": 2244.5600000000004,
+            "end": 2250.4,
+            "text": " linear and logistic regression. We saw some examples of day to day life how logistic regression is",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 353,
+            "start": 2250.4,
+            "end": 2255.28,
+            "text": " used for some of the class for solving some of the classification problems and then in the end we",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 354,
+            "start": 2255.28,
+            "end": 2260.96,
+            "text": " looked at the code to see how we can implement logistic regression to train the module to",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 355,
+            "start": 2260.96,
+            "end": 2266.6400000000003,
+            "text": " identify images. With that we come to the end of this session. Thank you very much for watching",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 356,
+            "start": 2266.64,
+            "end": 2273.44,
+            "text": " this video for more information. Visit us at www.simplend.com and if you have any further",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 357,
+            "start": 2273.44,
+            "end": 2280.08,
+            "text": " comments or feedback please feel free to put your comments down below and thank you very much and",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 358,
+            "start": 2280.08,
+            "end": 2281.2,
+            "text": " you have a great day.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 359,
+            "start": 2285.68,
+            "end": 2289.8399999999997,
+            "text": " Hi there if you like this video subscribe to the Simple Learning YouTube channel",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 360,
+            "start": 2289.84,
+            "end": 2296.6400000000003,
+            "text": " and click here to watch similar videos. To nerd up and get certified click here.",
+            "topic": "Logistic Regression",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " Hello and welcome to this session on Logistic Regression. I am Mohan Kumar from SimplyLearn. What is Logistic Regression? Let's say we have to build a predictive model or a machine learning model to predict whether the passengers of the Titanic ship have survived or not the shipwrecked. So how do we do that? So we use Logistic Regression to build a model for this. How do we use Logistic Regression? So we have the information about the passengers, their ID, whether they have survived or not, their class and name and so on and so forth. And we use this information where we already know whether the person has survived or not. That is the labeled information and we have the system to train based on this information, with based on this labeled data. This is known as labeled data. And during the process of building the model, we probably will remove some of the non-essential parameters or attributes here. We only take those attributes which are really required to make these predictions. And once we train the model, we run new data through it whereby the model will predict whether the passenger has survived or not. So let's see what we will learn in this video. We will talk about what is supervised learning and we will go into details about classification, which is one of the techniques for supervised learning. And then we will further focus on Logistic Regression, which is one of the algorithms for performing classification, especially binary classification. Then we will compare linear and Logistic regression. And what are some of the Logistic regression applications? And finally, we will end with a use case or a demo of actual Python code for doing Logistic regression in Jupyter node. Alright, so let's start with what is supervised learning. Supervised learning is one of the two main types of machine learning methods. Here we use what is known as labeled data to help the system learn. This is very similar to how we human beings learn. So let's say you want to teach a child to recognize an apple. How do we do that? We never tell the child, okay, this is an apple has a certain diameter on the top, a certain diameter at the bottom, this has a certain RGB color. No, we just show an apple to the child and tell the child this is apple. And then next time when we show an apple, the child immediately recognizes yes, this is an apple. Supervised learning works very similar on the similar lines. So where does Logistic regression fit into the overall machine learning process? Machine learning is divided into two types, mainly two types. There is a third one called reinforcement learning, but we will not talk about that right now. So one is supervised learning and the other is unsupervised learning. Unsupervised learning uses techniques like clustering and association and supervised learning uses techniques like classification and regression. Now supervised learning is used when you have labeled data. You have historical data, then you use supervised learning. When you don't have labeled data, then you used unsupervised learning. It's supervised learning. There are two types of techniques that are used classification and regression based on what is the kind of problem we are solving. Let's say we want to take the data and classify it. It could be binary classification like a zero or a one, an example of classification. We have just seen whether the passenger has survived or not survived. It's like a zero or one that is known as binary classification. Regression on the other hand is you need to predict a value. What is known as a continuous value. Classification is for discrete values. Regression is for continuous values. Let's say you want to predict a shared price or you want to predict the temperature that will be there. What will be the temperature tomorrow? That is where you use regression. Whereas classification are discrete values. Will the customer buy the product or will not buy the product? Will you get a promotion or you will not get a promotion? I hope you're getting the idea. Or it could be multi-class classification as well. Let's say you want to build an image classification model. The image classification model would take an image as an input and classify into multiple classes, whether this image is on a chat or a dog or an elephant or a tiger. So there are multiple classes or not necessarily binary classification. That is known as multi-class classification. We are going to focus on classification because logistic regression is one of the algorithms used for classification. The name may be a little confusing. In fact, whenever people come across logistic regression, it always causes confusion because the name has a regression in it but we are actually using this for performing classification. So yes, it is logistic regression but it is used for classification. In case you're wondering, is there something similar for regression? Yes. For regression, we have linear regression. Keep that in mind. So linear regression is used for regression. Logistic regression is used for classification. In this video, we are going to focus on supervised learning and within supervised learning, we're going to focus on classification and then within classification, we are going to focus on logistic regression algorithm. So first of all, classification. So what are the way use algorithms available for performing classification? The first one is decision tree. There are of course multiple algorithms but here we will talk about a few. Mission trees are quite popular and very easy to understand and therefore they use for classification. Then we have K nearest neighbors. This is another algorithm for performing classification and then there is logistic regression and this is what we are going to focus on in this video and we are going to go into little bit of details about logistic regression. All right. What is logistic regression? As I mentioned earlier, first regression is an algorithm for performing binary classification. So let's take an example and see how this works. That's a your car has not been serviced for quite a few years and now you want to find out if it is going to break down in the future. So this is like a classification problem. Find out whether your car will break down or not. So how are we going to perform this classification? So here's how it looks. If we plot the information along the x and y axis, x is the number of years since the last service was performed and y is the probability of your car breaking down and let's say this information was this data rather was collected from several car users. It's not just your car but several car users. So that is our labeled data. So the data has been collected and for the number of years and when the car broke down and what was the probability and that has been plotted along x and y axis. So this provides an idea or from this graph we can find out whether your car will break down or not. We'll see how. So first of all, the probability can go from 0 to 1 as you're aware. Probability can be between 0 and 1 and as we can imagine it is intuitive as well as the number of years are on the lower side. Maybe one year, two years or three years till after the service, the chances of your car breaking down are very limited. So for example, chances of your car breaking down or the probability of your car breaking down within two years of your last service are 0.1 probability. Similarly, three years is maybe 0.3 and so on. But as the number of years increases, let's say if it was six or seven years, there is almost a certainty that your car is going to break down. That is what this graph shows. So this is an example of a application of the classification algorithm and we will see in little details how exactly logistic regression is applied here. One more thing needs to be added here is that the dependent variables outcome is discrete. So if we are talking about whether the car is going to break down or not. So that is a discrete value. The y that we are talking about, the dependent variable that we are talking about, what we are looking at is whether the car is going to break down or not. Yes or no. That is what we are talking about. So here, the outcome is discrete and not a continuous value. So this is how the logistic regression curve looks. Let me explain a little bit what exactly how exactly we are going to determine the class at the outcome rather. So for a logistic regression curve, a threshold has to be set saying that because this is a probability calculation. Remember, this is a probability calculation and the probability itself will not be 0 or 1. But based on the probability, we need to decide what the outcome should be. So there has to be a threshold. Like for example, 0.5 can be the threshold. Let's say in this case. So any value of the probability below 0.5 is considered to be 0 and any value above 0.5 is considered to be 1. So an output of let's say 0.8 will mean that the car will break down. So that is considered as an output of 1. And let's say an output of 0.29 is considered as 0, which means that the car will not break down. So that's the way logistic regression works. Now let's do a quick comparison between logistic regression and linear regression because they both have the term regression in them. So it can cause confusion. So let's try to remove that confusion. So what is linear regression? Linear regression is a process is once again an algorithm for supervised learning. However, here you are going to find a continuous value. You're going to determine a continuous value. It could be the price of a real estate property. It could be your height, how much height you're going to get or it could be a stock price. These are all continuous values. These are not discrete compared to a yes or a no kind of response that we are looking for in logistic regression. So this is one example of a linear regression. Let's say the HR team of a company tries to find out what should be the salary height of an employee. So they collect all the details of their existing employees, their ratings and their salary hikes, what has been given. And that is the labeled information that is available. And the system learns from us. It is trained and it learns from this labeled information. So that when a new employee's information is fed based on the rating, it will determine what should be the height. So this is a linear regression problem and a linear regression. Example now salary is a continuous value. You can get 5000, 5000, 500, 5000, 600. It is not discrete like a cat or a dog or an apple or a banana. These are discrete or a yes or a no. These are discrete values. So this way you're trying to find continuous values is where we use linear regression. So let's say just to extend on this scenario, we now want to find out whether this employee is going to get a promotion or not. So we want to find out that is a discrete problem, right? A yes or no kind of a problem. In this case, we actually cannot use linear regression. Even though we may have labeled data. So this is the labeled data. So based on the employee rating, these are the ratings and then some people got the promotion and this is the ratings for which people did not get promotion. That is a no and this is the rating for which people got promotion. We just plotted the data about whether a person has got an employee has got promotion or not. Yes, no, right? So there is nothing in between and what is the employee's rating, okay? And ratings can be continuous. That is not a issue. But the output is discrete in this case. Whether employee got promotion. Yes, no, okay? So if we try to plot that and we try to find a straight line, this is how it would look. And as you can see, it doesn't look very right because looks like there will be lot of errors. This root mean square error, if you remember for linear regression would be very, very high. And also the values cannot go beyond zero or beyond one. So the graph should probably look somewhat like this, clipped at zero and one. But still, the straight line doesn't look right. Therefore, instead of using a linear equation, we need to come up with something different. And therefore, the logistic regression model looks somewhat like this. So we calculate the probability. And if we plot that probability, not in the form of a straight line, but we need to use some other equation, we will see very soon what that equation is, then it is a gradual process, right? So you see here, people with some of these ratings are not getting any promotions and then slowly at certain rating, they get promotions. So that is a gradual process. And this is how the math behind logistic regression looks. So we are trying to find the odds for a particular event happening. And this is the formula for finding the odds. So the probability of an event happening divided by the probability of the event not happening. So p, if it is the probability of the event happening, probability of the person getting a promotion, and divided by the probability of the person not getting a promotion, that is 1 minus p. So this is how you measure the odds. Now the values of the odds range from 0 to infinity. So when this probability is 0, then the odds will, the value of the odds is equal to 0. And when the probability becomes 1, then the value of the odds is 1 by 0, that will be infinity. But the probability itself remains between 0 and 1. Now this is how an equation of a straight line looks. So y is equal to beta 0 plus beta 1x, where beta 0 is the y intercept and beta 1 is the slope of the line. If we take the odds equation and take a log of both sides, then this would look somewhat like this. And the term logistic is actually derived from the fact that we are doing this. We take a log of px by 1 minus px. This is an extension of the calculation of odds that we have seen. And that is equal to beta 0 plus beta 1x, which is the equation of the straight line. And now from here, if you want to find out the value of px, you will see we can take the exponential on both sides. And then if we solve that equation, we will get the equation of px, like this. px is equal to 1 by 1 plus e to the power of minus beta 0 plus beta 1x. And recall, this is nothing but the equation of the line, which is equal to y. y is equal to beta 0 plus beta 1x. So that this is the equation also known as the sigmoid function. And this is the equation of the logistic regression algorithm. And if this is plotted, this is how the sigmoid curve is obtained. So let's compare linear and logistic regression, how they are different from each other. Let's go back. So linear regression is solved or used to solve regression problems. And logistic regression is used to solve classification problems. So both are called regression, but linear regression is used for solving regression problems, where we predict continuous values. Whereas logistic regression is used for solving classification problems, where we have have to predict discrete values. The response variables in case of linear regression are continuous in nature, whereas here they are categorical or discrete in nature. And linear regression helps to estimate the dependent variable when there is a change in the independent variable. Whereas here, in case of logistic regression, it helps to calculate the probability or the possibility of a particular event happening. And linear regression as the name suggests is a straight line. That's why it's called linear regression. Whereas logistic regression is a sigmoid function. And the curve is the shape of the curve is s. It's an s-shaped curve. This is another example of application of logistic regression in weather prediction, that it's going to rain or not rain. Now keep in mind, both are used in weather prediction. If we want to find the discrete values, like whether it's going to rain or not rain, that is a classification problem. We use logistic regression. But if we want to determine what is going to be the temperature tomorrow, then we use linear regression. So just keep in mind that in weather prediction, we actually use both. But these are some examples of logistic regression. So we want to find out whether it's going to rain or not, is going to be sunny or not, is going to snow or not. These are all logistic regression examples. A few more examples, classification of objects. This is a again, another example of logistic regression. Now here, of course, one distinction is that these are multi-class classification. So logistic regression is not used in its original form, but it is used in a slightly different form. So we say whether it is a dog or not a dog. I hope you understand. So instead of saying, is it a dog or a cat or elephant, we convert this into saying. So because we need to keep it to binary classification. So we say, is it a dog or not a dog? Is it a cat or not a cat? So that's the way logistic regression can be used for classifying objects. Otherwise, there are other techniques which can be used for performing multi-class classification. In half-care, logistic regression is used to find the survival rate of a patient. So they take multiple parameters like trauma score, age and so on and so forth, and they try to predict the rate of survival. All right. Now finally, let's take an example and see how we can apply logistic regression to predict the number that is shown in the image. So this is actually a live demo. I will take you into jibber notebook and show the code. But before that, let me take you to a couple of slides to explain what we are trying to do. So let's say you have an 8 by 8 image and the image has a number 1, 2, 3, 4, and you need to train your model to predict what this number is. So how do we do this? So the first thing is obviously, in any machine learning process, you train your model. So in this case, we are using logistic regression. So and then we provide a training set to train the model and then we test how accurate our model is with the test data, which means that like any machine learning process, we split our initial data into two parts, training set and test set. With the training set, we train our model and then with the test set, we test the model, then we get good accuracy and then we use it for inference. So that is typical methodology of training, testing and then deploying of machine learning models. So let's take a look at the code and see what we are doing. So I will not go line by line, but just take you through some of the blocks. So first thing we do is import all the libraries and then we basically take a look at the images and see what is the total number of images. We can display using matplotlib, some of the images or a sample of these images and then we split the data into training and test, as I mentioned earlier and we can do some exploratory analysis and then we build our model, we train our model with the training set and then we test it with our test set and find out how accurate our model is using the confusion matrix, the heat map and use heat map for visualizing this. And I will show you in the code what exactly is the confusion matrix and how it can be used for finding the accuracy. In our example, we get an accuracy of about 0.94, which is pretty good or 94% which is pretty good. All right, so what is a confusion matrix? This is an example of a confusion matrix and this is used for identifying the accuracy of a classification model or like a logistic regression model. So the most important part in a confusion matrix is that first of all this as you can see this is a matrix and the size of the matrix depends on how many outputs we are expecting. So the most important part here is that the model will be most accurate when we have the maximum numbers in its diagonal like in this case, that's why it has almost 93, 94% because the diagonal should have the maximum numbers and the others other than the diagnosed the cells other than the diagonal should have very few numbers. So here that's what is happening. So there is a two here, there are there's a one here, but most of them are along the diagonal. This what does this mean? This means that the number that has been fed is 0 and the number that has been detected is also 0. So the predicted value and actual value are the same. So along the diagonals that is true which means that let's let's take this diagonal. If the maximum number is here that means that like here in this case it is 34 which means that 34 of the images that have been fed or rather actually there are two misclassifications in there. So 36 images have been fed which have number 4 and out of which 34 have been predicted correctly as number 4 and one has been predicted as number 8 and another one has been predicted as number 9. So these are two misclassifications. So that is the meaning of saying that the maximum number should be in the diagonal. So if you have all of them, so for an ideal model which has let's say 100% accuracy everything will be only in the diagonal. There will be no numbers other than 0 in all other cells. So that is like 100% accurate model. So that's just of how to use this matrix, how to use this confusion matrix. I know the name is a little funny sounding confusion matrix but actually it is not very confusing. It's very straightforward. So you are just plotting what has been predicted and what is the labeled information or what is the actual data that's also known as the ground truth sometimes. These are some fancy terms that are used. So predicted label and the actual label that's all it is. So we are showing a little bit more information here. So 38 have been predicted and here you will see that all of them have been predicted correctly. There have been 38 zeros and predicted value and actual value is exactly the same. Whereas in this case it has there are I think 37 plus 5 42 have been fed the images 42 images are of digit 3 and the accuracy is only 37 of them have been accurately predicted. Three of them have been predicted as number 7 and two of them have been predicted as number 8 and so on and so forth. Alright so with that let's go into Jupyter Notebook and see how the code looks. So this is the code in Jupyter Notebook for logistic regression. In this particular demo what we are going to do is train our model to recognize digits which are the images which have digits from let's say 0 to 5 or 0 to 9 and then we will see how well it is trained and whether it is able to predict these numbers correctly or not. So let's get started. So the first part is as usual we are importing some libraries that are required and then the last line on this block is to load the digits. So let's go ahead and run this code then here we will visualize the shape of these digits. So we can see here we take a look. This is how the shape is 1797 by 64 these are like 8 by 8 images. So that's what is reflected in this shape. Now from here onwards we are basically once again importing some of the libraries that are required like NumPy and Mapplot and we will take a look at some of the samples images that we have loaded. So this one for example creates a figure and then we go ahead and take a few sample images to see how they look. So let's me run this code and so that it becomes easy to understand. So these are about five sample images that we are looking at 0, 1, 2, 3, 4. So this is how the images this is how the data is okay and based on this we will actually train our logistic regression model and then we will test it and see how well it is able to recognize. So the way it works is the pixel information. So as you can see here this is an 8 by 8 pixel kind of a image and the each pixel whether it is activated or not activated that is the information available for each pixel. Now based on the pattern of this activation and non-activation of the various pixels this will be identified as a 0 for example. Similarly as you can see so overall each of these numbers actually has a different pattern of the pixel activation and that's pretty much that our model needs to learn for which number what is the pattern of the activation of the pixels. So that is what we are going to train our model. So the first thing we need to do is to split our data into training and test dataset right. So whenever we perform any training we split the data into training and test so that the training dataset is used to train the system. So we pass this probably multiple times and then we test it with the test dataset and the split is usually in the form of there and there are various ways in which you can split this data it is up to the individual preferences. In our case here we are splitting in the form of 23 and 77. So when we say test size as 23.23 that means 23% of that entire data is used for testing and the remaining 77% is used for training. So there is a readily available function which is called train test split. So we don't have to write any special code for the splitting. It will automatically split the data based on the proportion that we give here which is test size. So we just give the test size automatically training size will be determined and we pass the data that we want to split and the results will be stored in X underscore train and Y underscore train for the training dataset and what is X underscore train these are the features which is like the independent variable and Y underscore train is the label. So in this case what happens is we have the input value which is or the features value which is in X underscore train and since this is labeled data for each of them each of the observations we already have the label information saying whether this digit is a 0 or a 1 or a 2. So that this is what will be used for comparison to find out whether the system is able to recognize it correctly or there is an error for each observation it will compare with this. So this is the label. So the same way X underscore train Y underscore train is for the training dataset X underscore test Y underscore test is for the test dataset. So let me go ahead and execute this code as well and then we can go and check quickly what is the how many entries are there and in each of them. So X underscore train the shape is 13 83 by 64 and Y underscore train has 13 83 because there is nothing like the second part is not required here and then X underscore test shape we see is 414. So actually there are 414 observations in test and 13 83 observations in train. So that's basically what these four lines of code are saying. Then we import the logistic regression library and which is a part of scikit-learn. So we don't have to implement the logistic regression process itself we just call these the function and let me go ahead and execute that so that we have the logistic regression library imported. Now we create an instance of logistic regression right so logistic regr is a is an instance of logistic regression and then we use that for training our model. So let me first execute this code. So these two lines so the first line basically creates an instance of logistic regression model and then the second line is where we are passing our data the training data set and this is our the predictors and this is our target we are passing this data set to train our model. So once we do this in this case the data is not large but by and large the training is what takes usually a lot of time. So we spend in machine learning activities and machine learning projects we spend a lot of time for the training part of it. So here the data set is relatively small so it was pretty quick. So all right so now our model has been trained using the training data set and we want to see how accurate this is. So what we'll do is we will test it out in probably faces so let me first try out how well this is working for one image okay I will just try it out with one image my the first entry in my test data set and see whether it is correctly predicting or not. So and in order to test it so for training purpose we use the fit method there is a method called fit which is for training the model and once the training is done if you want to test for a particular value new input you use the predict method okay. So let's run the predict method and we pass this particular image and we see that the shape is or the prediction is four. So let's try a few more let me see for the next 10 seems to be fine so let me just go ahead and test the entire data set okay that's basically what we will do. So now we want to find out how accurately this has performed so we use the score method to find what is the percentages of accuracy and we see here that it has performed up to 94% accurate okay. So that's on this part now what we can also do is we can also see this accuracy using what is known as a confusion matrix. So let us go ahead and try that as well so that we can also visualize how well this model has done. So let me execute this piece of code which will basically board some of the libraries that are required and we basically create a confusion matrix and instance of confusion matrix by running confusion matrix and passing these values. So we have so this confusion underscore matrix method takes two parameters. One is the y underscore test and the other is the prediction. So what is the y underscore test? These are the labeled values which we already know for the test data set and predictions are what the system has predicted for the test data set okay. So this is known to us and this is what the system has the model has generated. So we kind of create the confusion matrix and we will print it and this is how the confusion matrix looks as the name suggests it is a matrix and the key point out here is that the accuracy of the model is determined by how many numbers are there in the diagonal. The more the numbers in the diagonal the better the accuracy is okay and first of all the total sum of all the numbers in this whole matrix is equal to the number of observations in the test data set that is the first thing right. So if you add up all these numbers that will be equal to the number of observations in the test data set and then out of that the maximum number of them should be in the diagonal that means the accuracy is pretty good. If the numbers in the diagonal are less and in all other places there are a lot of numbers which means the accuracy is very low. The diagonal indicates a correct prediction that this means that the actual value is same as the predicted value. Here again actual value same as the predicted value and so on right. So the moment you see a number here that means the actual value is something and the predicted value is something else right. Similarly here the actual value is something and the predicted value is something else. So that is basically how we read the confusion matrix. Now how do we find the accuracy? You can actually add up the total values in the diagonal. So it's like 38 plus 44 plus 43 and so on and divide that by the total number of test observations that will give you the percentage accuracy using a confusion matrix. Now let us visualize this confusion matrix in a slightly more sophisticated way using a heat map. So we will create a heat map with some, we'll add some colors as well. It's like a more visually more appealing. So that's the whole idea. So let me run this piece of code and this is how the heat map looks and as you can see here the diagonals again are all the values are here most of the values. So which means reasonably this seems to be reasonably accurate and yeah basically the accuracy score is 94%. This is calculated as I mentioned by adding all these numbers divided by the total test values or the total number of observations in test data set. So this is the confusion matrix for logistic regression. All right so now that we have seen the confusion matrix let's take a quick sample and see how well the system has classified and we will take a few examples of the data. So if we see here we picked up randomly a few of them. So this is number four which is the actual value and also the predicted value both are four. This is an image of zero. So the predicted value is also zero. Actual values of course zero then this is the image of nine. So this has also been predicted correctly nine and actual value is nine and this is the image of one and again this has been predicted correctly as like the actual value. So this was a quick demo of logistic regression, how to use logistic regression to identify images. Okay so let's summarize what we have learned in this video. We discussed about what is logistic regression and how it fits into the overall machine learning. We discussed about the different types of machine learning and how logistic regression is one of the algorithms for classification and then we compared logistic regression with linear regression because the names may be sounding similar but these are completely different algorithms linear regression is used for predicting continuous values whereas logistic regression is used for finding discrete values and then we talked about the math behind logistic regression and we derived that function as well the sigmoid function. We did a quick table or comparison between linear and logistic regression. We saw some examples of day to day life how logistic regression is used for some of the class for solving some of the classification problems and then in the end we looked at the code to see how we can implement logistic regression to train the module to identify images. With that we come to the end of this session. Thank you very much for watching this video for more information. Visit us at www.simplend.com and if you have any further comments or feedback please feel free to put your comments down below and thank you very much and you have a great day. Hi there if you like this video subscribe to the Simple Learning YouTube channel and click here to watch similar videos. To nerd up and get certified click here."
+}

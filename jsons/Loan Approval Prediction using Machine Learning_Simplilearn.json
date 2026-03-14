@@ -1,0 +1,2669 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 9.6,
+            "text": " Hello everyone, I am Aang and welcome to Simply Learn.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 9.6,
+            "end": 14.6,
+            "text": " Today we will take you through the hands of lab demo of how you can implement loan approval",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 14.6,
+            "end": 16.96,
+            "text": " prediction using python.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 16.96,
+            "end": 20.92,
+            "text": " Before we start, I hope this screen is clearly visible and the audio is fine.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 20.92,
+            "end": 23.04,
+            "text": " If yes, please type in yes.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 23.04,
+            "end": 28.240000000000002,
+            "text": " If there are any issues, do let us know in the chat section so that we can resolve them.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 28.24,
+            "end": 30.24,
+            "text": " Let's wait for some more minutes to let the people join.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 30.24,
+            "end": 53.519999999999996,
+            "text": " Until then, let me tell you guys that we have regular updates on multiple technologies.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 54.34,
+            "end": 58.0,
+            "text": " If you are a tech geek in a continuous hunt for the latest technological trends, then consider",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 58.0,
+            "end": 62.080000000000005,
+            "text": " getting subscribed to our YouTube channel and press that bell icon to never miss any",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 62.080000000000005,
+            "end": 63.580000000000005,
+            "text": " updates from Simply Learn.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 63.580000000000005,
+            "end": 67.92,
+            "text": " I am repeating again, let me tell you guys that we have regular updates on multiple",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 67.92,
+            "end": 68.88,
+            "text": " technologies.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 68.88,
+            "end": 73.60000000000001,
+            "text": " If you are a tech geek in a continuous hunt for the latest technological trends, consider",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 73.60000000000001,
+            "end": 77.44,
+            "text": " getting subscribed to our YouTube channel and press that bell icon to never miss any",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 77.44,
+            "end": 79.28,
+            "text": " updates from Simply Learn.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 79.28,
+            "end": 81.28,
+            "text": " Great.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 81.28,
+            "end": 83.36,
+            "text": " I think we can get started.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 83.36,
+            "end": 86.72,
+            "text": " In today's session, we will go through what is loan prediction system.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 86.72,
+            "end": 91.52,
+            "text": " After that, we will move on to the hands-of-life demo to perform loan approval prediction system.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 92.08,
+            "end": 95.84,
+            "text": " Moving forward, we will be using different classification algorithms",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 95.84,
+            "end": 98.08,
+            "text": " to implement loan approval prediction system.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 99.12,
+            "end": 101.36,
+            "text": " We already have a loan approval data set with us.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 101.92,
+            "end": 104.96000000000001,
+            "text": " We will perform different function elaboraries using Python.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 105.6,
+            "end": 108.4,
+            "text": " You can download this dataset from the description box flow.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 109.28,
+            "end": 111.92,
+            "text": " Before, move on to the programming part.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 111.92,
+            "end": 116.56,
+            "text": " Let's discuss what is loan prediction system first and proceed further for the same.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 116.56,
+            "end": 121.36000000000001,
+            "text": " A mechanism called loan prediction system gives you a way to apply for loans and receive",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 121.36000000000001,
+            "end": 123.44000000000001,
+            "text": " notifications when they are approved.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 123.44000000000001,
+            "end": 128.08,
+            "text": " In accordance with the data provided by the applicant, the system notifies the applicant",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 128.08,
+            "end": 129.12,
+            "text": " of the loans available.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 138.4,
+            "end": 140.48000000000002,
+            "text": " I am repeating again.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 141.44,
+            "end": 142.88,
+            "text": " Here is one question for you.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 142.88,
+            "end": 144.88,
+            "text": " I will give you one minute for this.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 144.88,
+            "end": 148.88,
+            "text": " You can comment or you can give your answer in the chat section so I can see if the answer is",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 148.88,
+            "end": 150.32,
+            "text": " given by your right or wrong.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 150.32,
+            "end": 154.16,
+            "text": " So the question is which keyword is used for function in Python language?",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 154.8,
+            "end": 162.56,
+            "text": " Option 1, Python, Option 2, DEF, Option C, F, U and C, Option D, Define.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 164.32,
+            "end": 167.04000000000002,
+            "text": " So let us know your answer in the comment section below.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 168.72,
+            "end": 172.08,
+            "text": " So I am starting of timer 1 minutes.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 172.88,
+            "end": 175.20000000000002,
+            "text": " Type your answer in the comment section or in the chat section.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 175.76000000000002,
+            "end": 177.36,
+            "text": " Do let me know your answers please.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 177.36,
+            "end": 181.52,
+            "text": " I currently ask that everyone take part in this to make this live session exciting.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 181.52,
+            "end": 183.76,
+            "text": " So I am starting the timer of 1 minute.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 188.64000000000001,
+            "end": 191.12,
+            "text": " Which keyword is used for function in Python language?",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 191.76,
+            "end": 198.32,
+            "text": " Option 1, Function, Option 2, DEF, Option C, Punk, Option D, Define.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 199.28,
+            "end": 203.20000000000002,
+            "text": " Which keyword is used for function in Python language?",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 205.12,
+            "end": 206.56,
+            "text": " 47, Kindred remaining.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 215.76,
+            "end": 216.8,
+            "text": " 30 seconds.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 216.8,
+            "end": 218.8,
+            "text": " Let us know your answer in the comment section below.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 220.88,
+            "end": 221.84,
+            "text": " This is the easy one.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 221.84,
+            "end": 224.4,
+            "text": " Which keyword is used for function in Python language?",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 225.12,
+            "end": 228.08,
+            "text": " Function, DEF, Punk or Define.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 228.96,
+            "end": 234.64000000000001,
+            "text": " I currently ask that everyone take part in this to make this exciting.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 240.96,
+            "end": 241.76,
+            "text": " A second move.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 249.44,
+            "end": 250.0,
+            "text": " Yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 250.0,
+            "end": 256.08,
+            "text": " After that allotted time has passed, those who provided the correct response will receive a response.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 256.15999999999997,
+            "end": 259.44,
+            "text": " And those who provided the incorrect response will receive one.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 261.2,
+            "end": 266.08,
+            "text": " So now let us move to our programming part to implement loan approval prediction system.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 266.8,
+            "end": 270.96,
+            "text": " So first we will open a command prompt to write a command to open Jupyter Notebook.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 270.96,
+            "end": 274.47999999999996,
+            "text": " So here we will write Jupyter Notebook.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 276.47999999999996,
+            "end": 277.03999999999996,
+            "text": " A center.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 277.52000000000004,
+            "end": 285.28000000000003,
+            "text": " So this is the landing page of Jupyter Notebook.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 285.28000000000003,
+            "end": 288.32,
+            "text": " And here you have to select new Python 3 file.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 290.72,
+            "end": 292.96000000000004,
+            "text": " So this is how the Jupyter Notebook UI looks like.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 293.52000000000004,
+            "end": 300.48,
+            "text": " So at first we will import some major libraries of Python which will help us creating a loan approval prediction system.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 301.12,
+            "end": 304.16,
+            "text": " So here I will write import.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 304.8,
+            "end": 310.0,
+            "text": " NumPy as NP.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 312.40000000000003,
+            "end": 315.12,
+            "text": " So NumPy is a Python library used for working with arrays.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 315.12,
+            "end": 318.96000000000004,
+            "text": " It also has a function for working in domain of linear algebra and matrices.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 319.76000000000005,
+            "end": 323.20000000000005,
+            "text": " It is an open source project and you can use it freely.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 323.20000000000005,
+            "end": 324.96000000000004,
+            "text": " NumPy stands for numerical Python.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 326.16,
+            "end": 327.28000000000003,
+            "text": " And the second one is",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 327.28,
+            "end": 334.28,
+            "text": " port pandas as PD.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 334.28,
+            "end": 339.15999999999997,
+            "text": " Pandas is a software library written for the Python programming language for data manipulation",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 339.15999999999997,
+            "end": 340.15999999999997,
+            "text": " and analysis.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 340.15999999999997,
+            "end": 346.26,
+            "text": " In particular, it offers data suction and operations for manipulating numerical tables and time",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 346.26,
+            "end": 348.53999999999996,
+            "text": " series.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 348.54,
+            "end": 363.1,
+            "text": " And the third one is import matplotlib.pyplot as PLT.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 363.1,
+            "end": 368.82000000000005,
+            "text": " So matplotlib Python scripts can be used to create 2D graphs and plots using the matplotlib",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 368.82000000000005,
+            "end": 374.54,
+            "text": " by module with features to control line styles, point attributes, formatting axis and other",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 374.54,
+            "end": 375.62,
+            "text": " features.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 375.62,
+            "end": 380.18,
+            "text": " It offers a module called pyplot that makes things simple for plotting.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 380.18,
+            "end": 394.02,
+            "text": " So, the fourth one is import cborn as an s.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 394.02,
+            "end": 400.34000000000003,
+            "text": " So, cborn an open source Python library based on matplotlib is called cborn.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 400.34000000000003,
+            "end": 404.9,
+            "text": " It is utilized for data exploration and data visualization with data frames and the pandas",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 404.9,
+            "end": 407.7,
+            "text": " library cborn function with ease.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 407.7,
+            "end": 421.17999999999995,
+            "text": " So, there is one more like brom, sk learn port, svm.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 421.17999999999995,
+            "end": 428.17999999999995,
+            "text": " So, after importing libraries, let us move forward and import data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 428.18,
+            "end": 442.66,
+            "text": " So, df equals to ed.read underscore csv on dot csv.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 442.66,
+            "end": 446.82,
+            "text": " You can download this data set from the description box below.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 446.82,
+            "end": 448.98,
+            "text": " So, yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 448.98,
+            "end": 452.02,
+            "text": " So, data set is imported.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 452.02,
+            "end": 453.22,
+            "text": " Let us see our data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 453.22,
+            "end": 458.34000000000003,
+            "text": " So, we will write df dot head here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 95,
+            "start": 458.34000000000003,
+            "end": 459.82000000000005,
+            "text": " Yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 96,
+            "start": 459.82000000000005,
+            "end": 464.26000000000005,
+            "text": " Here you can see we have data set of top 5 rows.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 97,
+            "start": 464.26000000000005,
+            "end": 468.06,
+            "text": " So, basically head is used for showing first 5 rows of the data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 98,
+            "start": 468.06,
+            "end": 470.3,
+            "text": " If we will use tail instead of head.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 99,
+            "start": 470.3,
+            "end": 474.02000000000004,
+            "text": " So, it will show the last 5 rows of the data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 100,
+            "start": 474.02000000000004,
+            "end": 480.58000000000004,
+            "text": " So, let us move forward and use info function to see the information about the data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 101,
+            "start": 480.58,
+            "end": 481.58,
+            "text": " Okay.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 102,
+            "start": 481.58,
+            "end": 487.58,
+            "text": " So, here we will write df dot info.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 103,
+            "start": 487.58,
+            "end": 495.74,
+            "text": " So, the data frame information is printed by the info method.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 104,
+            "start": 495.74,
+            "end": 501.06,
+            "text": " The data includes the total number of columns, their labels, data kinds, memory use, range",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 105,
+            "start": 501.06,
+            "end": 504.5,
+            "text": " index and the number of cells in each column.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 106,
+            "start": 504.5,
+            "end": 506.53999999999996,
+            "text": " That is non-null values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 107,
+            "start": 506.54,
+            "end": 510.78000000000003,
+            "text": " Note that the info method does indeed print the information.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 108,
+            "start": 510.78000000000003,
+            "end": 511.78000000000003,
+            "text": " Okay.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 109,
+            "start": 511.78000000000003,
+            "end": 520.1800000000001,
+            "text": " So, here you can see low-end is object, then this applicant income is n64, then co-applicate",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 110,
+            "start": 520.1800000000001,
+            "end": 521.7,
+            "text": " income is float.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 111,
+            "start": 521.7,
+            "end": 525.62,
+            "text": " So, non-null values like this.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 112,
+            "start": 525.62,
+            "end": 530.98,
+            "text": " So, we know all the columns names, data types and information.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 113,
+            "start": 530.98,
+            "end": 533.54,
+            "text": " Let us move forward and see missing values in the data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 114,
+            "start": 533.54,
+            "end": 536.5,
+            "text": " So, for that we will use here I will write.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 115,
+            "start": 536.5,
+            "end": 544.5,
+            "text": " df dot is null and this is dot sum.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 116,
+            "start": 544.5,
+            "end": 546.5,
+            "text": " Yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 117,
+            "start": 546.5,
+            "end": 551.22,
+            "text": " Is null dot sum.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 118,
+            "start": 551.22,
+            "end": 555.38,
+            "text": " The data set total number of missing values is written via sum.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 119,
+            "start": 555.38,
+            "end": 559.38,
+            "text": " Skip rows in the data set that have missing values as a state forward solution for the",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 120,
+            "start": 559.38,
+            "end": 561.14,
+            "text": " missing value data.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 121,
+            "start": 562.14,
+            "end": 570.02,
+            "text": " So, we have missing values in loan ID is 0, gender is 13, then loan amount is 22, self-employed",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 122,
+            "start": 570.02,
+            "end": 571.26,
+            "text": " is 32.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 123,
+            "start": 571.26,
+            "end": 574.54,
+            "text": " So, I hope you guys understand till here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 124,
+            "start": 574.54,
+            "end": 577.42,
+            "text": " If you have any questions or any query regarding any code.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 125,
+            "start": 577.42,
+            "end": 581.9399999999999,
+            "text": " So, just put as in comments our team will shortly provide you the correct solution.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 126,
+            "start": 581.9399999999999,
+            "end": 582.9399999999999,
+            "text": " I am repeating again.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 127,
+            "start": 582.9399999999999,
+            "end": 584.86,
+            "text": " I hope you guys understand till here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 128,
+            "start": 584.86,
+            "end": 589.9,
+            "text": " If you have any questions or any query regarding any code or any question related to python.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 129,
+            "start": 589.9,
+            "end": 594.1,
+            "text": " Just put as in comments our team will shortly provide you the correct solution.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 130,
+            "start": 594.1,
+            "end": 600.02,
+            "text": " Moving forward we will create one more column that is loan amount log using loan amount",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 131,
+            "start": 600.02,
+            "end": 604.18,
+            "text": " detail and then we will display i histogram for that.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 132,
+            "start": 604.18,
+            "end": 605.18,
+            "text": " Okay.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 133,
+            "start": 605.18,
+            "end": 610.4599999999999,
+            "text": " So, let me do first what the better view I can do this.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 134,
+            "start": 610.4599999999999,
+            "end": 611.4599999999999,
+            "text": " Yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 135,
+            "start": 612.46,
+            "end": 622.5,
+            "text": " I will write here df loan amount let us go log.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 136,
+            "start": 622.5,
+            "end": 623.5,
+            "text": " Yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 137,
+            "start": 623.5,
+            "end": 630.5,
+            "text": " First, so np dot log f.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 138,
+            "start": 630.5,
+            "end": 649.02,
+            "text": " Now, we will do df loan amount underscore log.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 139,
+            "start": 650.02,
+            "end": 661.86,
+            "text": " Dot his for the histogram then wins I will take 20.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 140,
+            "start": 661.86,
+            "end": 667.38,
+            "text": " numpy dot log a mathematical function that helps user to calculate natural logarithms",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 141,
+            "start": 667.38,
+            "end": 670.6999999999999,
+            "text": " of x where x belongs to all the input array elements.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 142,
+            "start": 670.6999999999999,
+            "end": 673.6999999999999,
+            "text": " You can see histograms is looking fine.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 143,
+            "start": 673.6999999999999,
+            "end": 676.14,
+            "text": " Let's see the null values in our new column.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 144,
+            "start": 676.5,
+            "end": 687.86,
+            "text": " So, I will write here f dot is null or sum.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 145,
+            "start": 687.86,
+            "end": 696.78,
+            "text": " So, here you can see in loan amount log there are 22 missing values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 146,
+            "start": 696.78,
+            "end": 701.7,
+            "text": " So, moving forward let us create one more column named total income.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 147,
+            "start": 701.7,
+            "end": 706.02,
+            "text": " In this we will add two columns, applicant income and co-applicant income.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 148,
+            "start": 706.02,
+            "end": 713.02,
+            "text": " And we will display histogram for the same.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 149,
+            "start": 713.02,
+            "end": 734.26,
+            "text": " f, right total income equals to df applicant income.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 150,
+            "start": 734.26,
+            "end": 754.98,
+            "text": " Then we will add one more data front f that is co-applicant f total income underscore",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 151,
+            "start": 754.98,
+            "end": 777.0600000000001,
+            "text": " log plus so np dot log df return total",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 152,
+            "start": 777.06,
+            "end": 803.3399999999999,
+            "text": " df will income underscore log dot hist ends equals to 20.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 153,
+            "start": 803.34,
+            "end": 813.1800000000001,
+            "text": " So, here you can see histogram of that total income log moving forward let us fill those",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 154,
+            "start": 813.1800000000001,
+            "end": 815.74,
+            "text": " null values in all the respective columns.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 155,
+            "start": 815.74,
+            "end": 844.86,
+            "text": " So, here for that we will write df gender dot will an a df gender dot mode 0 comma in",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 156,
+            "start": 844.86,
+            "end": 856.74,
+            "text": " place question true.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 157,
+            "start": 856.74,
+            "end": 869.4200000000001,
+            "text": " And what I will do I will copy from here change here gender to married.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 158,
+            "start": 869.42,
+            "end": 897.74,
+            "text": " We are also married and here self employed we are able to self employed for dependent",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 159,
+            "start": 897.74,
+            "end": 912.86,
+            "text": " on just everything will be same.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 160,
+            "start": 912.86,
+            "end": 937.58,
+            "text": " So, here I will add df dot, don't amount was to df dot, don't amount dot fill an a",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 161,
+            "start": 937.58,
+            "end": 945.9000000000001,
+            "text": " df dot, don't amount dot me.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 162,
+            "start": 945.9000000000001,
+            "end": 960.58,
+            "text": " So, here I will write instead of this I will copy from here and paste it here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 163,
+            "start": 990.58,
+            "end": 1009.3000000000001,
+            "text": " Change column name to loan amount term.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 164,
+            "start": 1009.3,
+            "end": 1032.58,
+            "text": " Add it underscore history gain get it underscore history.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 165,
+            "start": 1032.58,
+            "end": 1046.86,
+            "text": " Here I will write df dot is null sum.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 166,
+            "start": 1046.86,
+            "end": 1074.4599999999998,
+            "text": " It is it is what giving a self-employed what is the issue is that is capital gain dependent",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 167,
+            "start": 1074.46,
+            "end": 1081.46,
+            "text": " a it is dependence.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 168,
+            "start": 1081.46,
+            "end": 1096.46,
+            "text": " So, there is no missing values now what we going to do is we will select some specific",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 169,
+            "start": 1096.46,
+            "end": 1099.02,
+            "text": " columns and rows for the training and testing.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 170,
+            "start": 1099.02,
+            "end": 1122.02,
+            "text": " So, for that I will write here x equals to dot I log dot r.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 171,
+            "start": 1122.02,
+            "end": 1150.02,
+            "text": " In column 11 comma 13 column 15 dot values y equals to df dot I log then column 12 dot",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 172,
+            "start": 1150.02,
+            "end": 1152.02,
+            "text": " values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 173,
+            "start": 1152.02,
+            "end": 1157.02,
+            "text": " Let me see the x values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 174,
+            "start": 1157.02,
+            "end": 1165.02,
+            "text": " So, may know these are the x values and let me see the y values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 175,
+            "start": 1165.02,
+            "end": 1171.74,
+            "text": " So, the i log function in python is defined in the Pandas module that helps us to select",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 176,
+            "start": 1171.74,
+            "end": 1175.02,
+            "text": " a specific row or column from the data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 177,
+            "start": 1175.02,
+            "end": 1179.98,
+            "text": " Using the i log method in python we can easily retrieve any particular value from a row or",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 178,
+            "start": 1179.98,
+            "end": 1182.1,
+            "text": " column by using index values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 179,
+            "start": 1182.1,
+            "end": 1186.7,
+            "text": " So, moving forward let see the percentage of missing genders from the data set and we",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 180,
+            "start": 1186.7,
+            "end": 1189.34,
+            "text": " will do it for many other columns.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 181,
+            "start": 1189.34,
+            "end": 1194.02,
+            "text": " So, it if it will be 0 so it will be great for us.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 182,
+            "start": 1194.02,
+            "end": 1223.54,
+            "text": " So, we will write print percent of missing gender is percent to f sin and we will write",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 183,
+            "start": 1223.54,
+            "end": 1251.54,
+            "text": " this f in gender column dot is null dot sum f dot shape 0 multiplied by 100.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 184,
+            "start": 1251.54,
+            "end": 1259.54,
+            "text": " The same function object has no attribute sum.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 185,
+            "start": 1259.54,
+            "end": 1260.54,
+            "text": " Why?",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 186,
+            "start": 1260.54,
+            "end": 1270.54,
+            "text": " Because here percent of missing gender is 0 great.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 187,
+            "start": 1270.54,
+            "end": 1278.54,
+            "text": " So, like so moving forward we will see number of people who take loan as a group by gender.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 188,
+            "start": 1278.54,
+            "end": 1296.54,
+            "text": " So, for that we will write print numbers like of people who take loan as group by gender.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 189,
+            "start": 1296.54,
+            "end": 1321.42,
+            "text": " For that print df under dot value value counts",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 190,
+            "start": 1321.42,
+            "end": 1347.42,
+            "text": " as dot count plot x equals to sender comma data equals to df let us to set 1.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 191,
+            "start": 1347.42,
+            "end": 1354.42,
+            "text": " You can use either set 2 or set 3.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 192,
+            "start": 1354.42,
+            "end": 1361.42,
+            "text": " Here you can see like male is 502 female are 112 you can see the bar plot.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 193,
+            "start": 1361.42,
+            "end": 1366.42,
+            "text": " So, the number of observation in each category bins are displayed using bars.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 194,
+            "start": 1366.42,
+            "end": 1370.8200000000002,
+            "text": " Using the count plot technique the following parameters are accepted by the procedure and",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 195,
+            "start": 1370.8200000000002,
+            "end": 1371.8200000000002,
+            "text": " are listed below.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 196,
+            "start": 1371.82,
+            "end": 1378.82,
+            "text": " This parameter accept optional variable names for data or vector data inputs for long form data plotting.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 197,
+            "start": 1378.82,
+            "end": 1385.82,
+            "text": " So, moving forward we will do for the same like number of people who take a loan group by marital status.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 198,
+            "start": 1385.82,
+            "end": 1391.82,
+            "text": " So, what I will do I will just copy from here and I will change it to here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 199,
+            "start": 1392.82,
+            "end": 1418.82,
+            "text": " So, I will write my term status and the guys were married here I have to write the 8.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 200,
+            "start": 1418.82,
+            "end": 1426.82,
+            "text": " So, here you can see like 401 R s like N 2 1 3 unknown.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 201,
+            "start": 1426.82,
+            "end": 1432.82,
+            "text": " So, moving forward we will see number of people who take loan group by dependence.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 202,
+            "start": 1432.82,
+            "end": 1438.82,
+            "text": " So, same of what I will do I will paste it here I will just change the name here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 203,
+            "start": 1438.82,
+            "end": 1446.82,
+            "text": " Dependence change to here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 204,
+            "start": 1446.82,
+            "end": 1467.82,
+            "text": " So, here you can see the dependence and the y label is the count.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 205,
+            "start": 1467.82,
+            "end": 1472.82,
+            "text": " So, like 0 R 360, 102, 101 and 51 and many more.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 206,
+            "start": 1472.82,
+            "end": 1478.82,
+            "text": " So, moving forward we will see number of people who take loan group as a self-employed.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 207,
+            "start": 1478.82,
+            "end": 1485.82,
+            "text": " For that what we have to do is we have to just change names.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 208,
+            "start": 1502.82,
+            "end": 1519.82,
+            "text": " So, moving forward we will see number of people who take loan group by loan amount.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 209,
+            "start": 1519.82,
+            "end": 1526.82,
+            "text": " For that I have to write here with let me make a better visibility.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 210,
+            "start": 1526.82,
+            "end": 1550.82,
+            "text": " So, as a loan amount,",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 211,
+            "start": 1550.82,
+            "end": 1562.82,
+            "text": " there you can see the bar graph.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 212,
+            "start": 1562.82,
+            "end": 1568.82,
+            "text": " So, at the end we will see the number of people who take loan group by credit history.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 213,
+            "start": 1568.82,
+            "end": 1596.82,
+            "text": " So, I will write here same as the credit history, credit history",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 214,
+            "start": 1596.82,
+            "end": 1603.82,
+            "text": " and history.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 215,
+            "start": 1603.82,
+            "end": 1618.82,
+            "text": " So, here you can see 525 and this 89.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 216,
+            "start": 1618.82,
+            "end": 1623.82,
+            "text": " So, based on my assessment we do not have any missing values in the data set now.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 217,
+            "start": 1623.82,
+            "end": 1628.82,
+            "text": " So, moving forward let us import scikit-learn library for training and testing data set.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 218,
+            "start": 1628.82,
+            "end": 1637.82,
+            "text": " So, here I will write from a skill-learn.model.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 219,
+            "start": 1637.82,
+            "end": 1654.82,
+            "text": " Underscore selection port train underscore test underscore split.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 220,
+            "start": 1654.82,
+            "end": 1669.82,
+            "text": " So, I have like train comma x test comma y train comma y test.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 221,
+            "start": 1669.82,
+            "end": 1681.82,
+            "text": " So, here I will write train underscore test underscore split",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 222,
+            "start": 1681.82,
+            "end": 1698.82,
+            "text": " comma y comma test underscore size equals to 0.2",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 223,
+            "start": 1698.82,
+            "end": 1721.82,
+            "text": " Random state equals to 0 on skaskylearn.preprocessing",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 224,
+            "start": 1721.82,
+            "end": 1735.82,
+            "text": " import label encoder.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 225,
+            "start": 1735.82,
+            "end": 1753.82,
+            "text": " And label score x equals to label encoder.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 226,
+            "start": 1753.82,
+            "end": 1768.82,
+            "text": " Scale on in my bat x is not defined.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 227,
+            "start": 1783.82,
+            "end": 1791.82,
+            "text": " It would be a",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 228,
+            "start": 1814.82,
+            "end": 1842.82,
+            "text": "bo-s write",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 229,
+            "start": 1842.82,
+            "end": 1850.1,
+            "text": " and label encoder encode label with a value between 0 and n classes minus 1 where n is",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 230,
+            "start": 1850.1,
+            "end": 1852.8999999999999,
+            "text": " the number of distinct label.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 231,
+            "start": 1852.8999999999999,
+            "end": 1857.46,
+            "text": " Moving forward let's fit and transfer data for training.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 232,
+            "start": 1857.46,
+            "end": 1884.7,
+            "text": " So here we will write for i in range 0, 5 x underscore train comma i equals to label",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 233,
+            "start": 1884.7,
+            "end": 1906.02,
+            "text": " and order underscore x dot fit transform and x underscore train",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 234,
+            "start": 1906.02,
+            "end": 1914.02,
+            "text": " colon comma i.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 235,
+            "start": 1914.02,
+            "end": 1940.3,
+            "text": " And x underscore train 7 equals to order underscore x dot fit transform.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 236,
+            "start": 1940.3,
+            "end": 1963.86,
+            "text": " And x underscore train 7 let's see x underscore sorry.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 237,
+            "start": 1963.86,
+            "end": 1975.8999999999999,
+            "text": " So train and yeah this i this is capital X.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 238,
+            "start": 1975.8999999999999,
+            "end": 1983.6599999999999,
+            "text": " If it transform joins these two steps and you use for the initial fitting of the parameter",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 239,
+            "start": 1983.6599999999999,
+            "end": 1990.2199999999998,
+            "text": " on the tree tree set while also returning the transform x internally the transfer object",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 240,
+            "start": 1990.22,
+            "end": 1997.26,
+            "text": " just calls first fit and then transform on the same data and we will perform same for",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 241,
+            "start": 1997.26,
+            "end": 1998.74,
+            "text": " the y.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 242,
+            "start": 1998.74,
+            "end": 2008.6200000000001,
+            "text": " So I will write here label encoder underscore y.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 243,
+            "start": 2008.62,
+            "end": 2032.1,
+            "text": " So label encoder okay i underscore train equals to label encoder underscore y dot fit",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 244,
+            "start": 2032.1,
+            "end": 2047.1,
+            "text": " underscore transform.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 245,
+            "start": 2047.1,
+            "end": 2051.22,
+            "text": " See the results yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 246,
+            "start": 2051.22,
+            "end": 2057.02,
+            "text": " So training of the data set is done let's do for same for the testing data.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 247,
+            "start": 2057.02,
+            "end": 2086.94,
+            "text": " So I will write here for i in range 0, 5 underscore test i equals to label encoder",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 248,
+            "start": 2086.94,
+            "end": 2105.7000000000003,
+            "text": " underscore x dot fit underscore transform underscore test of i.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 249,
+            "start": 2105.7,
+            "end": 2130.8599999999997,
+            "text": " And again x underscore test colon comma 7 equals to label encoder underscore dot fit",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 250,
+            "start": 2130.86,
+            "end": 2145.38,
+            "text": " underscore transform underscore test then colon comma 7 yeah and see the results x underscore",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 251,
+            "start": 2145.38,
+            "end": 2153.1800000000003,
+            "text": " test okay it seems good all the values.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 252,
+            "start": 2153.18,
+            "end": 2167.7,
+            "text": " So we will do for the same y test so we will write here label encoder let me put.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 253,
+            "start": 2167.7,
+            "end": 2188.14,
+            "text": " So y underscore y plus you label encoder so y underscore test equals to E underscore",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 254,
+            "start": 2188.14,
+            "end": 2208.46,
+            "text": " y dot fit underscore transform underscore test let's see okay moving forward we will",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 255,
+            "start": 2208.46,
+            "end": 2211.8599999999997,
+            "text": " import standard scalar for the further process.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 256,
+            "start": 2211.86,
+            "end": 2235.2200000000003,
+            "text": " So for that we will write here arm s colon dot pre processing port standard scalar just",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 257,
+            "start": 2235.22,
+            "end": 2256.5,
+            "text": " equals to like we will assign this standard I will do I will copy it from here.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 258,
+            "start": 2256.5,
+            "end": 2273.26,
+            "text": " So x train equals to s s dot fit underscore transform x underscore train then x underscore test",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 259,
+            "start": 2273.26,
+            "end": 2294.7400000000002,
+            "text": " equals to s s dot fit underscore transform underscore test will a okay scalar dot pre",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 260,
+            "start": 2294.74,
+            "end": 2312.2599999999998,
+            "text": " processing okay as colon pre processing standard scalar okay sorry and again like standard",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 261,
+            "start": 2312.2599999999998,
+            "end": 2322.3399999999997,
+            "text": " okay ER yeah so standard scalar removes the mean and scales each feature variable to unit",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 262,
+            "start": 2322.34,
+            "end": 2328.06,
+            "text": " variance this operation is performed feature wise in an independent way everything is done",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 263,
+            "start": 2328.06,
+            "end": 2335.98,
+            "text": " let's see which classifies best for prediction by seeing their accuracy so for that I will write",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 264,
+            "start": 2335.98,
+            "end": 2357.7400000000002,
+            "text": " here let me do one thing yeah so like I will write from colon dot ensemble yeah import",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 265,
+            "start": 2357.74,
+            "end": 2376.22,
+            "text": " random forest classifier so I will write I have under class CLF classifier equals to",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 266,
+            "start": 2376.22,
+            "end": 2404.9399999999996,
+            "text": " random forest sorry my bad so RF underscore CLF dot fit x underscore train",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 267,
+            "start": 2404.94,
+            "end": 2431.38,
+            "text": " comma y underscore train train so I will write here from sk learn import matrix y underscore",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 268,
+            "start": 2431.38,
+            "end": 2450.58,
+            "text": " prediction equals to RF underscore classifier dot predict dot predict x underscore test so here",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 269,
+            "start": 2450.58,
+            "end": 2478.2999999999997,
+            "text": " I will print accuracy of random random forest classifier is comma matrix it dot accuracy",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 270,
+            "start": 2480.74,
+            "end": 2500.38,
+            "text": " score score then y underscore prediction comma y underscore test y underscore prediction so let's",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 271,
+            "start": 2500.38,
+            "end": 2507.46,
+            "text": " see the prediction from the using random forest classifier and the accuracy a random forest is a",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 272,
+            "start": 2507.46,
+            "end": 2514.18,
+            "text": " meta estimator that employs averaging to increase predicted accuracy and reduce overfitting if",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 273,
+            "start": 2514.18,
+            "end": 2519.38,
+            "text": " boost app equals to true the size of the sub sample is determined by the max sample argument",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 274,
+            "start": 2519.38,
+            "end": 2525.38,
+            "text": " otherwise each tree is constructed using the entire data set so here you can see the accuracy",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 275,
+            "start": 2525.38,
+            "end": 2535.14,
+            "text": " is like 78 percent and here prediction you can see like here one denotes that loan approved and",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 276,
+            "start": 2535.2999999999997,
+            "end": 2542.8199999999997,
+            "text": " zero means loan will not approve so accuracy is quite less so let's see for another classification",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 277,
+            "start": 2542.82,
+            "end": 2562.98,
+            "text": " methods nav base so here I will write from a sk learn",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 278,
+            "start": 2562.98,
+            "end": 2580.1,
+            "text": " port Gaussian and be nav base okay so nb classifier first to Gaussian and b",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 279,
+            "start": 2580.1,
+            "end": 2607.94,
+            "text": " e underscore classifier equals to sorry dot fit strain comma y train oh",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 280,
+            "start": 2611.06,
+            "end": 2634.1,
+            "text": " a not equals to oh like Gaussian okay g is capital sorry yeah so let's predict the value",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 281,
+            "start": 2634.18,
+            "end": 2655.86,
+            "text": " y underscore predict pursue nb score classifier dot predict it's underscore test and print",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 282,
+            "start": 2655.86,
+            "end": 2680.98,
+            "text": " accuracy of nav base is comma like matrix dot accuracy score score",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 283,
+            "start": 2681.3,
+            "end": 2695.94,
+            "text": " y underscore prediction comma y underscore test so accuracy of Gaussian and b is 0.8 means 82 percent",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 284,
+            "start": 2696.66,
+            "end": 2706.5,
+            "text": " let's predict the value y predict prediction like one is like loan approved and zero is loan or",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 285,
+            "start": 2706.5,
+            "end": 2713.54,
+            "text": " not approved so nav base is a classification algorithm for binary two classes and multi-classes",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 286,
+            "start": 2713.54,
+            "end": 2718.34,
+            "text": " classification problem it is called nav base the calculation of the probabilities for each class",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 287,
+            "start": 2718.34,
+            "end": 2725.46,
+            "text": " are simplified to make that calculation tractable so the accuracy is 82 percent and here prediction",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 288,
+            "start": 2725.46,
+            "end": 2731.06,
+            "text": " you can see one denotes loan approved and zero means loan will not approve so let's see for another",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 289,
+            "start": 2731.06,
+            "end": 2736.58,
+            "text": " classification method like decision tree classifier for that I will write here",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 290,
+            "start": 2739.22,
+            "end": 2753.86,
+            "text": " from a sk learn dot tree import port decision tree",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 291,
+            "start": 2753.94,
+            "end": 2765.94,
+            "text": " classifier here I will write dt underscore classifier",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 292,
+            "start": 2766.02,
+            "end": 2773.94,
+            "text": " s2 I will copy it from here",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 293,
+            "start": 2773.94,
+            "end": 2793.3,
+            "text": " I will write here dt underscore clf equals to so dot fit",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 294,
+            "start": 2794.1800000000003,
+            "end": 2800.42,
+            "text": " x underscore train comma y underscore train",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 295,
+            "start": 2807.1400000000003,
+            "end": 2808.02,
+            "text": " y is small",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 296,
+            "start": 2808.9,
+            "end": 2814.5,
+            "text": " so here I will see the accuracy",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 297,
+            "start": 2814.5,
+            "end": 2827.54,
+            "text": " so dt underscore classifier dot predict",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 298,
+            "start": 2828.42,
+            "end": 2844.74,
+            "text": " so here I will print accuracy of",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 299,
+            "start": 2845.2999999999997,
+            "end": 2850.9799999999996,
+            "text": " dt is comma matrix",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 300,
+            "start": 2855.3799999999997,
+            "end": 2859.22,
+            "text": " or accuracy underscore",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 301,
+            "start": 2860.1,
+            "end": 2867.54,
+            "text": " underscore predict comma y underscore test",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 302,
+            "start": 2871.22,
+            "end": 2876.58,
+            "text": " so here you can see the accuracy is 70 percent so let me predict",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 303,
+            "start": 2880.66,
+            "end": 2884.8199999999997,
+            "text": " so decision tree the non-parametric supervised learning approach",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 304,
+            "start": 2884.82,
+            "end": 2889.1400000000003,
+            "text": " used for classification and regression application and it is organized",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 305,
+            "start": 2889.1400000000003,
+            "end": 2893.94,
+            "text": " hierarchically as and has a node root branches internal nodes and leaf nodes",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 306,
+            "start": 2893.94,
+            "end": 2898.6600000000003,
+            "text": " so the accuracy is 70 percent and here prediction you can see one denotes the loan approved",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 307,
+            "start": 2899.3,
+            "end": 2905.46,
+            "text": " and zero means loan will not approve so let's do one more classification we will do it from the",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 308,
+            "start": 2905.46,
+            "end": 2907.3,
+            "text": " k neighbors using k neighbors",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 309,
+            "start": 2907.3,
+            "end": 2913.46,
+            "text": " so here we will write from",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 310,
+            "start": 2913.46,
+            "end": 2918.9,
+            "text": " come",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 311,
+            "start": 2918.9,
+            "end": 2933.8,
+            "text": " We will",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 312,
+            "start": 2933.8,
+            "end": 2954.04,
+            "text": " classifier, KN classifier we will assign this.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 313,
+            "start": 2954.04,
+            "end": 2971.68,
+            "text": " Here we will write KN underscore classifier dot fit x under both train comma y underscore",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 314,
+            "start": 2971.68,
+            "end": 2999.52,
+            "text": " train, I scale on sorry and again, capital here, capital here, yeah, it, yeah.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 315,
+            "start": 2999.52,
+            "end": 3012.8,
+            "text": " So, here I will see the accuracy, okay.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 316,
+            "start": 3012.8,
+            "end": 3030.44,
+            "text": " So, the prediction equals to KN underscore classifier dot predict x underscore test,",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 317,
+            "start": 3030.44,
+            "end": 3055.64,
+            "text": " and accuracy of K neighbors is matrix dot accuracy, score score y underscore prediction",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 318,
+            "start": 3055.64,
+            "end": 3066.68,
+            "text": " comma y underscore test. So, let us see the accuracy, accuracy is 79 percent and it is",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 319,
+            "start": 3066.68,
+            "end": 3073.64,
+            "text": " quite good. So, the K neighbors, the five closer neighbors are sought for the K neighbors classifier.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 320,
+            "start": 3073.64,
+            "end": 3078.7999999999997,
+            "text": " The classifier must be explicitly instructed to utilize Euclidean distance to determine the",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 321,
+            "start": 3078.8,
+            "end": 3084.84,
+            "text": " proximity of nearby points. So, the accuracy is 79 percent and here prediction you can",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 322,
+            "start": 3084.84,
+            "end": 3093.44,
+            "text": " see one denotes the loan approved and zero means loan will not approve. So, you can see",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 323,
+            "start": 3093.44,
+            "end": 3100.92,
+            "text": " nave base, base nave base, yeah. So, here you can see we have nave base classifier with",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 324,
+            "start": 3100.92,
+            "end": 3106.84,
+            "text": " the best accuracy of 82 percent. So, we can use it for the loan approval prediction system.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 325,
+            "start": 3107.84,
+            "end": 3112.0,
+            "text": " So, I hope you guys understand till here, if you have any questions or any query regarding",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 326,
+            "start": 3112.0,
+            "end": 3117.2400000000002,
+            "text": " any code, just put as in comments our team will shortly provide you the correct solution.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 327,
+            "start": 3117.2400000000002,
+            "end": 3122.32,
+            "text": " I hope you guys must have understood the concept of how we can implement loan approval prediction",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 328,
+            "start": 3122.32,
+            "end": 3126.1200000000003,
+            "text": " system using Python. If you have any queries, you can ask in the comment section below,",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 329,
+            "start": 3126.1200000000003,
+            "end": 3131.6400000000003,
+            "text": " our team will shortly respond to you as soon as possible. And if you want this full code",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 330,
+            "start": 3131.64,
+            "end": 3136.24,
+            "text": " and if you want this full code, just comment for the same. Thank you so much for being",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 331,
+            "start": 3136.24,
+            "end": 3140.7999999999997,
+            "text": " here. If you enjoyed this video, please do subscribe to our YouTube channel and give",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 332,
+            "start": 3140.7999999999997,
+            "end": 3144.24,
+            "text": " a like to this video. Thank you and keep learning.",
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " Hello everyone, I am Aang and welcome to Simply Learn. Today we will take you through the hands of lab demo of how you can implement loan approval prediction using python. Before we start, I hope this screen is clearly visible and the audio is fine. If yes, please type in yes. If there are any issues, do let us know in the chat section so that we can resolve them. Let's wait for some more minutes to let the people join. Until then, let me tell you guys that we have regular updates on multiple technologies. If you are a tech geek in a continuous hunt for the latest technological trends, then consider getting subscribed to our YouTube channel and press that bell icon to never miss any updates from Simply Learn. I am repeating again, let me tell you guys that we have regular updates on multiple technologies. If you are a tech geek in a continuous hunt for the latest technological trends, consider getting subscribed to our YouTube channel and press that bell icon to never miss any updates from Simply Learn. Great. I think we can get started. In today's session, we will go through what is loan prediction system. After that, we will move on to the hands-of-life demo to perform loan approval prediction system. Moving forward, we will be using different classification algorithms to implement loan approval prediction system. We already have a loan approval data set with us. We will perform different function elaboraries using Python. You can download this dataset from the description box flow. Before, move on to the programming part. Let's discuss what is loan prediction system first and proceed further for the same. A mechanism called loan prediction system gives you a way to apply for loans and receive notifications when they are approved. In accordance with the data provided by the applicant, the system notifies the applicant of the loans available. I am repeating again. Here is one question for you. I will give you one minute for this. You can comment or you can give your answer in the chat section so I can see if the answer is given by your right or wrong. So the question is which keyword is used for function in Python language? Option 1, Python, Option 2, DEF, Option C, F, U and C, Option D, Define. So let us know your answer in the comment section below. So I am starting of timer 1 minutes. Type your answer in the comment section or in the chat section. Do let me know your answers please. I currently ask that everyone take part in this to make this live session exciting. So I am starting the timer of 1 minute. Which keyword is used for function in Python language? Option 1, Function, Option 2, DEF, Option C, Punk, Option D, Define. Which keyword is used for function in Python language? 47, Kindred remaining. 30 seconds. Let us know your answer in the comment section below. This is the easy one. Which keyword is used for function in Python language? Function, DEF, Punk or Define. I currently ask that everyone take part in this to make this exciting. A second move. Yeah. After that allotted time has passed, those who provided the correct response will receive a response. And those who provided the incorrect response will receive one. So now let us move to our programming part to implement loan approval prediction system. So first we will open a command prompt to write a command to open Jupyter Notebook. So here we will write Jupyter Notebook. A center. So this is the landing page of Jupyter Notebook. And here you have to select new Python 3 file. So this is how the Jupyter Notebook UI looks like. So at first we will import some major libraries of Python which will help us creating a loan approval prediction system. So here I will write import. NumPy as NP. So NumPy is a Python library used for working with arrays. It also has a function for working in domain of linear algebra and matrices. It is an open source project and you can use it freely. NumPy stands for numerical Python. And the second one is port pandas as PD. Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data suction and operations for manipulating numerical tables and time series. And the third one is import matplotlib.pyplot as PLT. So matplotlib Python scripts can be used to create 2D graphs and plots using the matplotlib by module with features to control line styles, point attributes, formatting axis and other features. It offers a module called pyplot that makes things simple for plotting. So, the fourth one is import cborn as an s. So, cborn an open source Python library based on matplotlib is called cborn. It is utilized for data exploration and data visualization with data frames and the pandas library cborn function with ease. So, there is one more like brom, sk learn port, svm. So, after importing libraries, let us move forward and import data set. So, df equals to ed.read underscore csv on dot csv. You can download this data set from the description box below. So, yeah. So, data set is imported. Let us see our data set. So, we will write df dot head here. Yeah. Here you can see we have data set of top 5 rows. So, basically head is used for showing first 5 rows of the data set. If we will use tail instead of head. So, it will show the last 5 rows of the data set. So, let us move forward and use info function to see the information about the data set. Okay. So, here we will write df dot info. So, the data frame information is printed by the info method. The data includes the total number of columns, their labels, data kinds, memory use, range index and the number of cells in each column. That is non-null values. Note that the info method does indeed print the information. Okay. So, here you can see low-end is object, then this applicant income is n64, then co-applicate income is float. So, non-null values like this. So, we know all the columns names, data types and information. Let us move forward and see missing values in the data set. So, for that we will use here I will write. df dot is null and this is dot sum. Yeah. Is null dot sum. The data set total number of missing values is written via sum. Skip rows in the data set that have missing values as a state forward solution for the missing value data. So, we have missing values in loan ID is 0, gender is 13, then loan amount is 22, self-employed is 32. So, I hope you guys understand till here. If you have any questions or any query regarding any code. So, just put as in comments our team will shortly provide you the correct solution. I am repeating again. I hope you guys understand till here. If you have any questions or any query regarding any code or any question related to python. Just put as in comments our team will shortly provide you the correct solution. Moving forward we will create one more column that is loan amount log using loan amount detail and then we will display i histogram for that. Okay. So, let me do first what the better view I can do this. Yeah. I will write here df loan amount let us go log. Yeah. First, so np dot log f. Now, we will do df loan amount underscore log. Dot his for the histogram then wins I will take 20. numpy dot log a mathematical function that helps user to calculate natural logarithms of x where x belongs to all the input array elements. You can see histograms is looking fine. Let's see the null values in our new column. So, I will write here f dot is null or sum. So, here you can see in loan amount log there are 22 missing values. So, moving forward let us create one more column named total income. In this we will add two columns, applicant income and co-applicant income. And we will display histogram for the same. f, right total income equals to df applicant income. Then we will add one more data front f that is co-applicant f total income underscore log plus so np dot log df return total df will income underscore log dot hist ends equals to 20. So, here you can see histogram of that total income log moving forward let us fill those null values in all the respective columns. So, here for that we will write df gender dot will an a df gender dot mode 0 comma in place question true. And what I will do I will copy from here change here gender to married. We are also married and here self employed we are able to self employed for dependent on just everything will be same. So, here I will add df dot, don't amount was to df dot, don't amount dot fill an a df dot, don't amount dot me. So, here I will write instead of this I will copy from here and paste it here. Change column name to loan amount term. Add it underscore history gain get it underscore history. Here I will write df dot is null sum. It is it is what giving a self-employed what is the issue is that is capital gain dependent a it is dependence. So, there is no missing values now what we going to do is we will select some specific columns and rows for the training and testing. So, for that I will write here x equals to dot I log dot r. In column 11 comma 13 column 15 dot values y equals to df dot I log then column 12 dot values. Let me see the x values. So, may know these are the x values and let me see the y values. So, the i log function in python is defined in the Pandas module that helps us to select a specific row or column from the data set. Using the i log method in python we can easily retrieve any particular value from a row or column by using index values. So, moving forward let see the percentage of missing genders from the data set and we will do it for many other columns. So, it if it will be 0 so it will be great for us. So, we will write print percent of missing gender is percent to f sin and we will write this f in gender column dot is null dot sum f dot shape 0 multiplied by 100. The same function object has no attribute sum. Why? Because here percent of missing gender is 0 great. So, like so moving forward we will see number of people who take loan as a group by gender. So, for that we will write print numbers like of people who take loan as group by gender. For that print df under dot value value counts as dot count plot x equals to sender comma data equals to df let us to set 1. You can use either set 2 or set 3. Here you can see like male is 502 female are 112 you can see the bar plot. So, the number of observation in each category bins are displayed using bars. Using the count plot technique the following parameters are accepted by the procedure and are listed below. This parameter accept optional variable names for data or vector data inputs for long form data plotting. So, moving forward we will do for the same like number of people who take a loan group by marital status. So, what I will do I will just copy from here and I will change it to here. So, I will write my term status and the guys were married here I have to write the 8. So, here you can see like 401 R s like N 2 1 3 unknown. So, moving forward we will see number of people who take loan group by dependence. So, same of what I will do I will paste it here I will just change the name here. Dependence change to here. So, here you can see the dependence and the y label is the count. So, like 0 R 360, 102, 101 and 51 and many more. So, moving forward we will see number of people who take loan group as a self-employed. For that what we have to do is we have to just change names. So, moving forward we will see number of people who take loan group by loan amount. For that I have to write here with let me make a better visibility. So, as a loan amount, there you can see the bar graph. So, at the end we will see the number of people who take loan group by credit history. So, I will write here same as the credit history, credit history and history. So, here you can see 525 and this 89. So, based on my assessment we do not have any missing values in the data set now. So, moving forward let us import scikit-learn library for training and testing data set. So, here I will write from a skill-learn.model. Underscore selection port train underscore test underscore split. So, I have like train comma x test comma y train comma y test. So, here I will write train underscore test underscore split comma y comma test underscore size equals to 0.2 Random state equals to 0 on skaskylearn.preprocessing import label encoder. And label score x equals to label encoder. Scale on in my bat x is not defined. It would be abo-s write and label encoder encode label with a value between 0 and n classes minus 1 where n is the number of distinct label. Moving forward let's fit and transfer data for training. So here we will write for i in range 0, 5 x underscore train comma i equals to label and order underscore x dot fit transform and x underscore train colon comma i. And x underscore train 7 equals to order underscore x dot fit transform. And x underscore train 7 let's see x underscore sorry. So train and yeah this i this is capital X. If it transform joins these two steps and you use for the initial fitting of the parameter on the tree tree set while also returning the transform x internally the transfer object just calls first fit and then transform on the same data and we will perform same for the y. So I will write here label encoder underscore y. So label encoder okay i underscore train equals to label encoder underscore y dot fit underscore transform. See the results yeah. So training of the data set is done let's do for same for the testing data. So I will write here for i in range 0, 5 underscore test i equals to label encoder underscore x dot fit underscore transform underscore test of i. And again x underscore test colon comma 7 equals to label encoder underscore dot fit underscore transform underscore test then colon comma 7 yeah and see the results x underscore test okay it seems good all the values. So we will do for the same y test so we will write here label encoder let me put. So y underscore y plus you label encoder so y underscore test equals to E underscore y dot fit underscore transform underscore test let's see okay moving forward we will import standard scalar for the further process. So for that we will write here arm s colon dot pre processing port standard scalar just equals to like we will assign this standard I will do I will copy it from here. So x train equals to s s dot fit underscore transform x underscore train then x underscore test equals to s s dot fit underscore transform underscore test will a okay scalar dot pre processing okay as colon pre processing standard scalar okay sorry and again like standard okay ER yeah so standard scalar removes the mean and scales each feature variable to unit variance this operation is performed feature wise in an independent way everything is done let's see which classifies best for prediction by seeing their accuracy so for that I will write here let me do one thing yeah so like I will write from colon dot ensemble yeah import random forest classifier so I will write I have under class CLF classifier equals to random forest sorry my bad so RF underscore CLF dot fit x underscore train comma y underscore train train so I will write here from sk learn import matrix y underscore prediction equals to RF underscore classifier dot predict dot predict x underscore test so here I will print accuracy of random random forest classifier is comma matrix it dot accuracy score score then y underscore prediction comma y underscore test y underscore prediction so let's see the prediction from the using random forest classifier and the accuracy a random forest is a meta estimator that employs averaging to increase predicted accuracy and reduce overfitting if boost app equals to true the size of the sub sample is determined by the max sample argument otherwise each tree is constructed using the entire data set so here you can see the accuracy is like 78 percent and here prediction you can see like here one denotes that loan approved and zero means loan will not approve so accuracy is quite less so let's see for another classification methods nav base so here I will write from a sk learn port Gaussian and be nav base okay so nb classifier first to Gaussian and b e underscore classifier equals to sorry dot fit strain comma y train oh a not equals to oh like Gaussian okay g is capital sorry yeah so let's predict the value y underscore predict pursue nb score classifier dot predict it's underscore test and print accuracy of nav base is comma like matrix dot accuracy score score y underscore prediction comma y underscore test so accuracy of Gaussian and b is 0.8 means 82 percent let's predict the value y predict prediction like one is like loan approved and zero is loan or not approved so nav base is a classification algorithm for binary two classes and multi-classes classification problem it is called nav base the calculation of the probabilities for each class are simplified to make that calculation tractable so the accuracy is 82 percent and here prediction you can see one denotes loan approved and zero means loan will not approve so let's see for another classification method like decision tree classifier for that I will write here from a sk learn dot tree import port decision tree classifier here I will write dt underscore classifier s2 I will copy it from here I will write here dt underscore clf equals to so dot fit x underscore train comma y underscore train y is small so here I will see the accuracy so dt underscore classifier dot predict so here I will print accuracy of dt is comma matrix or accuracy underscore underscore predict comma y underscore test so here you can see the accuracy is 70 percent so let me predict so decision tree the non-parametric supervised learning approach used for classification and regression application and it is organized hierarchically as and has a node root branches internal nodes and leaf nodes so the accuracy is 70 percent and here prediction you can see one denotes the loan approved and zero means loan will not approve so let's do one more classification we will do it from the k neighbors using k neighbors so here we will write from come We will classifier, KN classifier we will assign this. Here we will write KN underscore classifier dot fit x under both train comma y underscore train, I scale on sorry and again, capital here, capital here, yeah, it, yeah. So, here I will see the accuracy, okay. So, the prediction equals to KN underscore classifier dot predict x underscore test, and accuracy of K neighbors is matrix dot accuracy, score score y underscore prediction comma y underscore test. So, let us see the accuracy, accuracy is 79 percent and it is quite good. So, the K neighbors, the five closer neighbors are sought for the K neighbors classifier. The classifier must be explicitly instructed to utilize Euclidean distance to determine the proximity of nearby points. So, the accuracy is 79 percent and here prediction you can see one denotes the loan approved and zero means loan will not approve. So, you can see nave base, base nave base, yeah. So, here you can see we have nave base classifier with the best accuracy of 82 percent. So, we can use it for the loan approval prediction system. So, I hope you guys understand till here, if you have any questions or any query regarding any code, just put as in comments our team will shortly provide you the correct solution. I hope you guys must have understood the concept of how we can implement loan approval prediction system using Python. If you have any queries, you can ask in the comment section below, our team will shortly respond to you as soon as possible. And if you want this full code and if you want this full code, just comment for the same. Thank you so much for being here. If you enjoyed this video, please do subscribe to our YouTube channel and give a like to this video. Thank you and keep learning."
+}

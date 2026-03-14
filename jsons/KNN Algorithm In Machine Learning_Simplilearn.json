@@ -1,0 +1,2621 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 9.040000000000001,
+            "text": " Hello and welcome to K nearest neighbors algorithm tutorial. My name is Richard Kirschner and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 9.040000000000001,
+            "end": 13.120000000000001,
+            "text": " I'm with the Simply Learn team. Today we're going to cover the K nearest neighbors, a",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 13.120000000000001,
+            "end": 20.44,
+            "text": " lot of refer to as KNN. KNN is really a fundamental place to start in the machine learning. It's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 20.44,
+            "end": 24.64,
+            "text": " a basis of a lot of other things and just the logic behind it is easy to understand and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 24.64,
+            "end": 30.240000000000002,
+            "text": " incorporate it in other forms of machine learning. So today what's in it for you? Why",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 30.240000000000002,
+            "end": 39.64,
+            "text": " do we need KNN? What is KNN? How do we choose the factor K? When do we use KNN? How does",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 39.64,
+            "end": 45.92,
+            "text": " KNN algorithm work? And then we'll dive into my favorite part, the use case. Predict whether",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 45.92,
+            "end": 52.0,
+            "text": " a person will have diabetes or not. That is a very common and popular used data set as",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 52.08,
+            "end": 57.36,
+            "text": " far as testing out models and learning how to use the different models in machine learning.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 57.36,
+            "end": 62.04,
+            "text": " By now we all know machine learning models make predictions by learning from the past",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 62.04,
+            "end": 66.96000000000001,
+            "text": " data available. So we have our input values, our machine learning model builds on those",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 66.96000000000001,
+            "end": 72.44,
+            "text": " inputs of what we already know and then we use that to create a predicted output. Is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 72.44,
+            "end": 77.76,
+            "text": " that a dog? Little kid looking over there and watching the black cat cross their path.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 77.76,
+            "end": 83.44,
+            "text": " No dear, you can differentiate between a cat and a dog based on their characteristics.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 83.44,
+            "end": 90.52000000000001,
+            "text": " Cats. Cats have sharp claws, uses to climb, smaller length of ears, meows and purrs, doesn't",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 90.52000000000001,
+            "end": 95.44,
+            "text": " love to play around. Dogs, they have dull claws, bigger length of ears, barks, loves",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 95.44,
+            "end": 99.36000000000001,
+            "text": " to run around. You usually don't see a cat running around people, otherwise you have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 99.36000000000001,
+            "end": 104.0,
+            "text": " a cat that does that, where dogs do. And we can look at these and say we can evaluate",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 104.0,
+            "end": 108.56,
+            "text": " the sharpness of the claws, how sharp are their claws, and we can evaluate the length",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 108.56,
+            "end": 114.88,
+            "text": " of the ears and we can usually sort out cats from dogs based on even those two characteristics.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 114.88,
+            "end": 119.16,
+            "text": " Now tell me, if it is a cat or a dog, not a question usually the little kids know cats",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 119.16,
+            "end": 123.36,
+            "text": " and dogs by now, unless you live a place where there's not many cats or dogs. So if",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 123.36,
+            "end": 127.12,
+            "text": " we look at the sharpness of the claws, the length of the ears, and we can see that the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 127.12,
+            "end": 133.4,
+            "text": " cat has smaller ears and sharper claws than the other animals. Its features are more",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 133.4,
+            "end": 139.68,
+            "text": " like cats, it must be a cat. Sharp claws, length of ears, and it goes in the cat group.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 139.68,
+            "end": 145.8,
+            "text": " Because KNN is based on feature similarity, we can do classification using KNN classifier.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 145.8,
+            "end": 150.6,
+            "text": " So we have our input value, the picture of the black cat, it goes into our trained model",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 150.6,
+            "end": 157.6,
+            "text": " and it predicts that this is a cat coming out. So what is KNN? What is the KNN algorithm?",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 157.6,
+            "end": 162.56,
+            "text": " K nearest neighbors is what that stands for. It's one of the simplest supervised machine",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 162.56,
+            "end": 168.88,
+            "text": " learning algorithms mostly used for classification. So we want to know, is this a dog or is not",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 168.88,
+            "end": 174.24,
+            "text": " a dog? Is it a cat or not a cat? It classifies the data point based on how its neighbors are",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 174.24,
+            "end": 180.56,
+            "text": " classified. KNN stores all available cases and classifies new cases based on a similarity",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 180.56,
+            "end": 185.96,
+            "text": " measure. And here we go from cats and dogs right into wine, another favor to mind. KNN",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 185.96,
+            "end": 190.88,
+            "text": " stores all available cases and classifies new cases based on a similarity measure. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 190.88,
+            "end": 195.84,
+            "text": " here you see we have a measurement of sulfur dioxide versus the chloride level and then",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 195.84,
+            "end": 199.4,
+            "text": " the different wines they've tested and where they fall on that graph based on how much",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 199.4,
+            "end": 204.12,
+            "text": " sulfur dioxide and how much chloride. KNN is a perimeter that refers to the number of",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 204.12,
+            "end": 208.2,
+            "text": " nearest neighbors to include in the majority of the voting process. And so if we had a",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 208.2,
+            "end": 213.0,
+            "text": " new glass of wine there, red or white, we want to know what the neighbors are. In this",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 213.0,
+            "end": 217.6,
+            "text": " case we're going to put K equals five, we'll talk about K in just a minute. A data point",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 217.6,
+            "end": 222.48,
+            "text": " is classified by the majority of votes from its five nearest neighbors. Here the unknown",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 222.48,
+            "end": 227.44,
+            "text": " point would be classified as red since four out of five neighbors are red. So how do we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 227.44,
+            "end": 232.28,
+            "text": " choose K? How do we know K equals five? I mean that's what's the value we put in there",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 232.28,
+            "end": 236.79999999999998,
+            "text": " so we're going to talk about it. How do we choose the factor K? KNN algorithm is based",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 236.79999999999998,
+            "end": 243.12,
+            "text": " on features similarity. Choosing the right value of K is a process called parameter tuning",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 243.12,
+            "end": 247.8,
+            "text": " and is important for better accuracy. So at K equals three we can classify, we have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 247.8,
+            "end": 252.28,
+            "text": " a question mark in the middle as either a, as a square or not. Is it a square or is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 252.28,
+            "end": 256.16,
+            "text": " it in this case a triangle? And so if we set K equals to three, we're going to look at",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 256.16,
+            "end": 260.44,
+            "text": " the three nearest neighbors. We're going to say this is a square. And if we put K equals",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 260.44,
+            "end": 265.56,
+            "text": " to seven, we classify as a triangle depending on what the other data is around it. And you",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 265.56,
+            "end": 270.04,
+            "text": " can see as the K changes depending on where that point is, that drastically changes your",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 270.04,
+            "end": 275.08000000000004,
+            "text": " answer. And we jump here, we go, how do we choose the factor of K? You'll find this",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 275.08000000000004,
+            "end": 280.64000000000004,
+            "text": " in all machine learning. Choosing these factors, that's the face you get. You say, oh my gosh,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 280.64000000000004,
+            "end": 285.04,
+            "text": " they choose the right K. Did I set it right, my values and whatever machine learning to",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 285.04,
+            "end": 289.48,
+            "text": " you're looking at so that you don't have a huge bias in one direction or the other. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 289.48,
+            "end": 295.92,
+            "text": " in terms of KNN, the number of K, if you choose it too low, the bias is based on, it's just",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 295.92,
+            "end": 299.64000000000004,
+            "text": " two noises. It's right next to a couple things and it's going to pick those things",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 299.64000000000004,
+            "end": 304.68,
+            "text": " and you might get a skewed answer. And if your K is too big, then it's going to take forever",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 304.68,
+            "end": 310.24,
+            "text": " to process. So you're going to run into processing issues and resource issues. So what we do,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 310.24,
+            "end": 315.56,
+            "text": " the most common use, and there's other options for choosing K, is to use the square root of",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 315.56,
+            "end": 321.12,
+            "text": " N. So it is a total number of values you have, you take the square root of it. In most cases,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 321.12,
+            "end": 326.48,
+            "text": " you also, if it's an even number, so if you're using, like this case squares and triangles,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 326.48,
+            "end": 331.88,
+            "text": " if it's even, you want to make your K value odd, that helps it select better. So in other",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 331.88,
+            "end": 335.48,
+            "text": " words, you're not going to have a balance between two different factors that are equal.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 335.48,
+            "end": 339.48,
+            "text": " So usually you take the square root of N and if it's even, you add one to it or subtract",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 339.48,
+            "end": 343.4,
+            "text": " one from it and that's where you get the K value from. That is the most common use and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 343.4,
+            "end": 349.84000000000003,
+            "text": " it's pretty solid. It works very well. When do we use KNN? We can use KNN when data is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 349.84,
+            "end": 353.91999999999996,
+            "text": " labeled. So you need a label on it. We know we have a group of pictures with dogs, dogs,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 353.91999999999996,
+            "end": 360.44,
+            "text": " cats, cats. Data is noise free. And so you can see here, when we have a class and we have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 360.44,
+            "end": 366.32,
+            "text": " like underweight 140, 23, Hello Kitty, normal, that's pretty confusing. We have a high variety",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 366.32,
+            "end": 371.4,
+            "text": " of data coming in. So it's very noisy and that would cause an issue. Data set is small.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 371.4,
+            "end": 375.35999999999996,
+            "text": " So we're usually working with smaller data sets where, I mean, you might get into a gig",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 375.36,
+            "end": 380.12,
+            "text": " of data if it's really clean. It doesn't have a lot of noise because KNN is a lazy",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 380.12,
+            "end": 384.8,
+            "text": " learner, i.e. it doesn't learn a discrimative function from the training set. So it's very",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 384.8,
+            "end": 389.0,
+            "text": " lazy. So if you have very complicated data and you have a large amount of it, you're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 389.0,
+            "end": 393.64,
+            "text": " not going to use the KNN. But it's really great to get a place to start. Even with large data,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 393.64,
+            "end": 398.48,
+            "text": " you can sort out a small sample and get an idea of what that looks like using the KNN.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 398.48,
+            "end": 404.0,
+            "text": " And also just using for smaller data sets, KNN works really good. How does the KNN algorithm",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 404.0,
+            "end": 410.64,
+            "text": " work? Consider a data set having two variables, height in centimeters and weight in kilograms.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 410.64,
+            "end": 415.08,
+            "text": " And each point is classified as normal or underweight. So we can see right here, we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 415.08,
+            "end": 419.72,
+            "text": " have two variables, you know, true false or either normal or they're not, they're underweight.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 419.72,
+            "end": 424.44,
+            "text": " On the basis of the given data, we have to classify the below set as normal or underweight",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 424.44,
+            "end": 431.72,
+            "text": " using KNN. So if we have new data coming in that says 57 kilograms and 177 centimeters,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 431.72,
+            "end": 436.08000000000004,
+            "text": " is that going to be normal or underweight? To find the nearest neighbors, we'll calculate",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 436.08000000000004,
+            "end": 441.40000000000003,
+            "text": " the Euclidean distance. According to the Euclidean distance formula, the distance between two",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 441.40000000000003,
+            "end": 447.92,
+            "text": " points in the plane with the coordinates x, y and ab is given by distance d equals the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 447.92,
+            "end": 453.68,
+            "text": " square root of x minus a squared plus y minus b squared. And you can remember that from",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 453.68,
+            "end": 459.12,
+            "text": " the two edges of a triangle. We're computing the third edge since we know the x side and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 459.16,
+            "end": 464.4,
+            "text": " the y side. Let's calculate it to understand clearly. So we have our unknown point and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 464.4,
+            "end": 468.84000000000003,
+            "text": " we placed it there in red and we have our other points where the data is scattered around.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 468.84000000000003,
+            "end": 476.92,
+            "text": " The distance d1 is the square root of 170 minus 167 squared plus 57 minus 51 squared,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 476.92,
+            "end": 485.36,
+            "text": " which is about 6.7. And distance 2 is about 13. And distance 3 is about 13.4. Similarly,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 485.6,
+            "end": 489.92,
+            "text": " we will calculate the Euclidean distance of unknown data point from all the points",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 489.92,
+            "end": 493.52000000000004,
+            "text": " in the data set. And because we're dealing with small amount of data, that's not that",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 493.52000000000004,
+            "end": 497.32,
+            "text": " hard to do. And it's actually pretty quick for a computer. And it's not a really complicated",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 95,
+            "start": 497.32,
+            "end": 501.96000000000004,
+            "text": " mass. You can just see how close is the data based on the Euclidean distance. Hence, we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 96,
+            "start": 501.96000000000004,
+            "end": 505.72,
+            "text": " have calculated the Euclidean distance of unknown data point from all the points as",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 97,
+            "start": 505.72,
+            "end": 512.72,
+            "text": " showing where x1 and y1 equal 57 and 170. Whose class we have to classify. So now we're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 98,
+            "start": 513.0400000000001,
+            "end": 516.48,
+            "text": " looking at that and saying, well, here's the Euclidean distance. Who's going to be",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 99,
+            "start": 516.48,
+            "end": 521.2,
+            "text": " their closest neighbors? Now let's calculate the nearest neighbor at k equals 3. And we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 100,
+            "start": 521.2,
+            "end": 526.08,
+            "text": " can see the three closest neighbors put some at normal. And that's pretty self-evident.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 101,
+            "start": 526.08,
+            "end": 530.0400000000001,
+            "text": " When you look at this graph, it's pretty easy to say, okay, we're just voting. Normal,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 102,
+            "start": 530.0400000000001,
+            "end": 533.84,
+            "text": " normal, normal, three votes for normal. This is going to be a normal weight. So majority",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 103,
+            "start": 533.84,
+            "end": 540.08,
+            "text": " of neighbors are pointing towards normal. Hence, as per kNN algorithm, the class of 57170 should",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 104,
+            "start": 540.08,
+            "end": 546.48,
+            "text": " be normal. So recap of kNN. Positive integer k is specified along with a new sample. We",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 105,
+            "start": 546.48,
+            "end": 551.0400000000001,
+            "text": " select the k entries in our database, which are closest to the new sample. We find the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 106,
+            "start": 551.0400000000001,
+            "end": 555.32,
+            "text": " most common classification of these entries. This is the classification we give to the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 107,
+            "start": 555.32,
+            "end": 559.08,
+            "text": " new sample. So as you can see, it's pretty straightforward. We're just looking for the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 108,
+            "start": 559.08,
+            "end": 562.4000000000001,
+            "text": " closest things that match what we got. So let's take a look and see what that looks",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 109,
+            "start": 562.4000000000001,
+            "end": 569.4000000000001,
+            "text": " like in a use case in Python. So let's dive into the predict diabetes use case. So use",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 110,
+            "start": 569.4,
+            "end": 575.3199999999999,
+            "text": " case predict diabetes. The objective predict whether a person will be diagnosed with diabetes",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 111,
+            "start": 575.3199999999999,
+            "end": 582.8,
+            "text": " or not. We have a data set of 768 people who were or were not diagnosed with diabetes. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 112,
+            "start": 582.8,
+            "end": 586.92,
+            "text": " let's go ahead and open that file and just take a look at that data. And this is in a",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 113,
+            "start": 586.92,
+            "end": 592.8,
+            "text": " simple spreadsheet format. The data itself is comma separated, very common set of data.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 114,
+            "start": 592.8,
+            "end": 596.68,
+            "text": " And it's also a very common way to get the data. And you can see here we have columns",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 115,
+            "start": 596.68,
+            "end": 602.7199999999999,
+            "text": " A through I, that's what one, two, three, four, five, six, seven, eight, eight columns",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 116,
+            "start": 602.7199999999999,
+            "end": 607.52,
+            "text": " with a particular attribute. And then the ninth column, which is the outcome is whether",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 117,
+            "start": 607.52,
+            "end": 611.92,
+            "text": " they have diabetes as a data scientist. The first thing you should be looking at is insulin.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 118,
+            "start": 611.92,
+            "end": 615.4,
+            "text": " Well, you know, if someone has insulin, they have diabetes, because that's why they're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 119,
+            "start": 615.4,
+            "end": 619.4,
+            "text": " taking it. And that could cause issue in some of the machine learning packages. But for",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 120,
+            "start": 619.4,
+            "end": 624.5999999999999,
+            "text": " very basic setup, this works fine for doing the KNN. And the next thing you notice is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 121,
+            "start": 624.6800000000001,
+            "end": 628.52,
+            "text": " it didn't take very much to open it up. I can scroll down to the bottom of the data.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 122,
+            "start": 628.52,
+            "end": 635.9200000000001,
+            "text": " There's 768. It's pretty much a small data set. You know, at 769, I can easily fit this into",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 123,
+            "start": 635.9200000000001,
+            "end": 640.6800000000001,
+            "text": " my RAM on my computer. I can look at it. I can manipulate it. And it's not going to",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 124,
+            "start": 640.6800000000001,
+            "end": 644.52,
+            "text": " really tax just a regular desktop computer. You don't even need an enterprise version",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 125,
+            "start": 644.52,
+            "end": 649.12,
+            "text": " to run a lot of this. So let's start with importing all the tools we need. And before",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 126,
+            "start": 649.12,
+            "end": 654.4,
+            "text": " that, of course, we need to discuss what IDE I'm using. Certainly you can use any particular",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 127,
+            "start": 654.4,
+            "end": 660.48,
+            "text": " editor for Python. But I like to use for doing very basic visual stuff, the Anaconda,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 128,
+            "start": 660.48,
+            "end": 665.76,
+            "text": " which is great for doing demos with the Jupyter Notebook. And just a quick view of the Anaconda",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 129,
+            "start": 665.76,
+            "end": 670.92,
+            "text": " Navigator, which is the new release out there, which is really nice. You can see under home,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 130,
+            "start": 670.92,
+            "end": 675.8,
+            "text": " I can choose my application. We're going to be using Python 36. I have a couple different",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 131,
+            "start": 675.8,
+            "end": 680.12,
+            "text": " versions on this particular machine. If I go under environments, I can create a unique",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 132,
+            "start": 680.12,
+            "end": 683.56,
+            "text": " environment for each one, which is nice. And there's even a little button there where",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 133,
+            "start": 683.56,
+            "end": 687.28,
+            "text": " I can install different packages. So if I click on that button and open the terminal,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 134,
+            "start": 687.28,
+            "end": 691.4,
+            "text": " I can then use a simple pip install to install different packages I'm working with. Let's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 135,
+            "start": 691.4,
+            "end": 695.1199999999999,
+            "text": " go ahead and go back under home. And we're going to launch our notebook. And I've already",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 136,
+            "start": 695.1199999999999,
+            "end": 699.3199999999999,
+            "text": " you know, kind of like the old cooking shows, I've already prepared a lot of my stuff.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 137,
+            "start": 699.3199999999999,
+            "end": 702.1999999999999,
+            "text": " So we don't have to wait for it to launch because it takes a few minutes for it to open",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 138,
+            "start": 702.1999999999999,
+            "end": 707.1199999999999,
+            "text": " up a browser window. In this case, I'm going to open up Chrome because that's my default",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 139,
+            "start": 707.1199999999999,
+            "end": 711.0,
+            "text": " that I use. And since the script is pre done, you'll see you have a number of windows open",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 140,
+            "start": 711.04,
+            "end": 716.72,
+            "text": " up at the top, the one we're working in. And since we're working on the KNN predict whether",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 141,
+            "start": 716.72,
+            "end": 720.8,
+            "text": " a person will have diabetes or not, let's go and put that title in there. And I'm also",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 142,
+            "start": 720.8,
+            "end": 725.6,
+            "text": " going to go up here and click on sell. Actually, we want to go ahead and first insert a sell",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 143,
+            "start": 725.6,
+            "end": 730.12,
+            "text": " below. And then I'm going to go back up to the top sell. And I'm going to change the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 144,
+            "start": 730.12,
+            "end": 734.44,
+            "text": " sell type to markdown. That means this is not going to run as Python. It's a markdown",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 145,
+            "start": 734.44,
+            "end": 738.44,
+            "text": " language. So if I run this first one, it comes up in nice big letters, which is kind of nice.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 146,
+            "start": 738.7600000000001,
+            "end": 742.7600000000001,
+            "text": " Mine just what we're working on. And by now, you should be familiar with doing all of",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 147,
+            "start": 742.7600000000001,
+            "end": 750.2,
+            "text": " our imports, we're going to import the pandas as PD import numpy is NP pandas is the pandas",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 148,
+            "start": 750.2,
+            "end": 755.12,
+            "text": " data frame and numpy is the number array, very powerful tools to use in here. So we have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 149,
+            "start": 755.12,
+            "end": 761.12,
+            "text": " our imports. So we've brought in our pandas are numpy or to general Python tools. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 150,
+            "start": 761.12,
+            "end": 766.0400000000001,
+            "text": " then you can see over here, we have our train test split by nice to be familiar with splitting",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 151,
+            "start": 766.0799999999999,
+            "end": 770.56,
+            "text": " the data. We want to split part of it for training our thing and then training our particular",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 152,
+            "start": 770.56,
+            "end": 775.52,
+            "text": " model. And then we want to go ahead and test the remaining data to see how good it is pre",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 153,
+            "start": 775.52,
+            "end": 780.92,
+            "text": " processing a standard scalar pre processor. So we don't have a bias of really large numbers.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 154,
+            "start": 780.92,
+            "end": 785.8,
+            "text": " Remember in the data, we had like number pregnancies isn't going to get very large where the amount",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 155,
+            "start": 785.8,
+            "end": 792.1999999999999,
+            "text": " of insulin they take you up to 256. So 256 versus six, that will skew results. So we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 156,
+            "start": 792.24,
+            "end": 796.6400000000001,
+            "text": " want to go ahead and change that so that they're all uniform between minus one and one. And then",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 157,
+            "start": 796.6400000000001,
+            "end": 802.8000000000001,
+            "text": " the actual tool, this is the K neighbors classifier we're going to use. And finally, the last",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 158,
+            "start": 802.8000000000001,
+            "end": 808.12,
+            "text": " three are three tools to test all about testing our model. How good is it? We just put down",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 159,
+            "start": 808.12,
+            "end": 813.36,
+            "text": " test on there. And we have our confusion matrix, our F one score and our accuracy. So we have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 160,
+            "start": 813.36,
+            "end": 819.5200000000001,
+            "text": " our two general Python modules were importing. And then we have our six modules specific from",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 161,
+            "start": 819.56,
+            "end": 825.48,
+            "text": " the sklearn setup. And then we do need to go ahead and run this. So these are actually",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 162,
+            "start": 825.48,
+            "end": 829.72,
+            "text": " imported. There we go. And then move on to the next step. And so in this set, we're going",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 163,
+            "start": 829.72,
+            "end": 834.36,
+            "text": " to go ahead and load the database. We're going to use pandas. We remember pandas is PD. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 164,
+            "start": 834.36,
+            "end": 838.4,
+            "text": " we'll take a look at the data in Python. We looked at it in a simple spreadsheet. But",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 165,
+            "start": 838.4,
+            "end": 842.52,
+            "text": " usually I like to also pull it up so that we can see what we're doing. So here's our data",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 166,
+            "start": 842.52,
+            "end": 849.92,
+            "text": " set equals PD.ReadCSV. That's a pandas command. And the diabetes folder I just put in the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 167,
+            "start": 849.92,
+            "end": 854.4399999999999,
+            "text": " same folder where my Python script is. If you put in a different folder, you'd need the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 168,
+            "start": 854.4399999999999,
+            "end": 861.36,
+            "text": " full length on there. We can also do a quick length of the data set. That is a simple Python",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 169,
+            "start": 861.36,
+            "end": 866.28,
+            "text": " command, LEN for length. We might even let's go ahead and print that. We'll go print. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 170,
+            "start": 866.28,
+            "end": 870.36,
+            "text": " if you do it on its own line, length.dataset that you put in notebook, it'll automatically",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 171,
+            "start": 870.4,
+            "end": 874.2,
+            "text": " print it. But when you're in most of your different setups, you want to do the print",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 172,
+            "start": 874.2,
+            "end": 878.2,
+            "text": " in front of there. And then we want to take a look at the actual data set. And since we're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 173,
+            "start": 878.2,
+            "end": 883.76,
+            "text": " in pandas, we can simply do data set head. And again, let's go ahead and add the print",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 174,
+            "start": 883.76,
+            "end": 888.44,
+            "text": " in there. If you put a bunch of these in a row, you know, that data set one head, data",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 175,
+            "start": 888.44,
+            "end": 893.04,
+            "text": " set two head, it only prints out the last one. So I always like to keep the print statement",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 176,
+            "start": 893.04,
+            "end": 898.28,
+            "text": " in there. But because most projects only use one data frame, pandas data frame, doing",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 177,
+            "start": 898.3199999999999,
+            "end": 901.8,
+            "text": " it this way, it doesn't really matter. The other way works just fine. And you can see",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 178,
+            "start": 901.8,
+            "end": 907.52,
+            "text": " when we hit the run button, we have the 768 lines, which we knew. And we have our pregnancies.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 179,
+            "start": 907.52,
+            "end": 912.6,
+            "text": " It's automatically given a label on the left. Remember, the head only shows the first five",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 180,
+            "start": 912.6,
+            "end": 917.9599999999999,
+            "text": " lines. So we have zero through four. And just a quick look at the data, you can see it matches",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 181,
+            "start": 917.9599999999999,
+            "end": 923.4,
+            "text": " what we looked at before. We have pregnancy glucose, blood pressure all the way to age.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 182,
+            "start": 923.4,
+            "end": 927.4399999999999,
+            "text": " And then the outcome on the end. And we're going to do a couple of things in this next",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 183,
+            "start": 927.44,
+            "end": 932.8000000000001,
+            "text": " step. We're going to create a list of columns where we can't have zero. There's no such",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 184,
+            "start": 932.8000000000001,
+            "end": 938.84,
+            "text": " thing as zero skin thickness or zero blood pressure, zero glucose. Any of those you'd",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 185,
+            "start": 938.84,
+            "end": 942.5600000000001,
+            "text": " be dead. So not a really good factor if they don't, if they have a zero in there, because",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 186,
+            "start": 942.5600000000001,
+            "end": 945.44,
+            "text": " they didn't have the data. And we'll take a look at that because we're going to start",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 187,
+            "start": 945.44,
+            "end": 949.6400000000001,
+            "text": " replacing that information with a couple of different things. And let's see what that",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 188,
+            "start": 949.6400000000001,
+            "end": 954.72,
+            "text": " looks like. So first we create a nice list. As you can see, we have the values talked",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 189,
+            "start": 954.72,
+            "end": 958.8000000000001,
+            "text": " about glucose, blood pressure, skin thickness. And this is a nice way when you're working",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 190,
+            "start": 958.8000000000001,
+            "end": 963.12,
+            "text": " with columns is to list the columns you need to do some kind of transformation on. A very",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 191,
+            "start": 963.12,
+            "end": 967.72,
+            "text": " common thing to do. And then for this particular setup, we certainly could use the, there's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 192,
+            "start": 967.72,
+            "end": 972.0,
+            "text": " some panda tools that will do a lot of this where we can replace the NA. But we're going",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 193,
+            "start": 972.0,
+            "end": 978.32,
+            "text": " to go ahead and do it as a data set column equals data set column dot replace. This is,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 194,
+            "start": 978.32,
+            "end": 983.24,
+            "text": " this is still pandas. You can do it direct. There's also one that you look for your NAN.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 195,
+            "start": 983.24,
+            "end": 988.6800000000001,
+            "text": " A lot of different options in here. But the NAN, NMP NAN is what that stands for is,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 196,
+            "start": 988.6800000000001,
+            "end": 994.88,
+            "text": " is none, it doesn't exist. So the first thing we're doing here is we're replacing the zero",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 197,
+            "start": 994.88,
+            "end": 999.76,
+            "text": " with a Numpy none. There's no data there. That's what that says. That's what this is saying",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 198,
+            "start": 999.76,
+            "end": 1004.92,
+            "text": " right here. So put the zero in and we're going to replace zeros with no data. So if it's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 199,
+            "start": 1004.92,
+            "end": 1008.28,
+            "text": " a zero, that means the person's, well, hopefully not dead. Hopefully it just didn't get the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 200,
+            "start": 1008.28,
+            "end": 1012.84,
+            "text": " data. The next thing they want to do is we're going to create the mean, which is the integer",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 201,
+            "start": 1012.84,
+            "end": 1018.8000000000001,
+            "text": " from the data set from the column dot mean where we skip NAs. We can do that. That is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 202,
+            "start": 1018.8000000000001,
+            "end": 1022.9200000000001,
+            "text": " a pandas come in there, the skip NA. So we're going to figure out the mean of that data",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 203,
+            "start": 1022.9200000000001,
+            "end": 1027.68,
+            "text": " set. And then we're going to take that data set column and we're going to replace all",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 204,
+            "start": 1027.68,
+            "end": 1033.64,
+            "text": " the NPNAN with the means. Why did we do that? And we could have actually just taken this",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 205,
+            "start": 1033.64,
+            "end": 1038.08,
+            "text": " step and gone right down here and just replaced zero and skip anything where, except you can",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 206,
+            "start": 1038.08,
+            "end": 1041.88,
+            "text": " actually, there's a way to skip zeros and then just replace all the zeros. But in this case,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 207,
+            "start": 1041.88,
+            "end": 1044.96,
+            "text": " we want to go ahead and do it this way. So you can see that we're switching this to",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 208,
+            "start": 1044.96,
+            "end": 1049.5200000000002,
+            "text": " a non-existent value. Then we're going to create the mean, well, this is the average",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 209,
+            "start": 1049.5200000000002,
+            "end": 1054.8000000000002,
+            "text": " person. So if we don't know what it is, if they did not get the data and the data is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 210,
+            "start": 1054.8000000000002,
+            "end": 1059.92,
+            "text": " missing, one of the tricks is you replace it with the average. What is the most common",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 211,
+            "start": 1059.92,
+            "end": 1065.1200000000001,
+            "text": " data for that? This way, you can still use the rest of those values to do your computation",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 212,
+            "start": 1065.1200000000001,
+            "end": 1070.0,
+            "text": " and it kind of just brings that particular value or those missing values out of the equation.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 213,
+            "start": 1070.0,
+            "end": 1073.4,
+            "text": " Let's go ahead and take this and we'll go ahead and run it. It doesn't actually do",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 214,
+            "start": 1073.4,
+            "end": 1078.2,
+            "text": " anything so we're still preparing our data. If you want to see what that looks like,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 215,
+            "start": 1078.2,
+            "end": 1081.72,
+            "text": " we don't have anything in the first few lines that's not going to show up, but we certainly",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 216,
+            "start": 1081.72,
+            "end": 1086.52,
+            "text": " could look at a row. Let's do that. Let's go into our data set, what's the printed data",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 217,
+            "start": 1086.52,
+            "end": 1093.4,
+            "text": " set. And let's pick, in this case, let's just do glucose. And if I run this, this is going",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 218,
+            "start": 1093.4,
+            "end": 1098.4,
+            "text": " to print all the different glucose levels going down. And we thankfully don't see anything",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 219,
+            "start": 1098.48,
+            "end": 1102.2800000000002,
+            "text": " in here that looks like missing data, at least on the ones it shows. You can see it skipped",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 220,
+            "start": 1102.2800000000002,
+            "end": 1105.68,
+            "text": " a bunch in the middle. That's what it does. If you have too many lines in Jupyter Notebook,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 221,
+            "start": 1105.68,
+            "end": 1110.4,
+            "text": " it'll skip a few and go on to the next in a data set. Let me go ahead and remove this.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 222,
+            "start": 1110.4,
+            "end": 1115.52,
+            "text": " We'll just zero out that. And of course, before we do any processing, before proceeding any",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 223,
+            "start": 1115.52,
+            "end": 1120.1200000000001,
+            "text": " further, we need to split the data set into our train and testing data. That way we have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 224,
+            "start": 1120.1200000000001,
+            "end": 1123.76,
+            "text": " something to train it with and something to test it on. And you're going to notice we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 225,
+            "start": 1123.76,
+            "end": 1128.96,
+            "text": " did a little something here with the pandas database code. There we go, my drawing tool.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 226,
+            "start": 1128.96,
+            "end": 1133.92,
+            "text": " We've added in this right here, off the data set. And what this says is that the first",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 227,
+            "start": 1133.92,
+            "end": 1139.68,
+            "text": " one in pandas, this is from the PD pandas, it's going to say within the data set, we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 228,
+            "start": 1139.68,
+            "end": 1143.92,
+            "text": " want to look at the I location and it is all rows. That's what that says. So we're going",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 229,
+            "start": 1143.92,
+            "end": 1148.6,
+            "text": " to keep all the rows. But we're only looking at zero column zero to eight. Remember column",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 230,
+            "start": 1148.6,
+            "end": 1152.68,
+            "text": " nine, here it is right up here. We printed it in here as outcome. Well, that's not part",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 231,
+            "start": 1152.68,
+            "end": 1156.52,
+            "text": " of the training data. That's part of the answer. Yes, column nine, but it's listed as",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 232,
+            "start": 1156.52,
+            "end": 1161.6000000000001,
+            "text": " eight number eight. So zero to eight is nine columns. So eight is the value. And when you",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 233,
+            "start": 1161.6000000000001,
+            "end": 1167.3600000000001,
+            "text": " see it in here, zero, this is actually zero to seven. It doesn't include the last one.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 234,
+            "start": 1167.3600000000001,
+            "end": 1172.3600000000001,
+            "text": " And then we go down here to why, which is our answer. And we want just the last one,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 235,
+            "start": 1172.3600000000001,
+            "end": 1176.76,
+            "text": " just column eight. And you can do it this way with this particular notation. And then if",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 236,
+            "start": 1176.76,
+            "end": 1182.4,
+            "text": " you remember, we imported the train test split. That's part of the SK learn right there. And",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 237,
+            "start": 1182.4,
+            "end": 1187.4,
+            "text": " we simply put in our X and our Y. We're going to do random state equals zero. You don't",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 238,
+            "start": 1187.4,
+            "end": 1191.2800000000002,
+            "text": " have to necessarily seed it. That's a seed number. I think the default is one when you",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 239,
+            "start": 1191.2800000000002,
+            "end": 1195.76,
+            "text": " seed it. I have to look that up. And then the test size. Test size is point two. That simply",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 240,
+            "start": 1195.76,
+            "end": 1200.68,
+            "text": " means we're going to take 20% of the data and put it aside so that we can test it later.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 241,
+            "start": 1200.68,
+            "end": 1204.76,
+            "text": " That's all that is. And again, we're going to run it. Not very exciting. So far, we haven't",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 242,
+            "start": 1204.76,
+            "end": 1208.88,
+            "text": " had any print out other than to look at the data. But that is a lot of this is prepping",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 243,
+            "start": 1208.88,
+            "end": 1213.5600000000002,
+            "text": " this data. Once you prep it, the actual lines of code are quick and easy. And we're almost",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 244,
+            "start": 1213.5600000000002,
+            "end": 1218.0,
+            "text": " there. But the actual running of our KNN, we need to go ahead and do a scale the data.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 245,
+            "start": 1218.0,
+            "end": 1222.6000000000001,
+            "text": " If you remember correctly, we're fitting the data in a standard scalar, which means instead",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 246,
+            "start": 1222.6000000000001,
+            "end": 1228.2800000000002,
+            "text": " of the data being from five to three hundred three in one column. And the next column is",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 247,
+            "start": 1228.2800000000002,
+            "end": 1233.3200000000002,
+            "text": " one to six. We're going to set that all so that all the data is between minus one and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 248,
+            "start": 1233.3999999999999,
+            "end": 1238.28,
+            "text": " one. That's what that standard scalar does. Keeps it standardized. And we only want to",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 249,
+            "start": 1238.28,
+            "end": 1243.76,
+            "text": " fit the scalar with the training set. But we want to make sure the testing set is the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 250,
+            "start": 1243.76,
+            "end": 1249.72,
+            "text": " X test going in is also transformed. So it's processing it the same. So here we go with",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 251,
+            "start": 1249.72,
+            "end": 1254.1599999999999,
+            "text": " our standard scalar. We're going to call it SC underscore X for the scalar. And we're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 252,
+            "start": 1254.1599999999999,
+            "end": 1260.28,
+            "text": " going to import the standard scalar into this variable. And then our X train equals SC underscore",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 253,
+            "start": 1260.28,
+            "end": 1265.6,
+            "text": " X dot fit transform. So we're creating the scalar on the X train variable. And then our",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 254,
+            "start": 1265.6,
+            "end": 1270.8,
+            "text": " X test, we're also going to transform it. So we've trained and transformed the X train.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 255,
+            "start": 1270.8,
+            "end": 1276.24,
+            "text": " And then the X test isn't part of that training. It isn't part of that training the transformer.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 256,
+            "start": 1276.24,
+            "end": 1280.08,
+            "text": " It just gets transformed. That's all it does. And again, we're going to go and run this.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 257,
+            "start": 1280.08,
+            "end": 1286.0,
+            "text": " And if you look at this, we've now gone through these steps, all three of them. We've taken",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 258,
+            "start": 1286.0,
+            "end": 1292.28,
+            "text": " care of replacing our zeros for key columns that shouldn't be zero. And we replace that",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 259,
+            "start": 1292.28,
+            "end": 1297.96,
+            "text": " with the means of those columns that way that they fit right in with our data models. We've",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 260,
+            "start": 1297.96,
+            "end": 1304.16,
+            "text": " come down here and we split the data. So now we have our test data and our training data.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 261,
+            "start": 1304.16,
+            "end": 1308.44,
+            "text": " And then we've taken and we scaled the data. So all of our data going in, no, we don't",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 262,
+            "start": 1308.44,
+            "end": 1314.64,
+            "text": " we don't train the Y part, the Y train and Y test. That never has to be trained. It's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 263,
+            "start": 1314.68,
+            "end": 1319.1200000000001,
+            "text": " only the data going in. That's what we want to train in there. Then define the model using",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 264,
+            "start": 1319.1200000000001,
+            "end": 1324.5600000000002,
+            "text": " K neighbors classifier and fit the train data in the model. So we do all that data prep.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 265,
+            "start": 1324.5600000000002,
+            "end": 1328.2,
+            "text": " And you can see down here, we're only going to have a couple lines of code where we're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 266,
+            "start": 1328.2,
+            "end": 1333.2,
+            "text": " actually building our model and training it. That's one of the cool things about Python",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 267,
+            "start": 1333.2,
+            "end": 1336.68,
+            "text": " and how far we've come. It's such an exciting time to be in machine learning because there's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 268,
+            "start": 1336.68,
+            "end": 1342.3200000000002,
+            "text": " so many automated tools. Let's see, before we do this, let's do a quick link of, and let's",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 269,
+            "start": 1342.32,
+            "end": 1350.8799999999999,
+            "text": " do Y. We want, let's just do length of Y. And we get 768. And if we import math, we",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 270,
+            "start": 1350.8799999999999,
+            "end": 1357.4399999999998,
+            "text": " do math dot square root, let's do Y train. There we go. It's actually supposed to be",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 271,
+            "start": 1357.4399999999998,
+            "end": 1363.6799999999998,
+            "text": " X train. Before we do this, let's go ahead and do import math and do math square root",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 272,
+            "start": 1363.6799999999998,
+            "end": 1369.6,
+            "text": " length of Y test. And when I run that, we get 12.409. I want to show you where this",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 273,
+            "start": 1369.6,
+            "end": 1373.8799999999999,
+            "text": " number comes from we're about to use. 12 is an even number. So if you know, if you're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 274,
+            "start": 1373.8799999999999,
+            "end": 1377.84,
+            "text": " ever voting on things, remember the neighbors all vote, don't want to have an even number",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 275,
+            "start": 1377.84,
+            "end": 1381.7199999999998,
+            "text": " of neighbors voting. So we want to do something odd. And this is take one away, we'll make",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 276,
+            "start": 1381.7199999999998,
+            "end": 1385.56,
+            "text": " it 11. Let me delete this out of here. This one, the reasons I love Jupyter Notebook",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 277,
+            "start": 1385.56,
+            "end": 1389.12,
+            "text": " is you can flip around and do all kinds of things on the fly. So we'll go ahead and put",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 278,
+            "start": 1389.12,
+            "end": 1394.1999999999998,
+            "text": " in our classifier. We're creating our classifier now. And it's going to be the K neighbors classifier.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 279,
+            "start": 1394.2,
+            "end": 1398.96,
+            "text": " Some neighbors equal 11. Remember we did 12 minus 1 for 11. So we have an odd number",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 280,
+            "start": 1398.96,
+            "end": 1404.6000000000001,
+            "text": " of neighbors. P equals 2 because we're looking for, is it, are they diabetic or not. And we're",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 281,
+            "start": 1404.6000000000001,
+            "end": 1409.72,
+            "text": " using the Euclidean metric. There are other means of measuring the distance. You can do",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 282,
+            "start": 1409.72,
+            "end": 1414.3600000000001,
+            "text": " like square, square means values, all kinds of measure this. But the Euclidean is the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 283,
+            "start": 1414.3600000000001,
+            "end": 1419.16,
+            "text": " most common one and it works quite well. It's important to evaluate the model. Let's use",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 284,
+            "start": 1419.16,
+            "end": 1423.8000000000002,
+            "text": " the confusion matrix to do that. And we're going to use the confusion matrix. Wonderful",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 285,
+            "start": 1423.8000000000002,
+            "end": 1430.48,
+            "text": " tool. And then we'll jump into the F1 score. And finally, accuracy score, which is probably",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 286,
+            "start": 1430.48,
+            "end": 1435.52,
+            "text": " the most commonly used quoted number when you go into a meeting or something like that.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 287,
+            "start": 1435.52,
+            "end": 1440.6000000000001,
+            "text": " So let's go ahead and paste that in there. And we'll set the CM equal to confusion matrix.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 288,
+            "start": 1440.6000000000001,
+            "end": 1445.44,
+            "text": " Y test Y predict. So those are the two values we're going to put in there. And let me go",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 289,
+            "start": 1445.44,
+            "end": 1451.8,
+            "text": " and run that and print it out. And the way you interpret this is you have the Y predicted,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 290,
+            "start": 1451.8,
+            "end": 1457.4,
+            "text": " which would be your title up here. You can do, let's just do PRED, predicted across the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 291,
+            "start": 1457.4,
+            "end": 1465.4,
+            "text": " top and actual going down. It's always hard to write in here actual. That means that this",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 292,
+            "start": 1465.4,
+            "end": 1471.0800000000002,
+            "text": " column here down the middle, that's the important column. And it means that our prediction",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 293,
+            "start": 1471.08,
+            "end": 1480.1599999999999,
+            "text": " set 94 and prediction in the actual agreed on 94 and 32. This number here, the 13 and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 294,
+            "start": 1480.1599999999999,
+            "end": 1484.48,
+            "text": " the 15, those are what was wrong. So you could have like three different, if you're looking",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 295,
+            "start": 1484.48,
+            "end": 1488.52,
+            "text": " at this across three different variables instead of just two, you'd end up with a third row",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 296,
+            "start": 1488.52,
+            "end": 1494.04,
+            "text": " down here and the column going down the middle. So in the first case we have the, and I believe",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 297,
+            "start": 1494.04,
+            "end": 1499.32,
+            "text": " the zero is a 94 people who don't have diabetes. The prediction said that 13 of those people",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 298,
+            "start": 1499.32,
+            "end": 1505.36,
+            "text": " did have diabetes and were at high risk. And the 32 that had diabetes that had correct.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 299,
+            "start": 1505.36,
+            "end": 1512.32,
+            "text": " But our prediction said another 15 out of that 15 it classified as incorrect. So you",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 300,
+            "start": 1512.32,
+            "end": 1517.32,
+            "text": " can see where that classification comes in and how that works on the confusion matrix.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 301,
+            "start": 1517.32,
+            "end": 1522.4399999999998,
+            "text": " Then we're going to go ahead and print the F1 score. Let me just run that. And you see",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 302,
+            "start": 1522.44,
+            "end": 1530.96,
+            "text": " we get a .69 in our F1 score. The F1 takes into account both sides of the balance of",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 303,
+            "start": 1530.96,
+            "end": 1536.28,
+            "text": " false positives. Where if we go ahead and just do the accuracy account, and that's what most",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 304,
+            "start": 1536.28,
+            "end": 1541.52,
+            "text": " people think of, is it looks at just how many we got right out of how many we got wrong.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 305,
+            "start": 1541.52,
+            "end": 1545.88,
+            "text": " So a lot of people we need are data scientists and you're talking to other data scientists,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 306,
+            "start": 1545.88,
+            "end": 1550.4,
+            "text": " they're going to ask you what the F1 score, the F score is. If you're talking to the general",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 307,
+            "start": 1550.4,
+            "end": 1555.0400000000002,
+            "text": " public or the decision makers in the business, they're going to ask what the accuracy is.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 308,
+            "start": 1555.0400000000002,
+            "end": 1560.4,
+            "text": " And the accuracy is always better than the F1 score. But the F1 score is more telling.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 309,
+            "start": 1560.4,
+            "end": 1566.16,
+            "text": " It lets us know that there's more false positives than we would like on here. But 82% not too",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 310,
+            "start": 1566.16,
+            "end": 1572.1200000000001,
+            "text": " bad for a quick flash look at people's different statistics and running an SK Learn. And running",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 311,
+            "start": 1572.1200000000001,
+            "end": 1578.3600000000001,
+            "text": " the KNN, the K nearest neighbor on it. So we have created a model using KNN, which can predict",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 312,
+            "start": 1578.36,
+            "end": 1582.84,
+            "text": " whether a person will have diabetes or not. Or the very least, whether they should go get",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 313,
+            "start": 1582.84,
+            "end": 1588.12,
+            "text": " a checkup and have their glucose checked regularly or not. The print accuracy score, we got the",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 314,
+            "start": 1588.12,
+            "end": 1592.6399999999999,
+            "text": " .818, it was pretty close to what we got. And we can pretty much round that off and just",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 315,
+            "start": 1592.6399999999999,
+            "end": 1597.8799999999999,
+            "text": " say we have an accuracy of 80%. Tells us it is a pretty fair fit in the model. To pull",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 316,
+            "start": 1597.8799999999999,
+            "end": 1601.1999999999998,
+            "text": " that all together, there's always a lot of fun. Make sure we cover everything we went",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 317,
+            "start": 1601.1999999999998,
+            "end": 1606.1999999999998,
+            "text": " over today. We covered why we need a KNN, looking at cats and dogs. Great if you have",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 318,
+            "start": 1606.2,
+            "end": 1609.2,
+            "text": " a cat door, you want to figure out whether there's a cat or dog coming in, don't let",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 319,
+            "start": 1609.2,
+            "end": 1614.16,
+            "text": " the dog in or out. Using Euclidean distance, the simple distance calculated by the two",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 320,
+            "start": 1614.16,
+            "end": 1618.8400000000001,
+            "text": " sides of the triangle or the square root of the two sides squared. Choosing the value",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 321,
+            "start": 1618.8400000000001,
+            "end": 1622.96,
+            "text": " of K. We discussed that a little bit, at least one of the main choices that people use for",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 322,
+            "start": 1622.96,
+            "end": 1628.96,
+            "text": " choosing K. And how KNN works, then finally we did a full KNN classifier for diabetes",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 323,
+            "start": 1628.96,
+            "end": 1635.28,
+            "text": " prediction. Thank you for joining us today. For more information visit www.simplerne.com.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 324,
+            "start": 1635.28,
+            "end": 1639.6399999999999,
+            "text": " Feel free to post your questions in the YouTube video here or visit us on our website and",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 325,
+            "start": 1639.6399999999999,
+            "end": 1644.8799999999999,
+            "text": " we'll also have a support page there you can go to and post additional questions. Again,",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 326,
+            "start": 1644.8799999999999,
+            "end": 1646.28,
+            "text": " thank you for joining us today.",
+            "topic": "KNN Algorithm In Machine Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " Hello and welcome to K nearest neighbors algorithm tutorial. My name is Richard Kirschner and I'm with the Simply Learn team. Today we're going to cover the K nearest neighbors, a lot of refer to as KNN. KNN is really a fundamental place to start in the machine learning. It's a basis of a lot of other things and just the logic behind it is easy to understand and incorporate it in other forms of machine learning. So today what's in it for you? Why do we need KNN? What is KNN? How do we choose the factor K? When do we use KNN? How does KNN algorithm work? And then we'll dive into my favorite part, the use case. Predict whether a person will have diabetes or not. That is a very common and popular used data set as far as testing out models and learning how to use the different models in machine learning. By now we all know machine learning models make predictions by learning from the past data available. So we have our input values, our machine learning model builds on those inputs of what we already know and then we use that to create a predicted output. Is that a dog? Little kid looking over there and watching the black cat cross their path. No dear, you can differentiate between a cat and a dog based on their characteristics. Cats. Cats have sharp claws, uses to climb, smaller length of ears, meows and purrs, doesn't love to play around. Dogs, they have dull claws, bigger length of ears, barks, loves to run around. You usually don't see a cat running around people, otherwise you have a cat that does that, where dogs do. And we can look at these and say we can evaluate the sharpness of the claws, how sharp are their claws, and we can evaluate the length of the ears and we can usually sort out cats from dogs based on even those two characteristics. Now tell me, if it is a cat or a dog, not a question usually the little kids know cats and dogs by now, unless you live a place where there's not many cats or dogs. So if we look at the sharpness of the claws, the length of the ears, and we can see that the cat has smaller ears and sharper claws than the other animals. Its features are more like cats, it must be a cat. Sharp claws, length of ears, and it goes in the cat group. Because KNN is based on feature similarity, we can do classification using KNN classifier. So we have our input value, the picture of the black cat, it goes into our trained model and it predicts that this is a cat coming out. So what is KNN? What is the KNN algorithm? K nearest neighbors is what that stands for. It's one of the simplest supervised machine learning algorithms mostly used for classification. So we want to know, is this a dog or is not a dog? Is it a cat or not a cat? It classifies the data point based on how its neighbors are classified. KNN stores all available cases and classifies new cases based on a similarity measure. And here we go from cats and dogs right into wine, another favor to mind. KNN stores all available cases and classifies new cases based on a similarity measure. And here you see we have a measurement of sulfur dioxide versus the chloride level and then the different wines they've tested and where they fall on that graph based on how much sulfur dioxide and how much chloride. KNN is a perimeter that refers to the number of nearest neighbors to include in the majority of the voting process. And so if we had a new glass of wine there, red or white, we want to know what the neighbors are. In this case we're going to put K equals five, we'll talk about K in just a minute. A data point is classified by the majority of votes from its five nearest neighbors. Here the unknown point would be classified as red since four out of five neighbors are red. So how do we choose K? How do we know K equals five? I mean that's what's the value we put in there so we're going to talk about it. How do we choose the factor K? KNN algorithm is based on features similarity. Choosing the right value of K is a process called parameter tuning and is important for better accuracy. So at K equals three we can classify, we have a question mark in the middle as either a, as a square or not. Is it a square or is it in this case a triangle? And so if we set K equals to three, we're going to look at the three nearest neighbors. We're going to say this is a square. And if we put K equals to seven, we classify as a triangle depending on what the other data is around it. And you can see as the K changes depending on where that point is, that drastically changes your answer. And we jump here, we go, how do we choose the factor of K? You'll find this in all machine learning. Choosing these factors, that's the face you get. You say, oh my gosh, they choose the right K. Did I set it right, my values and whatever machine learning to you're looking at so that you don't have a huge bias in one direction or the other. And in terms of KNN, the number of K, if you choose it too low, the bias is based on, it's just two noises. It's right next to a couple things and it's going to pick those things and you might get a skewed answer. And if your K is too big, then it's going to take forever to process. So you're going to run into processing issues and resource issues. So what we do, the most common use, and there's other options for choosing K, is to use the square root of N. So it is a total number of values you have, you take the square root of it. In most cases, you also, if it's an even number, so if you're using, like this case squares and triangles, if it's even, you want to make your K value odd, that helps it select better. So in other words, you're not going to have a balance between two different factors that are equal. So usually you take the square root of N and if it's even, you add one to it or subtract one from it and that's where you get the K value from. That is the most common use and it's pretty solid. It works very well. When do we use KNN? We can use KNN when data is labeled. So you need a label on it. We know we have a group of pictures with dogs, dogs, cats, cats. Data is noise free. And so you can see here, when we have a class and we have like underweight 140, 23, Hello Kitty, normal, that's pretty confusing. We have a high variety of data coming in. So it's very noisy and that would cause an issue. Data set is small. So we're usually working with smaller data sets where, I mean, you might get into a gig of data if it's really clean. It doesn't have a lot of noise because KNN is a lazy learner, i.e. it doesn't learn a discrimative function from the training set. So it's very lazy. So if you have very complicated data and you have a large amount of it, you're not going to use the KNN. But it's really great to get a place to start. Even with large data, you can sort out a small sample and get an idea of what that looks like using the KNN. And also just using for smaller data sets, KNN works really good. How does the KNN algorithm work? Consider a data set having two variables, height in centimeters and weight in kilograms. And each point is classified as normal or underweight. So we can see right here, we have two variables, you know, true false or either normal or they're not, they're underweight. On the basis of the given data, we have to classify the below set as normal or underweight using KNN. So if we have new data coming in that says 57 kilograms and 177 centimeters, is that going to be normal or underweight? To find the nearest neighbors, we'll calculate the Euclidean distance. According to the Euclidean distance formula, the distance between two points in the plane with the coordinates x, y and ab is given by distance d equals the square root of x minus a squared plus y minus b squared. And you can remember that from the two edges of a triangle. We're computing the third edge since we know the x side and the y side. Let's calculate it to understand clearly. So we have our unknown point and we placed it there in red and we have our other points where the data is scattered around. The distance d1 is the square root of 170 minus 167 squared plus 57 minus 51 squared, which is about 6.7. And distance 2 is about 13. And distance 3 is about 13.4. Similarly, we will calculate the Euclidean distance of unknown data point from all the points in the data set. And because we're dealing with small amount of data, that's not that hard to do. And it's actually pretty quick for a computer. And it's not a really complicated mass. You can just see how close is the data based on the Euclidean distance. Hence, we have calculated the Euclidean distance of unknown data point from all the points as showing where x1 and y1 equal 57 and 170. Whose class we have to classify. So now we're looking at that and saying, well, here's the Euclidean distance. Who's going to be their closest neighbors? Now let's calculate the nearest neighbor at k equals 3. And we can see the three closest neighbors put some at normal. And that's pretty self-evident. When you look at this graph, it's pretty easy to say, okay, we're just voting. Normal, normal, normal, three votes for normal. This is going to be a normal weight. So majority of neighbors are pointing towards normal. Hence, as per kNN algorithm, the class of 57170 should be normal. So recap of kNN. Positive integer k is specified along with a new sample. We select the k entries in our database, which are closest to the new sample. We find the most common classification of these entries. This is the classification we give to the new sample. So as you can see, it's pretty straightforward. We're just looking for the closest things that match what we got. So let's take a look and see what that looks like in a use case in Python. So let's dive into the predict diabetes use case. So use case predict diabetes. The objective predict whether a person will be diagnosed with diabetes or not. We have a data set of 768 people who were or were not diagnosed with diabetes. And let's go ahead and open that file and just take a look at that data. And this is in a simple spreadsheet format. The data itself is comma separated, very common set of data. And it's also a very common way to get the data. And you can see here we have columns A through I, that's what one, two, three, four, five, six, seven, eight, eight columns with a particular attribute. And then the ninth column, which is the outcome is whether they have diabetes as a data scientist. The first thing you should be looking at is insulin. Well, you know, if someone has insulin, they have diabetes, because that's why they're taking it. And that could cause issue in some of the machine learning packages. But for very basic setup, this works fine for doing the KNN. And the next thing you notice is it didn't take very much to open it up. I can scroll down to the bottom of the data. There's 768. It's pretty much a small data set. You know, at 769, I can easily fit this into my RAM on my computer. I can look at it. I can manipulate it. And it's not going to really tax just a regular desktop computer. You don't even need an enterprise version to run a lot of this. So let's start with importing all the tools we need. And before that, of course, we need to discuss what IDE I'm using. Certainly you can use any particular editor for Python. But I like to use for doing very basic visual stuff, the Anaconda, which is great for doing demos with the Jupyter Notebook. And just a quick view of the Anaconda Navigator, which is the new release out there, which is really nice. You can see under home, I can choose my application. We're going to be using Python 36. I have a couple different versions on this particular machine. If I go under environments, I can create a unique environment for each one, which is nice. And there's even a little button there where I can install different packages. So if I click on that button and open the terminal, I can then use a simple pip install to install different packages I'm working with. Let's go ahead and go back under home. And we're going to launch our notebook. And I've already you know, kind of like the old cooking shows, I've already prepared a lot of my stuff. So we don't have to wait for it to launch because it takes a few minutes for it to open up a browser window. In this case, I'm going to open up Chrome because that's my default that I use. And since the script is pre done, you'll see you have a number of windows open up at the top, the one we're working in. And since we're working on the KNN predict whether a person will have diabetes or not, let's go and put that title in there. And I'm also going to go up here and click on sell. Actually, we want to go ahead and first insert a sell below. And then I'm going to go back up to the top sell. And I'm going to change the sell type to markdown. That means this is not going to run as Python. It's a markdown language. So if I run this first one, it comes up in nice big letters, which is kind of nice. Mine just what we're working on. And by now, you should be familiar with doing all of our imports, we're going to import the pandas as PD import numpy is NP pandas is the pandas data frame and numpy is the number array, very powerful tools to use in here. So we have our imports. So we've brought in our pandas are numpy or to general Python tools. And then you can see over here, we have our train test split by nice to be familiar with splitting the data. We want to split part of it for training our thing and then training our particular model. And then we want to go ahead and test the remaining data to see how good it is pre processing a standard scalar pre processor. So we don't have a bias of really large numbers. Remember in the data, we had like number pregnancies isn't going to get very large where the amount of insulin they take you up to 256. So 256 versus six, that will skew results. So we want to go ahead and change that so that they're all uniform between minus one and one. And then the actual tool, this is the K neighbors classifier we're going to use. And finally, the last three are three tools to test all about testing our model. How good is it? We just put down test on there. And we have our confusion matrix, our F one score and our accuracy. So we have our two general Python modules were importing. And then we have our six modules specific from the sklearn setup. And then we do need to go ahead and run this. So these are actually imported. There we go. And then move on to the next step. And so in this set, we're going to go ahead and load the database. We're going to use pandas. We remember pandas is PD. And we'll take a look at the data in Python. We looked at it in a simple spreadsheet. But usually I like to also pull it up so that we can see what we're doing. So here's our data set equals PD.ReadCSV. That's a pandas command. And the diabetes folder I just put in the same folder where my Python script is. If you put in a different folder, you'd need the full length on there. We can also do a quick length of the data set. That is a simple Python command, LEN for length. We might even let's go ahead and print that. We'll go print. And if you do it on its own line, length.dataset that you put in notebook, it'll automatically print it. But when you're in most of your different setups, you want to do the print in front of there. And then we want to take a look at the actual data set. And since we're in pandas, we can simply do data set head. And again, let's go ahead and add the print in there. If you put a bunch of these in a row, you know, that data set one head, data set two head, it only prints out the last one. So I always like to keep the print statement in there. But because most projects only use one data frame, pandas data frame, doing it this way, it doesn't really matter. The other way works just fine. And you can see when we hit the run button, we have the 768 lines, which we knew. And we have our pregnancies. It's automatically given a label on the left. Remember, the head only shows the first five lines. So we have zero through four. And just a quick look at the data, you can see it matches what we looked at before. We have pregnancy glucose, blood pressure all the way to age. And then the outcome on the end. And we're going to do a couple of things in this next step. We're going to create a list of columns where we can't have zero. There's no such thing as zero skin thickness or zero blood pressure, zero glucose. Any of those you'd be dead. So not a really good factor if they don't, if they have a zero in there, because they didn't have the data. And we'll take a look at that because we're going to start replacing that information with a couple of different things. And let's see what that looks like. So first we create a nice list. As you can see, we have the values talked about glucose, blood pressure, skin thickness. And this is a nice way when you're working with columns is to list the columns you need to do some kind of transformation on. A very common thing to do. And then for this particular setup, we certainly could use the, there's some panda tools that will do a lot of this where we can replace the NA. But we're going to go ahead and do it as a data set column equals data set column dot replace. This is, this is still pandas. You can do it direct. There's also one that you look for your NAN. A lot of different options in here. But the NAN, NMP NAN is what that stands for is, is none, it doesn't exist. So the first thing we're doing here is we're replacing the zero with a Numpy none. There's no data there. That's what that says. That's what this is saying right here. So put the zero in and we're going to replace zeros with no data. So if it's a zero, that means the person's, well, hopefully not dead. Hopefully it just didn't get the data. The next thing they want to do is we're going to create the mean, which is the integer from the data set from the column dot mean where we skip NAs. We can do that. That is a pandas come in there, the skip NA. So we're going to figure out the mean of that data set. And then we're going to take that data set column and we're going to replace all the NPNAN with the means. Why did we do that? And we could have actually just taken this step and gone right down here and just replaced zero and skip anything where, except you can actually, there's a way to skip zeros and then just replace all the zeros. But in this case, we want to go ahead and do it this way. So you can see that we're switching this to a non-existent value. Then we're going to create the mean, well, this is the average person. So if we don't know what it is, if they did not get the data and the data is missing, one of the tricks is you replace it with the average. What is the most common data for that? This way, you can still use the rest of those values to do your computation and it kind of just brings that particular value or those missing values out of the equation. Let's go ahead and take this and we'll go ahead and run it. It doesn't actually do anything so we're still preparing our data. If you want to see what that looks like, we don't have anything in the first few lines that's not going to show up, but we certainly could look at a row. Let's do that. Let's go into our data set, what's the printed data set. And let's pick, in this case, let's just do glucose. And if I run this, this is going to print all the different glucose levels going down. And we thankfully don't see anything in here that looks like missing data, at least on the ones it shows. You can see it skipped a bunch in the middle. That's what it does. If you have too many lines in Jupyter Notebook, it'll skip a few and go on to the next in a data set. Let me go ahead and remove this. We'll just zero out that. And of course, before we do any processing, before proceeding any further, we need to split the data set into our train and testing data. That way we have something to train it with and something to test it on. And you're going to notice we did a little something here with the pandas database code. There we go, my drawing tool. We've added in this right here, off the data set. And what this says is that the first one in pandas, this is from the PD pandas, it's going to say within the data set, we want to look at the I location and it is all rows. That's what that says. So we're going to keep all the rows. But we're only looking at zero column zero to eight. Remember column nine, here it is right up here. We printed it in here as outcome. Well, that's not part of the training data. That's part of the answer. Yes, column nine, but it's listed as eight number eight. So zero to eight is nine columns. So eight is the value. And when you see it in here, zero, this is actually zero to seven. It doesn't include the last one. And then we go down here to why, which is our answer. And we want just the last one, just column eight. And you can do it this way with this particular notation. And then if you remember, we imported the train test split. That's part of the SK learn right there. And we simply put in our X and our Y. We're going to do random state equals zero. You don't have to necessarily seed it. That's a seed number. I think the default is one when you seed it. I have to look that up. And then the test size. Test size is point two. That simply means we're going to take 20% of the data and put it aside so that we can test it later. That's all that is. And again, we're going to run it. Not very exciting. So far, we haven't had any print out other than to look at the data. But that is a lot of this is prepping this data. Once you prep it, the actual lines of code are quick and easy. And we're almost there. But the actual running of our KNN, we need to go ahead and do a scale the data. If you remember correctly, we're fitting the data in a standard scalar, which means instead of the data being from five to three hundred three in one column. And the next column is one to six. We're going to set that all so that all the data is between minus one and one. That's what that standard scalar does. Keeps it standardized. And we only want to fit the scalar with the training set. But we want to make sure the testing set is the X test going in is also transformed. So it's processing it the same. So here we go with our standard scalar. We're going to call it SC underscore X for the scalar. And we're going to import the standard scalar into this variable. And then our X train equals SC underscore X dot fit transform. So we're creating the scalar on the X train variable. And then our X test, we're also going to transform it. So we've trained and transformed the X train. And then the X test isn't part of that training. It isn't part of that training the transformer. It just gets transformed. That's all it does. And again, we're going to go and run this. And if you look at this, we've now gone through these steps, all three of them. We've taken care of replacing our zeros for key columns that shouldn't be zero. And we replace that with the means of those columns that way that they fit right in with our data models. We've come down here and we split the data. So now we have our test data and our training data. And then we've taken and we scaled the data. So all of our data going in, no, we don't we don't train the Y part, the Y train and Y test. That never has to be trained. It's only the data going in. That's what we want to train in there. Then define the model using K neighbors classifier and fit the train data in the model. So we do all that data prep. And you can see down here, we're only going to have a couple lines of code where we're actually building our model and training it. That's one of the cool things about Python and how far we've come. It's such an exciting time to be in machine learning because there's so many automated tools. Let's see, before we do this, let's do a quick link of, and let's do Y. We want, let's just do length of Y. And we get 768. And if we import math, we do math dot square root, let's do Y train. There we go. It's actually supposed to be X train. Before we do this, let's go ahead and do import math and do math square root length of Y test. And when I run that, we get 12.409. I want to show you where this number comes from we're about to use. 12 is an even number. So if you know, if you're ever voting on things, remember the neighbors all vote, don't want to have an even number of neighbors voting. So we want to do something odd. And this is take one away, we'll make it 11. Let me delete this out of here. This one, the reasons I love Jupyter Notebook is you can flip around and do all kinds of things on the fly. So we'll go ahead and put in our classifier. We're creating our classifier now. And it's going to be the K neighbors classifier. Some neighbors equal 11. Remember we did 12 minus 1 for 11. So we have an odd number of neighbors. P equals 2 because we're looking for, is it, are they diabetic or not. And we're using the Euclidean metric. There are other means of measuring the distance. You can do like square, square means values, all kinds of measure this. But the Euclidean is the most common one and it works quite well. It's important to evaluate the model. Let's use the confusion matrix to do that. And we're going to use the confusion matrix. Wonderful tool. And then we'll jump into the F1 score. And finally, accuracy score, which is probably the most commonly used quoted number when you go into a meeting or something like that. So let's go ahead and paste that in there. And we'll set the CM equal to confusion matrix. Y test Y predict. So those are the two values we're going to put in there. And let me go and run that and print it out. And the way you interpret this is you have the Y predicted, which would be your title up here. You can do, let's just do PRED, predicted across the top and actual going down. It's always hard to write in here actual. That means that this column here down the middle, that's the important column. And it means that our prediction set 94 and prediction in the actual agreed on 94 and 32. This number here, the 13 and the 15, those are what was wrong. So you could have like three different, if you're looking at this across three different variables instead of just two, you'd end up with a third row down here and the column going down the middle. So in the first case we have the, and I believe the zero is a 94 people who don't have diabetes. The prediction said that 13 of those people did have diabetes and were at high risk. And the 32 that had diabetes that had correct. But our prediction said another 15 out of that 15 it classified as incorrect. So you can see where that classification comes in and how that works on the confusion matrix. Then we're going to go ahead and print the F1 score. Let me just run that. And you see we get a .69 in our F1 score. The F1 takes into account both sides of the balance of false positives. Where if we go ahead and just do the accuracy account, and that's what most people think of, is it looks at just how many we got right out of how many we got wrong. So a lot of people we need are data scientists and you're talking to other data scientists, they're going to ask you what the F1 score, the F score is. If you're talking to the general public or the decision makers in the business, they're going to ask what the accuracy is. And the accuracy is always better than the F1 score. But the F1 score is more telling. It lets us know that there's more false positives than we would like on here. But 82% not too bad for a quick flash look at people's different statistics and running an SK Learn. And running the KNN, the K nearest neighbor on it. So we have created a model using KNN, which can predict whether a person will have diabetes or not. Or the very least, whether they should go get a checkup and have their glucose checked regularly or not. The print accuracy score, we got the .818, it was pretty close to what we got. And we can pretty much round that off and just say we have an accuracy of 80%. Tells us it is a pretty fair fit in the model. To pull that all together, there's always a lot of fun. Make sure we cover everything we went over today. We covered why we need a KNN, looking at cats and dogs. Great if you have a cat door, you want to figure out whether there's a cat or dog coming in, don't let the dog in or out. Using Euclidean distance, the simple distance calculated by the two sides of the triangle or the square root of the two sides squared. Choosing the value of K. We discussed that a little bit, at least one of the main choices that people use for choosing K. And how KNN works, then finally we did a full KNN classifier for diabetes prediction. Thank you for joining us today. For more information visit www.simplerne.com. Feel free to post your questions in the YouTube video here or visit us on our website and we'll also have a support page there you can go to and post additional questions. Again, thank you for joining us today."
+}

@@ -1,0 +1,765 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 9.0,
+            "text": " Hello everyone.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 9.0,
+            "end": 10.76,
+            "text": " Welcome to this tutorial by SimplyLearn.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 10.76,
+            "end": 16.28,
+            "text": " In this video, you will learn about an interesting machine learning topic that is supervised versus",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 16.28,
+            "end": 18.76,
+            "text": " unsupervised versus reinforcement learning.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 18.76,
+            "end": 23.84,
+            "text": " Let's discuss each of them in detail and understand when to use these algorithms along",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 23.84,
+            "end": 24.84,
+            "text": " with their applications.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 24.84,
+            "end": 29.64,
+            "text": " There are a number of algorithms used in the field of machine learning to solve complex",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 29.64,
+            "end": 30.64,
+            "text": " problems.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 30.64,
+            "end": 34.32,
+            "text": " Each of these algorithms can be classified into a certain category.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 34.32,
+            "end": 38.8,
+            "text": " So the different types of machine learning algorithms are supervised learning, unsupervised",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 38.8,
+            "end": 41.760000000000005,
+            "text": " learning and reinforcement learning.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 41.760000000000005,
+            "end": 47.28,
+            "text": " Now let's look at the definition of each of these learning techniques.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 47.28,
+            "end": 51.480000000000004,
+            "text": " Supervised learning uses labeled data to train machine learning models.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 51.48,
+            "end": 55.04,
+            "text": " Universal data means that the output is already known to you.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 55.04,
+            "end": 58.519999999999996,
+            "text": " The model just needs to map the inputs to the outputs.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 58.519999999999996,
+            "end": 62.28,
+            "text": " An example of supervised learning can be to train a machine that identifies the image",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 62.28,
+            "end": 63.28,
+            "text": " of an animal.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 63.28,
+            "end": 69.44,
+            "text": " Below you can see, we have a trained model that identifies the picture of a cat.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 69.44,
+            "end": 73.12,
+            "text": " Unsupervised learning uses unlabeled data to train machines.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 73.12,
+            "end": 76.19999999999999,
+            "text": " Unlabeled data means there is no fixed output variable.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 76.19999999999999,
+            "end": 80.16,
+            "text": " The model learns from the data, discovers patterns and features in the data and returns",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 80.16,
+            "end": 81.44,
+            "text": " the output.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 81.44,
+            "end": 85.6,
+            "text": " Here is an example of an unsupervised learning technique that uses the images of vehicles",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 85.6,
+            "end": 88.52,
+            "text": " to classify if it's a bus or a truck.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 88.52,
+            "end": 92.56,
+            "text": " So the model learns by identifying the parts of a vehicle such as the length and width",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 92.56,
+            "end": 99.68,
+            "text": " of the vehicle, the front and rear end covers, roof heads, the types of wheels used, etc.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 99.68,
+            "end": 106.12,
+            "text": " Based on these features, the model classifies if the vehicle is a bus or a truck.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 106.12,
+            "end": 110.24,
+            "text": " Reinforcement learning trains a machine to take suitable accents and maximize reward in",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 110.24,
+            "end": 112.11999999999999,
+            "text": " a particular situation.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 112.11999999999999,
+            "end": 116.32,
+            "text": " It uses an agent and an environment to produce actions and rewards.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 116.32,
+            "end": 121.56,
+            "text": " The agent has a start and an end state, but there might be different parts for reaching",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 121.56,
+            "end": 123.72,
+            "text": " the end state like a maze.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 123.72,
+            "end": 127.39999999999999,
+            "text": " In this learning technique, there is no predefined target variable.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 127.39999999999999,
+            "end": 131.51999999999998,
+            "text": " An example of reinforcement learning is to train a machine that can identify the shape",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 131.51999999999998,
+            "end": 139.12,
+            "text": " of an object given a list of different objects such as square, triangle, rectangle or a circle.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 139.12,
+            "end": 143.16,
+            "text": " In the example shown, the model tries to predict the shape of the object which is a",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 143.16,
+            "end": 145.32,
+            "text": " square here.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 145.32,
+            "end": 150.04,
+            "text": " Now let's look at the different machine learning algorithms that come under these learning",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 150.04,
+            "end": 151.78,
+            "text": " techniques.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 151.78,
+            "end": 155.84,
+            "text": " Some of the commonly used supervised learning algorithms are linear regression, logistic",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 155.84,
+            "end": 161.08,
+            "text": " regression, support vector machines, k nearest neighbors, decision tree, random forest and",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 161.08,
+            "end": 163.36,
+            "text": " knife base.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 163.36,
+            "end": 168.52,
+            "text": " Examples of unsupervised learning algorithms are k-means clustering, hierarchical clustering,",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 168.52,
+            "end": 172.52,
+            "text": " db scan, principle component analysis and others.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 172.52,
+            "end": 177.60000000000002,
+            "text": " Choosing the right algorithm depends on the type of problem you are trying to solve.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 177.60000000000002,
+            "end": 183.04000000000002,
+            "text": " Some of the important reinforcement learning algorithms are Q learning, Monte Carlo, Sarsa",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 183.04000000000002,
+            "end": 184.64000000000001,
+            "text": " and DeepQ network.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 184.64000000000001,
+            "end": 190.4,
+            "text": " Now let's look at the approach in which these machine learning techniques work.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 190.4,
+            "end": 194.88,
+            "text": " So supervised learning takes labeled inputs and maps it to known outputs, which means",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 194.88,
+            "end": 198.24,
+            "text": " you already know the target variable.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 198.24,
+            "end": 201.88,
+            "text": " Nonsupervised learning finds patterns and understands the trends in the data to discover",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 201.88,
+            "end": 202.88,
+            "text": " the output.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 202.88,
+            "end": 208.24,
+            "text": " So the model tries to label the data based on the features of the input data.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 208.24,
+            "end": 212.76000000000002,
+            "text": " While reinforcement learning follows trial and error method to get the desired solution.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 212.76000000000002,
+            "end": 216.08,
+            "text": " After accomplishing a task, the agent receives an award.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 216.08,
+            "end": 219.52,
+            "text": " An example could be to train a dog to catch the ball.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 219.52,
+            "end": 225.04000000000002,
+            "text": " If the dog learns to catch a ball, you give it a reward such as a biscuit.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 225.04,
+            "end": 231.07999999999998,
+            "text": " Now let's discuss the training process for each of these learning methods.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 231.07999999999998,
+            "end": 235.68,
+            "text": " So supervised learning methods need external supervision to train machine learning models",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 235.68,
+            "end": 238.51999999999998,
+            "text": " and hence the name supervised.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 238.51999999999998,
+            "end": 243.35999999999999,
+            "text": " The need guidance and additional information to return the result.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 243.35999999999999,
+            "end": 247.39999999999998,
+            "text": " Unsupervised learning techniques do not need any supervision to train models.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 247.39999999999998,
+            "end": 250.23999999999998,
+            "text": " They learn on their own and predict the output.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 250.23999999999998,
+            "end": 254.44,
+            "text": " Similarly, reinforcement learning methods do not need any supervision to train machine",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 254.44,
+            "end": 256.24,
+            "text": " learning models.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 256.24,
+            "end": 261.76,
+            "text": " And with that, let's focus on the types of problems that can be solved using these three",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 261.76,
+            "end": 263.96,
+            "text": " types of machine learning techniques.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 263.96,
+            "end": 267.68,
+            "text": " So supervised learning is generally used for classification and regression problems.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 267.68,
+            "end": 271.8,
+            "text": " We'll see the examples in the next slide.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 271.8,
+            "end": 276.12,
+            "text": " And unsupervised learning is used for clustering and association problems.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 276.12,
+            "end": 281.24,
+            "text": " While reinforcement learning is reward based, so for every task or for every step completed,",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 282.24,
+            "end": 284.6,
+            "text": " there will be a reward received by the agent.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 284.6,
+            "end": 291.2,
+            "text": " And if the task is not achieved correctly, there will be some penalty used.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 291.2,
+            "end": 297.48,
+            "text": " Now let's look at a few applications of supervised unsupervised and reinforcement learning.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 297.48,
+            "end": 301.96000000000004,
+            "text": " As we saw earlier, supervised learning are used to solve classification and regression",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 301.96000000000004,
+            "end": 302.96000000000004,
+            "text": " problems.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 302.96000000000004,
+            "end": 307.92,
+            "text": " For example, you can predict the weather for a particular day based on humidity, precipitation,",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 307.92,
+            "end": 310.8,
+            "text": " wind speed and pressure values.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 310.8,
+            "end": 314.40000000000003,
+            "text": " You can use supervised learning algorithms to forecast sales for the next month or the",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 314.40000000000003,
+            "end": 316.6,
+            "text": " next quarter for different products.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 316.6,
+            "end": 321.04,
+            "text": " Similarly, you can use it for stock price analysis or identifying if a cancer cell is",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 321.04,
+            "end": 323.96000000000004,
+            "text": " malignant or benign.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 323.96000000000004,
+            "end": 329.52,
+            "text": " Now talking about the applications of unsupervised learning, we have customer segmentation.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 329.52,
+            "end": 334.44,
+            "text": " So based on customer behavior, likes, dislikes and interests, you can segment and cluster",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 334.44,
+            "end": 336.76,
+            "text": " similar customers into a group.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 336.76,
+            "end": 342.44,
+            "text": " Another example where unsupervised learning algorithms are used is customer churn analysis.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 342.44,
+            "end": 346.68,
+            "text": " Now let's see what applications we have in reinforcement learning.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 346.68,
+            "end": 351.64,
+            "text": " So reinforcement learning algorithms are widely used in the gaming industries to build games.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 351.64,
+            "end": 356.24,
+            "text": " It is also used to train robots to perform human tasks.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 356.24,
+            "end": 360.36,
+            "text": " And with that, we have come to the end of this video on supervised versus unsupervised",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 360.36,
+            "end": 362.36,
+            "text": " versus reinforcement learning.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 362.36,
+            "end": 364.2,
+            "text": " I hope you liked this video.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 364.2,
+            "end": 367.4,
+            "text": " If you enjoyed watching this video, then please subscribe to the Simple Launch channel",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 367.4,
+            "end": 369.71999999999997,
+            "text": " and hit the bell icon to never miss an update.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 369.71999999999997,
+            "end": 384.84,
+            "text": " Thank you for watching and keep learning.",
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " Hello everyone. Welcome to this tutorial by SimplyLearn. In this video, you will learn about an interesting machine learning topic that is supervised versus unsupervised versus reinforcement learning. Let's discuss each of them in detail and understand when to use these algorithms along with their applications. There are a number of algorithms used in the field of machine learning to solve complex problems. Each of these algorithms can be classified into a certain category. So the different types of machine learning algorithms are supervised learning, unsupervised learning and reinforcement learning. Now let's look at the definition of each of these learning techniques. Supervised learning uses labeled data to train machine learning models. Universal data means that the output is already known to you. The model just needs to map the inputs to the outputs. An example of supervised learning can be to train a machine that identifies the image of an animal. Below you can see, we have a trained model that identifies the picture of a cat. Unsupervised learning uses unlabeled data to train machines. Unlabeled data means there is no fixed output variable. The model learns from the data, discovers patterns and features in the data and returns the output. Here is an example of an unsupervised learning technique that uses the images of vehicles to classify if it's a bus or a truck. So the model learns by identifying the parts of a vehicle such as the length and width of the vehicle, the front and rear end covers, roof heads, the types of wheels used, etc. Based on these features, the model classifies if the vehicle is a bus or a truck. Reinforcement learning trains a machine to take suitable accents and maximize reward in a particular situation. It uses an agent and an environment to produce actions and rewards. The agent has a start and an end state, but there might be different parts for reaching the end state like a maze. In this learning technique, there is no predefined target variable. An example of reinforcement learning is to train a machine that can identify the shape of an object given a list of different objects such as square, triangle, rectangle or a circle. In the example shown, the model tries to predict the shape of the object which is a square here. Now let's look at the different machine learning algorithms that come under these learning techniques. Some of the commonly used supervised learning algorithms are linear regression, logistic regression, support vector machines, k nearest neighbors, decision tree, random forest and knife base. Examples of unsupervised learning algorithms are k-means clustering, hierarchical clustering, db scan, principle component analysis and others. Choosing the right algorithm depends on the type of problem you are trying to solve. Some of the important reinforcement learning algorithms are Q learning, Monte Carlo, Sarsa and DeepQ network. Now let's look at the approach in which these machine learning techniques work. So supervised learning takes labeled inputs and maps it to known outputs, which means you already know the target variable. Nonsupervised learning finds patterns and understands the trends in the data to discover the output. So the model tries to label the data based on the features of the input data. While reinforcement learning follows trial and error method to get the desired solution. After accomplishing a task, the agent receives an award. An example could be to train a dog to catch the ball. If the dog learns to catch a ball, you give it a reward such as a biscuit. Now let's discuss the training process for each of these learning methods. So supervised learning methods need external supervision to train machine learning models and hence the name supervised. The need guidance and additional information to return the result. Unsupervised learning techniques do not need any supervision to train models. They learn on their own and predict the output. Similarly, reinforcement learning methods do not need any supervision to train machine learning models. And with that, let's focus on the types of problems that can be solved using these three types of machine learning techniques. So supervised learning is generally used for classification and regression problems. We'll see the examples in the next slide. And unsupervised learning is used for clustering and association problems. While reinforcement learning is reward based, so for every task or for every step completed, there will be a reward received by the agent. And if the task is not achieved correctly, there will be some penalty used. Now let's look at a few applications of supervised unsupervised and reinforcement learning. As we saw earlier, supervised learning are used to solve classification and regression problems. For example, you can predict the weather for a particular day based on humidity, precipitation, wind speed and pressure values. You can use supervised learning algorithms to forecast sales for the next month or the next quarter for different products. Similarly, you can use it for stock price analysis or identifying if a cancer cell is malignant or benign. Now talking about the applications of unsupervised learning, we have customer segmentation. So based on customer behavior, likes, dislikes and interests, you can segment and cluster similar customers into a group. Another example where unsupervised learning algorithms are used is customer churn analysis. Now let's see what applications we have in reinforcement learning. So reinforcement learning algorithms are widely used in the gaming industries to build games. It is also used to train robots to perform human tasks. And with that, we have come to the end of this video on supervised versus unsupervised versus reinforcement learning. I hope you liked this video. If you enjoyed watching this video, then please subscribe to the Simple Launch channel and hit the bell icon to never miss an update. Thank you for watching and keep learning."
+}

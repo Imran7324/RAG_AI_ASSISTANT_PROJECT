@@ -1,0 +1,901 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 14.040000000000001,
+            "topic": "Linear Regression Analysis",
+            "text": " Welcome to Linear Regression. My name is Richard Kirschner. I'm with Simply Learn. Let's look at an example of a common use for linear regression, profit estimation of a company."
+        },
+        {
+            "id": 5,
+            "start": 14.040000000000001,
+            "end": 29.28,
+            "topic": "Linear Regression Analysis",
+            "text": " If I was going to invest in a company, I would like to know how much money I could expect to make. So we'll take a look at a venture capitalist firm and try to understand which companies they should invest in. So we'll take the idea that we need to decide the companies to invest in."
+        },
+        {
+            "id": 10,
+            "start": 29.28,
+            "end": 45.72,
+            "topic": "Linear Regression Analysis",
+            "text": " We need to predict the profit the company makes. And we're going to do it based on the company's expenses, and even just a specific expense. In this case, we have our company, we have the different expenses, so we have our R&D, which is your research and development. We have our marketing."
+        },
+        {
+            "id": 15,
+            "start": 45.72,
+            "end": 61.279999999999994,
+            "topic": "Linear Regression Analysis",
+            "text": " We might have the location. We might have what kind of administration is going through. Based on all this different information, we would like to calculate the profit. Now in actuality, there's usually about 23 to 27 different markers that they look at if they're a heavy duty investor."
+        },
+        {
+            "id": 20,
+            "start": 61.279999999999994,
+            "end": 77.88,
+            "topic": "Linear Regression Analysis",
+            "text": " We're only going to take a look at one basic one. We're going to come in and for simplicity, let's consider a single variable R&D and find out which companies to invest in based on that. So we take R&D and we're plotting the profit based on the R&D expenditure, how much money they put into the research and development."
+        },
+        {
+            "id": 25,
+            "start": 77.88,
+            "end": 90.44000000000001,
+            "topic": "Linear Regression Analysis",
+            "text": " And then we look at the profit that goes with that. We can predict a line to estimate the profit. We can draw a line right through the data. When you look at that, you can see how much they invest in the R&D as a good marker as to how much profit they're going to have."
+        },
+        {
+            "id": 30,
+            "start": 90.44000000000001,
+            "end": 109.04,
+            "topic": "Linear Regression Analysis",
+            "text": " We can also note that companies spending more on R&D make good profit. So let's invest in the ones that spend a higher rate in their R&D. What's in it for you? First we'll have an introduction to machine learning followed by machine learning algorithms. These will be specific to linear regression and where it fits into the larger model."
+        },
+        {
+            "id": 35,
+            "start": 109.04,
+            "end": 123.76,
+            "topic": "Linear Regression Analysis",
+            "text": " Then we'll take a look at applications of linear regression, understanding linear regression, and multiple linear regression. Finally, we'll roll up our sleeves and do a little programming in use case profit estimation of companies. Let's go ahead and jump in."
+        },
+        {
+            "id": 40,
+            "start": 123.76,
+            "end": 140.52,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's start with our introduction to machine learning along with some machine learning algorithms and where that fits in with linear regression. Let's look at another example of machine learning. Based on the amount of rainfall, how much would be the crop yield? Here we have our crops, we have our rainfall, and we want to know how much we're going"
+        },
+        {
+            "id": 45,
+            "start": 140.52,
+            "end": 156.28,
+            "topic": "Linear Regression Analysis",
+            "text": " to get from our crops this year. So we're going to introduce two variables, independent and dependent. The independent variable is a variable whose value does not change by the effect of other variables and is used to manipulate the dependent variable. It is often denoted as x."
+        },
+        {
+            "id": 50,
+            "start": 156.28,
+            "end": 174.76000000000002,
+            "topic": "Linear Regression Analysis",
+            "text": " In our example, rainfall is the independent variable. This is a wonderful example because you can easily see that we can't control the rain, but the rain does control the crop. We talk about the independent variable controlling the dependent variable. Let's define dependent variable as a variable whose value change when there is any manipulation"
+        },
+        {
+            "id": 55,
+            "start": 174.76000000000002,
+            "end": 188.96,
+            "topic": "Linear Regression Analysis",
+            "text": " the values of the independent variables. It is often denoted as y. You can see here our crop yield is dependent variable and it is dependent on the amount of rainfall received. Now that we've taken a look at a real life example, let's go a little bit into the theory"
+        },
+        {
+            "id": 60,
+            "start": 188.96,
+            "end": 205.79999999999998,
+            "topic": "Linear Regression Analysis",
+            "text": " and some definitions on machine learning and see how that fits together with linear regression. Numerical and categorical values. Let's take our data coming in. This is kind of random data from any kind of project. We want to divide it up into numerical and categorical."
+        },
+        {
+            "id": 65,
+            "start": 205.79999999999998,
+            "end": 230.88,
+            "topic": "Linear Regression Analysis",
+            "text": " So numerical is numbers, age, salary, height, where categorical would be a description, the color, a dog's breed, gender. Categorical is limited to very specific items where numerical is a range of information. Now that you've seen the difference between numerical and categorical data, let's take a look at some different machine learning definitions."
+        },
+        {
+            "id": 70,
+            "start": 230.88,
+            "end": 244.60000000000002,
+            "topic": "Linear Regression Analysis",
+            "text": " We look at a different machine learning algorithms. We can divide them into three areas. Supervised, unsupervised, reinforcement. We're only going to look at supervised today. Unsupervised means we don't have the answers."
+        },
+        {
+            "id": 75,
+            "start": 244.60000000000002,
+            "end": 258.71999999999997,
+            "topic": "Linear Regression Analysis",
+            "text": " We're just grouping things. Reinforcement is where we give positive and negative feedback to our algorithm to program it, and it doesn't have the information until after the fact. But today we're just looking at supervised because that's where linear regression fits in."
+        },
+        {
+            "id": 80,
+            "start": 258.71999999999997,
+            "end": 278.64,
+            "topic": "Linear Regression Analysis",
+            "text": " In supervised data, we have our data already there and our answers for a group. And then we use that to program our model and come up with an answer. The two most common uses for that is through the regression and classification. Now we're doing linear regression, so we're just going to focus on the regression side. And in the regression, we have simple linear regression."
+        },
+        {
+            "id": 85,
+            "start": 278.64,
+            "end": 298.12,
+            "topic": "Linear Regression Analysis",
+            "text": " We have multiple linear regression and we have polynomial linear regression. Now on these three, simple linear regression is the examples we've looked at so far where we have a lot of data and we draw a straight line through it. Multiple linear regression means we have multiple variables. Remember where we had the rainfall and the crops?"
+        },
+        {
+            "id": 90,
+            "start": 298.12,
+            "end": 310.92,
+            "topic": "Linear Regression Analysis",
+            "text": " We might add additional variables in there like how much food do we give our crops? When do we harvest them? Those would be additional information added into our model. And that's why we multiple linear regression. And finally we have polynomial linear regression."
+        },
+        {
+            "id": 95,
+            "start": 310.92,
+            "end": 330.6,
+            "topic": "Linear Regression Analysis",
+            "text": " That is, instead of drawing a line, we can draw a curved line through it. Now that you see where regression model fits into the machine learning algorithms, and we're specifically looking at linear regression, let's go ahead and take a look at applications for linear regression. Let's look at a few applications of linear regression."
+        },
+        {
+            "id": 100,
+            "start": 330.6,
+            "end": 343.68,
+            "topic": "Linear Regression Analysis",
+            "text": " Economic growth. Use to determine the economic growth of a country or a state in the coming quarter. Can also be used to predict the GDP of a country. Product price. Can be used to predict what would be the price of a product in the future."
+        },
+        {
+            "id": 105,
+            "start": 343.68,
+            "end": 354.08,
+            "topic": "Linear Regression Analysis",
+            "text": " We can guess whether it's going to go up or down or should I buy today. Housing cells. To estimate the number of houses a builder would sell and what price in the coming months. Score predictions. Cricket fever."
+        },
+        {
+            "id": 110,
+            "start": 354.08,
+            "end": 377.88,
+            "topic": "Linear Regression Analysis",
+            "text": " To predict the number of runs a player would score in the coming matches based on the previous performance. I'm sure you can figure out other applications you could use linear regression for. So let's jump in and let's understand linear regression and dig into the theory. Understanding linear regression. Linear regression is the statistical model used to predict the relationship between independent"
+        },
+        {
+            "id": 115,
+            "start": 377.88,
+            "end": 396.24,
+            "topic": "Linear Regression Analysis",
+            "text": " and dependent variables by examining two factors. The first important one is which variables in particular are significant predictors of the outcome variable. And the second one that we need to look at closely is how significant is the regression line to make predictions with the highest possible accuracy."
+        },
+        {
+            "id": 120,
+            "start": 396.24,
+            "end": 414.88,
+            "topic": "Linear Regression Analysis",
+            "text": " If it's inaccurate we can't use it. So it's very important we find out the most accurate line we can get. Since linear regression is based on drawing a line through data. We're going to jump back and take a look at some Euclidean geometry. The simplest form of a simple linear regression equation with one dependent and one independent"
+        },
+        {
+            "id": 125,
+            "start": 414.88,
+            "end": 431.79999999999995,
+            "topic": "Linear Regression Analysis",
+            "text": " variable is represented by y equals m times x plus c. And if you look at our model here we plotted two points on here. X1 and Y1, X2 and Y2. Y being the dependent variable. Remember that from before."
+        },
+        {
+            "id": 130,
+            "start": 431.79999999999995,
+            "end": 450.6,
+            "topic": "Linear Regression Analysis",
+            "text": " And X being the independent variable. So Y depends on whatever X is. M in this case is the slope of the line where M equals the difference in the Y2 minus Y1 and X2 minus X1. And finally we have C which is a coefficient of the line."
+        },
+        {
+            "id": 135,
+            "start": 450.6,
+            "end": 469.56,
+            "topic": "Linear Regression Analysis",
+            "text": " Or where it happens to cross the zero axes. Let's go back and look at an example we used earlier linear regression. We're going to go back to plotting the amount of crop yield based on the amount of rainfall. And here we have our rainfall. Remember we cannot change rainfall and we have our crop yield."
+        },
+        {
+            "id": 140,
+            "start": 469.56,
+            "end": 482.4,
+            "topic": "Linear Regression Analysis",
+            "text": " Which is dependent on the rainfall. So we have our independent and our dependent variables. We're going to take this and draw a line through it. As best we can through the middle of the data. And then we look at that we put the red point on the Y axis."
+        },
+        {
+            "id": 145,
+            "start": 482.4,
+            "end": 502.2,
+            "topic": "Linear Regression Analysis",
+            "text": " Is the amount of crop yield you can expect for the amount of rainfall represented by the green dot. So if we have an idea what the rainfall is for this year and what's going on. Then we can guess how good our crops are going to be. And we've created a nice line right through the middle to give us a nice mathematical formula. Let's take a look and see what the math looks like behind this."
+        },
+        {
+            "id": 150,
+            "start": 502.2,
+            "end": 519.0,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's look at the intuition behind the regression line. Now before we dive into the math and the formulas that go behind this. And what's going on behind the scenes. I want you to note that when we get into the case study. And we actually apply some Python script."
+        },
+        {
+            "id": 155,
+            "start": 519.0,
+            "end": 537.08,
+            "topic": "Linear Regression Analysis",
+            "text": " That this math that you're going to see here is already done automatically for you. You don't have to have it memorized. It is however good to have an idea what's going on. So if people reference the different terms you'll know what they're talking about. Let's consider a sample data set with five rows and find out how to draw the regression"
+        },
+        {
+            "id": 160,
+            "start": 537.08,
+            "end": 549.08,
+            "topic": "Linear Regression Analysis",
+            "text": " line. We're only going to do five rows because if we did like the rainfall with hundreds of points of data. That would be very hard to see what's going on with the mathematics. So we'll go ahead and create our own two sets of data."
+        },
+        {
+            "id": 165,
+            "start": 549.08,
+            "end": 568.12,
+            "topic": "Linear Regression Analysis",
+            "text": " And we have our independent variable x and our dependent variable y. And when x was one we got y equals two. And x was two, y was four, and so on and so on. If we go ahead and plot this data on a graph we can see how it forms a nice line through the middle."
+        },
+        {
+            "id": 170,
+            "start": 568.12,
+            "end": 583.08,
+            "topic": "Linear Regression Analysis",
+            "text": " You can see where it's kind of grouped going upwards to the right. The next thing we want to know is what the means is of each of the data coming in. The x and the y. The means doesn't mean anything other than the average. So we add up all the numbers and divide by the total."
+        },
+        {
+            "id": 175,
+            "start": 583.08,
+            "end": 598.44,
+            "topic": "Linear Regression Analysis",
+            "text": " So one plus two plus three plus four plus five over five equals three. And the same for y we get four. If we go ahead and plot the means on the graph we'll see we get three comma four which draws a nice line down the middle. A good estimate."
+        },
+        {
+            "id": 180,
+            "start": 598.44,
+            "end": 619.48,
+            "topic": "Linear Regression Analysis",
+            "text": " Here we're going to dig deeper into the math behind the regression line. Now remember before I said you don't have to have all these formulas memorized or fully understand them even though we're going to go into a little more detail of how it works. Even if you're not a math wiz and you don't know if you've never seen the sigma character before which looks a little bit like an e that's opened up."
+        },
+        {
+            "id": 185,
+            "start": 619.48,
+            "end": 634.32,
+            "topic": "Linear Regression Analysis",
+            "text": " That just means summation. That's all that is. So when you see the sigma character it just means we're adding everything in that row. And for computers this is great because as a programmer you can easily iterate through each of the xy points and create all the information you need."
+        },
+        {
+            "id": 190,
+            "start": 634.32,
+            "end": 650.96,
+            "topic": "Linear Regression Analysis",
+            "text": " So on the top half you can see where we've broken that down into pieces and as it goes through the first two points it computes the squared value of x, the squared value of y and x times y. And then it takes all of x and adds them up, all of y adds them up, all of x squared adds them up and so on and so on."
+        },
+        {
+            "id": 195,
+            "start": 650.96,
+            "end": 671.78,
+            "topic": "Linear Regression Analysis",
+            "text": " And you can see we have the sum of equal to 15, the sum is equal to 20, all the way up to x times y where the sum equals 66. This all comes from our formula for calculating a straight line where y equals the slope times x plus the coefficient c. So we go down below and we're going to compute more like the averages of these and we'll"
+        },
+        {
+            "id": 200,
+            "start": 671.78,
+            "end": 690.52,
+            "topic": "Linear Regression Analysis",
+            "text": " explain exactly what that is in just a minute and where that information comes from is called the square means error. But we'll go into that in detail in a few minutes. All you need to do is look at the formula and see how we've gone about computing it line by line instead of trying to have a huge set of numbers pushed into it."
+        },
+        {
+            "id": 205,
+            "start": 690.52,
+            "end": 712.6,
+            "topic": "Linear Regression Analysis",
+            "text": " And down here you'll see where the slope m equals and in the top part if you read through the brackets you have the number of data points times the sum of x times y which we computed one line at a time there and that's just the 66. And take all that and use to track it from the sum of x times the sum of y and those have both been computed."
+        },
+        {
+            "id": 210,
+            "start": 712.6,
+            "end": 733.12,
+            "topic": "Linear Regression Analysis",
+            "text": " So you have 15 times 20 and on the bottom we have the number of lines times the sum of x squared easily computed as 86 for the sum minus, I'll take all that and subtract the sum of x squared. And we end up as we come across with our formula you can plug in all those numbers which is very easy to do on the computer."
+        },
+        {
+            "id": 215,
+            "start": 733.12,
+            "end": 755.12,
+            "topic": "Linear Regression Analysis",
+            "text": " You don't have to do the math on a piece of paper or calculator. And you'll get a slope of 0.6 and you'll get your C coefficient if you continue to follow through that formula you'll see it comes out as equal to 2.2. Continuing deeper into what's going behind the scenes let's find out the predicted values of y for corresponding values of x using the linear equation where m equals 0.6 and"
+        },
+        {
+            "id": 220,
+            "start": 755.12,
+            "end": 773.6,
+            "topic": "Linear Regression Analysis",
+            "text": " c equals 2.2. We're going to take these values and we're going to go ahead and plot them we're going to predict them so y equals 0.6 times where x equals 1 plus 2.2 equals 2.8 so on and so on. And here the blue points represent the actual y values and the brown points represent the"
+        },
+        {
+            "id": 225,
+            "start": 773.6,
+            "end": 794.36,
+            "topic": "Linear Regression Analysis",
+            "text": " predicted y values based on the model we created. The distance between the actual and predicted values is known as residuals or errors. The best fit line should have the least sum of squares of these errors also known as e square. If we put these into a nice chart where you can see x and you can see y where we actual"
+        },
+        {
+            "id": 230,
+            "start": 794.36,
+            "end": 815.88,
+            "topic": "Linear Regression Analysis",
+            "text": " values were and you can see y predicted you can easily see where we take y minus y predicted and we get an answer what is the difference between those two. And if we square that y minus y prediction squared we can then sum those squared values that's where we get the 0.64 plus the 0.36 plus 1 all the way down until we have a summation equals 2.4."
+        },
+        {
+            "id": 235,
+            "start": 815.88,
+            "end": 836.74,
+            "topic": "Linear Regression Analysis",
+            "text": " So the sum of squared errors for this regression line is 2.4. We check this error for each line and conclude the best fit line having the least e square value in a nice graphical representation. We can see here where we keep moving this line through the data points to make sure the best fit line has the least squared distance between the data points and the regression"
+        },
+        {
+            "id": 240,
+            "start": 836.74,
+            "end": 858.62,
+            "topic": "Linear Regression Analysis",
+            "text": " line. Now we only looked at the most commonly used formula for minimizing the distance. There are lots of ways to minimize the distance between the line and the data points like sum of squared errors, sum of absolute errors, root mean square error, etc. What you want to take away from this is whatever formula is being used you can easily using"
+        },
+        {
+            "id": 245,
+            "start": 858.62,
+            "end": 876.14,
+            "topic": "Linear Regression Analysis",
+            "text": " a computer programming and iterating through the data calculate the different parts of it. That way these complicated formulas you see with the different summations and absolute values are easily computed one piece at a time. Up until this point we've only been looking at two values x and y."
+        },
+        {
+            "id": 250,
+            "start": 876.14,
+            "end": 889.5,
+            "topic": "Linear Regression Analysis",
+            "text": " Well in the real world it's very rare that you only have two values when you're figuring out a solution. So let's move on to the next topic. Multiple linear regression. Let's take a brief look at what happens when you have multiple inputs."
+        },
+        {
+            "id": 255,
+            "start": 889.5,
+            "end": 913.42,
+            "topic": "Linear Regression Analysis",
+            "text": " So in multiple linear regression we have, well we'll start with the simple linear regression where we had y equals m plus x plus c and we're trying to find the value of y. Now with multiple linear regression we have multiple variables coming in. So instead of having just x we have x1, x2, x3 and instead of having just one slope each variable has its own slope attached to it."
+        },
+        {
+            "id": 260,
+            "start": 913.42,
+            "end": 936.3,
+            "topic": "Linear Regression Analysis",
+            "text": " As you can see here we have m1, m2, m3 and we still just have the single coefficient. So when you're dealing with multiple linear regression you basically take your single linear regression and you spread it out. So you have y equals m1 times x1 plus m2 times x2. So on all the way to m to the nth, x to the nth and then you add your coefficient on there."
+        },
+        {
+            "id": 265,
+            "start": 936.3,
+            "end": 951.9,
+            "topic": "Linear Regression Analysis",
+            "text": " Implementation of linear regression. Now we get into my favorite part. Let's understand how multiple linear regression works by implementing it in Python. If you remember before we were looking at a company and just based on its R&D trying to figure out its profit."
+        },
+        {
+            "id": 270,
+            "start": 951.9,
+            "end": 968.26,
+            "topic": "Linear Regression Analysis",
+            "text": " We're going to start looking at the expenditure of the company. We're going to go back to that and we're going to predict its profit. But instead of predicting it just on the R&D we're going to look at other factors like administration costs, marketing costs and so on. And from there we're going to see if we can figure out what the profit of that company"
+        },
+        {
+            "id": 275,
+            "start": 968.26,
+            "end": 984.54,
+            "topic": "Linear Regression Analysis",
+            "text": " is going to be. To start our coding we're going to begin by importing some basic libraries. And we're going to be looking through the data before we do any kind of linear regression. We're going to take a look at the data to see what we're playing with. Then we'll go ahead and format the data to the format we need to be able to run it in"
+        },
+        {
+            "id": 280,
+            "start": 984.54,
+            "end": 998.62,
+            "topic": "Linear Regression Analysis",
+            "text": " the linear regression model. And then from there we'll go ahead and solve it and just see how valid our solution is. So let's start with importing the basic libraries. Now I'm going to be doing this in Anaconda Jupyter Notebook. A very popular IDE."
+        },
+        {
+            "id": 285,
+            "start": 998.62,
+            "end": 1013.18,
+            "topic": "Linear Regression Analysis",
+            "text": " I enjoy such a visual to look at and it's so easy to use. Just any IDE for Python will work just fine for this. So break out your favorite Python IDE. So here we are in our Jupyter Notebook. Let me go ahead and paste our first piece of code in there."
+        },
+        {
+            "id": 290,
+            "start": 1013.18,
+            "end": 1030.7,
+            "topic": "Linear Regression Analysis",
+            "text": " And let's walk through what libraries were importing. First we're going to import numpy as np. And then I want you to skip one line and look at import pandas as pd. These are very common tools that you need with most of your linear regression. The numpee which stands for number Python is usually denoted as np."
+        },
+        {
+            "id": 295,
+            "start": 1030.7,
+            "end": 1045.2600000000002,
+            "topic": "Linear Regression Analysis",
+            "text": " And you have to almost have that for your sklearn toolbox. You always import that right off the beginning. Pandas, although you don't have to have it for your sklearn libraries, it does such a wonderful job of importing data, setting it up into a data frame so we can manipulate it rather easily."
+        },
+        {
+            "id": 300,
+            "start": 1045.2600000000002,
+            "end": 1060.94,
+            "topic": "Linear Regression Analysis",
+            "text": " And it has a lot of tools also in addition to that. So we usually like to use the pandas when we can. And I'll show you what that looks like. The other three lines are for us to get a visual of this data and take a look at it. So we're going to import mapplotlibrary.pyplot as plt."
+        },
+        {
+            "id": 305,
+            "start": 1060.94,
+            "end": 1074.6599999999999,
+            "topic": "Linear Regression Analysis",
+            "text": " And then seaborn as sns. Seaborn works with the mapplot library. So you have to always import mapplot library and then seaborn sits on top of it. And we'll take a look at what that looks like. You could use any of your own plotting libraries you want."
+        },
+        {
+            "id": 310,
+            "start": 1074.6599999999999,
+            "end": 1084.34,
+            "topic": "Linear Regression Analysis",
+            "text": " There's all kinds of ways to look at the data. These are just very common ones. And the seaborn is so easy to use. It just looks beautiful. It's a nice representation that you can actually take and show somebody."
+        },
+        {
+            "id": 315,
+            "start": 1084.34,
+            "end": 1100.5,
+            "topic": "Linear Regression Analysis",
+            "text": " And the final line is the amber sign mapplotlibrary in line. That is only because I'm doing an inline IDE. My interface in the Anaconda Jupyter notebook requires I put that in there or you're not going to see the graph when it comes up. Let's go ahead and run this."
+        },
+        {
+            "id": 320,
+            "start": 1100.5,
+            "end": 1114.78,
+            "topic": "Linear Regression Analysis",
+            "text": " It's not going to be that interesting. So we're just setting up variables. In fact, it's not going to do anything that we can see, but it is importing these different libraries and set up. The next step is load the data set and extract independent and dependent variables."
+        },
+        {
+            "id": 325,
+            "start": 1114.78,
+            "end": 1130.78,
+            "topic": "Linear Regression Analysis",
+            "text": " Now here in the slide you'll see companies equals pd.read csv and it has a long line there with the file at the end. 1000companies.csv. You're going to have to change this to fit whatever setup you have. And the file itself you can request."
+        },
+        {
+            "id": 330,
+            "start": 1130.78,
+            "end": 1148.8999999999999,
+            "topic": "Linear Regression Analysis",
+            "text": " Just go down to the commentary below this video and put a note in there and simply learn we'll try to get in contact with you and supply you with that file so you can try this coding yourself. So we're going to add this code in here and we're going to see that I have companies equals pd.readerscorescsv and I've changed this path to match my computer."
+        },
+        {
+            "id": 335,
+            "start": 1148.8999999999999,
+            "end": 1164.82,
+            "topic": "Linear Regression Analysis",
+            "text": " ccolons.com. simply learn slash 1000 underscore companies.csv. And then below there we're going to set the x equals to companies under the i location and because this is companies is a pd data set. I can use this nice notation that says take every row."
+        },
+        {
+            "id": 340,
+            "start": 1164.82,
+            "end": 1181.1399999999999,
+            "topic": "Linear Regression Analysis",
+            "text": " That's what the colon, the first colon is comma except for the last column. That's what the second part is where we have a colon minus one and we want the values set into there. So x is no longer a data set, a pandas data set. But we can easily extract the data from our pandas data set with this notation."
+        },
+        {
+            "id": 345,
+            "start": 1181.1399999999999,
+            "end": 1197.66,
+            "topic": "Linear Regression Analysis",
+            "text": " And then why we're going to set equal to the last row. Well the question is going to be what are we actually looking at. So let's go ahead and take a look at that and we're going to look at the companies.head which lists the first five rows of data. Now I'll open up the file in just a second so you can see where that's coming from."
+        },
+        {
+            "id": 350,
+            "start": 1197.66,
+            "end": 1213.42,
+            "topic": "Linear Regression Analysis",
+            "text": " But let's look at the data in here as far as the way the pandas sees it. When I hit run you'll see it breaks it out into a nice setup. This is what pandas is one of the things pandas is really good about. Because it looks just like an Excel spreadsheet. You have your rows and remember when we're programming we always start with zero."
+        },
+        {
+            "id": 355,
+            "start": 1213.42,
+            "end": 1229.02,
+            "topic": "Linear Regression Analysis",
+            "text": " We don't start with one. So it shows the first five rows. Zero one two three four and then it shows your different columns. R&D spanned administration marketing spanned state profit. It even notes that the top are column names."
+        },
+        {
+            "id": 360,
+            "start": 1229.02,
+            "end": 1243.94,
+            "topic": "Linear Regression Analysis",
+            "text": " It was never told that but pandas is able to recognize a lot of things that they're not the same as the data rows. Why don't we go ahead and open this file up in a CSV so you can actually see the raw data. So here I've opened it up as a text editor and you can see at the top we have R&D spanned"
+        },
+        {
+            "id": 365,
+            "start": 1243.94,
+            "end": 1259.78,
+            "topic": "Linear Regression Analysis",
+            "text": " comma administration comma marketing spin comma state comma profit carries return. I don't know about you but I go crazy trying to read files like this. That's why we use the pandas. You could also open this up in an Excel and it would separate it since it is a comma separated variable file."
+        },
+        {
+            "id": 370,
+            "start": 1259.78,
+            "end": 1270.26,
+            "topic": "Linear Regression Analysis",
+            "text": " But we don't want to look at this one. We want to look at something we can read rather easily. So let's flip back and take a look at that top part. The first five row. Now as nice as this format is where I can see the data."
+        },
+        {
+            "id": 375,
+            "start": 1270.26,
+            "end": 1294.42,
+            "topic": "Linear Regression Analysis",
+            "text": " To me it doesn't mean a whole lot. Maybe you're an expert in business and investments and you understand what 165,349 dollars in 120 cents compared to the administration cost of 136,897 dollars and 80 cents so on so on helps to create the profit of 192,261 and 83 cents. That makes no sense to me whatsoever."
+        },
+        {
+            "id": 380,
+            "start": 1294.42,
+            "end": 1309.42,
+            "topic": "Linear Regression Analysis",
+            "text": " No pun intended. So let's flip back here and take a look at our next set of code where we're going to graph it so we can get a better understanding of our data and what it means. So at this point we're going to use a single line of code to get a lot of information so we can see where we're going with this."
+        },
+        {
+            "id": 385,
+            "start": 1309.42,
+            "end": 1333.42,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's go ahead and paste that into our notebook and see what we got going. So we have the visualization and again we're using SNS which has panned us. As you can see we imported the mapplotlibrary.pyplot as PLT which then the seaborn uses and we imported the seaborn as SNS and then that final line of code helps us show this in our in line coding."
+        },
+        {
+            "id": 390,
+            "start": 1333.42,
+            "end": 1351.3,
+            "topic": "Linear Regression Analysis",
+            "text": " Without this it wouldn't display and you can display it to a file and other means. And that's the mapplotlibrary in line with the amber sign at the beginning. So here we come down to the single line of code. Seaborn is great because it actually recognizes the panned data frame. So I can just take the companies.core for coordinates and I can put that right into the"
+        },
+        {
+            "id": 395,
+            "start": 1351.3,
+            "end": 1368.14,
+            "topic": "Linear Regression Analysis",
+            "text": " seaborn and when we run this we get this beautiful plot and let's just take a look at what this plot means. If you look at this plot on mine the colors are probably a little bit more purplish and blue than the original one. We have the columns and the rows we have R and D spending we have administration we"
+        },
+        {
+            "id": 400,
+            "start": 1368.14,
+            "end": 1381.46,
+            "topic": "Linear Regression Analysis",
+            "text": " have marketing spending and profit. And if you cross index any two of these since we're interested in profit if you cross index profit with profit it's going to show up if you look at the scale on the right way up in the dark. Why?"
+        },
+        {
+            "id": 405,
+            "start": 1381.46,
+            "end": 1404.42,
+            "topic": "Linear Regression Analysis",
+            "text": " Because those are the same data they have an exact correspondence. So R and D spending is going to be the same as R and D spending and the same thing with administration costs right down the middle you get this dark row or dark diagonal row that shows that this is the highest corresponding data that's exactly the same. And as it becomes lighter there's less connections between the data."
+        },
+        {
+            "id": 410,
+            "start": 1404.42,
+            "end": 1424.1,
+            "topic": "Linear Regression Analysis",
+            "text": " So we can see with profit obviously profit is the same as profit and next it has a very high correlation with R and D spending which we looked at earlier and it has a slightly less connection to marketing spending and even less to how much money we put into the administration. So now that we have a nice look at the data let's go ahead and dig in and create some"
+        },
+        {
+            "id": 415,
+            "start": 1424.1,
+            "end": 1440.82,
+            "topic": "Linear Regression Analysis",
+            "text": " actual useful linear regression models so that we can predict values and have a better profit. Now that we've taken a look at the visualization of this data we're going to move on to the next step instead of just having a pretty picture we need to generate some hard data some hard values."
+        },
+        {
+            "id": 420,
+            "start": 1440.82,
+            "end": 1457.9,
+            "topic": "Linear Regression Analysis",
+            "text": " So let's see what that looks like. We're going to set up our linear regression model in two steps. The first one is we need to prepare some of our data so it fits correctly. And let's go ahead and paste this code into our Jupyter notebook and what we're bringing in is we're going to bring in the SK Learn pre-processing where we're going to import"
+        },
+        {
+            "id": 425,
+            "start": 1457.9,
+            "end": 1476.38,
+            "topic": "Linear Regression Analysis",
+            "text": " the label encoder and the one hot encoder. To use the label encoder we're going to create a variable called label encoder instead of equal to capital L, label capital E encoder. This creates a class that we can reuse for transferring the labels back and forth. Now about now you should ask what labels are we talking about."
+        },
+        {
+            "id": 430,
+            "start": 1476.38,
+            "end": 1498.06,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's go take a look at the data we processed before and see what I'm talking about here. If you remember when we did the companies.head and we printed the top five rows of data we have our columns going across. We have column zero which is R and D spending, column one which is administration, column two which is marketing spending and column three is state and you'll see under state we"
+        },
+        {
+            "id": 435,
+            "start": 1498.06,
+            "end": 1512.82,
+            "topic": "Linear Regression Analysis",
+            "text": " have New York California Florida. Now to do a linear regression model it doesn't know how to process New York. It knows how to process a number. So the first thing we're going to do is we're going to change that New York California and Florida and we're going to change those to numbers."
+        },
+        {
+            "id": 440,
+            "start": 1512.82,
+            "end": 1528.78,
+            "topic": "Linear Regression Analysis",
+            "text": " That's what this line of code does here. X equals and then it has the colon comma three in brackets. The first part the colon comma means that we're going to look at all the different rows. So we're going to keep them all together. But the only row we're going to edit is the third row and in there we're going to take"
+        },
+        {
+            "id": 445,
+            "start": 1528.78,
+            "end": 1550.1399999999999,
+            "topic": "Linear Regression Analysis",
+            "text": " the label coder and we're going to fit and transform the X also the third row. So we're going to take that third row and set it equal to a transformation. And that transformation basically tells it that instead of having a New York it has a zero or a one or a two. And then finally we need to do a one hot encoder which equals one hot encoder categorical"
+        },
+        {
+            "id": 450,
+            "start": 1550.1399999999999,
+            "end": 1564.74,
+            "topic": "Linear Regression Analysis",
+            "text": " features equals three. And then we take the X and we go ahead and do that equal to one hot encoder fit transform X to array. This final transformation preps our data for us so it's completely set the way we need it as just a row of numbers."
+        },
+        {
+            "id": 455,
+            "start": 1564.74,
+            "end": 1580.94,
+            "topic": "Linear Regression Analysis",
+            "text": " Even though it's not in here let's go ahead and print X and just take a look at what this data is doing. You'll see you have an array of arrays and then each array is a row of numbers. And if I go ahead and just do row zero you'll see I have a nice organized row of numbers that the computer now understands."
+        },
+        {
+            "id": 460,
+            "start": 1580.94,
+            "end": 1593.94,
+            "topic": "Linear Regression Analysis",
+            "text": " We'll go ahead and take this out there because it doesn't mean a whole lot to us it's just a row of numbers. Next on setting up our data we have avoiding dummy variable trap. This is very important. Why?"
+        },
+        {
+            "id": 465,
+            "start": 1593.94,
+            "end": 1612.74,
+            "topic": "Linear Regression Analysis",
+            "text": " Because the computer is automatically transformed our header into the setup and it's automatically transformed all these different variables. So when we did the encoder the encoder created two columns and what we need to do is just have the one because it has both the variable and the name. That's what this piece of code does here."
+        },
+        {
+            "id": 470,
+            "start": 1612.74,
+            "end": 1630.02,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's go ahead and paste this in here and we have X equals X colon comma one colon. All this is doing is removing that one extra column we put in there when we did our one hot encoder and our labeling coding. Let's go ahead and run that. And now we get to create our linear regression model."
+        },
+        {
+            "id": 475,
+            "start": 1630.02,
+            "end": 1646.3,
+            "topic": "Linear Regression Analysis",
+            "text": " And let's see what that looks like here. And we're going to do that in two steps. The first step is going to be in splitting the data. Now whenever we create a predictive model of data we always want to split it up so we have a training set and we have a testing set."
+        },
+        {
+            "id": 480,
+            "start": 1646.3,
+            "end": 1658.6200000000001,
+            "topic": "Linear Regression Analysis",
+            "text": " That's very important otherwise we'd be very unethical without testing it to see how good our fit is. And then we'll go ahead and create our multiple linear regression model and train it and set it up. Let's go ahead and paste this next piece of code in here."
+        },
+        {
+            "id": 485,
+            "start": 1658.6200000000001,
+            "end": 1685.26,
+            "topic": "Linear Regression Analysis",
+            "text": " And I'll go ahead and shrink it down a size or two so it all fits on one line. So from the SK Learn Model selection we're going to import train test split. And you'll see that we've created four completely different variables. We have capital X train, capital X test, smaller case Y train, smaller case Y test. That is the standard way that they usually references when we're doing different models."
+        },
+        {
+            "id": 490,
+            "start": 1685.26,
+            "end": 1698.02,
+            "topic": "Linear Regression Analysis",
+            "text": " Usually you see that a capital X and you see the train and the test and the lower case Y. This is X is our data going in. That's our R and D spin or administration or marketing. And then Y which we're training is the answer."
+        },
+        {
+            "id": 495,
+            "start": 1698.02,
+            "end": 1715.14,
+            "topic": "Linear Regression Analysis",
+            "text": " That's the profit because we want to know the profit of an unknown entity. So that's what we're going to shoot for in this tutorial. The next part train test split we take X and we take Y. We've already created those. X has the columns with the data in it and Y has a column with profit in it."
+        },
+        {
+            "id": 500,
+            "start": 1715.14,
+            "end": 1729.5800000000002,
+            "topic": "Linear Regression Analysis",
+            "text": " And then we're going to set the test size equals 0.2. That basically means 20%. So 20% of the rows are going to be tested. We're going to put them off to the side. So since we're using a thousand lines of data, that means that 200 of those lines we're"
+        },
+        {
+            "id": 505,
+            "start": 1729.5800000000002,
+            "end": 1741.66,
+            "topic": "Linear Regression Analysis",
+            "text": " going to hold off to the side to test for later. And then the random state equals 0. We're going to randomize which ones it picks to hold off to the side. We'll go ahead and run this. It's not overly exciting because it's setting up our variables."
+        },
+        {
+            "id": 510,
+            "start": 1741.66,
+            "end": 1754.14,
+            "topic": "Linear Regression Analysis",
+            "text": " But the next step is, the next step we actually create our linear regression model. Now that we got to the linear regression model, we get that next piece of the puzzle. Let's go ahead and put that code in there and walk through it. So here we go. We're going to paste it in there."
+        },
+        {
+            "id": 515,
+            "start": 1754.14,
+            "end": 1770.38,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's go ahead and since this is a shorter line of code, let's zoom up there so we can get a good look. We have from the SK Learn.linear.score.model, we're going to import linear regression. Now I don't know if you recall from earlier when we were doing all the math. Let's go ahead and flip back there and take a look at that."
+        },
+        {
+            "id": 520,
+            "start": 1770.38,
+            "end": 1788.3,
+            "topic": "Linear Regression Analysis",
+            "text": " Do you remember this where we had this long formula on the bottom and we were doing all this summarization and then we also looked at setting it up with the different lines and then we also looked all the way down to multiple linear regression where we're adding all those formulas together. All of that is wrapped up in this one section."
+        },
+        {
+            "id": 525,
+            "start": 1788.3,
+            "end": 1803.46,
+            "topic": "Linear Regression Analysis",
+            "text": " So what's going on here is I'm going to create a variable called Regressor and the Regressor equals the linear regression. That's a linear regression model that has all that math built in. So we don't have to have it all memorized or have to compute it individually. And then we do the Regressor.fit."
+        },
+        {
+            "id": 530,
+            "start": 1803.46,
+            "end": 1820.3,
+            "topic": "Linear Regression Analysis",
+            "text": " In this case we do X-Train and Y-Train because we're using the training data, X being the data in and Y being profit, what we're looking at. And this does all that math for us. So within one click and one line we've created the whole linear regression model and we fit the data to the linear regression model."
+        },
+        {
+            "id": 535,
+            "start": 1820.3,
+            "end": 1839.34,
+            "topic": "Linear Regression Analysis",
+            "text": " And you can see that when I run the Regressor it gives an output. Linear regression it says copy X equals true, fit intercept equals true, end jobs equal one, normalized equals false. It's just giving you some general information on what's going on with that Regressor model. Now that we've created our linear regression model, let's go ahead and use it."
+        },
+        {
+            "id": 540,
+            "start": 1839.34,
+            "end": 1859.5,
+            "topic": "Linear Regression Analysis",
+            "text": " And if you remember we kept a bunch of data aside. So we're going to do a Y-predict variable and we're going to put in the X-test. Now let's see what that looks like. Let's scroll up a little bit, paste that in here, predicting the test set results. So here we have Y-predict equals Regressor.predict, X-test going in."
+        },
+        {
+            "id": 545,
+            "start": 1859.5,
+            "end": 1876.54,
+            "topic": "Linear Regression Analysis",
+            "text": " And this gives us Y-predict. Now because I'm in Jupiter inline, I can just put the variable up there. And when I hit the run button, it'll print that array out. I could have just as easily done print Y-predict. So if you're in a different IDE that's not an inline setup like the Jupiter notebook,"
+        },
+        {
+            "id": 550,
+            "start": 1876.54,
+            "end": 1890.14,
+            "topic": "Linear Regression Analysis",
+            "text": " you can do it this way, print Y-predict. And you'll see that for the 200 different test variables we kept off to the side, this is going to produce 200 answers. This is what it says the profit are for those 200 predictions. But let's don't stop there."
+        },
+        {
+            "id": 555,
+            "start": 1890.14,
+            "end": 1905.82,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's keep going and take a couple of look. We're going to take just a short detail here and calculating the coefficients and the intercepts. This gives us a quick flash at what's going on behind the line. We're going to take a short detour here and we're going to be calculating the coefficient and intercepts."
+        },
+        {
+            "id": 560,
+            "start": 1905.82,
+            "end": 1924.54,
+            "topic": "Linear Regression Analysis",
+            "text": " So you can see what those look like. What's really nice about our Regressor we created is it already has a coefficients for us. We can simply just print Regressor.coefficient underscore. When I run this you'll see our coefficients here. And if we can do the Regressor coefficient we can also do the Regressor intercept."
+        },
+        {
+            "id": 565,
+            "start": 1924.54,
+            "end": 1942.1799999999998,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's run that and take a look at that. This all came from the multiple regression model. We'll flip over so you can remember where this is going into and where it's coming from. You can see the formula down here where Y equals M1 times X1 plus M2 times X2 and so on and so on plus C the coefficient."
+        },
+        {
+            "id": 570,
+            "start": 1942.18,
+            "end": 1964.38,
+            "topic": "Linear Regression Analysis",
+            "text": " So these variables fit right into this formula. Y equals slope 1 times column 1 variable plus slope 2 times column 2 variable all the way to the M and to the N and X to the N plus C the coefficient. Or in this case you have minus 8.89 to the power of 2 etc. etc. times the first column and the second column and the third column."
+        },
+        {
+            "id": 575,
+            "start": 1964.38,
+            "end": 1982.1799999999998,
+            "topic": "Linear Regression Analysis",
+            "text": " And then our intercept is the minus 1 0 3 0 0 9 point. Boy it gets kind of complicated when you look at it. This is why we don't do this by hand anymore. This is why we have the computer to make these calculations easy to understand and calculate. Now I told you that was a short detour and we're coming towards the end of our script."
+        },
+        {
+            "id": 580,
+            "start": 1982.1799999999998,
+            "end": 1997.46,
+            "topic": "Linear Regression Analysis",
+            "text": " As you remember from the beginning I said if we're going to divide this information we have to make sure it's a valid model. If this model works and understand how good it works. So calculating the R squared value. That's what we're going to use to predict how good our prediction is."
+        },
+        {
+            "id": 585,
+            "start": 1997.46,
+            "end": 2008.38,
+            "topic": "Linear Regression Analysis",
+            "text": " Let's take a look at what that looks like in code. And so we're going to use this from sklearn.metrics. We're going to import R2 score. That's the R squared value. We're looking at the error."
+        },
+        {
+            "id": 590,
+            "start": 2008.38,
+            "end": 2027.9,
+            "topic": "Linear Regression Analysis",
+            "text": " So in the R2 score we take our Y test versus our Y predict. Y test is the actual values we're testing. That was the one that was given to us so we know are true. The Y predict of those 200 values is what we think it was true. When we go ahead and run this we see we get a .9352."
+        },
+        {
+            "id": 595,
+            "start": 2027.9,
+            "end": 2042.3,
+            "topic": "Linear Regression Analysis",
+            "text": " That's the R2 score. Now it's not exactly a straight percentage. So it's not saying it's 93% correct. But you do want that in the upper 90s. Oh and higher shows that this is a very valid prediction based on the R2 score."
+        },
+        {
+            "id": 600,
+            "start": 2042.3,
+            "end": 2053.5,
+            "topic": "Linear Regression Analysis",
+            "text": " And if R squared value of .91 or .92 as we got on our model. Remember it does have a random generation involved. This proves the model is a good model. Which means success. Yay!"
+        },
+        {
+            "id": 605,
+            "start": 2053.5,
+            "end": 2071.1,
+            "topic": "Linear Regression Analysis",
+            "text": " We successfully trained our model with certain predictors and estimated the profit of the companies using linear regression. So now that we have a successful linear regression model. Let's take a look at what we went over today and take a look at our key takeaways. First we have an introduction to machine learning."
+        },
+        {
+            "id": 610,
+            "start": 2071.1,
+            "end": 2085.46,
+            "topic": "Linear Regression Analysis",
+            "text": " We talked about some general setup and predicting crops and weather. We saw this that numbers are age, salary, so on. Then we have categorical color. When we did our actual regression model. We saw that we had numbers which was dollar amounts."
+        },
+        {
+            "id": 615,
+            "start": 2085.46,
+            "end": 2098.62,
+            "topic": "Linear Regression Analysis",
+            "text": " And we had a location which was Florida and New York which was categorical that we had to convert. Next we have application of a linear regression model. We had some showing there are some different applications you could use it for. We had our use case implementation of linear regression."
+        },
+        {
+            "id": 620,
+            "start": 2098.62,
+            "end": 2108.42,
+            "topic": "Linear Regression Analysis",
+            "text": " Where we dug in deep. Showed how those are set up. We had our multiple linear regression model. So you can see the math behind it. And finally prediction using the regression line."
+        },
+        {
+            "id": 625,
+            "start": 2108.42,
+            "end": 2122.1,
+            "topic": "Linear Regression Analysis",
+            "text": " We showed you how to predict things on a regression line setup. And the actual scripting and code. That concludes our demo today. I want to thank you for joining the Simply Learn team. Remember if you have any questions on the video or you wish to request a copy of the"
+        },
+        {
+            "id": 630,
+            "start": 2122.1,
+            "end": 2138.7,
+            "topic": "Linear Regression Analysis",
+            "text": " CSV file we use to generate this linear regression. Feel free to comment down below and we'll get back to you as soon as we can. Thank you very much. Hi there. If you like this video subscribe to the Simply Learn YouTube channel."
+        },
+        {
+            "id": 635,
+            "start": 2138.7,
+            "end": 2143.1,
+            "topic": "Linear Regression Analysis",
+            "text": " And click here to watch similar videos. To nerd up and get certified click here."
+        }
+    ],
+    "text": " Welcome to Linear Regression. My name is Richard Kirschner. I'm with Simply Learn. Let's look at an example of a common use for linear regression, profit estimation of a company. If I was going to invest in a company, I would like to know how much money I could expect to make. So we'll take a look at a venture capitalist firm and try to understand which companies they should invest in. So we'll take the idea that we need to decide the companies to invest in. We need to predict the profit the company makes. And we're going to do it based on the company's expenses, and even just a specific expense. In this case, we have our company, we have the different expenses, so we have our R&D, which is your research and development. We have our marketing. We might have the location. We might have what kind of administration is going through. Based on all this different information, we would like to calculate the profit. Now in actuality, there's usually about 23 to 27 different markers that they look at if they're a heavy duty investor. We're only going to take a look at one basic one. We're going to come in and for simplicity, let's consider a single variable R&D and find out which companies to invest in based on that. So we take R&D and we're plotting the profit based on the R&D expenditure, how much money they put into the research and development. And then we look at the profit that goes with that. We can predict a line to estimate the profit. We can draw a line right through the data. When you look at that, you can see how much they invest in the R&D as a good marker as to how much profit they're going to have. We can also note that companies spending more on R&D make good profit. So let's invest in the ones that spend a higher rate in their R&D. What's in it for you? First we'll have an introduction to machine learning followed by machine learning algorithms. These will be specific to linear regression and where it fits into the larger model. Then we'll take a look at applications of linear regression, understanding linear regression, and multiple linear regression. Finally, we'll roll up our sleeves and do a little programming in use case profit estimation of companies. Let's go ahead and jump in. Let's start with our introduction to machine learning along with some machine learning algorithms and where that fits in with linear regression. Let's look at another example of machine learning. Based on the amount of rainfall, how much would be the crop yield? Here we have our crops, we have our rainfall, and we want to know how much we're going to get from our crops this year. So we're going to introduce two variables, independent and dependent. The independent variable is a variable whose value does not change by the effect of other variables and is used to manipulate the dependent variable. It is often denoted as x. In our example, rainfall is the independent variable. This is a wonderful example because you can easily see that we can't control the rain, but the rain does control the crop. We talk about the independent variable controlling the dependent variable. Let's define dependent variable as a variable whose value change when there is any manipulation the values of the independent variables. It is often denoted as y. You can see here our crop yield is dependent variable and it is dependent on the amount of rainfall received. Now that we've taken a look at a real life example, let's go a little bit into the theory and some definitions on machine learning and see how that fits together with linear regression. Numerical and categorical values. Let's take our data coming in. This is kind of random data from any kind of project. We want to divide it up into numerical and categorical. So numerical is numbers, age, salary, height, where categorical would be a description, the color, a dog's breed, gender. Categorical is limited to very specific items where numerical is a range of information. Now that you've seen the difference between numerical and categorical data, let's take a look at some different machine learning definitions. We look at a different machine learning algorithms. We can divide them into three areas. Supervised, unsupervised, reinforcement. We're only going to look at supervised today. Unsupervised means we don't have the answers. We're just grouping things. Reinforcement is where we give positive and negative feedback to our algorithm to program it, and it doesn't have the information until after the fact. But today we're just looking at supervised because that's where linear regression fits in. In supervised data, we have our data already there and our answers for a group. And then we use that to program our model and come up with an answer. The two most common uses for that is through the regression and classification. Now we're doing linear regression, so we're just going to focus on the regression side. And in the regression, we have simple linear regression. We have multiple linear regression and we have polynomial linear regression. Now on these three, simple linear regression is the examples we've looked at so far where we have a lot of data and we draw a straight line through it. Multiple linear regression means we have multiple variables. Remember where we had the rainfall and the crops? We might add additional variables in there like how much food do we give our crops? When do we harvest them? Those would be additional information added into our model. And that's why we multiple linear regression. And finally we have polynomial linear regression. That is, instead of drawing a line, we can draw a curved line through it. Now that you see where regression model fits into the machine learning algorithms, and we're specifically looking at linear regression, let's go ahead and take a look at applications for linear regression. Let's look at a few applications of linear regression. Economic growth. Use to determine the economic growth of a country or a state in the coming quarter. Can also be used to predict the GDP of a country. Product price. Can be used to predict what would be the price of a product in the future. We can guess whether it's going to go up or down or should I buy today. Housing cells. To estimate the number of houses a builder would sell and what price in the coming months. Score predictions. Cricket fever. To predict the number of runs a player would score in the coming matches based on the previous performance. I'm sure you can figure out other applications you could use linear regression for. So let's jump in and let's understand linear regression and dig into the theory. Understanding linear regression. Linear regression is the statistical model used to predict the relationship between independent and dependent variables by examining two factors. The first important one is which variables in particular are significant predictors of the outcome variable. And the second one that we need to look at closely is how significant is the regression line to make predictions with the highest possible accuracy. If it's inaccurate we can't use it. So it's very important we find out the most accurate line we can get. Since linear regression is based on drawing a line through data. We're going to jump back and take a look at some Euclidean geometry. The simplest form of a simple linear regression equation with one dependent and one independent variable is represented by y equals m times x plus c. And if you look at our model here we plotted two points on here. X1 and Y1, X2 and Y2. Y being the dependent variable. Remember that from before. And X being the independent variable. So Y depends on whatever X is. M in this case is the slope of the line where M equals the difference in the Y2 minus Y1 and X2 minus X1. And finally we have C which is a coefficient of the line. Or where it happens to cross the zero axes. Let's go back and look at an example we used earlier linear regression. We're going to go back to plotting the amount of crop yield based on the amount of rainfall. And here we have our rainfall. Remember we cannot change rainfall and we have our crop yield. Which is dependent on the rainfall. So we have our independent and our dependent variables. We're going to take this and draw a line through it. As best we can through the middle of the data. And then we look at that we put the red point on the Y axis. Is the amount of crop yield you can expect for the amount of rainfall represented by the green dot. So if we have an idea what the rainfall is for this year and what's going on. Then we can guess how good our crops are going to be. And we've created a nice line right through the middle to give us a nice mathematical formula. Let's take a look and see what the math looks like behind this. Let's look at the intuition behind the regression line. Now before we dive into the math and the formulas that go behind this. And what's going on behind the scenes. I want you to note that when we get into the case study. And we actually apply some Python script. That this math that you're going to see here is already done automatically for you. You don't have to have it memorized. It is however good to have an idea what's going on. So if people reference the different terms you'll know what they're talking about. Let's consider a sample data set with five rows and find out how to draw the regression line. We're only going to do five rows because if we did like the rainfall with hundreds of points of data. That would be very hard to see what's going on with the mathematics. So we'll go ahead and create our own two sets of data. And we have our independent variable x and our dependent variable y. And when x was one we got y equals two. And x was two, y was four, and so on and so on. If we go ahead and plot this data on a graph we can see how it forms a nice line through the middle. You can see where it's kind of grouped going upwards to the right. The next thing we want to know is what the means is of each of the data coming in. The x and the y. The means doesn't mean anything other than the average. So we add up all the numbers and divide by the total. So one plus two plus three plus four plus five over five equals three. And the same for y we get four. If we go ahead and plot the means on the graph we'll see we get three comma four which draws a nice line down the middle. A good estimate. Here we're going to dig deeper into the math behind the regression line. Now remember before I said you don't have to have all these formulas memorized or fully understand them even though we're going to go into a little more detail of how it works. Even if you're not a math wiz and you don't know if you've never seen the sigma character before which looks a little bit like an e that's opened up. That just means summation. That's all that is. So when you see the sigma character it just means we're adding everything in that row. And for computers this is great because as a programmer you can easily iterate through each of the xy points and create all the information you need. So on the top half you can see where we've broken that down into pieces and as it goes through the first two points it computes the squared value of x, the squared value of y and x times y. And then it takes all of x and adds them up, all of y adds them up, all of x squared adds them up and so on and so on. And you can see we have the sum of equal to 15, the sum is equal to 20, all the way up to x times y where the sum equals 66. This all comes from our formula for calculating a straight line where y equals the slope times x plus the coefficient c. So we go down below and we're going to compute more like the averages of these and we'll explain exactly what that is in just a minute and where that information comes from is called the square means error. But we'll go into that in detail in a few minutes. All you need to do is look at the formula and see how we've gone about computing it line by line instead of trying to have a huge set of numbers pushed into it. And down here you'll see where the slope m equals and in the top part if you read through the brackets you have the number of data points times the sum of x times y which we computed one line at a time there and that's just the 66. And take all that and use to track it from the sum of x times the sum of y and those have both been computed. So you have 15 times 20 and on the bottom we have the number of lines times the sum of x squared easily computed as 86 for the sum minus, I'll take all that and subtract the sum of x squared. And we end up as we come across with our formula you can plug in all those numbers which is very easy to do on the computer. You don't have to do the math on a piece of paper or calculator. And you'll get a slope of 0.6 and you'll get your C coefficient if you continue to follow through that formula you'll see it comes out as equal to 2.2. Continuing deeper into what's going behind the scenes let's find out the predicted values of y for corresponding values of x using the linear equation where m equals 0.6 and c equals 2.2. We're going to take these values and we're going to go ahead and plot them we're going to predict them so y equals 0.6 times where x equals 1 plus 2.2 equals 2.8 so on and so on. And here the blue points represent the actual y values and the brown points represent the predicted y values based on the model we created. The distance between the actual and predicted values is known as residuals or errors. The best fit line should have the least sum of squares of these errors also known as e square. If we put these into a nice chart where you can see x and you can see y where we actual values were and you can see y predicted you can easily see where we take y minus y predicted and we get an answer what is the difference between those two. And if we square that y minus y prediction squared we can then sum those squared values that's where we get the 0.64 plus the 0.36 plus 1 all the way down until we have a summation equals 2.4. So the sum of squared errors for this regression line is 2.4. We check this error for each line and conclude the best fit line having the least e square value in a nice graphical representation. We can see here where we keep moving this line through the data points to make sure the best fit line has the least squared distance between the data points and the regression line. Now we only looked at the most commonly used formula for minimizing the distance. There are lots of ways to minimize the distance between the line and the data points like sum of squared errors, sum of absolute errors, root mean square error, etc. What you want to take away from this is whatever formula is being used you can easily using a computer programming and iterating through the data calculate the different parts of it. That way these complicated formulas you see with the different summations and absolute values are easily computed one piece at a time. Up until this point we've only been looking at two values x and y. Well in the real world it's very rare that you only have two values when you're figuring out a solution. So let's move on to the next topic. Multiple linear regression. Let's take a brief look at what happens when you have multiple inputs. So in multiple linear regression we have, well we'll start with the simple linear regression where we had y equals m plus x plus c and we're trying to find the value of y. Now with multiple linear regression we have multiple variables coming in. So instead of having just x we have x1, x2, x3 and instead of having just one slope each variable has its own slope attached to it. As you can see here we have m1, m2, m3 and we still just have the single coefficient. So when you're dealing with multiple linear regression you basically take your single linear regression and you spread it out. So you have y equals m1 times x1 plus m2 times x2. So on all the way to m to the nth, x to the nth and then you add your coefficient on there. Implementation of linear regression. Now we get into my favorite part. Let's understand how multiple linear regression works by implementing it in Python. If you remember before we were looking at a company and just based on its R&D trying to figure out its profit. We're going to start looking at the expenditure of the company. We're going to go back to that and we're going to predict its profit. But instead of predicting it just on the R&D we're going to look at other factors like administration costs, marketing costs and so on. And from there we're going to see if we can figure out what the profit of that company is going to be. To start our coding we're going to begin by importing some basic libraries. And we're going to be looking through the data before we do any kind of linear regression. We're going to take a look at the data to see what we're playing with. Then we'll go ahead and format the data to the format we need to be able to run it in the linear regression model. And then from there we'll go ahead and solve it and just see how valid our solution is. So let's start with importing the basic libraries. Now I'm going to be doing this in Anaconda Jupyter Notebook. A very popular IDE. I enjoy such a visual to look at and it's so easy to use. Just any IDE for Python will work just fine for this. So break out your favorite Python IDE. So here we are in our Jupyter Notebook. Let me go ahead and paste our first piece of code in there. And let's walk through what libraries were importing. First we're going to import numpy as np. And then I want you to skip one line and look at import pandas as pd. These are very common tools that you need with most of your linear regression. The numpee which stands for number Python is usually denoted as np. And you have to almost have that for your sklearn toolbox. You always import that right off the beginning. Pandas, although you don't have to have it for your sklearn libraries, it does such a wonderful job of importing data, setting it up into a data frame so we can manipulate it rather easily. And it has a lot of tools also in addition to that. So we usually like to use the pandas when we can. And I'll show you what that looks like. The other three lines are for us to get a visual of this data and take a look at it. So we're going to import mapplotlibrary.pyplot as plt. And then seaborn as sns. Seaborn works with the mapplot library. So you have to always import mapplot library and then seaborn sits on top of it. And we'll take a look at what that looks like. You could use any of your own plotting libraries you want. There's all kinds of ways to look at the data. These are just very common ones. And the seaborn is so easy to use. It just looks beautiful. It's a nice representation that you can actually take and show somebody. And the final line is the amber sign mapplotlibrary in line. That is only because I'm doing an inline IDE. My interface in the Anaconda Jupyter notebook requires I put that in there or you're not going to see the graph when it comes up. Let's go ahead and run this. It's not going to be that interesting. So we're just setting up variables. In fact, it's not going to do anything that we can see, but it is importing these different libraries and set up. The next step is load the data set and extract independent and dependent variables. Now here in the slide you'll see companies equals pd.read csv and it has a long line there with the file at the end. 1000companies.csv. You're going to have to change this to fit whatever setup you have. And the file itself you can request. Just go down to the commentary below this video and put a note in there and simply learn we'll try to get in contact with you and supply you with that file so you can try this coding yourself. So we're going to add this code in here and we're going to see that I have companies equals pd.readerscorescsv and I've changed this path to match my computer. ccolons.com. simply learn slash 1000 underscore companies.csv. And then below there we're going to set the x equals to companies under the i location and because this is companies is a pd data set. I can use this nice notation that says take every row. That's what the colon, the first colon is comma except for the last column. That's what the second part is where we have a colon minus one and we want the values set into there. So x is no longer a data set, a pandas data set. But we can easily extract the data from our pandas data set with this notation. And then why we're going to set equal to the last row. Well the question is going to be what are we actually looking at. So let's go ahead and take a look at that and we're going to look at the companies.head which lists the first five rows of data. Now I'll open up the file in just a second so you can see where that's coming from. But let's look at the data in here as far as the way the pandas sees it. When I hit run you'll see it breaks it out into a nice setup. This is what pandas is one of the things pandas is really good about. Because it looks just like an Excel spreadsheet. You have your rows and remember when we're programming we always start with zero. We don't start with one. So it shows the first five rows. Zero one two three four and then it shows your different columns. R&D spanned administration marketing spanned state profit. It even notes that the top are column names. It was never told that but pandas is able to recognize a lot of things that they're not the same as the data rows. Why don't we go ahead and open this file up in a CSV so you can actually see the raw data. So here I've opened it up as a text editor and you can see at the top we have R&D spanned comma administration comma marketing spin comma state comma profit carries return. I don't know about you but I go crazy trying to read files like this. That's why we use the pandas. You could also open this up in an Excel and it would separate it since it is a comma separated variable file. But we don't want to look at this one. We want to look at something we can read rather easily. So let's flip back and take a look at that top part. The first five row. Now as nice as this format is where I can see the data. To me it doesn't mean a whole lot. Maybe you're an expert in business and investments and you understand what 165,349 dollars in 120 cents compared to the administration cost of 136,897 dollars and 80 cents so on so on helps to create the profit of 192,261 and 83 cents. That makes no sense to me whatsoever. No pun intended. So let's flip back here and take a look at our next set of code where we're going to graph it so we can get a better understanding of our data and what it means. So at this point we're going to use a single line of code to get a lot of information so we can see where we're going with this. Let's go ahead and paste that into our notebook and see what we got going. So we have the visualization and again we're using SNS which has panned us. As you can see we imported the mapplotlibrary.pyplot as PLT which then the seaborn uses and we imported the seaborn as SNS and then that final line of code helps us show this in our in line coding. Without this it wouldn't display and you can display it to a file and other means. And that's the mapplotlibrary in line with the amber sign at the beginning. So here we come down to the single line of code. Seaborn is great because it actually recognizes the panned data frame. So I can just take the companies.core for coordinates and I can put that right into the seaborn and when we run this we get this beautiful plot and let's just take a look at what this plot means. If you look at this plot on mine the colors are probably a little bit more purplish and blue than the original one. We have the columns and the rows we have R and D spending we have administration we have marketing spending and profit. And if you cross index any two of these since we're interested in profit if you cross index profit with profit it's going to show up if you look at the scale on the right way up in the dark. Why? Because those are the same data they have an exact correspondence. So R and D spending is going to be the same as R and D spending and the same thing with administration costs right down the middle you get this dark row or dark diagonal row that shows that this is the highest corresponding data that's exactly the same. And as it becomes lighter there's less connections between the data. So we can see with profit obviously profit is the same as profit and next it has a very high correlation with R and D spending which we looked at earlier and it has a slightly less connection to marketing spending and even less to how much money we put into the administration. So now that we have a nice look at the data let's go ahead and dig in and create some actual useful linear regression models so that we can predict values and have a better profit. Now that we've taken a look at the visualization of this data we're going to move on to the next step instead of just having a pretty picture we need to generate some hard data some hard values. So let's see what that looks like. We're going to set up our linear regression model in two steps. The first one is we need to prepare some of our data so it fits correctly. And let's go ahead and paste this code into our Jupyter notebook and what we're bringing in is we're going to bring in the SK Learn pre-processing where we're going to import the label encoder and the one hot encoder. To use the label encoder we're going to create a variable called label encoder instead of equal to capital L, label capital E encoder. This creates a class that we can reuse for transferring the labels back and forth. Now about now you should ask what labels are we talking about. Let's go take a look at the data we processed before and see what I'm talking about here. If you remember when we did the companies.head and we printed the top five rows of data we have our columns going across. We have column zero which is R and D spending, column one which is administration, column two which is marketing spending and column three is state and you'll see under state we have New York California Florida. Now to do a linear regression model it doesn't know how to process New York. It knows how to process a number. So the first thing we're going to do is we're going to change that New York California and Florida and we're going to change those to numbers. That's what this line of code does here. X equals and then it has the colon comma three in brackets. The first part the colon comma means that we're going to look at all the different rows. So we're going to keep them all together. But the only row we're going to edit is the third row and in there we're going to take the label coder and we're going to fit and transform the X also the third row. So we're going to take that third row and set it equal to a transformation. And that transformation basically tells it that instead of having a New York it has a zero or a one or a two. And then finally we need to do a one hot encoder which equals one hot encoder categorical features equals three. And then we take the X and we go ahead and do that equal to one hot encoder fit transform X to array. This final transformation preps our data for us so it's completely set the way we need it as just a row of numbers. Even though it's not in here let's go ahead and print X and just take a look at what this data is doing. You'll see you have an array of arrays and then each array is a row of numbers. And if I go ahead and just do row zero you'll see I have a nice organized row of numbers that the computer now understands. We'll go ahead and take this out there because it doesn't mean a whole lot to us it's just a row of numbers. Next on setting up our data we have avoiding dummy variable trap. This is very important. Why? Because the computer is automatically transformed our header into the setup and it's automatically transformed all these different variables. So when we did the encoder the encoder created two columns and what we need to do is just have the one because it has both the variable and the name. That's what this piece of code does here. Let's go ahead and paste this in here and we have X equals X colon comma one colon. All this is doing is removing that one extra column we put in there when we did our one hot encoder and our labeling coding. Let's go ahead and run that. And now we get to create our linear regression model. And let's see what that looks like here. And we're going to do that in two steps. The first step is going to be in splitting the data. Now whenever we create a predictive model of data we always want to split it up so we have a training set and we have a testing set. That's very important otherwise we'd be very unethical without testing it to see how good our fit is. And then we'll go ahead and create our multiple linear regression model and train it and set it up. Let's go ahead and paste this next piece of code in here. And I'll go ahead and shrink it down a size or two so it all fits on one line. So from the SK Learn Model selection we're going to import train test split. And you'll see that we've created four completely different variables. We have capital X train, capital X test, smaller case Y train, smaller case Y test. That is the standard way that they usually references when we're doing different models. Usually you see that a capital X and you see the train and the test and the lower case Y. This is X is our data going in. That's our R and D spin or administration or marketing. And then Y which we're training is the answer. That's the profit because we want to know the profit of an unknown entity. So that's what we're going to shoot for in this tutorial. The next part train test split we take X and we take Y. We've already created those. X has the columns with the data in it and Y has a column with profit in it. And then we're going to set the test size equals 0.2. That basically means 20%. So 20% of the rows are going to be tested. We're going to put them off to the side. So since we're using a thousand lines of data, that means that 200 of those lines we're going to hold off to the side to test for later. And then the random state equals 0. We're going to randomize which ones it picks to hold off to the side. We'll go ahead and run this. It's not overly exciting because it's setting up our variables. But the next step is, the next step we actually create our linear regression model. Now that we got to the linear regression model, we get that next piece of the puzzle. Let's go ahead and put that code in there and walk through it. So here we go. We're going to paste it in there. Let's go ahead and since this is a shorter line of code, let's zoom up there so we can get a good look. We have from the SK Learn.linear.score.model, we're going to import linear regression. Now I don't know if you recall from earlier when we were doing all the math. Let's go ahead and flip back there and take a look at that. Do you remember this where we had this long formula on the bottom and we were doing all this summarization and then we also looked at setting it up with the different lines and then we also looked all the way down to multiple linear regression where we're adding all those formulas together. All of that is wrapped up in this one section. So what's going on here is I'm going to create a variable called Regressor and the Regressor equals the linear regression. That's a linear regression model that has all that math built in. So we don't have to have it all memorized or have to compute it individually. And then we do the Regressor.fit. In this case we do X-Train and Y-Train because we're using the training data, X being the data in and Y being profit, what we're looking at. And this does all that math for us. So within one click and one line we've created the whole linear regression model and we fit the data to the linear regression model. And you can see that when I run the Regressor it gives an output. Linear regression it says copy X equals true, fit intercept equals true, end jobs equal one, normalized equals false. It's just giving you some general information on what's going on with that Regressor model. Now that we've created our linear regression model, let's go ahead and use it. And if you remember we kept a bunch of data aside. So we're going to do a Y-predict variable and we're going to put in the X-test. Now let's see what that looks like. Let's scroll up a little bit, paste that in here, predicting the test set results. So here we have Y-predict equals Regressor.predict, X-test going in. And this gives us Y-predict. Now because I'm in Jupiter inline, I can just put the variable up there. And when I hit the run button, it'll print that array out. I could have just as easily done print Y-predict. So if you're in a different IDE that's not an inline setup like the Jupiter notebook, you can do it this way, print Y-predict. And you'll see that for the 200 different test variables we kept off to the side, this is going to produce 200 answers. This is what it says the profit are for those 200 predictions. But let's don't stop there. Let's keep going and take a couple of look. We're going to take just a short detail here and calculating the coefficients and the intercepts. This gives us a quick flash at what's going on behind the line. We're going to take a short detour here and we're going to be calculating the coefficient and intercepts. So you can see what those look like. What's really nice about our Regressor we created is it already has a coefficients for us. We can simply just print Regressor.coefficient underscore. When I run this you'll see our coefficients here. And if we can do the Regressor coefficient we can also do the Regressor intercept. Let's run that and take a look at that. This all came from the multiple regression model. We'll flip over so you can remember where this is going into and where it's coming from. You can see the formula down here where Y equals M1 times X1 plus M2 times X2 and so on and so on plus C the coefficient. So these variables fit right into this formula. Y equals slope 1 times column 1 variable plus slope 2 times column 2 variable all the way to the M and to the N and X to the N plus C the coefficient. Or in this case you have minus 8.89 to the power of 2 etc. etc. times the first column and the second column and the third column. And then our intercept is the minus 1 0 3 0 0 9 point. Boy it gets kind of complicated when you look at it. This is why we don't do this by hand anymore. This is why we have the computer to make these calculations easy to understand and calculate. Now I told you that was a short detour and we're coming towards the end of our script. As you remember from the beginning I said if we're going to divide this information we have to make sure it's a valid model. If this model works and understand how good it works. So calculating the R squared value. That's what we're going to use to predict how good our prediction is. Let's take a look at what that looks like in code. And so we're going to use this from sklearn.metrics. We're going to import R2 score. That's the R squared value. We're looking at the error. So in the R2 score we take our Y test versus our Y predict. Y test is the actual values we're testing. That was the one that was given to us so we know are true. The Y predict of those 200 values is what we think it was true. When we go ahead and run this we see we get a .9352. That's the R2 score. Now it's not exactly a straight percentage. So it's not saying it's 93% correct. But you do want that in the upper 90s. Oh and higher shows that this is a very valid prediction based on the R2 score. And if R squared value of .91 or .92 as we got on our model. Remember it does have a random generation involved. This proves the model is a good model. Which means success. Yay! We successfully trained our model with certain predictors and estimated the profit of the companies using linear regression. So now that we have a successful linear regression model. Let's take a look at what we went over today and take a look at our key takeaways. First we have an introduction to machine learning. We talked about some general setup and predicting crops and weather. We saw this that numbers are age, salary, so on. Then we have categorical color. When we did our actual regression model. We saw that we had numbers which was dollar amounts. And we had a location which was Florida and New York which was categorical that we had to convert. Next we have application of a linear regression model. We had some showing there are some different applications you could use it for. We had our use case implementation of linear regression. Where we dug in deep. Showed how those are set up. We had our multiple linear regression model. So you can see the math behind it. And finally prediction using the regression line. We showed you how to predict things on a regression line setup. And the actual scripting and code. That concludes our demo today. I want to thank you for joining the Simply Learn team. Remember if you have any questions on the video or you wish to request a copy of the CSV file we use to generate this linear regression. Feel free to comment down below and we'll get back to you as soon as we can. Thank you very much. Hi there. If you like this video subscribe to the Simply Learn YouTube channel. And click here to watch similar videos. To nerd up and get certified click here."
+}

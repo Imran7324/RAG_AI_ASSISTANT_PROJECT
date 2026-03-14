@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 23.84,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " Hello everyone. Welcome to this tutorial by SimplyLearn. In this video, you will learn about an interesting machine learning topic that is supervised versus unsupervised versus reinforcement learning. Let's discuss each of them in detail and understand when to use these algorithms along"
+        },
+        {
+            "id": 5,
+            "start": 23.84,
+            "end": 38.8,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " with their applications. There are a number of algorithms used in the field of machine learning to solve complex problems. Each of these algorithms can be classified into a certain category. So the different types of machine learning algorithms are supervised learning, unsupervised"
+        },
+        {
+            "id": 10,
+            "start": 38.8,
+            "end": 58.519999999999996,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " learning and reinforcement learning. Now let's look at the definition of each of these learning techniques. Supervised learning uses labeled data to train machine learning models. Universal data means that the output is already known to you. The model just needs to map the inputs to the outputs."
+        },
+        {
+            "id": 15,
+            "start": 58.519999999999996,
+            "end": 76.19999999999999,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " An example of supervised learning can be to train a machine that identifies the image of an animal. Below you can see, we have a trained model that identifies the picture of a cat. Unsupervised learning uses unlabeled data to train machines. Unlabeled data means there is no fixed output variable."
+        },
+        {
+            "id": 20,
+            "start": 76.19999999999999,
+            "end": 92.56,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " The model learns from the data, discovers patterns and features in the data and returns the output. Here is an example of an unsupervised learning technique that uses the images of vehicles to classify if it's a bus or a truck. So the model learns by identifying the parts of a vehicle such as the length and width"
+        },
+        {
+            "id": 25,
+            "start": 92.56,
+            "end": 116.32,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " of the vehicle, the front and rear end covers, roof heads, the types of wheels used, etc. Based on these features, the model classifies if the vehicle is a bus or a truck. Reinforcement learning trains a machine to take suitable accents and maximize reward in a particular situation. It uses an agent and an environment to produce actions and rewards."
+        },
+        {
+            "id": 30,
+            "start": 116.32,
+            "end": 139.12,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " The agent has a start and an end state, but there might be different parts for reaching the end state like a maze. In this learning technique, there is no predefined target variable. An example of reinforcement learning is to train a machine that can identify the shape of an object given a list of different objects such as square, triangle, rectangle or a circle."
+        },
+        {
+            "id": 35,
+            "start": 139.12,
+            "end": 155.84,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " In the example shown, the model tries to predict the shape of the object which is a square here. Now let's look at the different machine learning algorithms that come under these learning techniques. Some of the commonly used supervised learning algorithms are linear regression, logistic"
+        },
+        {
+            "id": 40,
+            "start": 155.84,
+            "end": 177.60000000000002,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " regression, support vector machines, k nearest neighbors, decision tree, random forest and knife base. Examples of unsupervised learning algorithms are k-means clustering, hierarchical clustering, db scan, principle component analysis and others. Choosing the right algorithm depends on the type of problem you are trying to solve."
+        },
+        {
+            "id": 45,
+            "start": 177.60000000000002,
+            "end": 198.24,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " Some of the important reinforcement learning algorithms are Q learning, Monte Carlo, Sarsa and DeepQ network. Now let's look at the approach in which these machine learning techniques work. So supervised learning takes labeled inputs and maps it to known outputs, which means you already know the target variable."
+        },
+        {
+            "id": 50,
+            "start": 198.24,
+            "end": 216.08,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " Nonsupervised learning finds patterns and understands the trends in the data to discover the output. So the model tries to label the data based on the features of the input data. While reinforcement learning follows trial and error method to get the desired solution. After accomplishing a task, the agent receives an award."
+        },
+        {
+            "id": 55,
+            "start": 216.08,
+            "end": 238.51999999999998,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " An example could be to train a dog to catch the ball. If the dog learns to catch a ball, you give it a reward such as a biscuit. Now let's discuss the training process for each of these learning methods. So supervised learning methods need external supervision to train machine learning models and hence the name supervised."
+        },
+        {
+            "id": 60,
+            "start": 238.51999999999998,
+            "end": 256.24,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " The need guidance and additional information to return the result. Unsupervised learning techniques do not need any supervision to train models. They learn on their own and predict the output. Similarly, reinforcement learning methods do not need any supervision to train machine learning models."
+        },
+        {
+            "id": 65,
+            "start": 256.24,
+            "end": 276.12,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " And with that, let's focus on the types of problems that can be solved using these three types of machine learning techniques. So supervised learning is generally used for classification and regression problems. We'll see the examples in the next slide. And unsupervised learning is used for clustering and association problems."
+        },
+        {
+            "id": 70,
+            "start": 276.12,
+            "end": 301.96000000000004,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " While reinforcement learning is reward based, so for every task or for every step completed, there will be a reward received by the agent. And if the task is not achieved correctly, there will be some penalty used. Now let's look at a few applications of supervised unsupervised and reinforcement learning. As we saw earlier, supervised learning are used to solve classification and regression"
+        },
+        {
+            "id": 75,
+            "start": 301.96000000000004,
+            "end": 316.6,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " problems. For example, you can predict the weather for a particular day based on humidity, precipitation, wind speed and pressure values. You can use supervised learning algorithms to forecast sales for the next month or the next quarter for different products."
+        },
+        {
+            "id": 80,
+            "start": 316.6,
+            "end": 336.76,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " Similarly, you can use it for stock price analysis or identifying if a cancer cell is malignant or benign. Now talking about the applications of unsupervised learning, we have customer segmentation. So based on customer behavior, likes, dislikes and interests, you can segment and cluster similar customers into a group."
+        },
+        {
+            "id": 85,
+            "start": 336.76,
+            "end": 360.36,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " Another example where unsupervised learning algorithms are used is customer churn analysis. Now let's see what applications we have in reinforcement learning. So reinforcement learning algorithms are widely used in the gaming industries to build games. It is also used to train robots to perform human tasks. And with that, we have come to the end of this video on supervised versus unsupervised"
+        },
+        {
+            "id": 90,
+            "start": 360.36,
+            "end": 384.84,
+            "topic": "Supervised vs Unsupervised vs Reinforcement Learning",
+            "text": " versus reinforcement learning. I hope you liked this video. If you enjoyed watching this video, then please subscribe to the Simple Launch channel and hit the bell icon to never miss an update. Thank you for watching and keep learning."
+        }
+    ],
+    "text": " Hello everyone. Welcome to this tutorial by SimplyLearn. In this video, you will learn about an interesting machine learning topic that is supervised versus unsupervised versus reinforcement learning. Let's discuss each of them in detail and understand when to use these algorithms along with their applications. There are a number of algorithms used in the field of machine learning to solve complex problems. Each of these algorithms can be classified into a certain category. So the different types of machine learning algorithms are supervised learning, unsupervised learning and reinforcement learning. Now let's look at the definition of each of these learning techniques. Supervised learning uses labeled data to train machine learning models. Universal data means that the output is already known to you. The model just needs to map the inputs to the outputs. An example of supervised learning can be to train a machine that identifies the image of an animal. Below you can see, we have a trained model that identifies the picture of a cat. Unsupervised learning uses unlabeled data to train machines. Unlabeled data means there is no fixed output variable. The model learns from the data, discovers patterns and features in the data and returns the output. Here is an example of an unsupervised learning technique that uses the images of vehicles to classify if it's a bus or a truck. So the model learns by identifying the parts of a vehicle such as the length and width of the vehicle, the front and rear end covers, roof heads, the types of wheels used, etc. Based on these features, the model classifies if the vehicle is a bus or a truck. Reinforcement learning trains a machine to take suitable accents and maximize reward in a particular situation. It uses an agent and an environment to produce actions and rewards. The agent has a start and an end state, but there might be different parts for reaching the end state like a maze. In this learning technique, there is no predefined target variable. An example of reinforcement learning is to train a machine that can identify the shape of an object given a list of different objects such as square, triangle, rectangle or a circle. In the example shown, the model tries to predict the shape of the object which is a square here. Now let's look at the different machine learning algorithms that come under these learning techniques. Some of the commonly used supervised learning algorithms are linear regression, logistic regression, support vector machines, k nearest neighbors, decision tree, random forest and knife base. Examples of unsupervised learning algorithms are k-means clustering, hierarchical clustering, db scan, principle component analysis and others. Choosing the right algorithm depends on the type of problem you are trying to solve. Some of the important reinforcement learning algorithms are Q learning, Monte Carlo, Sarsa and DeepQ network. Now let's look at the approach in which these machine learning techniques work. So supervised learning takes labeled inputs and maps it to known outputs, which means you already know the target variable. Nonsupervised learning finds patterns and understands the trends in the data to discover the output. So the model tries to label the data based on the features of the input data. While reinforcement learning follows trial and error method to get the desired solution. After accomplishing a task, the agent receives an award. An example could be to train a dog to catch the ball. If the dog learns to catch a ball, you give it a reward such as a biscuit. Now let's discuss the training process for each of these learning methods. So supervised learning methods need external supervision to train machine learning models and hence the name supervised. The need guidance and additional information to return the result. Unsupervised learning techniques do not need any supervision to train models. They learn on their own and predict the output. Similarly, reinforcement learning methods do not need any supervision to train machine learning models. And with that, let's focus on the types of problems that can be solved using these three types of machine learning techniques. So supervised learning is generally used for classification and regression problems. We'll see the examples in the next slide. And unsupervised learning is used for clustering and association problems. While reinforcement learning is reward based, so for every task or for every step completed, there will be a reward received by the agent. And if the task is not achieved correctly, there will be some penalty used. Now let's look at a few applications of supervised unsupervised and reinforcement learning. As we saw earlier, supervised learning are used to solve classification and regression problems. For example, you can predict the weather for a particular day based on humidity, precipitation, wind speed and pressure values. You can use supervised learning algorithms to forecast sales for the next month or the next quarter for different products. Similarly, you can use it for stock price analysis or identifying if a cancer cell is malignant or benign. Now talking about the applications of unsupervised learning, we have customer segmentation. So based on customer behavior, likes, dislikes and interests, you can segment and cluster similar customers into a group. Another example where unsupervised learning algorithms are used is customer churn analysis. Now let's see what applications we have in reinforcement learning. So reinforcement learning algorithms are widely used in the gaming industries to build games. It is also used to train robots to perform human tasks. And with that, we have come to the end of this video on supervised versus unsupervised versus reinforcement learning. I hope you liked this video. If you enjoyed watching this video, then please subscribe to the Simple Launch channel and hit the bell icon to never miss an update. Thank you for watching and keep learning."
+}

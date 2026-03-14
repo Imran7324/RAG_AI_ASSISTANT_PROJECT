@@ -1,0 +1,1118 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 27.8,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Hello everyone, welcome to this session. I'm Mohan from Simply Learn and today we'll talk about interview questions for machine learning. Now, this video will probably help you when you're attending interviews or machine learning positions and attempt here is to probably consolidate 30 most commonly asked questions"
+        },
+        {
+            "id": 5,
+            "start": 27.8,
+            "end": 55.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " and to help you in answering these questions. We tried our best to give you the best possible answers. But of course, what is more important here is rather than the theoretical knowledge, you need to kind of add to the answers or supplement your answers with your own experience. So, the responses that we put here are a bit more generic in nature so that there are some"
+        },
+        {
+            "id": 10,
+            "start": 55.24,
+            "end": 73.28,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " concepts that you are not clear. This video will help you in kind of getting those concepts cleared up as well. But what is more important is that you need to supplement these responses with your own practical experience. Okay, so with that, let's get started."
+        },
+        {
+            "id": 15,
+            "start": 73.28,
+            "end": 89.60000000000001,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, one of the first questions that you may face is what are the different types of machine learning. Now, what is the best way to respond to this? There are three types of machine learning. You read any material, you will always be told there are three types of machine learning."
+        },
+        {
+            "id": 20,
+            "start": 89.60000000000001,
+            "end": 112.64,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " But what is important is you would probably be better of emphasizing that there are actually two main types of machine learning which is supervised and unsupervised. And then there is a third type which is reinforcement learning. So, supervised learning is where you have some historical data and then you feed that data to your model to learn."
+        },
+        {
+            "id": 25,
+            "start": 112.64,
+            "end": 128.6,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Now, you need to be aware of a keyword that they will be looking for which is labeled data. So, if you just say pass data or historical data, the impact may not be so much. You need to emphasize on labeled data. So, what is labeled data?"
+        },
+        {
+            "id": 30,
+            "start": 128.6,
+            "end": 149.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Basically, let's say if you are trying to do training model for classification, you need to be aware of for your existing data which class each of the observations belong to. So, that is what is labeling. So, it is nothing but a fancy name, you must be aware. But just make it a point to throw in that keyword labeled so that we will have the writing"
+        },
+        {
+            "id": 35,
+            "start": 149.56,
+            "end": 168.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " factor. So, that is what is supervised learning when you have existing labeled data which you then use to train your model that is known as supervised learning. And unsupervised learning is when you do not have this labeled data. So, you have data, it is not labeled."
+        },
+        {
+            "id": 40,
+            "start": 168.68,
+            "end": 191.32,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, the system has to figure out a way to do some analysis on this. So, that is unsupervised learning. And you can then add a few things like what are the ways of performing supervised learning and unsupervised learning and what are some of the techniques. So, supervised learning, we perform or we do regression and classification and unsupervised"
+        },
+        {
+            "id": 45,
+            "start": 191.32,
+            "end": 211.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " learning, we do clustering. And clustering can be of different types. But you do not have to probably elaborate so much if they are asking for just the different types, you can just mention these and just at a very high level. But if they want you to elaborate, give examples then of course, I think there is a different"
+        },
+        {
+            "id": 50,
+            "start": 211.56,
+            "end": 231.35999999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " question for that we will see that later. Then the third, so we have supervised and we have unsupervised and then reinforcement, we need to provide a little bit of information around that as well because it is sometimes a little difficult to come up with a good definition for reinforcement learning. So, you may have to a little bit elaborate on how reinforcement learning works."
+        },
+        {
+            "id": 55,
+            "start": 231.35999999999999,
+            "end": 256.32,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So reinforcement learning works in such a way that it basically has two parts to it. One is the agent and the environment and the agent basically is working inside of this environment and it is given a target that it has to achieve. And every time it is moving in the direction of the target. So, the agent basically has to take some action and every time it takes an action which is"
+        },
+        {
+            "id": 60,
+            "start": 256.32,
+            "end": 283.12,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " moving the agent towards the target towards a goal, target is nothing but a goal. Then it is rewarded and every time it is going in a direction where it is away from the goal, then it is punished. So, that is the way you can a little bit explain and this is used primarily or it is very impactful for teaching the system to learn games and so on."
+        },
+        {
+            "id": 65,
+            "start": 283.12,
+            "end": 300.72,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Examples of this are basically used in AlphaGo. You can throw that as an example where AlphaGo used reinforcement learning to actually learn to play the game of Go and finally it defeated the Go world champion. Right. There is much of information that would be good enough."
+        },
+        {
+            "id": 70,
+            "start": 300.72,
+            "end": 312.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Okay. Then there could be a question on overfitting. So, the question could be what is overfitting and how can you avoid it. So, what is overfitting?"
+        },
+        {
+            "id": 75,
+            "start": 312.56,
+            "end": 331.6,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Let us first try to understand the concept because sometimes overfitting maybe a little difficult to understand. Overfitting is a situation where the model has kind of memorized the data. So, this is an equivalent of memorizing the data. So, we can draw an analogy so that it becomes easy to explain this."
+        },
+        {
+            "id": 80,
+            "start": 331.6,
+            "end": 348.88,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Now, let us say you are teaching a child about recognizing some fruits or something like that. And you are teaching this child about recognizing let us say three fruits, apples, oranges and pineapples. Okay. So, this is a small child and for the first time you are teaching the child to recognize"
+        },
+        {
+            "id": 85,
+            "start": 348.88,
+            "end": 360.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " fruits. Then, so what will happen? So, this is very much like that is your training data set. So, what you will do is you will take a basket of fruits which consists of apples, oranges and pineapples."
+        },
+        {
+            "id": 90,
+            "start": 361.04,
+            "end": 381.84000000000003,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " And you take this basket to this child and there may be let us say hundreds of these fruits. So, you take this basket to this child and keep showing each of this fruit. And then first time obviously the child will not know what it is. So, you show an apple and you say hey this is apple. Then you show maybe an orange and say this is orange and so on and so on."
+        },
+        {
+            "id": 95,
+            "start": 381.84000000000003,
+            "end": 399.76,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " And then again you keep repeating that right. So, till that basket is over. This is basically how training works in machine learning also that is how training works. So, till the basket is completed maybe 100 fruits you keep showing this child. Then the process what has happened the child has pretty much memorized these."
+        },
+        {
+            "id": 100,
+            "start": 399.76,
+            "end": 416.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, even before you finish that basket right. By the time you are halfway through the child has learned about recognizing the apple, orange and pineapp. Now, what will happen after halfway through initially you remember it made mistakes in recognizing but halfway through now it has learned."
+        },
+        {
+            "id": 105,
+            "start": 416.56,
+            "end": 431.36,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, every time you show a fruit it will exactly 100% accurately it will identify it. It will say the child will say this is an apple this is an orange and if you show a pineapple it will say this is a pineapple right. So, that means it has kind of memorized this data."
+        },
+        {
+            "id": 110,
+            "start": 431.36,
+            "end": 453.59999999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Now, let us say you bring another basket of fruits and it will have a mix of maybe apples which were already there in the previous set. But it will also have an addition to apple. It will probably have a banana or maybe another fruit like a jackfruit right. So, this is an equivalent of your test data set which the child has not seen before."
+        },
+        {
+            "id": 115,
+            "start": 453.59999999999997,
+            "end": 475.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Some parts of it it probably has seen like the apples it has seen but this banana and jackfruit it has not seen. So, then what will happen in the first round which is an equivalent of your training data set. Towards the end it has 100% it was telling you what the fruits are right. Apple was accurately recognized orange was accurately recognized and pineapples were accurately"
+        },
+        {
+            "id": 120,
+            "start": 475.52,
+            "end": 493.44,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " recognized right. So, that is like 100% accuracy. But now when you get another fresh set which were not out of the original one what will happen all the apples maybe it will be able to recognize correctly but all the others like the jackfruit or the banana will not be recognized by the child right."
+        },
+        {
+            "id": 125,
+            "start": 493.44,
+            "end": 508.96000000000004,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, this is an analogy this is an equivalent of overfitting. So, what has happened during the training process? It is able to recognize or reach 100% accuracy maybe very high accuracy and we call that as very low loss right. So, that is the technical term."
+        },
+        {
+            "id": 130,
+            "start": 508.96000000000004,
+            "end": 527.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, the loss is pretty much 0 and accuracy is pretty much 100%. Whereas, when you use testing there will be a huge error which means the loss will be pretty high and therefore, the accuracy will be also low okay. This is known as overfitting. This is basically a process where training is done."
+        },
+        {
+            "id": 135,
+            "start": 527.04,
+            "end": 541.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Training process is it goes very well almost reaching 100% accuracy but while testing it really drops down. Now, how can you avoid it? So, that is the extension of this question. There are multiple ways of avoiding overfitting."
+        },
+        {
+            "id": 140,
+            "start": 541.52,
+            "end": 565.84,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " There are techniques like what do you call regularization that is the most common technique that is used for avoiding overfitting and within regularization there can be a few other subtypes like drop out in case of neural networks and a few other examples. But I think if you give example or if you give regularization as the technique probably that should be sufficient."
+        },
+        {
+            "id": 145,
+            "start": 565.84,
+            "end": 586.48,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, there will be some questions where the interviewer will try to test your fundamentals and your knowledge and depth of knowledge and so on and so forth. And then there will be some questions which are more like quick questions that will be more to stump you. Okay, then the next question is around the methodology."
+        },
+        {
+            "id": 150,
+            "start": 586.48,
+            "end": 605.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, when we are performing machine learning training, we split the data into training and tests. Right. So, this question is around that. So, the question is what is training set and test set in machine learning model and how is the split done. So, the question can be like that. So, in machine learning when we are trying to train the model."
+        },
+        {
+            "id": 155,
+            "start": 605.68,
+            "end": 627.36,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, we have a three-step process. We train the model and then we test the model and then once we are satisfied with the test, only then we deploy the model. So, what happens in the train and test is that you remember the labeled data. So, let's say you have thousand records with labeling information."
+        },
+        {
+            "id": 160,
+            "start": 627.36,
+            "end": 650.9599999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Now, one way of doing it is you use all the thousand records for training and then maybe, which means that you have exposed all these thousand records during the training process. And then you take a small set of the same data and then you say, okay, I will test it with this. Okay. And then you probably what will happen, you may get some good results. All right. But there is a flaw there."
+        },
+        {
+            "id": 165,
+            "start": 650.9599999999999,
+            "end": 671.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " What is the flaw? This is very similar to human beings. It is like you are showing this model the entire data as a part of training. Okay. So, obviously it has become familiar with the entire data. So, when you're taking a part of that again and you're saying that I want to test it, obviously you will get good results. So, that is not a very accurate way of testing."
+        },
+        {
+            "id": 170,
+            "start": 671.52,
+            "end": 698.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, that is the reason what we do is we have the labeled data of these thousand records or whatever. We set aside before starting the training process, we set aside a portion of that data and we call that test set and the remaining we call as training set. And we use only this for training our model. Now, the training process remember is not just about passing one round of this data set."
+        },
+        {
+            "id": 175,
+            "start": 698.24,
+            "end": 721.6,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " So, let's say now your training set has 800 records. It is not just one time you pass this 800 records. What you normally do is you actually, as a part of the training, you may pass this data through the model multiple times. So, this thousand records may go through the model maybe 10, 15, 20 times till the training is perfect till the accuracy is high till the errors are minimized."
+        },
+        {
+            "id": 180,
+            "start": 721.6,
+            "end": 747.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Okay. Now, so which is fine, which means that your that is what is known as the model has seen your data and gets familiar with your data. And now when you bring your test data, what will happen is this is like some new data because that is where the real test is. Now, you train the model and now you are testing the model with some data which is kind of new. That is like a situation let like a realistic situation because when the model is deployed, that is what will happen."
+        },
+        {
+            "id": 185,
+            "start": 747.68,
+            "end": 770.72,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " It will receive some new data, not the data that it has already seen. Right. So, this is a realistic test. So, you put some new data. So, this data which you have set aside is for the model, it is new. And if it is able to accurately predict the values, that means your training has worked. Okay. The model got trained properly. But let's say while you're testing this with this test data, you're getting a lot of errors."
+        },
+        {
+            "id": 190,
+            "start": 770.72,
+            "end": 801.28,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " That means you need to probably either change your model or retrain with more data and things like that. Now, coming back to the question of how do you split this, what should be the ratio? There is no fixed number again. This is like individual preferences. Some people split it into 50-50, 50% test and 50% training. Some people prefer to have a larger amount for training and a smaller amount for test. So, they can go by either 60-40 or 70-30 or some people even go"
+        },
+        {
+            "id": 195,
+            "start": 801.28,
+            "end": 831.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " with some odd numbers like 65-35 or 63.33 and 33 which is like one-third and two-third. So, there is no fixed rule that it has to be something that the ratio has to be this. You can go by your individual preferences. All right. Then, you may have questions around data handling, data manipulation or what do you call data management or preparation. So, these are all some questions around that area. There is again, no one answer, one single good answer to this."
+        },
+        {
+            "id": 200,
+            "start": 831.52,
+            "end": 858.48,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " It really varies from situation to situation. And depending on what exactly is the problem, what kind of data it is, how critical it is, what kind of data is missing and what is the type of corruption. So, there are a whole lot of things. This is a very generic question and therefore, you need to be little careful about responding to this as well. So, probably have to illustrate this again. If you have experience in doing this kind of work in handling data, you can illustrate"
+        },
+        {
+            "id": 205,
+            "start": 858.48,
+            "end": 885.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " with examples saying that I was on one project where I received this kind of data. These were the columns where data was not filled or these were the, these many rows where the data was missing. That would be in fact a perfect way to respond to this question. But if you don't have that, obviously you have to provide some good answer. I think it really depends on what exactly the situation is and there are multiple ways of handling the missing data or correct data."
+        },
+        {
+            "id": 210,
+            "start": 886.56,
+            "end": 919.4399999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Let's take a few examples. Now, let's say you have data where some values in some of the columns are missing and you have pretty much half of your data having these missing values in terms of number of rows. That could be one situation. Another situation could be that you have records or data missing. But when you do some initial calculation, how many records are corrupt or how many rows or observations as we call it has this missing data. Let's assume it is very minimal like 10%."
+        },
+        {
+            "id": 215,
+            "start": 921.12,
+            "end": 950.5600000000001,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Between these two cases, how do you? So, let's assume that this is not a mission critical situation and in order to fix this 10% of the data, the effort that is required is much higher and obviously, effort means also time and money. So, it is not so mission critical and it is okay to, let's say, get rid of these records. So, obviously, one of the easiest ways of handling the data part or missing data is remove those records or remove those observations from your analysis. So, that is"
+        },
+        {
+            "id": 220,
+            "start": 950.5600000000001,
+            "end": 977.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " the easiest way to do. But then the downside is, as I said in the first case, if let's say 50% of your data is like that because some column of the other is missing. So, it is not like every in every place in every row, the same column is missing. But you have in maybe 10% of the records column 1 is missing and another 10% column 2 is missing, another 10% column 3 is missing and so on and so forth. So, it adds up to maybe half of your data set. So, you cannot completely remove half of your"
+        },
+        {
+            "id": 225,
+            "start": 977.68,
+            "end": 1005.1999999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " data set then the whole purpose is lost. Okay. So, then how do you handle? Then you need to come up with ways of filling up this data with some meaningful value, right? That is one way of handling. So, when we say meaningful value, what is that meaningful value? Let's say for a particular column, you might want to take a mean value for that column and fill wherever the data is missing, fill up with that mean value so that when you're doing the calculations, your analysis is not"
+        },
+        {
+            "id": 230,
+            "start": 1005.1999999999999,
+            "end": 1032.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " completely way off. So, you have values which are not missing, first of all, so your system will work. Number two, these values are not so completely out of fact that your whole analysis goes for a toss, right? There may be situations where if the missing values, instead of putting mean, maybe a good idea to fill it up with a minimum value or with a zero. So, or with a maximum value, again, as I said, there are so many possibilities. So, there is no like one correct answer for this."
+        },
+        {
+            "id": 235,
+            "start": 1032.56,
+            "end": 1064.4,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " You need to basically talk around this and illustrate with your experience. As I said, that would be the best. Otherwise, this is how you need to handle this question. Okay. So, then the next question can be, how can you choose a classifier based on a training set data size? So, again, this is one of those questions where you probably do not have like one size fits all on. So, first of all, you may not let's say decide your classifier based on the training set size,"
+        },
+        {
+            "id": 240,
+            "start": 1064.4,
+            "end": 1093.8400000000001,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " maybe not the best way to decide the type of the classifier. And even if you have to, there are probably some thumb rules which we can use. But then again, every time. So, in my opinion, the best way to respond to this question is you need to try out a few classifiers irrespective of the size of the data. And you need to then decide on your particular situation, which of these classifiers are the right ones. This is a very generic issue. So, you will never be able to just"
+        },
+        {
+            "id": 245,
+            "start": 1093.8400000000001,
+            "end": 1124.5600000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " buy if somebody defines a problem to you and somebody, even if they show the data to you or tell you what is the data or even the size of the data, I don't think there is a way to really say that, yes, this is the classifier that will work here. No, that's not the right way. So, you need to still test it out, get the data, try out a couple of classifiers, and then only you will be in a position to decide which classifier to use. You try out multiple classifiers, see which one gives the best"
+        },
+        {
+            "id": 250,
+            "start": 1124.56,
+            "end": 1156.9599999999998,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " accuracy, and only then you can decide. Then you can have a question around confusion matrix. So, the question can be explained confusion matrix. So, confusion matrix, I think the best way to explain it is by taking an example and drawing like a small diagram, otherwise it can really become tricky. So, my suggestion is to take a piece of pen and paper and explain it by drawing a small matrix. And confusion matrix is about to find out this is used especially in classification,"
+        },
+        {
+            "id": 255,
+            "start": 1157.52,
+            "end": 1192.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " learning process, and when you get the results and our model predicts the results, you compare it with the actual value and try to find out what is the accuracy. So, in this case, let's say this is an example of a confusion matrix and it is a binary matrix. So, you have the actual values, which is the labeled data, which is so you have how many yes and how many no. So, you have that in vision and you have the predicted values, how many yes and how many no. So, the total actual"
+        },
+        {
+            "id": 260,
+            "start": 1192.24,
+            "end": 1224.96,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " values, the total yes is 12 plus 130 and they are shown here and the actual value no's are 9 plus 3, 12. So, that is what this information here is. So, this is about the actual and this is about the predicted. Similarly, predicted values, there are yes are 12 plus 3, 15 yeses and no are 1 plus 9, 10 no's. So, this is the way to look at this confusion matrix. And out of this, what is the meaning conveyed is? So, there are two or three things that needs to be explained outright. The"
+        },
+        {
+            "id": 265,
+            "start": 1224.96,
+            "end": 1255.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " first thing is for a model to be accurate, the values across the diagonal should be high like in this case, right? That is one. Number two, the total sum of these values is equal to the total observations in the test data set. So, in this case, for example, you have 12 plus 3, 15 plus 10, 25. So, that means we have 25 observations in our test data set. So, these are the two things you need to first explain that the total sum in this matrix of the numbers is equal to the size of"
+        },
+        {
+            "id": 270,
+            "start": 1255.68,
+            "end": 1286.3200000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " the test data set and the diagonal values indicate the accuracy. So, by just by looking at it, you can probably have an idea about is this an accurate model, is the model being accurate. If they are all spread out equally in all these four boxes, that means probably the accuracy is not very good. Okay. Now, how do you calculate the accuracy itself? How do you calculate the accuracy itself? So, it is a very simple mathematical calculation. You take some of the diagonals, right? So, in this"
+        },
+        {
+            "id": 275,
+            "start": 1286.3200000000002,
+            "end": 1326.16,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " case, it is 9 plus 21 and divided by the total. So, in this case, what will it be? Let's me take a pen. So, your diagonal values is equal to 5, say, t is equal to 12 plus 9. So, that is 21, right? And the total data set is equal to, right? We just calculated it is 25. So, what is your accuracy? It is 21 by your accuracy is equal to 21 by 25. And this turns out to be about 85%, right? So, this is 85%. So, that is our accuracy. Okay. So, this is the way you need to explain, draw"
+        },
+        {
+            "id": 280,
+            "start": 1326.16,
+            "end": 1349.92,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " diagram, give an example. And maybe, maybe a good idea to be prepared with an example, so that it becomes easy for you. You don't have to calculate those numbers on the fly, right? So, a couple of hints are that you take some numbers which are, which add up to 100. That is always a good idea. So, you don't have to really do this complex calculations. So, the total value will be 100. And then, diagonal values you divide. Once you find the diagonal values, that is equal"
+        },
+        {
+            "id": 285,
+            "start": 1349.92,
+            "end": 1383.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " to your percentage. Okay. All right. So, the next question can be a related question about false positive and false negative. So, what is false positive and what is false negative? Now, once again, the best way to explain this is using a piece of paper and pen. Otherwise, it will be pretty difficult to explain this. So, we use the same example of the confusion matrix. And we can explain that. So, a confusion matrix looks somewhat like this. And when we just take"
+        },
+        {
+            "id": 290,
+            "start": 1384.1599999999999,
+            "end": 1418.3200000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " it, it looks somewhat like this. And we continue with the previous example where this is the actual value. This is the predicted value. And in the actual value, we have 12 plus 1, 13 yeses and 3 plus 9, 12 noes. And predicted values, there are 12 plus 3, 15 yeses and 1 plus 9, 10 noes. Now, in this particular case, which is the false positive, what is a false positive? First of all, the second word, which is positive, okay, is referring to the predicted value. So, that means"
+        },
+        {
+            "id": 295,
+            "start": 1418.3200000000002,
+            "end": 1447.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " the system has predicted it as a positive, but the real value, so this is what the false comes from. But the real value is not positive. Okay. That is the way you should understand this term, false positive or even false negative. So, false positive. So, positive is what your system has predicted. So, where is that system predicted? This is the one. Positive is what? Yes. So, you basically consider this row. Okay. Now, if you consider this row, so this is all"
+        },
+        {
+            "id": 300,
+            "start": 1447.04,
+            "end": 1475.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " positive values. This entire row is positive values. Okay. Now, the false positive is the one with where the value, actual value is negative. Predicted value is positive, but the actual value is negative. So, this is a false positive. Right. And here is a true positive. So, the predicted value is positive and the actual value is also positive. Okay. I hope this is making sense. Now, let's take a look at what is false negative. False negative. So, negative is the second term."
+        },
+        {
+            "id": 305,
+            "start": 1475.04,
+            "end": 1505.84,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " That means that is the predicted value that we need to look for. So, which are the predicted negative values? This row corresponds to predicted negative values. All right. So, this row corresponds to predicted negative values. And what they are asking for? False. So, this is the row for predicted negative values. And the actual value is this one. Right. This is predicted negative and the actual value is also negative. Therefore, this is a true negative. So, the false negative is this one."
+        },
+        {
+            "id": 310,
+            "start": 1505.84,
+            "end": 1537.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Predicted is negative, but actual is positive. Right. So, this is the false negative. So, this is the way to explain. And this is the way to look at false positive and false negative. Same way, there can be true positive and true negative as well. So, again, positive, the second term you will need to use to identify the predicted row. Right. So, if we say true positive, positive, we need to take for the predicted part. So, predicted positive is here. Okay. And then the first term is for the"
+        },
+        {
+            "id": 315,
+            "start": 1537.04,
+            "end": 1566.48,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " actual. So, true positive. So, true in case of actual is yes. Right. So, true positive is this one. Okay. And then in case of actual, the negative. Now, we are talking about, let's say true negative. True negative. Negative is this one and the true comes from here. So, this is true negative. Right. Nine is true negative. The actual value is also negative and the predicted value is also negative. Okay. So, that is the way you need to explain this, the terms false positive, false negative,"
+        },
+        {
+            "id": 320,
+            "start": 1566.48,
+            "end": 1595.84,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " and true positive, true negative. Then you might have a question like, what are the steps involved in the machine learning process? Or what are the three steps in the process of developing machine learning model? Right. So, it is around the methodology that is applied. So, basically, the way you can probably answer in your own words, but the way the model development of the machine learning model happens is like this. So, first of all, you try to understand the problem and try"
+        },
+        {
+            "id": 325,
+            "start": 1595.84,
+            "end": 1624.64,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " to figure out whether it is a classification problem or a regression problem. Based on that, you select a few algorithms and then you start the process of training these models. So, you can either do that or after due diligence, you can probably decide that there is one particular algorithm with which is most suitable. Usually, it happens through trial and error process, but at some point, you will decide that, okay, this is the model we are going to use. So, in that"
+        },
+        {
+            "id": 330,
+            "start": 1624.72,
+            "end": 1654.3999999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " case, we have the model algorithm and the model decided and then you need to do the process of training the model and testing the model. And this is where if it is supervised learning, you split your data, the label data into training dataset and test dataset. And you use the training dataset to train your model and then you use the test dataset to check the accuracy, whether it is working fine or not. So, you test the model before you actually put it into production."
+        },
+        {
+            "id": 335,
+            "start": 1654.3999999999999,
+            "end": 1678.7199999999998,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Right? So, once you test the model, you're satisfied it's working fine. Then you go to the next level, which is putting it for production and then in production, obviously new data will come and the inference happens. So, the model is readily available and only thing that happens is new data comes and the model predicts the variation, whether it is regression or classification. Now, so, this can be an iterative process. So, it is not a straightforward process where you do the"
+        },
+        {
+            "id": 340,
+            "start": 1678.72,
+            "end": 1705.2,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " training through the testing and then you move it to production. Now, so, during the training and test process, there may be a situation where because of either overfitting or things like that, the test doesn't go through, which means that you need to put that back into the training process. So, that can be an iterative process. Not only that, even if the training and test goes through properly and you deploy the model in production, there can be a situation that the data that actually"
+        },
+        {
+            "id": 345,
+            "start": 1705.2,
+            "end": 1732.0800000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " comes, the real data that comes. With that, this model is failing. So, in which case, you may have to once again go back to the drawing mode or initially it will be working fine, but over a period of time, maybe due to the change in the nature of the data, once again, the accuracy will deteriorate. So, that is again a recursive process. So, once in a while, you need to keep checking whether the model is working fine or not and if required, you need to tweak it and modify it and so on and so"
+        },
+        {
+            "id": 350,
+            "start": 1732.08,
+            "end": 1761.9199999999998,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " forth. So, let me add this is a continuous process of tweaking the model and testing it and making sure it is up to date. Then you might have question around deep learning. So, because deep learning is now associated with AI, artificial intelligence and so on. So, can be as simple as what is deep learning. So, I think the best way to respond to this could be deep learning is a part of machine learning and then obviously the question would be then what is the difference. So, deep learning"
+        },
+        {
+            "id": 355,
+            "start": 1761.92,
+            "end": 1790.5600000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " you need to mention there are two key parts that interviewer will be looking for when you are defining deep learning. So, first is of course deep learning is a subset of machine learning. So, machine learning is still the bigger let us say scope and deep learning is one part of it. So, then what exactly is the difference deep learning is primarily when we are implementing these our algorithms or when we are using neural networks for doing our training and classification and"
+        },
+        {
+            "id": 360,
+            "start": 1790.56,
+            "end": 1820.96,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " regression and all that. So, when we use neural network then it is considered as deep learning and the term deep comes from the fact that you can have several layers of neural networks and these are called deep neural networks and therefore the deep deep learning. The other difference between machine learning and deep learning which they do here may be wanting to hear is that in case of machine learning the feature engineering is done manually. What do we mean by feature"
+        },
+        {
+            "id": 365,
+            "start": 1820.96,
+            "end": 1851.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " engineering? Basically when we are trying to train our model we have our training data. So, we have our training label data and this data has several let us say if it is a regular table it has several columns. Now each of these columns actually has information about a feature. So, if we are trying to predict the height weight and so on and so forth. So, these are all features of human beings let us say we have census data and we have all these. So, those are the features. Now there may be"
+        },
+        {
+            "id": 370,
+            "start": 1851.04,
+            "end": 1880.72,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " probably 50 or 100 in some cases there may be 100 such features. Now all of them do not contribute to our model. So, we as a data scientist we have to decide whether we should take all of them all the features or we should throw away some of them because again if we take all of them number one of course your accuracy will probably get affected but also there is a computational part. So, if you have so many features and then we have so much data it becomes very tricky. So, in case"
+        },
+        {
+            "id": 375,
+            "start": 1880.72,
+            "end": 1910.48,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " of machine learning we manually take care of identifying the features that do not contribute to the learning process and thereby we eliminate those features and so on. So, this is known as feature engineering and in machine learning we do that manually. Whereas in deep learning where we use neural networks the model will automatically determine which features to use and which to not lose and therefore feature engineering is also done automatically. So, this is a explanation. These"
+        },
+        {
+            "id": 380,
+            "start": 1910.48,
+            "end": 1940.5600000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " are two key things probably will add value to your response. All right. So, the next question is what is the difference between or what are the differences between machine learning and deep learning. So, here this is a quick comparison table between machine learning and deep learning and in machine learning enables machines to take decisions on their own based on past data. So, here we are talking primarily of supervised learning and it needs only a small amount of data for training and then"
+        },
+        {
+            "id": 385,
+            "start": 1940.5600000000002,
+            "end": 1966.64,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " works well on low end systems so you don't need large machines and most features need to be identified in advance and manually coded. So, basically the feature engineering part is done manually and the problem is divided into parts and solved individually and then combined. So, that is about the machine learning part. In deep learning deep learning basically enables machines to take decisions with the help of artificial neural network. So, here in deep learning we"
+        },
+        {
+            "id": 390,
+            "start": 1966.64,
+            "end": 1993.1999999999998,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " use neural lines. So, that is the key differentiator between machine learning and deep learning and usually deep learning involves a large amount of data and therefore the training also requires usually the training process requires high end machines because it needs a lot of computing power and the machine learning features are the or the feature engineering is done automatically. So, the neural networks takes care of doing the feature engineering as well and in case of deep learning"
+        },
+        {
+            "id": 395,
+            "start": 1993.1999999999998,
+            "end": 2022.72,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " therefore it has said that the problem is handled end to end. So, this is a quick comparison between machine learning and deep learning in case you have that kind of a question. Then you might get a question around the uses of machine learning or some real life applications of machine learning in modern business. The question may be worded in different ways but the meaning is how exactly is machine learning used or actually supervised machine learning. It could be a very specific"
+        },
+        {
+            "id": 400,
+            "start": 2022.72,
+            "end": 2054.4,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " question around supervised machine learning. So, this is like give examples of supervised machine learning use of supervised machine learning in modern business. So, that could be the next question. So, there are quite a few examples or quite a few use cases if you will for supervised machine learning. The very common one is email spam detection. So, you want to train your application or your system to detect between spam and non-spam. So, this is a very common business application of"
+        },
+        {
+            "id": 405,
+            "start": 2054.4,
+            "end": 2087.8399999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " supervised machine learning. So, how does this work? The way it works is that you obviously have historical data of your emails and they are categorized as spam and non-spam. So, that is what is the labeled information. And then you feel this information or the all these emails as an input to your model. And the model will then train to detect which of the emails are to detect which is spam and which is not spam. So, that is the training process and this is supervised machine"
+        },
+        {
+            "id": 410,
+            "start": 2087.84,
+            "end": 2120.7999999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " learning because you have labeled data. You already have emails which are tagged as spam or not spam and then you use that to train your model. So, this is one example. Now, there are a few industry specific applications for supervised machine learning. One of the very common ones is in healthcare diagnostics. In healthcare diagnostics, you have these images and you want to train models to detect whether from a particular image, whether it can find out if the person is sick or not,"
+        },
+        {
+            "id": 415,
+            "start": 2120.7999999999997,
+            "end": 2152.96,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " whether a person has cancer or not. So, this is a very good example of supervised machine learning. Here, the way it works is that existing images, it could be x-ray images, it be MRI or any of these images are available and they are tagged saying that, okay, this x-ray image is defective or the person has an illness or it could be cancer, whichever illness. So, it is tagged as defective or clear or good image and defective image, something like that. So, we come up with a binary or it could"
+        },
+        {
+            "id": 420,
+            "start": 2152.96,
+            "end": 2183.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " be multi-class as well saying that this is defective to 10%, this is 25%, and so on. But let's keep it simple. You can give an example of just a binary classification that would be good enough. So, you can say that in healthcare diagnostics, using image, we need to detect whether a person is ill or whether a person is having cancer or not. So, here, the way it works is you feed labeled images and you allow the model to learn from that so that when new image is fed, it will be able to"
+        },
+        {
+            "id": 425,
+            "start": 2183.52,
+            "end": 2214.0,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " predict whether this person is having that illness or not having cancer or not. So, I think this would be a very good example for supervised machine learning in modern business. All right, then we can have a question like, so we've been talking about supervised and unsupervised then, so there can be a question around semi-supervised machine learning. So, what is semi-supervised machine learning? Now, semi-supervised learning as the name suggests, it falls between supervised"
+        },
+        {
+            "id": 430,
+            "start": 2214.0,
+            "end": 2245.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " learning and unsupervised learning, but for all practical purposes, it is considered as a art of supervised learning. And the reason this has come into existence is that in supervised learning, you need labeled data. So, all your data for training your model has to be labeled. Now, this is a big problem in many industries or in many under many situations. Getting the labeled data is not that easy because there's a lot of effort in labeling this data. Let's take an example"
+        },
+        {
+            "id": 435,
+            "start": 2245.04,
+            "end": 2276.0,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " of diagnostic images and we can just let's say take x-ray images. Now, there are actually millions of x-ray images available all over the world, but the problem is they are not labeled. So, their images are there, but whether it is effective or whether it is good, that information is not available along with it in a form that it can be used by a machine, which means that somebody has to take a look at these images and usually it should be like a doctor and then say that,"
+        },
+        {
+            "id": 440,
+            "start": 2276.0,
+            "end": 2306.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " okay, yes, this image is clean and this image is cancerous and so on and so forth. Now, that is a huge effort by itself. So, this is where semi-supervised learning comes into play. So, what happens is there is a large amount of data, maybe a part of it is labeled. Then we try some techniques to label the remaining part of the data so that we get completely labeled data and then we train our model. So, I know there's a little long winding explanation, but unfortunately,"
+        },
+        {
+            "id": 445,
+            "start": 2306.24,
+            "end": 2342.16,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " there is no quick and easy definition for semi-supervised machine learning. This is the only way probably to explain this concept. We may have another question as what are unsupervised machine learning techniques or what are some of the techniques used for performing unsupervised machine learning. So, it can be worded in different ways. So, how do we answer this question? So, unsupervised learning, you can say that there are two types, clustering and association and clustering is a technique where"
+        },
+        {
+            "id": 450,
+            "start": 2342.16,
+            "end": 2370.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " similar objects are put together and there are different ways of finding similar objects. So, their characteristics can be measured and if they have in most of the characteristics, if they are similar, then they can be put together. This is clustering. Then association, you can, I think the best way to explain association is with an example. In case of association, you try to find out how the items are linked to each other. So, for example, if somebody bought"
+        },
+        {
+            "id": 455,
+            "start": 2370.72,
+            "end": 2403.12,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " maybe a laptop, the person has also purchased a mouse. So, this is more in a e-commerce scenario, for example. So, you can give this as an example. So, people who are buying laptops are also buying a mouse. So, that means there is an association between laptops and mouse or maybe people who are buying bread are also buying butter. So, that is an association that can be created. So, this is unsupervised learning, one of the techniques. All right. Then we have very fundamental question,"
+        },
+        {
+            "id": 460,
+            "start": 2403.12,
+            "end": 2430.7200000000003,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " what is the difference between supervised and unsupervised machine learning? So, machine learning, these are the two main types of machine learning, supervised and unsupervised. And in case of supervised, and again here, probably the keyword that the person may be wanting to hear is labeled data. Now, very often people say, we have historical data and if we run it, it is supervised and if we do not have historical data, yes, but you may have historical data, but if it is not labeled,"
+        },
+        {
+            "id": 465,
+            "start": 2430.7200000000003,
+            "end": 2462.4,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " then you cannot use it for supervised learning. So, it is very key to understand that we put in that keyword labeled. So, when we have labeled data for training our model, then we can use supervised learning. And if we do not have labeled data, then we use unsupervised learning. And there are different algorithms available to perform both of these types of trainings. So, there can be another question a little bit more theoretical and conceptual in nature."
+        },
+        {
+            "id": 470,
+            "start": 2462.4,
+            "end": 2487.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " This is about inductive machine learning and deductive machine learning. So, the question can be, what is the difference between inductive machine learning and deductive machine learning or somewhat in that manner. So, the exact phrase or exact question can vary. They can ask for examples and things like that, but that could be the question. So, let us first understand what is inductive and deductive training. Inductive training is induced by somebody."
+        },
+        {
+            "id": 475,
+            "start": 2487.52,
+            "end": 2516.16,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " And you can illustrate that with a small example, I think that always helps. So, whenever you are doing some explanation, try as much as possible, as I said, to give examples from your work experience or give some analogies and that will also help a lot in explaining as well and for the interviewer also to understand. So, here we will take an example or rather we will use an analogy. So, inductive training is when we induce some knowledge or the learning process into a person"
+        },
+        {
+            "id": 480,
+            "start": 2516.16,
+            "end": 2551.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " without the person actually experiencing it. What can be an example? So, we can probably tell the person or show a person a video that fire can burn his finger or fire can cause damage. So, what is happening here? This person has never probably seen a fire or never seen anything getting damaged by fire. But just because he has seen this video, he knows that, okay, fire is dangerous and if a fire can cause damage. So, this is inductive learning. Compared to that,"
+        },
+        {
+            "id": 485,
+            "start": 2551.52,
+            "end": 2580.08,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " what is deductive learning? So, here you draw conclusion or the person draws conclusion out of experience. So, we will stick to the analogy. So, compared to showing a video, let us assume a person is allowed to play with fire, right. And then he figures out that if he puts his finger, it is burning or if he throws something into the fire, it burns. So, he is learning through experience. So, this is known as deductive learning, okay. So, you can have applications or"
+        },
+        {
+            "id": 490,
+            "start": 2580.08,
+            "end": 2612.5600000000004,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " models that can be trained using inductive learning or deductive learning. All right. I think probably that explanation will be sufficient. The next question is are KNN and K means clustering similar to one another or are they same, right. Because the letter K is kind of common between them, okay. So, let us take a little while to understand what these two are. One is KNN and another is K means. KNN stands for K nearest neighbors and K means of course, is a clustering"
+        },
+        {
+            "id": 495,
+            "start": 2612.56,
+            "end": 2644.16,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " mechanism. Now, these two are completely different except for the letter K being common between them. KNN is completely different. K means clustering is completely different. KNN is a classification process and therefore it comes under supervised learning whereas K means clustering is actually unsupervised, okay. When you have KNN, when you want to implement KNN, which is basically K nearest neighbors. The value of K is a number. So, you can say K is equal to 3."
+        },
+        {
+            "id": 500,
+            "start": 2644.16,
+            "end": 2670.0,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " You want to implement KNN with K is equal to 3. So, which means that it performs the classification in such a way that how does it perform the classification. So, it will take three nearest objects and that is why it is called nearest neighbor. So, basically based on the distance, it will try to find out its nearest objects that are, it is a three of the nearest objects and then it will check whether the class they belong to which class, right. So, if all three"
+        },
+        {
+            "id": 505,
+            "start": 2670.0,
+            "end": 2696.96,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " belong to one particular class, obviously this new object is also classified as that particular class, but it is possible that they may be from two or three different classes, okay. So, let's say they are from two classes and then if they are from two classes, now usually you take an odd number, you assign odd number two. So, if there are three of them and two of them belong to one class and then one belongs to another class. So, this new object is assigned to the class to which the"
+        },
+        {
+            "id": 510,
+            "start": 2696.96,
+            "end": 2725.3599999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " two of them belong. Now, the value of K is sometimes tricky whether should you use three, should you use five, should you use seven, that can be tricky because the ultimate classification can also vary. So, it's possible that if you are taking K as three, the object is probably in one particular class, but if you take K is equal to five, maybe the object will belong to a different class because when you are taking three of them, probably two of them belong to"
+        },
+        {
+            "id": 515,
+            "start": 2725.3599999999997,
+            "end": 2754.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " class one and one belong to class two. Whereas when you take five of them, it is possible that only two of them belong to class one and three of them belong to class two. So, which means that this object will belong to class two, right. So, you see that? So, it is the class allocation can vary depending on the value of K. Now, K means on the other hand is a clustering process and it is unsupervised where what it does is the system will basically identify how the objects are,"
+        },
+        {
+            "id": 520,
+            "start": 2754.56,
+            "end": 2784.2400000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " how close the objects are with respect to some of their features, okay. And but similarity of course is the letter K and in case of K means also we specify its value and it could be three or five or seven. There is no technical limit as such, but it can be any number of clusters that you can create, okay. So, based on the value that you provide, the system will create that many clusters of similar objects. So, there is a similarity to that extent that K is a number"
+        },
+        {
+            "id": 525,
+            "start": 2784.2400000000002,
+            "end": 2814.4,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " in both the cases, but actually these two are completely different processes. We have what is known as naive based classifier and people often get confused thinking that naive base is the name of the person who found this classifier or who developed this classifier, which is not 100% true. Base is the name of the person, B-A-Y-S is the name of the person, but naive is not the name of the person, right. So, naive is basically an English word and that has been added here because of the"
+        },
+        {
+            "id": 530,
+            "start": 2814.4,
+            "end": 2844.8,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " nature of this particular classifier. Naive based classifier is probability based classifier and it makes some assumptions that presence of one feature of a class is not related to the presence of any other feature of maybe other classes, right. So, which is not very strong or not a very, what do you say, accurate assumption because these features can be related and so on. But even if we go with this assumption, this whole algorithm works very well even with this assumption"
+        },
+        {
+            "id": 535,
+            "start": 2844.8,
+            "end": 2873.28,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " and that is the good side of it, but the term comes from there. So, that is the explanation that you can. Then there can be question around reinforcement learning. It can be paraphrased in multiple ways. One could be can you explain how a system can play a game of chess using reinforcement learning or it can be any game. So, the best way to explain this is again to talk a little bit about what reinforcement learning is about and then elaborate on that to explain"
+        },
+        {
+            "id": 540,
+            "start": 2873.28,
+            "end": 2904.7999999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " the process. So, first of all reinforcement learning has an environment and an agent and agent is basically performing some actions in order to achieve a certain goal. And this goals can be anything either if it is related to game, then the goal could be that you have to score very high score high value high number or it could be that your number of lives should be as high as possible. Don't lose life. So, these could be some of them. A more advanced examples could be"
+        },
+        {
+            "id": 545,
+            "start": 2904.8,
+            "end": 2934.48,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " for driving the automotive industry, self-driving cars. They actually also make use of reinforcement learning to teach the car how to navigate through the roads and so on and so forth. That is also another example. Now, how does it work? So, if the system is basically there is an agent and environment and every time the agent takes a step or performs a task which is taking it towards the goal, the final goal let's say to maximize the score or to minimize the number of lives and so on"
+        },
+        {
+            "id": 550,
+            "start": 2934.48,
+            "end": 2964.48,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " or minimize the death for example, it is rewarded and every time it takes a step which goes against that goal and contrary or in the reverse direction, it is penalized. So, it is like a caratine stick system. Now, how do you use this to create a game of chess or to create a system to play a game of chess? Now, the way this works is and this could probably go back to this alpha go example where alpha go defeated a human champion. So, the way it works is in reinforcement learning."
+        },
+        {
+            "id": 555,
+            "start": 2964.48,
+            "end": 2998.8,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " The system is allowed for example, in this case we are talking about chess. So, we allow the system to first of all watch playing a game of chess. So, it could be with a human being or it could be the system itself. There are computer games of chess, right? So, either this new learning system has to watch that game or watch a human being play the game because this is reinforcement learning is pretty much all visual. So, when you are teaching the system to play a game, the system will not"
+        },
+        {
+            "id": 560,
+            "start": 2998.8,
+            "end": 3031.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " actually go behind this instance to understand the logic of your software of this game or anything like that. It is just visually watching the screen and then it learns. So, reinforcement learning to a large extent works on that. So, you need to create a mechanism whereby your model will be able to watch somebody playing the game and then you allow the system also to start playing the game. So, it pretty much starts from scratch, okay? And as it moves forward, it is at right at the beginning"
+        },
+        {
+            "id": 565,
+            "start": 3031.68,
+            "end": 3062.88,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " the system really knows nothing about the game of chess, okay? So, initially it is a clean slate, it just starts by observing how you are playing. So, it will make some random moves and keep losing badly. But then what happens is over a period of time. So, you need to now allow the system or you need to play with the system not just one, two, three, four or five times but hundreds of times, thousands of times, maybe even hundreds of thousands of times and that is exactly how"
+        },
+        {
+            "id": 570,
+            "start": 3062.88,
+            "end": 3093.12,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " AlphaGo has done. It played millions of games between itself and the system, right? So, for the game of chess also, you need to do something like that. You need to allow the system to play chess and learn on its own over a period of reputation. So, I think you can probably explain it to this much, to this extent and it should be sufficient. Now, this is another question which is again somewhat similar but here the size is not coming into picture. So, the question is how will you"
+        },
+        {
+            "id": 575,
+            "start": 3093.12,
+            "end": 3118.3199999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " know which machine learning algorithm to choose for your classification problem. Now, this is not only classification problem, it could be a regression problem. I would like to generalize this question. So, if somebody else says how will you choose, how will you know which algorithm to use? The simple answer is there is no way you can decide exactly saying that this is the algorithm I am going to use. In a variety of situations, there are some guidelines like for example, you will"
+        },
+        {
+            "id": 580,
+            "start": 3118.3199999999997,
+            "end": 3148.88,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " obviously depending on the problem, you can say whether it is a classification problem or a regression problem and then in that sense, you are kind of restricting yourself to if it is a classification problem, there are you can only apply a classification algorithm, right? To that extent, you can probably let us say limit the number of algorithms but now within the classification algorithms, you have decision trees, you have SPM, you have logistic regression, is it possible to outright say yes,"
+        },
+        {
+            "id": 585,
+            "start": 3148.88,
+            "end": 3177.92,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " for this particular problem since you have explained this. Now, this is the exact algorithm that you can use that is not possible. So, we have to try out a bunch of algorithms, see which one gives us the best performance and best accuracy and then decide to go with that particular algorithm. So, in machine learning, a lot of it happens through trial and error. There is no real possibility that anybody can just by looking at the problem or understanding the problem, tell you that, okay,"
+        },
+        {
+            "id": 590,
+            "start": 3177.92,
+            "end": 3206.0800000000004,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " in this particular situation, this is exactly the algorithm that you should use. Then, the questions may be around application of machine learning and this question is specifically around how Amazon is able to recommend other things to buy. So, this is around recommendation engine, how does it work, how does the recommendation engine work? So, this is basically the question is all about. So, the recommendation engine again works based on various inputs that are provided. Obviously,"
+        },
+        {
+            "id": 595,
+            "start": 3206.0800000000004,
+            "end": 3234.2400000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " something like, you know, Amazon website or e-commerce site like Amazon collects a lot of data around the customer behavior, who is purchasing what and if somebody is buying a particular thing, they're also buying something else. So, this kind of association, right? So, this is the unsupervised learning we talked about. They use this to associate and link or relate items and that is one part of it. So, they kind of build association between items saying that"
+        },
+        {
+            "id": 600,
+            "start": 3234.2400000000002,
+            "end": 3264.0,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " somebody buying this is also buying this, that is one part of it. Then, they also profile the users, right, based on their age, their gender, their geographic location, they will do some profiling and then when somebody is logging in and when somebody is shopping, kind of the mapping of these two things are done. They try to identify, obviously, if you have logged in, then they know who you are and your information is available. Like, for example, your age may be your agenda and where you're"
+        },
+        {
+            "id": 605,
+            "start": 3264.0,
+            "end": 3294.16,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " located, what you purchased earlier, right? So, all this is taken and the recommendation engine basically uses all this information and comes up with recommendations for a particular user. So, that is how the recommendation engine works. All right, then the question can be something very basic like when will you go for classification versus regression, right? When do you do classification instead of regression or when do you use classification instead of regression?"
+        },
+        {
+            "id": 610,
+            "start": 3294.16,
+            "end": 3322.24,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Now, yes, so this is basically going back to the understanding of the basics of classification and regression. So, classification is used when you have to identify or categorize things into discrete classes. So, the best way to respond to this question is to take up some examples and use it. Otherwise, it can become a little tricky. The question may sound very simple, but explaining it can sometimes be very tricky. So, in case of regression, the use, of course, there will be"
+        },
+        {
+            "id": 615,
+            "start": 3322.24,
+            "end": 3347.44,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " some keywords that they will be looking for. So, just you need to make sure you use those keywords. One is the discrete values and other is the continuous values. So, for regression, if we are trying to find some continuous values, you use regression. Whereas, if you're trying to find some discrete values, you use classification and then you need to illustrate what are some of the examples. So, classification is like, let's say there are images and you need to put them into"
+        },
+        {
+            "id": 620,
+            "start": 3348.0,
+            "end": 3378.08,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " classes like cat, dog, elephant, tiger, something like that. So, that is the classification problem. Or it can be that is a multi-class classification problem. It could be binary classification problem like for example, whether a customer will buy or he will not buy. That is a classification, binary classification. It can be in the weather forecast area. Now, weather forecast is again, combination of regression and classification because on the one hand, you want to predict whether it's going"
+        },
+        {
+            "id": 625,
+            "start": 3378.08,
+            "end": 3401.28,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " to rain or not. That's a classification problem. That's a binary classification, right? Whether it's going to rain or not rain. However, you also have to predict what is going to be the temperature tomorrow, right? Now, temperature is a continuous value. You can't answer the temperature in a yes or no kind of a response, right? So, what will be the temperature tomorrow? So, you need to give a number which can be like 20 degrees, 30 degrees or whatever, right? So,"
+        },
+        {
+            "id": 630,
+            "start": 3401.28,
+            "end": 3429.6,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " that is where you use regression. One more example is stock price prediction. So, that is where again, you will use regression. So, these are the various examples. So, you need to illustrate with examples and make sure you include those keywords like discrete and continuous. So, the next question is more about a little bit of a design related question to understand your concepts and things like that. So, it is how will you design a spam filter? So, how do you basically design on a"
+        },
+        {
+            "id": 635,
+            "start": 3429.6,
+            "end": 3457.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " other spam filter? So, I think the main thing here is he's looking at probably understanding your concepts in terms of what is the algorithm you will use or what is your understanding about difference between classification and regression and things like that, right? And the process, of course, the methodology and the process. So, the best way to go about responding to this is we say that, okay, this is a classification problem because we want to find out whether"
+        },
+        {
+            "id": 640,
+            "start": 3457.04,
+            "end": 3484.4,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " an email is a spam or not spam so that we can apply the filter accordingly. So, first thing is to identify what type of a problem it is. So, we have identified that it is a classification. Then the second step may be to find out what kind of algorithm to use. Now, since this is a binary classification problem, logistic regression is a very common very common algorithm. But however, right, as I said earlier also, we can never say that, okay, for this particular problem,"
+        },
+        {
+            "id": 645,
+            "start": 3484.4,
+            "end": 3515.84,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " this is exactly the algorithm that we can use. So, we can also probably try decision trees or even support vector machines, for example, SVM. So, we will kind of list down a few of these algorithms and we will say, okay, we want to be like to try out these algorithms. And then we go about taking your historical data, which is the labeled data, which are marked. So, you will have a bunch of emails and then you split that into training and test datasets. You use your training"
+        },
+        {
+            "id": 650,
+            "start": 3515.84,
+            "end": 3544.56,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " dataset to train your model that or your algorithm that you have used or rather the model actually. So, and you actually will have three models. Let's say you are trying to test out three algorithms. So, you will obviously have three models. So, you need to try all three models and test them out as well. See, which one gives the best accuracy and then you decide that you will go with that model. Okay. So, training and tests will be done and then you zero in one particular model and then"
+        },
+        {
+            "id": 655,
+            "start": 3544.56,
+            "end": 3573.12,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " you say, okay, this is the model we will use, we will use and then go ahead and implement that or put that in production. So, that is the way you design a spam. The next question is about random forest. So, what is random forest? So, this is a very straightforward question. However, the response you need to be again a little careful while we all know what is random forest explaining this can sometimes be tricky. So, one thing is random forest is kind of in one way it is an extension"
+        },
+        {
+            "id": 660,
+            "start": 3573.12,
+            "end": 3600.08,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " of decision trees because it is basically nothing but you have multiple decision trees and trees will basically you will use for doing if it is classification, mostly it is classification. You will use the trees for classification and then you use voting for finding the final class. So, that is the underlying. But how will you explain this? How will you respond to this? So, first thing obviously, you will say that random forest is one of the algorithms and the more important thing"
+        },
+        {
+            "id": 665,
+            "start": 3600.08,
+            "end": 3631.36,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " that you need to probably the interviewer is waiting to hear is ensemble learner. So, this is one type of ensemble learner. What is ensemble learner? Ensemble learner is like a combination of algorithms. So, it is a learner which consists of more than one algorithm or more than one maybe models. So, in case of random forest, the algorithm is the same but instead of using one instance of it, we use multiple instances of it and we use. So, in a way that is a random"
+        },
+        {
+            "id": 670,
+            "start": 3631.36,
+            "end": 3655.44,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " forest is an ensemble learner. There are other types of ensemble learners where we have like we use different algorithms itself. So, you have one maybe logistic regression and a decision tree combined together and so on and so forth. There are other ways like for example splitting the data in a certain way and so on. So, that is all about ensemble we will not go into that. But random forest is sub I think the interviewer will be happy to hear this word ensemble learner."
+        },
+        {
+            "id": 675,
+            "start": 3655.44,
+            "end": 3686.2400000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " And so then you go and explain how the random forest works. So, if the random forest is used for classification, then we use what is known as a voting mechanism. So, basically how does it work? Let's say your random forest consists of 100 trees and each observation you pass through this forest and each observation let's say it is a classification problem binary classification 0 or 1 and you have 100 trees. Now, if 90 trees say that it is a 0 and 10 of the trees say it is a 1,"
+        },
+        {
+            "id": 680,
+            "start": 3686.2400000000002,
+            "end": 3714.08,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " you take the majority, you may take a vote and since 90 of them are saying 0, you classify the size 0. Then you take the next observation and so on. So, that is the way random forest works for classification. If it is a regression problem, it's somewhat similar but only thing is instead of vote, what we will do is so in regression remember what happens, you actually calculate a value. So, for example, you are using regression to predict the temperature and you have 100 trees"
+        },
+        {
+            "id": 685,
+            "start": 3714.08,
+            "end": 3742.0,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " and each tree obviously will probably predict a different value of the temperature. They may be close to each other but they may not be exactly the same value. So, these 100 trees. So, how do you now find the actual value, the output for the entire forest? So, you have outputs of individual trees which are a part of this forest but then you need to find the final output of the forest So, how do you do that? So, in case of regression, you take like an average or the mean of all the"
+        },
+        {
+            "id": 690,
+            "start": 3742.0,
+            "end": 3772.2400000000002,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " 100 trees. So, this is also a way of reducing the error. So, maybe if you have only one tree and if that one tree makes an error, it is basically 100% wrong or 100% right. But if you have on the other hand, if you have a bunch of trees, you are basically medicating that error, reducing that error. So, that is the way random forest works. So, the next question is considering the long list of machine learning algorithms. How will you decide on which one to use? So, once again,"
+        },
+        {
+            "id": 695,
+            "start": 3772.2400000000002,
+            "end": 3801.52,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " here there is no way to outright say that this is the algorithm that we will use for a given data set. This is a very good question but then the response has to be like again, there will not be one size fits all. So, we need to first of all, you can probably shorten the list in terms of by saying, okay, whether it is a classification problem or it is a regression problem. To that extent, you can probably shorten the list because you don't have to use all of them. If it is a"
+        },
+        {
+            "id": 700,
+            "start": 3801.52,
+            "end": 3829.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " classification problem, you only can pick from the classification algorithms, right. So, for example, if it is a classification, you cannot use linear regression algorithm or if it is a regression problem, you cannot use SVM or maybe no, you can use SVM but maybe a logistic regression, right. So, to that extent, you can probably shorten the list but still you will not be able to 100% decide on saying that this is the exact algorithm that I am going to use. So, the way to go about"
+        },
+        {
+            "id": 705,
+            "start": 3829.04,
+            "end": 3858.7999999999997,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " is you choose a few algorithms based on what the problem is. You try out your data, you train some models of these algorithms, check which one gives you the lowest error or the highest accuracy and based on that, you choose that particular algorithm, okay. All right, then there can be questions around bias and variance. So, the question can be what is bias and variance in machine learning. So, you just need to give out a definition for each of these. For example,"
+        },
+        {
+            "id": 710,
+            "start": 3858.7999999999997,
+            "end": 3885.6,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " bias in machine learning, it occurs when the predicted values are far away from the actual value. So, that is a bias, okay. And whereas they are all the values are probably they are far off but they are very near to each other though. The predicted values are close to each other, right, while they are far off from the actual value but they are close to each other. You see the difference? So, that is bias and then the other part is your variance. Now, variance is when"
+        },
+        {
+            "id": 715,
+            "start": 3885.6,
+            "end": 3912.4,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " the predicted values are all over the place, right. So, the variance is high. That means it may be close to the target but it is kind of very scattered. So, the point the predicted values are not close to each other, right. In case of bias, the predicted values are close to each other but they are not close to the target but here they may be close to the target but they may not be close to each other. So, they are a little bit more scattered. So, that is what in case of variance, okay."
+        },
+        {
+            "id": 720,
+            "start": 3912.4,
+            "end": 3941.2,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " Then the next question is about the game related to bias and variance. What is the trade off between bias and variance? Yes, I think this is an interesting question because these two are heading in different directions. So, for example, if you try to minimize the bias, variance will keep going high and if you try to minimize the variance bias will keep going high and there is no way you can minimize both of them. So, you need to have a trade off saying that, okay, this is the level at"
+        },
+        {
+            "id": 725,
+            "start": 3941.2,
+            "end": 3971.12,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " which I will have my bias and this is the level at which I will have variance. So, the trade off is that pretty much that. You decide what is the level you will tolerate for your bias and what is the level you will tolerate for variance and a combination of these two in such a way that your final results are not way off and having a trade off will ensure that the results are consistent, right. So, that is basically the output is consistent and which means that they are close to each other"
+        },
+        {
+            "id": 730,
+            "start": 3971.12,
+            "end": 4007.7599999999998,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " and they are also accurate, right. That means they are as close to the target as possible, right. So, if either of these is high then one of them will go off the track. Define precision and recall. Now, again here I think it would be best to draw a diagram and take the confusion matrix and it is very simple. The definition is like a formula. Your precision is true positive by true positive plus false positive and your recall is true positive by true positive plus false negative,"
+        },
+        {
+            "id": 735,
+            "start": 4007.7599999999998,
+            "end": 4037.2000000000003,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " okay. So, that is you can just show it in a mathematical way that is pretty much you know that can be shown that is the easiest way to define. So, the next question can be about decision tree. What is decision tree pruning and why is it? So, basically decision trees are really simple to implement and understand but one of the drawbacks of decision trees is that it can become highly complicated as it grows, right and the rules and conditions can"
+        },
+        {
+            "id": 740,
+            "start": 4037.2000000000003,
+            "end": 4069.2000000000003,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " become very complicated and this can also lead to overfitting which is basically that during training you will get 100% accuracy but when you are doing testing you will get a lot of errors. So, that is the reason pruning needs to be done. So, the purpose or the reason for doing decision tree pruning is to reduce overfitting or to cut down on overfitting and what is decision tree pruning? It is basically that you reduce the number of branches because as you may be aware"
+        },
+        {
+            "id": 745,
+            "start": 4069.2000000000003,
+            "end": 4102.08,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " tree consists of the root node and then there are several internal nodes and then you have the leaf nodes. Now, if there are too many of these internal nodes that is when you face the problem of overfitting and pruning is the process of reducing those internal nodes. All right, so the next question can be what is logistic regression? So, basically logistic regression is one of the techniques used for performing classification especially binary classification. Now, there is"
+        },
+        {
+            "id": 750,
+            "start": 4102.16,
+            "end": 4131.04,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " something special about logistic regression and there are a couple of things you need to be careful about. First of all, the name is a little confusing. It is called logistic regression but it is used for classification. So, this can be sometimes confusing so you need to probably clarify that to the interviewers if it's really required and they can also ask this like a trick question, right? So, that is one part. Second thing is the term logistic has nothing to do with the"
+        },
+        {
+            "id": 755,
+            "start": 4131.12,
+            "end": 4165.599999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " usual logistic that we talk about but it is derived from log. So, that the mathematical derivation was log and therefore the name logistic regression. So, what is logistic regression and how is it used? So, logistic regression is used for binary classification and output of a logistic regression is either a 0 or a 1 and it varies. So, it's basically it calculates a probability between 0 and 1 and we can set a threshold that can vary typically it is 0.5. So, any value above 0.5"
+        },
+        {
+            "id": 760,
+            "start": 4165.599999999999,
+            "end": 4196.64,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " is considered as 1 and if the probability is below 0.5 it is considered as 0. So, that is the way we calculate the probability or the system calculates the probability and based on the threshold it sets a value of 0 or 1 which is like a binary classification 0 or 1. Okay, then we have a question around k nearest neighbor algorithm. So, explain k nearest neighbor algorithm. So, first of all, what is a k nearest neighbor algorithm? This is a classification algorithm. So, that is the first"
+        },
+        {
+            "id": 765,
+            "start": 4196.64,
+            "end": 4227.68,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " thing we need to mention and we also need to mention that the k is a number. It is an integer and this is variable and we can define what the value of k should be. It can be 2, 3, 5, 7 and usually it is an odd number. So, that is something we need to mention. Technically it can be even number also but then typically it would be odd number and we will see why that is okay. So, based on that we need to classify objects. Okay, we need to classify objects. So, again,"
+        },
+        {
+            "id": 770,
+            "start": 4227.68,
+            "end": 4257.2,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " it will be very helpful to draw a diagram. You know, if you are explaining, I think that will be the best way. So, draw some diagram like this and let's say we have three clusters or three classes existing and now you want to find for a new item that has come, you want to find out which class this belongs to. So, you go about as the name such as, you go about finding the nearest neighbors, the points which are closest to this and how many of them you will find? That is what is defined by"
+        },
+        {
+            "id": 775,
+            "start": 4257.2,
+            "end": 4288.320000000001,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " k. Now, let's say our initial value of k was 5. So, you will find the k, the five nearest data points. So, in this case, as it is illustrated, these are the five nearest data points. But then all five do not belong to the same class or cluster. So, there are one belonging to this cluster one, the second one belonging to this cluster two, three of them belonging to this third cluster. So, how do you decide? That's exactly the reason we should, as much as possible, try to assign"
+        },
+        {
+            "id": 780,
+            "start": 4288.320000000001,
+            "end": 4319.36,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " an odd number so that it becomes easier to assign this. So, in this case, you see that the majority actually, if there are multiple classes, then you go with the majority. So, since three of these items belong to this class, we assign, which is basically the, in this case, the green or the tennis or the third cluster as I was talking about. So, we assign it to this third class. So, in this case, it is, that's how it is decided. So, k nearest neighbors, the first thing is to identify the"
+        },
+        {
+            "id": 785,
+            "start": 4319.36,
+            "end": 4349.599999999999,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " number of neighbors that are mentioned as k. So, in this case, it is k is equal to five. So, we find the five nearest points and then find out out of these five, which class has the maximum number in that and then the new data point is assigned to that class. So, that's pretty much how k nearest neighbors work. So, that brings us to the end of this module. I hope you enjoyed this interview questions and hope you will be able to crack your next interview if any of these"
+        },
+        {
+            "id": 790,
+            "start": 4349.599999999999,
+            "end": 4368.4800000000005,
+            "topic": "Machine Learning Interview Questions & Answers",
+            "text": " questions come up. And in case you have other questions that you would like to be answered, please feel free to put them down below this video in the comment section and we will try to maybe compile all of them and create a new video on that. Okay, with that, I would like to sign off. Thank you very much. Have a good day."
+        }
+    ],
+    "text": " Hello everyone, welcome to this session. I'm Mohan from Simply Learn and today we'll talk about interview questions for machine learning. Now, this video will probably help you when you're attending interviews or machine learning positions and attempt here is to probably consolidate 30 most commonly asked questions and to help you in answering these questions. We tried our best to give you the best possible answers. But of course, what is more important here is rather than the theoretical knowledge, you need to kind of add to the answers or supplement your answers with your own experience. So, the responses that we put here are a bit more generic in nature so that there are some concepts that you are not clear. This video will help you in kind of getting those concepts cleared up as well. But what is more important is that you need to supplement these responses with your own practical experience. Okay, so with that, let's get started. So, one of the first questions that you may face is what are the different types of machine learning. Now, what is the best way to respond to this? There are three types of machine learning. You read any material, you will always be told there are three types of machine learning. But what is important is you would probably be better of emphasizing that there are actually two main types of machine learning which is supervised and unsupervised. And then there is a third type which is reinforcement learning. So, supervised learning is where you have some historical data and then you feed that data to your model to learn. Now, you need to be aware of a keyword that they will be looking for which is labeled data. So, if you just say pass data or historical data, the impact may not be so much. You need to emphasize on labeled data. So, what is labeled data? Basically, let's say if you are trying to do training model for classification, you need to be aware of for your existing data which class each of the observations belong to. So, that is what is labeling. So, it is nothing but a fancy name, you must be aware. But just make it a point to throw in that keyword labeled so that we will have the writing factor. So, that is what is supervised learning when you have existing labeled data which you then use to train your model that is known as supervised learning. And unsupervised learning is when you do not have this labeled data. So, you have data, it is not labeled. So, the system has to figure out a way to do some analysis on this. So, that is unsupervised learning. And you can then add a few things like what are the ways of performing supervised learning and unsupervised learning and what are some of the techniques. So, supervised learning, we perform or we do regression and classification and unsupervised learning, we do clustering. And clustering can be of different types. But you do not have to probably elaborate so much if they are asking for just the different types, you can just mention these and just at a very high level. But if they want you to elaborate, give examples then of course, I think there is a different question for that we will see that later. Then the third, so we have supervised and we have unsupervised and then reinforcement, we need to provide a little bit of information around that as well because it is sometimes a little difficult to come up with a good definition for reinforcement learning. So, you may have to a little bit elaborate on how reinforcement learning works. So reinforcement learning works in such a way that it basically has two parts to it. One is the agent and the environment and the agent basically is working inside of this environment and it is given a target that it has to achieve. And every time it is moving in the direction of the target. So, the agent basically has to take some action and every time it takes an action which is moving the agent towards the target towards a goal, target is nothing but a goal. Then it is rewarded and every time it is going in a direction where it is away from the goal, then it is punished. So, that is the way you can a little bit explain and this is used primarily or it is very impactful for teaching the system to learn games and so on. Examples of this are basically used in AlphaGo. You can throw that as an example where AlphaGo used reinforcement learning to actually learn to play the game of Go and finally it defeated the Go world champion. Right. There is much of information that would be good enough. Okay. Then there could be a question on overfitting. So, the question could be what is overfitting and how can you avoid it. So, what is overfitting? Let us first try to understand the concept because sometimes overfitting maybe a little difficult to understand. Overfitting is a situation where the model has kind of memorized the data. So, this is an equivalent of memorizing the data. So, we can draw an analogy so that it becomes easy to explain this. Now, let us say you are teaching a child about recognizing some fruits or something like that. And you are teaching this child about recognizing let us say three fruits, apples, oranges and pineapples. Okay. So, this is a small child and for the first time you are teaching the child to recognize fruits. Then, so what will happen? So, this is very much like that is your training data set. So, what you will do is you will take a basket of fruits which consists of apples, oranges and pineapples. And you take this basket to this child and there may be let us say hundreds of these fruits. So, you take this basket to this child and keep showing each of this fruit. And then first time obviously the child will not know what it is. So, you show an apple and you say hey this is apple. Then you show maybe an orange and say this is orange and so on and so on. And then again you keep repeating that right. So, till that basket is over. This is basically how training works in machine learning also that is how training works. So, till the basket is completed maybe 100 fruits you keep showing this child. Then the process what has happened the child has pretty much memorized these. So, even before you finish that basket right. By the time you are halfway through the child has learned about recognizing the apple, orange and pineapp. Now, what will happen after halfway through initially you remember it made mistakes in recognizing but halfway through now it has learned. So, every time you show a fruit it will exactly 100% accurately it will identify it. It will say the child will say this is an apple this is an orange and if you show a pineapple it will say this is a pineapple right. So, that means it has kind of memorized this data. Now, let us say you bring another basket of fruits and it will have a mix of maybe apples which were already there in the previous set. But it will also have an addition to apple. It will probably have a banana or maybe another fruit like a jackfruit right. So, this is an equivalent of your test data set which the child has not seen before. Some parts of it it probably has seen like the apples it has seen but this banana and jackfruit it has not seen. So, then what will happen in the first round which is an equivalent of your training data set. Towards the end it has 100% it was telling you what the fruits are right. Apple was accurately recognized orange was accurately recognized and pineapples were accurately recognized right. So, that is like 100% accuracy. But now when you get another fresh set which were not out of the original one what will happen all the apples maybe it will be able to recognize correctly but all the others like the jackfruit or the banana will not be recognized by the child right. So, this is an analogy this is an equivalent of overfitting. So, what has happened during the training process? It is able to recognize or reach 100% accuracy maybe very high accuracy and we call that as very low loss right. So, that is the technical term. So, the loss is pretty much 0 and accuracy is pretty much 100%. Whereas, when you use testing there will be a huge error which means the loss will be pretty high and therefore, the accuracy will be also low okay. This is known as overfitting. This is basically a process where training is done. Training process is it goes very well almost reaching 100% accuracy but while testing it really drops down. Now, how can you avoid it? So, that is the extension of this question. There are multiple ways of avoiding overfitting. There are techniques like what do you call regularization that is the most common technique that is used for avoiding overfitting and within regularization there can be a few other subtypes like drop out in case of neural networks and a few other examples. But I think if you give example or if you give regularization as the technique probably that should be sufficient. So, there will be some questions where the interviewer will try to test your fundamentals and your knowledge and depth of knowledge and so on and so forth. And then there will be some questions which are more like quick questions that will be more to stump you. Okay, then the next question is around the methodology. So, when we are performing machine learning training, we split the data into training and tests. Right. So, this question is around that. So, the question is what is training set and test set in machine learning model and how is the split done. So, the question can be like that. So, in machine learning when we are trying to train the model. So, we have a three-step process. We train the model and then we test the model and then once we are satisfied with the test, only then we deploy the model. So, what happens in the train and test is that you remember the labeled data. So, let's say you have thousand records with labeling information. Now, one way of doing it is you use all the thousand records for training and then maybe, which means that you have exposed all these thousand records during the training process. And then you take a small set of the same data and then you say, okay, I will test it with this. Okay. And then you probably what will happen, you may get some good results. All right. But there is a flaw there. What is the flaw? This is very similar to human beings. It is like you are showing this model the entire data as a part of training. Okay. So, obviously it has become familiar with the entire data. So, when you're taking a part of that again and you're saying that I want to test it, obviously you will get good results. So, that is not a very accurate way of testing. So, that is the reason what we do is we have the labeled data of these thousand records or whatever. We set aside before starting the training process, we set aside a portion of that data and we call that test set and the remaining we call as training set. And we use only this for training our model. Now, the training process remember is not just about passing one round of this data set. So, let's say now your training set has 800 records. It is not just one time you pass this 800 records. What you normally do is you actually, as a part of the training, you may pass this data through the model multiple times. So, this thousand records may go through the model maybe 10, 15, 20 times till the training is perfect till the accuracy is high till the errors are minimized. Okay. Now, so which is fine, which means that your that is what is known as the model has seen your data and gets familiar with your data. And now when you bring your test data, what will happen is this is like some new data because that is where the real test is. Now, you train the model and now you are testing the model with some data which is kind of new. That is like a situation let like a realistic situation because when the model is deployed, that is what will happen. It will receive some new data, not the data that it has already seen. Right. So, this is a realistic test. So, you put some new data. So, this data which you have set aside is for the model, it is new. And if it is able to accurately predict the values, that means your training has worked. Okay. The model got trained properly. But let's say while you're testing this with this test data, you're getting a lot of errors. That means you need to probably either change your model or retrain with more data and things like that. Now, coming back to the question of how do you split this, what should be the ratio? There is no fixed number again. This is like individual preferences. Some people split it into 50-50, 50% test and 50% training. Some people prefer to have a larger amount for training and a smaller amount for test. So, they can go by either 60-40 or 70-30 or some people even go with some odd numbers like 65-35 or 63.33 and 33 which is like one-third and two-third. So, there is no fixed rule that it has to be something that the ratio has to be this. You can go by your individual preferences. All right. Then, you may have questions around data handling, data manipulation or what do you call data management or preparation. So, these are all some questions around that area. There is again, no one answer, one single good answer to this. It really varies from situation to situation. And depending on what exactly is the problem, what kind of data it is, how critical it is, what kind of data is missing and what is the type of corruption. So, there are a whole lot of things. This is a very generic question and therefore, you need to be little careful about responding to this as well. So, probably have to illustrate this again. If you have experience in doing this kind of work in handling data, you can illustrate with examples saying that I was on one project where I received this kind of data. These were the columns where data was not filled or these were the, these many rows where the data was missing. That would be in fact a perfect way to respond to this question. But if you don't have that, obviously you have to provide some good answer. I think it really depends on what exactly the situation is and there are multiple ways of handling the missing data or correct data. Let's take a few examples. Now, let's say you have data where some values in some of the columns are missing and you have pretty much half of your data having these missing values in terms of number of rows. That could be one situation. Another situation could be that you have records or data missing. But when you do some initial calculation, how many records are corrupt or how many rows or observations as we call it has this missing data. Let's assume it is very minimal like 10%. Between these two cases, how do you? So, let's assume that this is not a mission critical situation and in order to fix this 10% of the data, the effort that is required is much higher and obviously, effort means also time and money. So, it is not so mission critical and it is okay to, let's say, get rid of these records. So, obviously, one of the easiest ways of handling the data part or missing data is remove those records or remove those observations from your analysis. So, that is the easiest way to do. But then the downside is, as I said in the first case, if let's say 50% of your data is like that because some column of the other is missing. So, it is not like every in every place in every row, the same column is missing. But you have in maybe 10% of the records column 1 is missing and another 10% column 2 is missing, another 10% column 3 is missing and so on and so forth. So, it adds up to maybe half of your data set. So, you cannot completely remove half of your data set then the whole purpose is lost. Okay. So, then how do you handle? Then you need to come up with ways of filling up this data with some meaningful value, right? That is one way of handling. So, when we say meaningful value, what is that meaningful value? Let's say for a particular column, you might want to take a mean value for that column and fill wherever the data is missing, fill up with that mean value so that when you're doing the calculations, your analysis is not completely way off. So, you have values which are not missing, first of all, so your system will work. Number two, these values are not so completely out of fact that your whole analysis goes for a toss, right? There may be situations where if the missing values, instead of putting mean, maybe a good idea to fill it up with a minimum value or with a zero. So, or with a maximum value, again, as I said, there are so many possibilities. So, there is no like one correct answer for this. You need to basically talk around this and illustrate with your experience. As I said, that would be the best. Otherwise, this is how you need to handle this question. Okay. So, then the next question can be, how can you choose a classifier based on a training set data size? So, again, this is one of those questions where you probably do not have like one size fits all on. So, first of all, you may not let's say decide your classifier based on the training set size, maybe not the best way to decide the type of the classifier. And even if you have to, there are probably some thumb rules which we can use. But then again, every time. So, in my opinion, the best way to respond to this question is you need to try out a few classifiers irrespective of the size of the data. And you need to then decide on your particular situation, which of these classifiers are the right ones. This is a very generic issue. So, you will never be able to just buy if somebody defines a problem to you and somebody, even if they show the data to you or tell you what is the data or even the size of the data, I don't think there is a way to really say that, yes, this is the classifier that will work here. No, that's not the right way. So, you need to still test it out, get the data, try out a couple of classifiers, and then only you will be in a position to decide which classifier to use. You try out multiple classifiers, see which one gives the best accuracy, and only then you can decide. Then you can have a question around confusion matrix. So, the question can be explained confusion matrix. So, confusion matrix, I think the best way to explain it is by taking an example and drawing like a small diagram, otherwise it can really become tricky. So, my suggestion is to take a piece of pen and paper and explain it by drawing a small matrix. And confusion matrix is about to find out this is used especially in classification, learning process, and when you get the results and our model predicts the results, you compare it with the actual value and try to find out what is the accuracy. So, in this case, let's say this is an example of a confusion matrix and it is a binary matrix. So, you have the actual values, which is the labeled data, which is so you have how many yes and how many no. So, you have that in vision and you have the predicted values, how many yes and how many no. So, the total actual values, the total yes is 12 plus 130 and they are shown here and the actual value no's are 9 plus 3, 12. So, that is what this information here is. So, this is about the actual and this is about the predicted. Similarly, predicted values, there are yes are 12 plus 3, 15 yeses and no are 1 plus 9, 10 no's. So, this is the way to look at this confusion matrix. And out of this, what is the meaning conveyed is? So, there are two or three things that needs to be explained outright. The first thing is for a model to be accurate, the values across the diagonal should be high like in this case, right? That is one. Number two, the total sum of these values is equal to the total observations in the test data set. So, in this case, for example, you have 12 plus 3, 15 plus 10, 25. So, that means we have 25 observations in our test data set. So, these are the two things you need to first explain that the total sum in this matrix of the numbers is equal to the size of the test data set and the diagonal values indicate the accuracy. So, by just by looking at it, you can probably have an idea about is this an accurate model, is the model being accurate. If they are all spread out equally in all these four boxes, that means probably the accuracy is not very good. Okay. Now, how do you calculate the accuracy itself? How do you calculate the accuracy itself? So, it is a very simple mathematical calculation. You take some of the diagonals, right? So, in this case, it is 9 plus 21 and divided by the total. So, in this case, what will it be? Let's me take a pen. So, your diagonal values is equal to 5, say, t is equal to 12 plus 9. So, that is 21, right? And the total data set is equal to, right? We just calculated it is 25. So, what is your accuracy? It is 21 by your accuracy is equal to 21 by 25. And this turns out to be about 85%, right? So, this is 85%. So, that is our accuracy. Okay. So, this is the way you need to explain, draw diagram, give an example. And maybe, maybe a good idea to be prepared with an example, so that it becomes easy for you. You don't have to calculate those numbers on the fly, right? So, a couple of hints are that you take some numbers which are, which add up to 100. That is always a good idea. So, you don't have to really do this complex calculations. So, the total value will be 100. And then, diagonal values you divide. Once you find the diagonal values, that is equal to your percentage. Okay. All right. So, the next question can be a related question about false positive and false negative. So, what is false positive and what is false negative? Now, once again, the best way to explain this is using a piece of paper and pen. Otherwise, it will be pretty difficult to explain this. So, we use the same example of the confusion matrix. And we can explain that. So, a confusion matrix looks somewhat like this. And when we just take it, it looks somewhat like this. And we continue with the previous example where this is the actual value. This is the predicted value. And in the actual value, we have 12 plus 1, 13 yeses and 3 plus 9, 12 noes. And predicted values, there are 12 plus 3, 15 yeses and 1 plus 9, 10 noes. Now, in this particular case, which is the false positive, what is a false positive? First of all, the second word, which is positive, okay, is referring to the predicted value. So, that means the system has predicted it as a positive, but the real value, so this is what the false comes from. But the real value is not positive. Okay. That is the way you should understand this term, false positive or even false negative. So, false positive. So, positive is what your system has predicted. So, where is that system predicted? This is the one. Positive is what? Yes. So, you basically consider this row. Okay. Now, if you consider this row, so this is all positive values. This entire row is positive values. Okay. Now, the false positive is the one with where the value, actual value is negative. Predicted value is positive, but the actual value is negative. So, this is a false positive. Right. And here is a true positive. So, the predicted value is positive and the actual value is also positive. Okay. I hope this is making sense. Now, let's take a look at what is false negative. False negative. So, negative is the second term. That means that is the predicted value that we need to look for. So, which are the predicted negative values? This row corresponds to predicted negative values. All right. So, this row corresponds to predicted negative values. And what they are asking for? False. So, this is the row for predicted negative values. And the actual value is this one. Right. This is predicted negative and the actual value is also negative. Therefore, this is a true negative. So, the false negative is this one. Predicted is negative, but actual is positive. Right. So, this is the false negative. So, this is the way to explain. And this is the way to look at false positive and false negative. Same way, there can be true positive and true negative as well. So, again, positive, the second term you will need to use to identify the predicted row. Right. So, if we say true positive, positive, we need to take for the predicted part. So, predicted positive is here. Okay. And then the first term is for the actual. So, true positive. So, true in case of actual is yes. Right. So, true positive is this one. Okay. And then in case of actual, the negative. Now, we are talking about, let's say true negative. True negative. Negative is this one and the true comes from here. So, this is true negative. Right. Nine is true negative. The actual value is also negative and the predicted value is also negative. Okay. So, that is the way you need to explain this, the terms false positive, false negative, and true positive, true negative. Then you might have a question like, what are the steps involved in the machine learning process? Or what are the three steps in the process of developing machine learning model? Right. So, it is around the methodology that is applied. So, basically, the way you can probably answer in your own words, but the way the model development of the machine learning model happens is like this. So, first of all, you try to understand the problem and try to figure out whether it is a classification problem or a regression problem. Based on that, you select a few algorithms and then you start the process of training these models. So, you can either do that or after due diligence, you can probably decide that there is one particular algorithm with which is most suitable. Usually, it happens through trial and error process, but at some point, you will decide that, okay, this is the model we are going to use. So, in that case, we have the model algorithm and the model decided and then you need to do the process of training the model and testing the model. And this is where if it is supervised learning, you split your data, the label data into training dataset and test dataset. And you use the training dataset to train your model and then you use the test dataset to check the accuracy, whether it is working fine or not. So, you test the model before you actually put it into production. Right? So, once you test the model, you're satisfied it's working fine. Then you go to the next level, which is putting it for production and then in production, obviously new data will come and the inference happens. So, the model is readily available and only thing that happens is new data comes and the model predicts the variation, whether it is regression or classification. Now, so, this can be an iterative process. So, it is not a straightforward process where you do the training through the testing and then you move it to production. Now, so, during the training and test process, there may be a situation where because of either overfitting or things like that, the test doesn't go through, which means that you need to put that back into the training process. So, that can be an iterative process. Not only that, even if the training and test goes through properly and you deploy the model in production, there can be a situation that the data that actually comes, the real data that comes. With that, this model is failing. So, in which case, you may have to once again go back to the drawing mode or initially it will be working fine, but over a period of time, maybe due to the change in the nature of the data, once again, the accuracy will deteriorate. So, that is again a recursive process. So, once in a while, you need to keep checking whether the model is working fine or not and if required, you need to tweak it and modify it and so on and so forth. So, let me add this is a continuous process of tweaking the model and testing it and making sure it is up to date. Then you might have question around deep learning. So, because deep learning is now associated with AI, artificial intelligence and so on. So, can be as simple as what is deep learning. So, I think the best way to respond to this could be deep learning is a part of machine learning and then obviously the question would be then what is the difference. So, deep learning you need to mention there are two key parts that interviewer will be looking for when you are defining deep learning. So, first is of course deep learning is a subset of machine learning. So, machine learning is still the bigger let us say scope and deep learning is one part of it. So, then what exactly is the difference deep learning is primarily when we are implementing these our algorithms or when we are using neural networks for doing our training and classification and regression and all that. So, when we use neural network then it is considered as deep learning and the term deep comes from the fact that you can have several layers of neural networks and these are called deep neural networks and therefore the deep deep learning. The other difference between machine learning and deep learning which they do here may be wanting to hear is that in case of machine learning the feature engineering is done manually. What do we mean by feature engineering? Basically when we are trying to train our model we have our training data. So, we have our training label data and this data has several let us say if it is a regular table it has several columns. Now each of these columns actually has information about a feature. So, if we are trying to predict the height weight and so on and so forth. So, these are all features of human beings let us say we have census data and we have all these. So, those are the features. Now there may be probably 50 or 100 in some cases there may be 100 such features. Now all of them do not contribute to our model. So, we as a data scientist we have to decide whether we should take all of them all the features or we should throw away some of them because again if we take all of them number one of course your accuracy will probably get affected but also there is a computational part. So, if you have so many features and then we have so much data it becomes very tricky. So, in case of machine learning we manually take care of identifying the features that do not contribute to the learning process and thereby we eliminate those features and so on. So, this is known as feature engineering and in machine learning we do that manually. Whereas in deep learning where we use neural networks the model will automatically determine which features to use and which to not lose and therefore feature engineering is also done automatically. So, this is a explanation. These are two key things probably will add value to your response. All right. So, the next question is what is the difference between or what are the differences between machine learning and deep learning. So, here this is a quick comparison table between machine learning and deep learning and in machine learning enables machines to take decisions on their own based on past data. So, here we are talking primarily of supervised learning and it needs only a small amount of data for training and then works well on low end systems so you don't need large machines and most features need to be identified in advance and manually coded. So, basically the feature engineering part is done manually and the problem is divided into parts and solved individually and then combined. So, that is about the machine learning part. In deep learning deep learning basically enables machines to take decisions with the help of artificial neural network. So, here in deep learning we use neural lines. So, that is the key differentiator between machine learning and deep learning and usually deep learning involves a large amount of data and therefore the training also requires usually the training process requires high end machines because it needs a lot of computing power and the machine learning features are the or the feature engineering is done automatically. So, the neural networks takes care of doing the feature engineering as well and in case of deep learning therefore it has said that the problem is handled end to end. So, this is a quick comparison between machine learning and deep learning in case you have that kind of a question. Then you might get a question around the uses of machine learning or some real life applications of machine learning in modern business. The question may be worded in different ways but the meaning is how exactly is machine learning used or actually supervised machine learning. It could be a very specific question around supervised machine learning. So, this is like give examples of supervised machine learning use of supervised machine learning in modern business. So, that could be the next question. So, there are quite a few examples or quite a few use cases if you will for supervised machine learning. The very common one is email spam detection. So, you want to train your application or your system to detect between spam and non-spam. So, this is a very common business application of supervised machine learning. So, how does this work? The way it works is that you obviously have historical data of your emails and they are categorized as spam and non-spam. So, that is what is the labeled information. And then you feel this information or the all these emails as an input to your model. And the model will then train to detect which of the emails are to detect which is spam and which is not spam. So, that is the training process and this is supervised machine learning because you have labeled data. You already have emails which are tagged as spam or not spam and then you use that to train your model. So, this is one example. Now, there are a few industry specific applications for supervised machine learning. One of the very common ones is in healthcare diagnostics. In healthcare diagnostics, you have these images and you want to train models to detect whether from a particular image, whether it can find out if the person is sick or not, whether a person has cancer or not. So, this is a very good example of supervised machine learning. Here, the way it works is that existing images, it could be x-ray images, it be MRI or any of these images are available and they are tagged saying that, okay, this x-ray image is defective or the person has an illness or it could be cancer, whichever illness. So, it is tagged as defective or clear or good image and defective image, something like that. So, we come up with a binary or it could be multi-class as well saying that this is defective to 10%, this is 25%, and so on. But let's keep it simple. You can give an example of just a binary classification that would be good enough. So, you can say that in healthcare diagnostics, using image, we need to detect whether a person is ill or whether a person is having cancer or not. So, here, the way it works is you feed labeled images and you allow the model to learn from that so that when new image is fed, it will be able to predict whether this person is having that illness or not having cancer or not. So, I think this would be a very good example for supervised machine learning in modern business. All right, then we can have a question like, so we've been talking about supervised and unsupervised then, so there can be a question around semi-supervised machine learning. So, what is semi-supervised machine learning? Now, semi-supervised learning as the name suggests, it falls between supervised learning and unsupervised learning, but for all practical purposes, it is considered as a art of supervised learning. And the reason this has come into existence is that in supervised learning, you need labeled data. So, all your data for training your model has to be labeled. Now, this is a big problem in many industries or in many under many situations. Getting the labeled data is not that easy because there's a lot of effort in labeling this data. Let's take an example of diagnostic images and we can just let's say take x-ray images. Now, there are actually millions of x-ray images available all over the world, but the problem is they are not labeled. So, their images are there, but whether it is effective or whether it is good, that information is not available along with it in a form that it can be used by a machine, which means that somebody has to take a look at these images and usually it should be like a doctor and then say that, okay, yes, this image is clean and this image is cancerous and so on and so forth. Now, that is a huge effort by itself. So, this is where semi-supervised learning comes into play. So, what happens is there is a large amount of data, maybe a part of it is labeled. Then we try some techniques to label the remaining part of the data so that we get completely labeled data and then we train our model. So, I know there's a little long winding explanation, but unfortunately, there is no quick and easy definition for semi-supervised machine learning. This is the only way probably to explain this concept. We may have another question as what are unsupervised machine learning techniques or what are some of the techniques used for performing unsupervised machine learning. So, it can be worded in different ways. So, how do we answer this question? So, unsupervised learning, you can say that there are two types, clustering and association and clustering is a technique where similar objects are put together and there are different ways of finding similar objects. So, their characteristics can be measured and if they have in most of the characteristics, if they are similar, then they can be put together. This is clustering. Then association, you can, I think the best way to explain association is with an example. In case of association, you try to find out how the items are linked to each other. So, for example, if somebody bought maybe a laptop, the person has also purchased a mouse. So, this is more in a e-commerce scenario, for example. So, you can give this as an example. So, people who are buying laptops are also buying a mouse. So, that means there is an association between laptops and mouse or maybe people who are buying bread are also buying butter. So, that is an association that can be created. So, this is unsupervised learning, one of the techniques. All right. Then we have very fundamental question, what is the difference between supervised and unsupervised machine learning? So, machine learning, these are the two main types of machine learning, supervised and unsupervised. And in case of supervised, and again here, probably the keyword that the person may be wanting to hear is labeled data. Now, very often people say, we have historical data and if we run it, it is supervised and if we do not have historical data, yes, but you may have historical data, but if it is not labeled, then you cannot use it for supervised learning. So, it is very key to understand that we put in that keyword labeled. So, when we have labeled data for training our model, then we can use supervised learning. And if we do not have labeled data, then we use unsupervised learning. And there are different algorithms available to perform both of these types of trainings. So, there can be another question a little bit more theoretical and conceptual in nature. This is about inductive machine learning and deductive machine learning. So, the question can be, what is the difference between inductive machine learning and deductive machine learning or somewhat in that manner. So, the exact phrase or exact question can vary. They can ask for examples and things like that, but that could be the question. So, let us first understand what is inductive and deductive training. Inductive training is induced by somebody. And you can illustrate that with a small example, I think that always helps. So, whenever you are doing some explanation, try as much as possible, as I said, to give examples from your work experience or give some analogies and that will also help a lot in explaining as well and for the interviewer also to understand. So, here we will take an example or rather we will use an analogy. So, inductive training is when we induce some knowledge or the learning process into a person without the person actually experiencing it. What can be an example? So, we can probably tell the person or show a person a video that fire can burn his finger or fire can cause damage. So, what is happening here? This person has never probably seen a fire or never seen anything getting damaged by fire. But just because he has seen this video, he knows that, okay, fire is dangerous and if a fire can cause damage. So, this is inductive learning. Compared to that, what is deductive learning? So, here you draw conclusion or the person draws conclusion out of experience. So, we will stick to the analogy. So, compared to showing a video, let us assume a person is allowed to play with fire, right. And then he figures out that if he puts his finger, it is burning or if he throws something into the fire, it burns. So, he is learning through experience. So, this is known as deductive learning, okay. So, you can have applications or models that can be trained using inductive learning or deductive learning. All right. I think probably that explanation will be sufficient. The next question is are KNN and K means clustering similar to one another or are they same, right. Because the letter K is kind of common between them, okay. So, let us take a little while to understand what these two are. One is KNN and another is K means. KNN stands for K nearest neighbors and K means of course, is a clustering mechanism. Now, these two are completely different except for the letter K being common between them. KNN is completely different. K means clustering is completely different. KNN is a classification process and therefore it comes under supervised learning whereas K means clustering is actually unsupervised, okay. When you have KNN, when you want to implement KNN, which is basically K nearest neighbors. The value of K is a number. So, you can say K is equal to 3. You want to implement KNN with K is equal to 3. So, which means that it performs the classification in such a way that how does it perform the classification. So, it will take three nearest objects and that is why it is called nearest neighbor. So, basically based on the distance, it will try to find out its nearest objects that are, it is a three of the nearest objects and then it will check whether the class they belong to which class, right. So, if all three belong to one particular class, obviously this new object is also classified as that particular class, but it is possible that they may be from two or three different classes, okay. So, let's say they are from two classes and then if they are from two classes, now usually you take an odd number, you assign odd number two. So, if there are three of them and two of them belong to one class and then one belongs to another class. So, this new object is assigned to the class to which the two of them belong. Now, the value of K is sometimes tricky whether should you use three, should you use five, should you use seven, that can be tricky because the ultimate classification can also vary. So, it's possible that if you are taking K as three, the object is probably in one particular class, but if you take K is equal to five, maybe the object will belong to a different class because when you are taking three of them, probably two of them belong to class one and one belong to class two. Whereas when you take five of them, it is possible that only two of them belong to class one and three of them belong to class two. So, which means that this object will belong to class two, right. So, you see that? So, it is the class allocation can vary depending on the value of K. Now, K means on the other hand is a clustering process and it is unsupervised where what it does is the system will basically identify how the objects are, how close the objects are with respect to some of their features, okay. And but similarity of course is the letter K and in case of K means also we specify its value and it could be three or five or seven. There is no technical limit as such, but it can be any number of clusters that you can create, okay. So, based on the value that you provide, the system will create that many clusters of similar objects. So, there is a similarity to that extent that K is a number in both the cases, but actually these two are completely different processes. We have what is known as naive based classifier and people often get confused thinking that naive base is the name of the person who found this classifier or who developed this classifier, which is not 100% true. Base is the name of the person, B-A-Y-S is the name of the person, but naive is not the name of the person, right. So, naive is basically an English word and that has been added here because of the nature of this particular classifier. Naive based classifier is probability based classifier and it makes some assumptions that presence of one feature of a class is not related to the presence of any other feature of maybe other classes, right. So, which is not very strong or not a very, what do you say, accurate assumption because these features can be related and so on. But even if we go with this assumption, this whole algorithm works very well even with this assumption and that is the good side of it, but the term comes from there. So, that is the explanation that you can. Then there can be question around reinforcement learning. It can be paraphrased in multiple ways. One could be can you explain how a system can play a game of chess using reinforcement learning or it can be any game. So, the best way to explain this is again to talk a little bit about what reinforcement learning is about and then elaborate on that to explain the process. So, first of all reinforcement learning has an environment and an agent and agent is basically performing some actions in order to achieve a certain goal. And this goals can be anything either if it is related to game, then the goal could be that you have to score very high score high value high number or it could be that your number of lives should be as high as possible. Don't lose life. So, these could be some of them. A more advanced examples could be for driving the automotive industry, self-driving cars. They actually also make use of reinforcement learning to teach the car how to navigate through the roads and so on and so forth. That is also another example. Now, how does it work? So, if the system is basically there is an agent and environment and every time the agent takes a step or performs a task which is taking it towards the goal, the final goal let's say to maximize the score or to minimize the number of lives and so on or minimize the death for example, it is rewarded and every time it takes a step which goes against that goal and contrary or in the reverse direction, it is penalized. So, it is like a caratine stick system. Now, how do you use this to create a game of chess or to create a system to play a game of chess? Now, the way this works is and this could probably go back to this alpha go example where alpha go defeated a human champion. So, the way it works is in reinforcement learning. The system is allowed for example, in this case we are talking about chess. So, we allow the system to first of all watch playing a game of chess. So, it could be with a human being or it could be the system itself. There are computer games of chess, right? So, either this new learning system has to watch that game or watch a human being play the game because this is reinforcement learning is pretty much all visual. So, when you are teaching the system to play a game, the system will not actually go behind this instance to understand the logic of your software of this game or anything like that. It is just visually watching the screen and then it learns. So, reinforcement learning to a large extent works on that. So, you need to create a mechanism whereby your model will be able to watch somebody playing the game and then you allow the system also to start playing the game. So, it pretty much starts from scratch, okay? And as it moves forward, it is at right at the beginning the system really knows nothing about the game of chess, okay? So, initially it is a clean slate, it just starts by observing how you are playing. So, it will make some random moves and keep losing badly. But then what happens is over a period of time. So, you need to now allow the system or you need to play with the system not just one, two, three, four or five times but hundreds of times, thousands of times, maybe even hundreds of thousands of times and that is exactly how AlphaGo has done. It played millions of games between itself and the system, right? So, for the game of chess also, you need to do something like that. You need to allow the system to play chess and learn on its own over a period of reputation. So, I think you can probably explain it to this much, to this extent and it should be sufficient. Now, this is another question which is again somewhat similar but here the size is not coming into picture. So, the question is how will you know which machine learning algorithm to choose for your classification problem. Now, this is not only classification problem, it could be a regression problem. I would like to generalize this question. So, if somebody else says how will you choose, how will you know which algorithm to use? The simple answer is there is no way you can decide exactly saying that this is the algorithm I am going to use. In a variety of situations, there are some guidelines like for example, you will obviously depending on the problem, you can say whether it is a classification problem or a regression problem and then in that sense, you are kind of restricting yourself to if it is a classification problem, there are you can only apply a classification algorithm, right? To that extent, you can probably let us say limit the number of algorithms but now within the classification algorithms, you have decision trees, you have SPM, you have logistic regression, is it possible to outright say yes, for this particular problem since you have explained this. Now, this is the exact algorithm that you can use that is not possible. So, we have to try out a bunch of algorithms, see which one gives us the best performance and best accuracy and then decide to go with that particular algorithm. So, in machine learning, a lot of it happens through trial and error. There is no real possibility that anybody can just by looking at the problem or understanding the problem, tell you that, okay, in this particular situation, this is exactly the algorithm that you should use. Then, the questions may be around application of machine learning and this question is specifically around how Amazon is able to recommend other things to buy. So, this is around recommendation engine, how does it work, how does the recommendation engine work? So, this is basically the question is all about. So, the recommendation engine again works based on various inputs that are provided. Obviously, something like, you know, Amazon website or e-commerce site like Amazon collects a lot of data around the customer behavior, who is purchasing what and if somebody is buying a particular thing, they're also buying something else. So, this kind of association, right? So, this is the unsupervised learning we talked about. They use this to associate and link or relate items and that is one part of it. So, they kind of build association between items saying that somebody buying this is also buying this, that is one part of it. Then, they also profile the users, right, based on their age, their gender, their geographic location, they will do some profiling and then when somebody is logging in and when somebody is shopping, kind of the mapping of these two things are done. They try to identify, obviously, if you have logged in, then they know who you are and your information is available. Like, for example, your age may be your agenda and where you're located, what you purchased earlier, right? So, all this is taken and the recommendation engine basically uses all this information and comes up with recommendations for a particular user. So, that is how the recommendation engine works. All right, then the question can be something very basic like when will you go for classification versus regression, right? When do you do classification instead of regression or when do you use classification instead of regression? Now, yes, so this is basically going back to the understanding of the basics of classification and regression. So, classification is used when you have to identify or categorize things into discrete classes. So, the best way to respond to this question is to take up some examples and use it. Otherwise, it can become a little tricky. The question may sound very simple, but explaining it can sometimes be very tricky. So, in case of regression, the use, of course, there will be some keywords that they will be looking for. So, just you need to make sure you use those keywords. One is the discrete values and other is the continuous values. So, for regression, if we are trying to find some continuous values, you use regression. Whereas, if you're trying to find some discrete values, you use classification and then you need to illustrate what are some of the examples. So, classification is like, let's say there are images and you need to put them into classes like cat, dog, elephant, tiger, something like that. So, that is the classification problem. Or it can be that is a multi-class classification problem. It could be binary classification problem like for example, whether a customer will buy or he will not buy. That is a classification, binary classification. It can be in the weather forecast area. Now, weather forecast is again, combination of regression and classification because on the one hand, you want to predict whether it's going to rain or not. That's a classification problem. That's a binary classification, right? Whether it's going to rain or not rain. However, you also have to predict what is going to be the temperature tomorrow, right? Now, temperature is a continuous value. You can't answer the temperature in a yes or no kind of a response, right? So, what will be the temperature tomorrow? So, you need to give a number which can be like 20 degrees, 30 degrees or whatever, right? So, that is where you use regression. One more example is stock price prediction. So, that is where again, you will use regression. So, these are the various examples. So, you need to illustrate with examples and make sure you include those keywords like discrete and continuous. So, the next question is more about a little bit of a design related question to understand your concepts and things like that. So, it is how will you design a spam filter? So, how do you basically design on a other spam filter? So, I think the main thing here is he's looking at probably understanding your concepts in terms of what is the algorithm you will use or what is your understanding about difference between classification and regression and things like that, right? And the process, of course, the methodology and the process. So, the best way to go about responding to this is we say that, okay, this is a classification problem because we want to find out whether an email is a spam or not spam so that we can apply the filter accordingly. So, first thing is to identify what type of a problem it is. So, we have identified that it is a classification. Then the second step may be to find out what kind of algorithm to use. Now, since this is a binary classification problem, logistic regression is a very common very common algorithm. But however, right, as I said earlier also, we can never say that, okay, for this particular problem, this is exactly the algorithm that we can use. So, we can also probably try decision trees or even support vector machines, for example, SVM. So, we will kind of list down a few of these algorithms and we will say, okay, we want to be like to try out these algorithms. And then we go about taking your historical data, which is the labeled data, which are marked. So, you will have a bunch of emails and then you split that into training and test datasets. You use your training dataset to train your model that or your algorithm that you have used or rather the model actually. So, and you actually will have three models. Let's say you are trying to test out three algorithms. So, you will obviously have three models. So, you need to try all three models and test them out as well. See, which one gives the best accuracy and then you decide that you will go with that model. Okay. So, training and tests will be done and then you zero in one particular model and then you say, okay, this is the model we will use, we will use and then go ahead and implement that or put that in production. So, that is the way you design a spam. The next question is about random forest. So, what is random forest? So, this is a very straightforward question. However, the response you need to be again a little careful while we all know what is random forest explaining this can sometimes be tricky. So, one thing is random forest is kind of in one way it is an extension of decision trees because it is basically nothing but you have multiple decision trees and trees will basically you will use for doing if it is classification, mostly it is classification. You will use the trees for classification and then you use voting for finding the final class. So, that is the underlying. But how will you explain this? How will you respond to this? So, first thing obviously, you will say that random forest is one of the algorithms and the more important thing that you need to probably the interviewer is waiting to hear is ensemble learner. So, this is one type of ensemble learner. What is ensemble learner? Ensemble learner is like a combination of algorithms. So, it is a learner which consists of more than one algorithm or more than one maybe models. So, in case of random forest, the algorithm is the same but instead of using one instance of it, we use multiple instances of it and we use. So, in a way that is a random forest is an ensemble learner. There are other types of ensemble learners where we have like we use different algorithms itself. So, you have one maybe logistic regression and a decision tree combined together and so on and so forth. There are other ways like for example splitting the data in a certain way and so on. So, that is all about ensemble we will not go into that. But random forest is sub I think the interviewer will be happy to hear this word ensemble learner. And so then you go and explain how the random forest works. So, if the random forest is used for classification, then we use what is known as a voting mechanism. So, basically how does it work? Let's say your random forest consists of 100 trees and each observation you pass through this forest and each observation let's say it is a classification problem binary classification 0 or 1 and you have 100 trees. Now, if 90 trees say that it is a 0 and 10 of the trees say it is a 1, you take the majority, you may take a vote and since 90 of them are saying 0, you classify the size 0. Then you take the next observation and so on. So, that is the way random forest works for classification. If it is a regression problem, it's somewhat similar but only thing is instead of vote, what we will do is so in regression remember what happens, you actually calculate a value. So, for example, you are using regression to predict the temperature and you have 100 trees and each tree obviously will probably predict a different value of the temperature. They may be close to each other but they may not be exactly the same value. So, these 100 trees. So, how do you now find the actual value, the output for the entire forest? So, you have outputs of individual trees which are a part of this forest but then you need to find the final output of the forest So, how do you do that? So, in case of regression, you take like an average or the mean of all the 100 trees. So, this is also a way of reducing the error. So, maybe if you have only one tree and if that one tree makes an error, it is basically 100% wrong or 100% right. But if you have on the other hand, if you have a bunch of trees, you are basically medicating that error, reducing that error. So, that is the way random forest works. So, the next question is considering the long list of machine learning algorithms. How will you decide on which one to use? So, once again, here there is no way to outright say that this is the algorithm that we will use for a given data set. This is a very good question but then the response has to be like again, there will not be one size fits all. So, we need to first of all, you can probably shorten the list in terms of by saying, okay, whether it is a classification problem or it is a regression problem. To that extent, you can probably shorten the list because you don't have to use all of them. If it is a classification problem, you only can pick from the classification algorithms, right. So, for example, if it is a classification, you cannot use linear regression algorithm or if it is a regression problem, you cannot use SVM or maybe no, you can use SVM but maybe a logistic regression, right. So, to that extent, you can probably shorten the list but still you will not be able to 100% decide on saying that this is the exact algorithm that I am going to use. So, the way to go about is you choose a few algorithms based on what the problem is. You try out your data, you train some models of these algorithms, check which one gives you the lowest error or the highest accuracy and based on that, you choose that particular algorithm, okay. All right, then there can be questions around bias and variance. So, the question can be what is bias and variance in machine learning. So, you just need to give out a definition for each of these. For example, bias in machine learning, it occurs when the predicted values are far away from the actual value. So, that is a bias, okay. And whereas they are all the values are probably they are far off but they are very near to each other though. The predicted values are close to each other, right, while they are far off from the actual value but they are close to each other. You see the difference? So, that is bias and then the other part is your variance. Now, variance is when the predicted values are all over the place, right. So, the variance is high. That means it may be close to the target but it is kind of very scattered. So, the point the predicted values are not close to each other, right. In case of bias, the predicted values are close to each other but they are not close to the target but here they may be close to the target but they may not be close to each other. So, they are a little bit more scattered. So, that is what in case of variance, okay. Then the next question is about the game related to bias and variance. What is the trade off between bias and variance? Yes, I think this is an interesting question because these two are heading in different directions. So, for example, if you try to minimize the bias, variance will keep going high and if you try to minimize the variance bias will keep going high and there is no way you can minimize both of them. So, you need to have a trade off saying that, okay, this is the level at which I will have my bias and this is the level at which I will have variance. So, the trade off is that pretty much that. You decide what is the level you will tolerate for your bias and what is the level you will tolerate for variance and a combination of these two in such a way that your final results are not way off and having a trade off will ensure that the results are consistent, right. So, that is basically the output is consistent and which means that they are close to each other and they are also accurate, right. That means they are as close to the target as possible, right. So, if either of these is high then one of them will go off the track. Define precision and recall. Now, again here I think it would be best to draw a diagram and take the confusion matrix and it is very simple. The definition is like a formula. Your precision is true positive by true positive plus false positive and your recall is true positive by true positive plus false negative, okay. So, that is you can just show it in a mathematical way that is pretty much you know that can be shown that is the easiest way to define. So, the next question can be about decision tree. What is decision tree pruning and why is it? So, basically decision trees are really simple to implement and understand but one of the drawbacks of decision trees is that it can become highly complicated as it grows, right and the rules and conditions can become very complicated and this can also lead to overfitting which is basically that during training you will get 100% accuracy but when you are doing testing you will get a lot of errors. So, that is the reason pruning needs to be done. So, the purpose or the reason for doing decision tree pruning is to reduce overfitting or to cut down on overfitting and what is decision tree pruning? It is basically that you reduce the number of branches because as you may be aware tree consists of the root node and then there are several internal nodes and then you have the leaf nodes. Now, if there are too many of these internal nodes that is when you face the problem of overfitting and pruning is the process of reducing those internal nodes. All right, so the next question can be what is logistic regression? So, basically logistic regression is one of the techniques used for performing classification especially binary classification. Now, there is something special about logistic regression and there are a couple of things you need to be careful about. First of all, the name is a little confusing. It is called logistic regression but it is used for classification. So, this can be sometimes confusing so you need to probably clarify that to the interviewers if it's really required and they can also ask this like a trick question, right? So, that is one part. Second thing is the term logistic has nothing to do with the usual logistic that we talk about but it is derived from log. So, that the mathematical derivation was log and therefore the name logistic regression. So, what is logistic regression and how is it used? So, logistic regression is used for binary classification and output of a logistic regression is either a 0 or a 1 and it varies. So, it's basically it calculates a probability between 0 and 1 and we can set a threshold that can vary typically it is 0.5. So, any value above 0.5 is considered as 1 and if the probability is below 0.5 it is considered as 0. So, that is the way we calculate the probability or the system calculates the probability and based on the threshold it sets a value of 0 or 1 which is like a binary classification 0 or 1. Okay, then we have a question around k nearest neighbor algorithm. So, explain k nearest neighbor algorithm. So, first of all, what is a k nearest neighbor algorithm? This is a classification algorithm. So, that is the first thing we need to mention and we also need to mention that the k is a number. It is an integer and this is variable and we can define what the value of k should be. It can be 2, 3, 5, 7 and usually it is an odd number. So, that is something we need to mention. Technically it can be even number also but then typically it would be odd number and we will see why that is okay. So, based on that we need to classify objects. Okay, we need to classify objects. So, again, it will be very helpful to draw a diagram. You know, if you are explaining, I think that will be the best way. So, draw some diagram like this and let's say we have three clusters or three classes existing and now you want to find for a new item that has come, you want to find out which class this belongs to. So, you go about as the name such as, you go about finding the nearest neighbors, the points which are closest to this and how many of them you will find? That is what is defined by k. Now, let's say our initial value of k was 5. So, you will find the k, the five nearest data points. So, in this case, as it is illustrated, these are the five nearest data points. But then all five do not belong to the same class or cluster. So, there are one belonging to this cluster one, the second one belonging to this cluster two, three of them belonging to this third cluster. So, how do you decide? That's exactly the reason we should, as much as possible, try to assign an odd number so that it becomes easier to assign this. So, in this case, you see that the majority actually, if there are multiple classes, then you go with the majority. So, since three of these items belong to this class, we assign, which is basically the, in this case, the green or the tennis or the third cluster as I was talking about. So, we assign it to this third class. So, in this case, it is, that's how it is decided. So, k nearest neighbors, the first thing is to identify the number of neighbors that are mentioned as k. So, in this case, it is k is equal to five. So, we find the five nearest points and then find out out of these five, which class has the maximum number in that and then the new data point is assigned to that class. So, that's pretty much how k nearest neighbors work. So, that brings us to the end of this module. I hope you enjoyed this interview questions and hope you will be able to crack your next interview if any of these questions come up. And in case you have other questions that you would like to be answered, please feel free to put them down below this video in the comment section and we will try to maybe compile all of them and create a new video on that. Okay, with that, I would like to sign off. Thank you very much. Have a good day."
+}

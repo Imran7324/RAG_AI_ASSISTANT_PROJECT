@@ -1,0 +1,2901 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 10.32,
+            "text": " Hi guys, welcome to another live session by SimpleLearn.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 10.32,
+            "end": 14.16,
+            "text": " I would like to thank you all for actively participating in these sessions on YouTube",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 14.16,
+            "end": 15.16,
+            "text": " and Facebook.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 15.16,
+            "end": 21.400000000000002,
+            "text": " Today, we will understand how to perform stock market prediction using machine learning.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 21.400000000000002,
+            "end": 23.56,
+            "text": " Now let's wait for a while for people to join in.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 23.56,
+            "end": 25.240000000000002,
+            "text": " We have a really exciting session today.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 30.0,
+            "end": 38.120000000000005,
+            "text": " Meanwhile, please subscribe to our SimpleLearn YouTube channel and stay updated with all",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 38.120000000000005,
+            "end": 39.88,
+            "text": " the latest trending technologies.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 39.88,
+            "end": 44.56,
+            "text": " Also, if you have any questions for us during the course of this video, please put it in",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 44.56,
+            "end": 45.56,
+            "text": " the chat section.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 45.56,
+            "end": 47.760000000000005,
+            "text": " Our team of experts will help you solve your queries.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 60.0,
+            "end": 64.0,
+            "text": " I can see a lot of people have joined in without any further delay.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 64.0,
+            "end": 65.8,
+            "text": " Let's begin.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 65.8,
+            "end": 72.84,
+            "text": " So, what really is stock market?",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 72.84,
+            "end": 77.76,
+            "text": " A stock market is a place or a public market where you can buy and sell shares for publicly",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 77.76,
+            "end": 79.6,
+            "text": " listed companies.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 79.6,
+            "end": 86.16,
+            "text": " The stocks which are also known as equities represent ownership in the company.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 86.16,
+            "end": 90.47999999999999,
+            "text": " The stock exchange is the mediator that allows the buying and selling of shares.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 90.47999999999999,
+            "end": 95.64,
+            "text": " Amsterdam stock exchange is the oldest stock exchange that were established in 1602.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 95.64,
+            "end": 100.75999999999999,
+            "text": " The top stock exchanges in the United States are the New York Stock Exchange, NASDAQ, American",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 100.75999999999999,
+            "end": 104.75999999999999,
+            "text": " Stock Exchange and Chicago Board Operations Exchange.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 104.75999999999999,
+            "end": 110.84,
+            "text": " In India, we have the Bombay Stock Exchange or the BSC that was established in 1875 and",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 110.84,
+            "end": 113.03999999999999,
+            "text": " its ACS first stock exchange.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 113.48,
+            "end": 116.28,
+            "text": " We also have the National Stock Exchange or NSE.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 121.72,
+            "end": 126.48,
+            "text": " Now, let's understand the importance of stock market.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 126.48,
+            "end": 129.68,
+            "text": " Stock markets help companies to raise capital.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 129.68,
+            "end": 134.20000000000002,
+            "text": " If stock markets did not exist, then companies would have to resort to borrowing loans from",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 134.20000000000002,
+            "end": 137.44,
+            "text": " the banks to raise money for expansion.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 137.44,
+            "end": 143.0,
+            "text": " This would be a trouble for the company as they would have to repay the loans with interest.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 143.08,
+            "end": 147.88,
+            "text": " With stock markets, companies have the free hand to create an initial public offering and",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 147.88,
+            "end": 152.8,
+            "text": " raise large amounts of cash without having to worry about repayment.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 152.8,
+            "end": 157.72,
+            "text": " Another reason why the stock market is important is it helps generate personal wealth.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 157.72,
+            "end": 162.48,
+            "text": " For an individual investor, the stock market provides a platform to invest your income",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 162.48,
+            "end": 165.88,
+            "text": " and earn a share of the company's profit.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 165.88,
+            "end": 171.04,
+            "text": " Stock markets serve as an indicator of the state of the economy, that is, the stock market",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 171.07999999999998,
+            "end": 174.56,
+            "text": " serves as a barometer for the economy.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 174.56,
+            "end": 180.2,
+            "text": " A rise of fall in the prices of shares indicates what cycle the economy is in, such as a recession",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 180.2,
+            "end": 181.6,
+            "text": " or a boom.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 181.6,
+            "end": 185.23999999999998,
+            "text": " The stock market is considered to be one of the most widely used sources for people to",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 185.23999999999998,
+            "end": 187.32,
+            "text": " invest money in.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 187.32,
+            "end": 190.88,
+            "text": " Investors are always looking to invest in companies with high growth potential.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 190.88,
+            "end": 196.56,
+            "text": " If the stock market is performing well, this increases investment from local investors.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 196.56,
+            "end": 200.6,
+            "text": " It also attracts foreign direct investment as people abroad invest in the local stock",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 200.6,
+            "end": 204.96,
+            "text": " exchange.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 204.96,
+            "end": 210.28,
+            "text": " With that, let's now understand stock market prediction.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 210.28,
+            "end": 214.76,
+            "text": " Stock market prediction helps you determine the future value of company stock and other",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 214.76,
+            "end": 217.88,
+            "text": " financial instruments traded on an exchange.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 217.88,
+            "end": 222.52,
+            "text": " The whole idea of predicting stock prices is to gain significant profits.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 222.52,
+            "end": 226.4,
+            "text": " Predicting how the stock market will perform is a difficult task to do.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 226.4,
+            "end": 230.36,
+            "text": " There are a lot of other factors involved in the prediction such as physical and psychological",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 230.36,
+            "end": 234.52,
+            "text": " factors, rational and irrational behaviour, etc.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 234.52,
+            "end": 240.04000000000002,
+            "text": " All these factors combine to make share prices dynamic and volatile.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 240.04000000000002,
+            "end": 244.64000000000001,
+            "text": " This makes it very difficult to predict stock prices with high accuracy.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 244.64000000000001,
+            "end": 248.32,
+            "text": " So we will use machine learning techniques to predict the stock prices of two different",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 248.32,
+            "end": 250.64000000000001,
+            "text": " companies, Tesla and Google.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 250.64000000000001,
+            "end": 255.32,
+            "text": " We will be using linear regression algorithm and long short term memory networks for building",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 255.4,
+            "end": 257.71999999999997,
+            "text": " our prediction models.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 257.71999999999997,
+            "end": 263.92,
+            "text": " So first, let's understand the basics of linear regression.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 263.92,
+            "end": 267.71999999999997,
+            "text": " Linear regression is a very popular statistical technique used for solving machine learning",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 267.71999999999997,
+            "end": 268.71999999999997,
+            "text": " problems.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 268.71999999999997,
+            "end": 272.88,
+            "text": " It is a supervised learning algorithm for predicting the output of a continuous target",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 272.88,
+            "end": 274.53999999999996,
+            "text": " variable.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 274.53999999999996,
+            "end": 278.84,
+            "text": " It can be used to predict the total revenue of a company or the total units expected",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 278.84,
+            "end": 281.03999999999996,
+            "text": " to be sold of a certain product.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 281.04,
+            "end": 285.20000000000005,
+            "text": " It can also be used for weather prediction and stock price prediction.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 285.20000000000005,
+            "end": 292.96000000000004,
+            "text": " Here is an example to predict the total number of ice creams a vendor or a company can sell",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 292.96000000000004,
+            "end": 296.88,
+            "text": " based on the temperature of the day.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 296.88,
+            "end": 300.64000000000004,
+            "text": " You can see the green dots represent the actual data points.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 300.64000000000004,
+            "end": 306.44,
+            "text": " So the x-axis has the input variable that is temperature and the y-axis has the target",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 306.44,
+            "end": 309.88,
+            "text": " variable that is unit sold.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 309.88,
+            "end": 316.76,
+            "text": " Linear regression uses the linear equation formula y is equal to mx plus c where m is",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 316.76,
+            "end": 320.71999999999997,
+            "text": " the slope of the line, c is the intercept.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 320.71999999999997,
+            "end": 325.4,
+            "text": " We find the coefficients and plot the regression line.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 325.4,
+            "end": 329.4,
+            "text": " So in this graph, the red line is a regression line.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 329.4,
+            "end": 333.48,
+            "text": " The best fit line should have the least squared distance between the original data points and",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 333.48,
+            "end": 335.88,
+            "text": " the predicted values.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 335.88,
+            "end": 342.64,
+            "text": " Now let's see how to predict the stock prices of Tesla using the linear regression model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 342.64,
+            "end": 348.12,
+            "text": " So this is the csv data set that we will be using for our prediction.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 348.12,
+            "end": 359.68,
+            "text": " We have information from 29 June 2010 till 15 May 2019.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 359.68,
+            "end": 365.34,
+            "text": " Here open column means the price at which a stock started trading when the market opened",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 365.34,
+            "end": 368.21999999999997,
+            "text": " on a particular day.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 368.21999999999997,
+            "end": 372.73999999999995,
+            "text": " The close column refers to the price of an individual stock when the stock exchange closed",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 372.73999999999995,
+            "end": 374.94,
+            "text": " market for the day.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 374.94,
+            "end": 382.41999999999996,
+            "text": " It represents the last buy sell order executed between two traders.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 382.41999999999996,
+            "end": 388.14,
+            "text": " The high column is the highest price at which a stock traded during a period.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 388.14,
+            "end": 393.5,
+            "text": " The low is the lowest price of the period.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 393.5,
+            "end": 399.18,
+            "text": " Same is the total amount of trading activity during a period of time.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 399.18,
+            "end": 405.5,
+            "text": " The adjusted closing price is a calculation adjustment made to the stock's closing price.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 405.5,
+            "end": 408.9,
+            "text": " It is more complex and accurate than the closing price.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 408.9,
+            "end": 413.7,
+            "text": " The adjustment made to the closing price depicts the true price of the stock because the outside",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 413.7,
+            "end": 417.26,
+            "text": " factors could have altered the true price.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 417.26,
+            "end": 421.44,
+            "text": " Now before I begin the demo, I want to tell you that if you want to get a copy of the source",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 421.44,
+            "end": 425.44,
+            "text": " code files and the data sets that I will be using in this session, then please put",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 425.44,
+            "end": 427.96,
+            "text": " your email IDs in the chat section of the video.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 427.96,
+            "end": 431.71999999999997,
+            "text": " Also, please subscribe to our channel and hit the bell icon to stay updated with all",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 95,
+            "start": 431.71999999999997,
+            "end": 437.0,
+            "text": " the latest trending technologies.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 96,
+            "start": 437.0,
+            "end": 441.96,
+            "text": " So here is my Jupyter notebook where I have implemented my linear regression code.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 97,
+            "start": 441.96,
+            "end": 446.64,
+            "text": " So I will run through each cell of code and explain what it does.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 98,
+            "start": 446.64,
+            "end": 451.96,
+            "text": " First, we will import the necessary libraries for building our model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 99,
+            "start": 451.96,
+            "end": 457.84,
+            "text": " So I am importing pandas, numpy and macplotlib for numerical computation, data manipulation",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 100,
+            "start": 457.84,
+            "end": 459.76,
+            "text": " and data visualization.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 101,
+            "start": 459.76,
+            "end": 465.28,
+            "text": " We will also import the Plotly library for building our graphs.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 102,
+            "start": 465.28,
+            "end": 469.47999999999996,
+            "text": " Now if you are using Plotly for the first time, you will have to install it and then",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 103,
+            "start": 469.47999999999996,
+            "end": 472.96,
+            "text": " import it onto Jupyter.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 104,
+            "start": 472.96,
+            "end": 473.88,
+            "text": " Let me run this cell.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 105,
+            "start": 476.64,
+            "end": 487.44,
+            "text": " So I have successfully imported all my libraries.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 106,
+            "start": 487.44,
+            "end": 493.97999999999996,
+            "text": " Next, I load the tesla.stoprise data set using the pandas library and the read underscore",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 107,
+            "start": 493.97999999999996,
+            "end": 495.47999999999996,
+            "text": " cse function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 108,
+            "start": 495.47999999999996,
+            "end": 501.03999999999996,
+            "text": " I will also give the location where my csv data set is present.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 109,
+            "start": 501.03999999999996,
+            "end": 502.4,
+            "text": " Let me import the data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 110,
+            "start": 502.4,
+            "end": 505.59999999999997,
+            "text": " I will hit shift enter.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 111,
+            "start": 505.6,
+            "end": 508.40000000000003,
+            "text": " So now I have successfully imported my data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 112,
+            "start": 508.40000000000003,
+            "end": 511.56,
+            "text": " Now let's see my data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 113,
+            "start": 511.56,
+            "end": 519.28,
+            "text": " For that I will use the head function, I will load tesla.head.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 114,
+            "start": 519.28,
+            "end": 526.0400000000001,
+            "text": " So this will return the top 5 rows from the data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 115,
+            "start": 526.0400000000001,
+            "end": 530.76,
+            "text": " In the next cell, I am using the info function to find the total rows and columns in my data",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 116,
+            "start": 530.76,
+            "end": 531.76,
+            "text": " set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 117,
+            "start": 531.76,
+            "end": 535.48,
+            "text": " The info function will also return the data type of the variables and check if there",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 118,
+            "start": 535.48,
+            "end": 539.88,
+            "text": " are any null values.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 119,
+            "start": 539.88,
+            "end": 540.88,
+            "text": " The UO.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 120,
+            "start": 540.88,
+            "end": 546.76,
+            "text": " So we have total 7 columns and there are 2193 entries.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 121,
+            "start": 546.76,
+            "end": 558.08,
+            "text": " Here you can see the data type of each column and each column has non null values.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 122,
+            "start": 558.08,
+            "end": 563.48,
+            "text": " Moving ahead, in the next step, we are converting the date column into date time format using",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 123,
+            "start": 563.48,
+            "end": 574.32,
+            "text": " pandas library and 2 underscore date time function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 124,
+            "start": 574.32,
+            "end": 580.6,
+            "text": " Up next, let's do some exploratory data analysis and get more insights from our data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 125,
+            "start": 580.6,
+            "end": 586.16,
+            "text": " I am using the print function and a formatted string literal that is f.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 126,
+            "start": 586.16,
+            "end": 590.9599999999999,
+            "text": " These strings contain replacement fields which are expressions delimited by curly braces.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 127,
+            "start": 590.9599999999999,
+            "end": 599.88,
+            "text": " You can see here, I am finding out the data frame contains top prices between what dates",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 128,
+            "start": 599.88,
+            "end": 603.48,
+            "text": " and the total number of dates.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 129,
+            "start": 603.48,
+            "end": 608.4399999999999,
+            "text": " So the total number of days can be calculated by subtracting the maximum date value and",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 130,
+            "start": 608.4399999999999,
+            "end": 611.4,
+            "text": " the minimum date value.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 131,
+            "start": 611.4,
+            "end": 614.36,
+            "text": " So let me go ahead and run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 132,
+            "start": 614.36,
+            "end": 624.5600000000001,
+            "text": " You can see stock prices are from 29th of June 2010 till 15th of March 2019 and the",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 133,
+            "start": 624.5600000000001,
+            "end": 633.6800000000001,
+            "text": " total number of days are 3181 days.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 134,
+            "start": 633.6800000000001,
+            "end": 643.16,
+            "text": " Now let's see some summary statistics for our data using the describe function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 135,
+            "start": 643.16,
+            "end": 648.88,
+            "text": " So the describe function gives you the count, mean, standard deviation, the maximum and",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 136,
+            "start": 648.88,
+            "end": 665.0799999999999,
+            "text": " minimum from each column, the 25th quartile, the 50th quartile and the 75th quartile.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 137,
+            "start": 665.0799999999999,
+            "end": 668.9599999999999,
+            "text": " Let me now go ahead and create a box plot to visually check our outliers.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 138,
+            "start": 668.96,
+            "end": 679.24,
+            "text": " I am considering 5 columns, open, high, low, close and adjusted clues.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 139,
+            "start": 679.24,
+            "end": 683.6800000000001,
+            "text": " So this is how our box plot looks like.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 140,
+            "start": 683.6800000000001,
+            "end": 688.72,
+            "text": " In this cell, we will plot a graph using the plotly library that we have imported.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 141,
+            "start": 688.72,
+            "end": 695.0400000000001,
+            "text": " We are setting the layout for our graph using the go layout function and providing a title",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 142,
+            "start": 695.04,
+            "end": 696.04,
+            "text": " to the graph.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 143,
+            "start": 696.04,
+            "end": 700.52,
+            "text": " I am also setting my x-axis for giving the title.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 144,
+            "start": 700.52,
+            "end": 705.12,
+            "text": " So the x-axis will have the date column you can see it here.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 145,
+            "start": 705.12,
+            "end": 711.76,
+            "text": " We are also defining the title font, the family, size and color.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 146,
+            "start": 711.76,
+            "end": 717.36,
+            "text": " Similarly, I am providing the layout for the y-axis you can see it here.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 147,
+            "start": 717.36,
+            "end": 724.0799999999999,
+            "text": " Finally, I am passing my data list and the layout created to plot variable.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 148,
+            "start": 725.08,
+            "end": 738.08,
+            "text": " Let me go ahead and run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 149,
+            "start": 738.08,
+            "end": 744.32,
+            "text": " Now I will plot my graph using the iplot function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 150,
+            "start": 744.32,
+            "end": 748.84,
+            "text": " There you go.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 151,
+            "start": 748.84,
+            "end": 753.1600000000001,
+            "text": " So we have the stock prices of Tesla plotted in this graph.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 152,
+            "start": 753.1600000000001,
+            "end": 761.5600000000001,
+            "text": " On x-axis, we have the year from 2011 to 2019 and on the y-axis, you have the price which",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 153,
+            "start": 761.5600000000001,
+            "end": 770.84,
+            "text": " is basically the close column.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 154,
+            "start": 770.84,
+            "end": 779.32,
+            "text": " You can see from the graph that initially during 2011 or 2010, the stock prices were",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 155,
+            "start": 779.32,
+            "end": 782.36,
+            "text": " growing a little lower than expected.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 156,
+            "start": 782.36,
+            "end": 793.6800000000001,
+            "text": " But towards 2015, 16 and 17 onwards, the stock prices grew higher.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 157,
+            "start": 793.6800000000001,
+            "end": 799.48,
+            "text": " Now coming to the most important part, that is to build the linear regression model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 158,
+            "start": 799.48,
+            "end": 803.72,
+            "text": " So in this cell, I am importing the necessary libraries and their respective functions.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 159,
+            "start": 803.72,
+            "end": 808.16,
+            "text": " First, I am importing the train underscore test underscore split function from the scikit",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 160,
+            "start": 808.16,
+            "end": 810.48,
+            "text": " learn library.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 161,
+            "start": 810.48,
+            "end": 816.44,
+            "text": " Next, I am also importing some pre-processing functions like minmax scalar and standard",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 162,
+            "start": 816.44,
+            "end": 819.36,
+            "text": " scalar from scikit learn library.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 163,
+            "start": 819.36,
+            "end": 824.8000000000001,
+            "text": " Also, for evaluating the model and finding the accuracy, we will use the mean squared",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 164,
+            "start": 824.8000000000001,
+            "end": 829.16,
+            "text": " error and r squared error from scikit learn matrix library.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 165,
+            "start": 829.16,
+            "end": 835.6,
+            "text": " Let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 166,
+            "start": 835.6,
+            "end": 840.36,
+            "text": " So we have successfully imported our required libraries.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 167,
+            "start": 840.36,
+            "end": 848.9599999999999,
+            "text": " Moving ahead, in the current step, we are splitting the data into training and testing sets.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 168,
+            "start": 848.9599999999999,
+            "end": 853.1999999999999,
+            "text": " The x variable contains the independent features and the y variable has the dependent variable",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 169,
+            "start": 853.1999999999999,
+            "end": 856.8,
+            "text": " or the target variable that is close column.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 170,
+            "start": 856.8,
+            "end": 862.88,
+            "text": " I am taking the test data sizes 0.3 or 30% of the total and I am assigning a random state",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 171,
+            "start": 862.88,
+            "end": 865.24,
+            "text": " of 101.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 172,
+            "start": 865.24,
+            "end": 868.0799999999999,
+            "text": " Let's run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 173,
+            "start": 868.0799999999999,
+            "end": 871.56,
+            "text": " Okay.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 174,
+            "start": 871.56,
+            "end": 877.64,
+            "text": " Now I will perform feature scaling on the extrained dataset.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 175,
+            "start": 877.64,
+            "end": 884.4799999999999,
+            "text": " For that, I am using the standard scalar dot fit function and passing in my extrained data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 176,
+            "start": 884.48,
+            "end": 888.9200000000001,
+            "text": " The standardization of a dataset is a common requirement for any machine learning algorithm.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 177,
+            "start": 888.9200000000001,
+            "end": 893.84,
+            "text": " They might behave badly if the individual features are not normally distributed.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 178,
+            "start": 893.84,
+            "end": 899.2,
+            "text": " So that's why feature scaling is important.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 179,
+            "start": 899.2,
+            "end": 903.64,
+            "text": " With that, it's time for us to import the linear regression function from the scikit",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 180,
+            "start": 903.64,
+            "end": 908.48,
+            "text": " learn library.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 181,
+            "start": 908.48,
+            "end": 915.48,
+            "text": " Now using a variable lm which stands for linear model, I will declare a linear regression",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 182,
+            "start": 915.48,
+            "end": 920.52,
+            "text": " function and then I will use the fit method to pass the training datasets that is x train",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 183,
+            "start": 920.52,
+            "end": 922.36,
+            "text": " and y train.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 184,
+            "start": 922.36,
+            "end": 926.64,
+            "text": " So let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 185,
+            "start": 926.64,
+            "end": 935.08,
+            "text": " Now we have successfully created a linear regression model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 186,
+            "start": 935.08,
+            "end": 940.36,
+            "text": " Next we will plot the graph for actual and predicted values for the training dataset.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 187,
+            "start": 940.36,
+            "end": 945.32,
+            "text": " Here we will be creating a scatterplot and draw our prediction line.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 188,
+            "start": 945.32,
+            "end": 948.5200000000001,
+            "text": " So I have used the go.scatter function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 189,
+            "start": 948.5200000000001,
+            "end": 954.0,
+            "text": " I am using markers for plotting the actual data points and I have used a line to draw",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 190,
+            "start": 954.0,
+            "end": 957.8000000000001,
+            "text": " the prediction line.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 191,
+            "start": 957.8000000000001,
+            "end": 960.36,
+            "text": " Let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 192,
+            "start": 960.36,
+            "end": 970.0,
+            "text": " Now to plot the graph, I used the iplot function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 193,
+            "start": 970.0,
+            "end": 983.48,
+            "text": " If I scroll down, you can see on the x axis, we have the day column or the day variable",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 194,
+            "start": 983.48,
+            "end": 987.32,
+            "text": " and on the y axis, we have the prices of our stocks.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 195,
+            "start": 987.32,
+            "end": 990.44,
+            "text": " The blue dots represent the actual stock values.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 196,
+            "start": 990.44,
+            "end": 998.88,
+            "text": " If I hover over these blue dots, you can see the actual values and the red line is a predicted",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 197,
+            "start": 998.88,
+            "end": 1005.96,
+            "text": " regression line.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 198,
+            "start": 1005.96,
+            "end": 1010.48,
+            "text": " The final step will calculate the scores for evaluating our model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 199,
+            "start": 1010.48,
+            "end": 1012.9200000000001,
+            "text": " So here we are using two matrix.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 200,
+            "start": 1012.9200000000001,
+            "end": 1015.9200000000001,
+            "text": " One is r squared error and mean squared error.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 201,
+            "start": 1015.92,
+            "end": 1022.0799999999999,
+            "text": " For finding the r squared error, we have used r2 underscore score function and I am passing",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 202,
+            "start": 1022.0799999999999,
+            "end": 1028.32,
+            "text": " my y train as well as x train using the lm predict function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 203,
+            "start": 1028.32,
+            "end": 1034.2,
+            "text": " Similarly, for finding the r squared error for testing dataset, I am using y test and",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 204,
+            "start": 1034.2,
+            "end": 1039.56,
+            "text": " lm predict for x test.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 205,
+            "start": 1039.56,
+            "end": 1045.08,
+            "text": " Likewise to find the mean squared error value, I have used the y train and y test data along",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 206,
+            "start": 1045.08,
+            "end": 1049.08,
+            "text": " with predicted x train and x test data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 207,
+            "start": 1049.08,
+            "end": 1052.52,
+            "text": " Now let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 208,
+            "start": 1052.52,
+            "end": 1055.24,
+            "text": " Below you can see the two matrix scores.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 209,
+            "start": 1055.24,
+            "end": 1060.8799999999999,
+            "text": " So our r squared error score is around 0.86 for the training set and it is around the same",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 210,
+            "start": 1060.8799999999999,
+            "end": 1069.1999999999998,
+            "text": " value of 0.86 for testing dataset and similarly you can see the mean squared error as well.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 211,
+            "start": 1069.1999999999998,
+            "end": 1073.36,
+            "text": " With that, you saw how to predict the tesla stock prices using linear regression model",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 212,
+            "start": 1073.36,
+            "end": 1074.8,
+            "text": " in Python.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 213,
+            "start": 1074.8,
+            "end": 1078.3999999999999,
+            "text": " If you want to get a copy of the source code files and the datasets that I am using in",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 214,
+            "start": 1078.3999999999999,
+            "end": 1081.84,
+            "text": " this session, then please put your email IDs in the chat section.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 215,
+            "start": 1081.84,
+            "end": 1084.48,
+            "text": " We will share the files over email.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 216,
+            "start": 1084.48,
+            "end": 1092.72,
+            "text": " Also please subscribe to our channel and stay updated with all the latest technologies.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 217,
+            "start": 1092.72,
+            "end": 1098.12,
+            "text": " Now we will understand about long short term memory networks.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 218,
+            "start": 1098.12,
+            "end": 1103.24,
+            "text": " So LSTMs are a type of recurrent neural networks for learning long term dependencies.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 219,
+            "start": 1103.24,
+            "end": 1108.08,
+            "text": " It is commonly used for processing and predicting on the basis of time series data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 220,
+            "start": 1108.08,
+            "end": 1113.36,
+            "text": " From the image on the left, you can see LSTMs have a chain like structure.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 221,
+            "start": 1113.36,
+            "end": 1118.08,
+            "text": " Instead of having a single neural network layer, there are four interacting layers communicating",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 222,
+            "start": 1118.08,
+            "end": 1124.16,
+            "text": " with each other in a very special way.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 223,
+            "start": 1124.16,
+            "end": 1127.92,
+            "text": " Now LSTMs work in a three step process.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 224,
+            "start": 1127.92,
+            "end": 1132.56,
+            "text": " The first step in LSTM is to decide which information to be omitted from the cell in",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 225,
+            "start": 1132.56,
+            "end": 1135.3999999999999,
+            "text": " that particular time step.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 226,
+            "start": 1135.3999999999999,
+            "end": 1139.0,
+            "text": " It is decided by the help of a sigmoid function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 227,
+            "start": 1139.0,
+            "end": 1143.8799999999999,
+            "text": " It looks at the previous state that is h t minus 1 and the current input state that is",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 228,
+            "start": 1143.8799999999999,
+            "end": 1147.52,
+            "text": " x t and computes the function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 229,
+            "start": 1147.52,
+            "end": 1150.44,
+            "text": " In the second layer, there are two parts.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 230,
+            "start": 1150.44,
+            "end": 1155.36,
+            "text": " One is the sigmoid function and the other is the tanh function or the hyperbolic tangent",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 231,
+            "start": 1155.36,
+            "end": 1156.84,
+            "text": " function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 232,
+            "start": 1156.84,
+            "end": 1163.08,
+            "text": " In the sigmoid function, it decides which values to let through, that is 0 or 1.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 233,
+            "start": 1163.08,
+            "end": 1167.48,
+            "text": " The hyperbolic tangent function gives the weightage to the values which are passed deciding",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 234,
+            "start": 1167.48,
+            "end": 1171.3999999999999,
+            "text": " their level of importance from minus 1 to plus 1.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 235,
+            "start": 1171.3999999999999,
+            "end": 1175.4399999999998,
+            "text": " In the third step, it decides what will be your final output.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 236,
+            "start": 1175.4399999999998,
+            "end": 1180.24,
+            "text": " First, it will run a sigmoid layer which decides which parts of the cell state make",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 237,
+            "start": 1180.24,
+            "end": 1181.9599999999998,
+            "text": " it to the output.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 238,
+            "start": 1181.96,
+            "end": 1187.3600000000001,
+            "text": " Then we put the cell state through the tanh function to push the values to be between",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 239,
+            "start": 1187.3600000000001,
+            "end": 1192.4,
+            "text": " minus 1 and plus 1 and multiply it by the output of the sigmoid gate.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 240,
+            "start": 1192.4,
+            "end": 1197.2,
+            "text": " Now, let's go to our Jupyter notebook and implement a long short term memory network",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 241,
+            "start": 1197.2,
+            "end": 1199.88,
+            "text": " to predict the stock prices of Google.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 242,
+            "start": 1199.88,
+            "end": 1205.28,
+            "text": " Before that, let me first show you the data set that we will be using.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 243,
+            "start": 1205.28,
+            "end": 1211.24,
+            "text": " So this is my Jupyter lab and on the left, you can see we have our Google data sets.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 244,
+            "start": 1211.72,
+            "end": 1215.84,
+            "text": " So we will be using two data sets for this demo, a training data set and a testing data",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 245,
+            "start": 1215.84,
+            "end": 1216.84,
+            "text": " set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 246,
+            "start": 1216.84,
+            "end": 1220.6,
+            "text": " Let me show you how the training data set looks like.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 247,
+            "start": 1220.6,
+            "end": 1226.6,
+            "text": " I'll open the CSV table.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 248,
+            "start": 1226.6,
+            "end": 1230.24,
+            "text": " So this is our training data set of Google.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 249,
+            "start": 1230.24,
+            "end": 1236.36,
+            "text": " It has the same columns like date, open, high, low, close and volume.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 250,
+            "start": 1236.36,
+            "end": 1248.04,
+            "text": " And if I scroll down, you can see we have data from 2012 till 2016.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 251,
+            "start": 1248.04,
+            "end": 1250.1999999999998,
+            "text": " We close this.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 252,
+            "start": 1250.1999999999998,
+            "end": 1253.6,
+            "text": " Let me open my Google test data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 253,
+            "start": 1253.6,
+            "end": 1264.4399999999998,
+            "text": " So this is my test data set and we'll be using this data set to evaluate our model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 254,
+            "start": 1264.44,
+            "end": 1276.48,
+            "text": " So first, let me go ahead and import all the libraries that will be needing to build",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 255,
+            "start": 1276.48,
+            "end": 1279.88,
+            "text": " our LSTM model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 256,
+            "start": 1279.88,
+            "end": 1286.0,
+            "text": " You can see I'm importing the num p pandas and matplotlib library for numerical computation,",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 257,
+            "start": 1286.0,
+            "end": 1288.2,
+            "text": " data manipulation and data visualization.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 258,
+            "start": 1289.2,
+            "end": 1295.16,
+            "text": " We are also importing minmax scalar function from scikit-learn preprocessing library.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 259,
+            "start": 1295.16,
+            "end": 1301.88,
+            "text": " Then we have some built-in functions from the Keras library, such as sequential to analyze",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 260,
+            "start": 1301.88,
+            "end": 1307.6000000000001,
+            "text": " a sequence of data, then dense LSTM and drop out to measure the dropout rate.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 261,
+            "start": 1307.6000000000001,
+            "end": 1312.92,
+            "text": " I'll hit shift enter to run this cell.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 262,
+            "start": 1312.92,
+            "end": 1317.04,
+            "text": " You can see it says we are using TensorFlow backend.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 263,
+            "start": 1317.04,
+            "end": 1323.6399999999999,
+            "text": " Now let me go ahead and import the Google training data set using read underscore CSV",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 264,
+            "start": 1323.6399999999999,
+            "end": 1330.04,
+            "text": " function from pandas.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 265,
+            "start": 1330.04,
+            "end": 1331.6399999999999,
+            "text": " I have imported my data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 266,
+            "start": 1331.6399999999999,
+            "end": 1337.12,
+            "text": " Now if you want to check the head of the data set, you can use data.head.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 267,
+            "start": 1337.12,
+            "end": 1340.0,
+            "text": " Run again.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 268,
+            "start": 1340.0,
+            "end": 1344.96,
+            "text": " So it will display the top five rows from the data set.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 269,
+            "start": 1344.96,
+            "end": 1351.52,
+            "text": " Similarly, now let's see the total rows and columns we have in this data set and the",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 270,
+            "start": 1351.52,
+            "end": 1353.56,
+            "text": " data types of each variable.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 271,
+            "start": 1353.56,
+            "end": 1357.44,
+            "text": " We'll use the info function for this.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 272,
+            "start": 1357.44,
+            "end": 1362.8,
+            "text": " You can see this is my output.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 273,
+            "start": 1362.8,
+            "end": 1368.52,
+            "text": " So we have a total of six columns and 1258 entries.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 274,
+            "start": 1368.52,
+            "end": 1370.3600000000001,
+            "text": " And here you can see the data type.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 275,
+            "start": 1370.36,
+            "end": 1376.9199999999998,
+            "text": " So date it has taken as object, open it has taken as float, high it has taken as float,",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 276,
+            "start": 1376.9199999999998,
+            "end": 1384.04,
+            "text": " similarly close and volume column it has taken as object.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 277,
+            "start": 1384.04,
+            "end": 1388.28,
+            "text": " Now we will do some pre-processing of data to transform our closing price variable to",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 278,
+            "start": 1388.28,
+            "end": 1390.08,
+            "text": " a numeric type.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 279,
+            "start": 1390.08,
+            "end": 1395.7199999999998,
+            "text": " Drop the non-available data and keep only the close column for training the data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 280,
+            "start": 1395.72,
+            "end": 1403.6000000000001,
+            "text": " Now to convert the close column into numeric, I have used PD dot to underscore numeric function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 281,
+            "start": 1403.6000000000001,
+            "end": 1408.0,
+            "text": " Now to drop my missing values, I have used drop any function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 282,
+            "start": 1408.0,
+            "end": 1416.4,
+            "text": " And similarly, to consider only closing column as my training data, I'm using i-lock or index",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 283,
+            "start": 1416.4,
+            "end": 1418.24,
+            "text": " location.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 284,
+            "start": 1418.24,
+            "end": 1422.88,
+            "text": " Now let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 285,
+            "start": 1422.88,
+            "end": 1427.44,
+            "text": " Now let's once again see the data types.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 286,
+            "start": 1427.44,
+            "end": 1428.72,
+            "text": " Scroll down.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 287,
+            "start": 1428.72,
+            "end": 1432.92,
+            "text": " You can see we have changed the close column data type to float.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 288,
+            "start": 1432.92,
+            "end": 1435.96,
+            "text": " Earlier it was object.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 289,
+            "start": 1435.96,
+            "end": 1438.72,
+            "text": " Now it's float.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 290,
+            "start": 1438.72,
+            "end": 1446.5200000000002,
+            "text": " Next, we will rescale our data into values between zero and one for better performances.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 291,
+            "start": 1446.52,
+            "end": 1453.08,
+            "text": " Now that you can use the minmax scalar function and give the range.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 292,
+            "start": 1453.08,
+            "end": 1459.48,
+            "text": " Then I have used fit underscore transform method to transform the values.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 293,
+            "start": 1459.48,
+            "end": 1463.24,
+            "text": " And then I'm also printing the shape of my training data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 294,
+            "start": 1463.24,
+            "end": 1470.36,
+            "text": " Let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 295,
+            "start": 1470.36,
+            "end": 1473.32,
+            "text": " Now we will prepare our data for our training.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 296,
+            "start": 1473.3999999999999,
+            "end": 1480.2,
+            "text": " First, we need to prepare our input sequences with 60 time steps of X train data alongside",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 297,
+            "start": 1480.2,
+            "end": 1482.56,
+            "text": " the respective Y train labels.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 298,
+            "start": 1482.56,
+            "end": 1488.24,
+            "text": " Next, we'll be adding another axis for the batch size since the input for an LSTM network",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 299,
+            "start": 1488.24,
+            "end": 1489.24,
+            "text": " is a 3D tensor.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 300,
+            "start": 1489.24,
+            "end": 1494.24,
+            "text": " So it will have a sequence length, the time steps and batch size.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 301,
+            "start": 1494.24,
+            "end": 1508.68,
+            "text": " Now, we'll build a model containing four layers of LSTM network all followed by a",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 302,
+            "start": 1508.68,
+            "end": 1510.84,
+            "text": " dropout layer.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 303,
+            "start": 1510.84,
+            "end": 1517.1200000000001,
+            "text": " On the top, we'll also have a final dense layer which is this one.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 304,
+            "start": 1517.1200000000001,
+            "end": 1524.16,
+            "text": " All of this compiled using an atom optimizer and a mean squared error as a loss function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 305,
+            "start": 1524.16,
+            "end": 1528.24,
+            "text": " Let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 306,
+            "start": 1528.24,
+            "end": 1538.3200000000002,
+            "text": " Next, I'll train the data using 20 epochs and batch size of 32 using the model dot fit",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 307,
+            "start": 1538.3200000000002,
+            "end": 1543.52,
+            "text": " function and passing my X train and Y train data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 308,
+            "start": 1543.52,
+            "end": 1549.3200000000002,
+            "text": " This will take some time to run since it will complete 20 iterations.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 309,
+            "start": 1549.32,
+            "end": 1560.9199999999998,
+            "text": " So you can see it has started with first epoch and it will run for 20 epochs.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 310,
+            "start": 1560.9199999999998,
+            "end": 1562.6799999999998,
+            "text": " Now we are into our second epoch.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 311,
+            "start": 1562.6799999999998,
+            "end": 1565.76,
+            "text": " You can see the loss that was incurred during the training of the first epoch.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 312,
+            "start": 1580.32,
+            "end": 1584.6799999999998,
+            "text": " Meanwhile, when our model is getting trained, if you have any questions, please put it in",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 313,
+            "start": 1584.6799999999998,
+            "end": 1602.6799999999998,
+            "text": " the chat section.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 314,
+            "start": 1602.6799999999998,
+            "end": 1605.56,
+            "text": " You can see we have completed our fifth epoch as well.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 315,
+            "start": 1605.56,
+            "end": 1607.36,
+            "text": " Now we are into our seventh epoch.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 316,
+            "start": 1635.56,
+            "end": 1655.9199999999998,
+            "text": " Now we have entered our fifteenth epoch.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 317,
+            "start": 1655.92,
+            "end": 1678.64,
+            "text": " Now we are almost about to finish our training.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 318,
+            "start": 1678.64,
+            "end": 1693.3200000000002,
+            "text": " We have entered into our final epoch now.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 319,
+            "start": 1693.3200000000002,
+            "end": 1697.3600000000001,
+            "text": " I think we have successfully completed training our model.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 320,
+            "start": 1697.3600000000001,
+            "end": 1704.68,
+            "text": " Next, let's visualize the loss that was incurred during the training process for each epoch.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 321,
+            "start": 1704.68,
+            "end": 1708.52,
+            "text": " I am using the matplotlib library and the plot function.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 322,
+            "start": 1708.52,
+            "end": 1712.96,
+            "text": " I have given a title to my visualization.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 323,
+            "start": 1712.96,
+            "end": 1719.3200000000002,
+            "text": " I have also defined my X labels and Y labels.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 324,
+            "start": 1719.3200000000002,
+            "end": 1723.0800000000002,
+            "text": " So below you can see this is how the graph looks like.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 325,
+            "start": 1723.0800000000002,
+            "end": 1727.5600000000002,
+            "text": " On the top you can see the title that is training model loss.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 326,
+            "start": 1727.56,
+            "end": 1735.12,
+            "text": " You can see the loss has been a steep decline.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 327,
+            "start": 1735.12,
+            "end": 1738.8,
+            "text": " With that, let's test the model using a new dataset.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 328,
+            "start": 1738.8,
+            "end": 1743.1599999999999,
+            "text": " We will continue with the same steps of inputting the dataset.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 329,
+            "start": 1743.1599999999999,
+            "end": 1750.04,
+            "text": " So you can see I am using the read underscore csv function to import my test Google dataset.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 330,
+            "start": 1750.04,
+            "end": 1754.8,
+            "text": " Then we will convert the closed column into a numeric type.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 331,
+            "start": 1754.8,
+            "end": 1759.12,
+            "text": " I will then drop the missing values and select the closing price columns for testing.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 332,
+            "start": 1759.12,
+            "end": 1762.96,
+            "text": " Next, I am selecting the labels for Y test data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 333,
+            "start": 1762.96,
+            "end": 1767.56,
+            "text": " Finally, we are providing the input array for the model and converting the X test data",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 334,
+            "start": 1767.56,
+            "end": 1771.44,
+            "text": " into a numpy array and printing its shape.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 335,
+            "start": 1771.44,
+            "end": 1776.84,
+            "text": " Let me hit shift enter to run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 336,
+            "start": 1776.84,
+            "end": 1781.28,
+            "text": " In the next cell, I am predicting the model output using the model dot predict function",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 337,
+            "start": 1781.28,
+            "end": 1783.12,
+            "text": " and passing the X test data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 338,
+            "start": 1783.4799999999998,
+            "end": 1784.4799999999998,
+            "text": " So let me run it.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 339,
+            "start": 1787.4799999999998,
+            "end": 1790.4799999999998,
+            "text": " Now if you want to check the values of Y prediction,",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 340,
+            "start": 1791.9199999999998,
+            "end": 1795.56,
+            "text": " you can just give the variable name and hit shift enter.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 341,
+            "start": 1796.56,
+            "end": 1798.1999999999998,
+            "text": " So these are my values.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 342,
+            "start": 1798.1999999999998,
+            "end": 1802.04,
+            "text": " It's not in a proper order or a proper format.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 343,
+            "start": 1806.3999999999999,
+            "end": 1810.84,
+            "text": " Now, to plot the data between actual and predicted stock prices,",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 344,
+            "start": 1811.1999999999998,
+            "end": 1815.3999999999999,
+            "text": " we will use the inverse underscore transform function over Y-Pred data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 345,
+            "start": 1820.0,
+            "end": 1826.28,
+            "text": " And finally, we will plot the graph in order to visualize the actual stock price and the predicted stock price.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 346,
+            "start": 1826.8,
+            "end": 1830.72,
+            "text": " I am using the Macplotlib library and I will pass in the data.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 347,
+            "start": 1831.24,
+            "end": 1836.12,
+            "text": " We are also providing a title to the plot, the X labels and the Y labels.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 348,
+            "start": 1841.84,
+            "end": 1843.84,
+            "text": " So this is how the graph looks like.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 349,
+            "start": 1844.84,
+            "end": 1850.08,
+            "text": " On the X axis, you have time and on the Y axis, you have the stock price.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 350,
+            "start": 1851.28,
+            "end": 1858.08,
+            "text": " The red line indicates actual stock price, while the green line indicates the predicted stock price.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 351,
+            "start": 1859.32,
+            "end": 1865.4399999999998,
+            "text": " With that, we have successfully created our model and predicted the stock price values using long short term memory networks.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 352,
+            "start": 1865.9599999999998,
+            "end": 1868.9199999999998,
+            "text": " If you have any questions, please put it in the chat section.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 353,
+            "start": 1868.9199999999998,
+            "end": 1870.04,
+            "text": " We'll be happy to help you.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 354,
+            "start": 1871.08,
+            "end": 1876.76,
+            "text": " Also, if you want to get the source code files and datasets I have used for linear regression and LSTM,",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 355,
+            "start": 1877.52,
+            "end": 1879.84,
+            "text": " then please put your email address in the chat section.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 356,
+            "start": 1879.84,
+            "end": 1881.32,
+            "text": " We'll send it to you over email.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 357,
+            "start": 1884.0,
+            "end": 1886.6799999999998,
+            "text": " With that, we have reached the end of this live session.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 358,
+            "start": 1887.24,
+            "end": 1889.12,
+            "text": " I hope it was useful and informative.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 359,
+            "start": 1889.6399999999999,
+            "end": 1895.48,
+            "text": " If you liked the video, then please consider subscribing to our YouTube channel and hit the bell icon to never miss an update from Simply Learn.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 360,
+            "start": 1896.24,
+            "end": 1897.1599999999999,
+            "text": " Thank you for watching.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 361,
+            "start": 1897.28,
+            "end": 1898.6,
+            "text": " Stay safe and keep learning.",
+            "topic": "Stock Market Prediction Using Machine Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " Hi guys, welcome to another live session by SimpleLearn. I would like to thank you all for actively participating in these sessions on YouTube and Facebook. Today, we will understand how to perform stock market prediction using machine learning. Now let's wait for a while for people to join in. We have a really exciting session today. Meanwhile, please subscribe to our SimpleLearn YouTube channel and stay updated with all the latest trending technologies. Also, if you have any questions for us during the course of this video, please put it in the chat section. Our team of experts will help you solve your queries. I can see a lot of people have joined in without any further delay. Let's begin. So, what really is stock market? A stock market is a place or a public market where you can buy and sell shares for publicly listed companies. The stocks which are also known as equities represent ownership in the company. The stock exchange is the mediator that allows the buying and selling of shares. Amsterdam stock exchange is the oldest stock exchange that were established in 1602. The top stock exchanges in the United States are the New York Stock Exchange, NASDAQ, American Stock Exchange and Chicago Board Operations Exchange. In India, we have the Bombay Stock Exchange or the BSC that was established in 1875 and its ACS first stock exchange. We also have the National Stock Exchange or NSE. Now, let's understand the importance of stock market. Stock markets help companies to raise capital. If stock markets did not exist, then companies would have to resort to borrowing loans from the banks to raise money for expansion. This would be a trouble for the company as they would have to repay the loans with interest. With stock markets, companies have the free hand to create an initial public offering and raise large amounts of cash without having to worry about repayment. Another reason why the stock market is important is it helps generate personal wealth. For an individual investor, the stock market provides a platform to invest your income and earn a share of the company's profit. Stock markets serve as an indicator of the state of the economy, that is, the stock market serves as a barometer for the economy. A rise of fall in the prices of shares indicates what cycle the economy is in, such as a recession or a boom. The stock market is considered to be one of the most widely used sources for people to invest money in. Investors are always looking to invest in companies with high growth potential. If the stock market is performing well, this increases investment from local investors. It also attracts foreign direct investment as people abroad invest in the local stock exchange. With that, let's now understand stock market prediction. Stock market prediction helps you determine the future value of company stock and other financial instruments traded on an exchange. The whole idea of predicting stock prices is to gain significant profits. Predicting how the stock market will perform is a difficult task to do. There are a lot of other factors involved in the prediction such as physical and psychological factors, rational and irrational behaviour, etc. All these factors combine to make share prices dynamic and volatile. This makes it very difficult to predict stock prices with high accuracy. So we will use machine learning techniques to predict the stock prices of two different companies, Tesla and Google. We will be using linear regression algorithm and long short term memory networks for building our prediction models. So first, let's understand the basics of linear regression. Linear regression is a very popular statistical technique used for solving machine learning problems. It is a supervised learning algorithm for predicting the output of a continuous target variable. It can be used to predict the total revenue of a company or the total units expected to be sold of a certain product. It can also be used for weather prediction and stock price prediction. Here is an example to predict the total number of ice creams a vendor or a company can sell based on the temperature of the day. You can see the green dots represent the actual data points. So the x-axis has the input variable that is temperature and the y-axis has the target variable that is unit sold. Linear regression uses the linear equation formula y is equal to mx plus c where m is the slope of the line, c is the intercept. We find the coefficients and plot the regression line. So in this graph, the red line is a regression line. The best fit line should have the least squared distance between the original data points and the predicted values. Now let's see how to predict the stock prices of Tesla using the linear regression model. So this is the csv data set that we will be using for our prediction. We have information from 29 June 2010 till 15 May 2019. Here open column means the price at which a stock started trading when the market opened on a particular day. The close column refers to the price of an individual stock when the stock exchange closed market for the day. It represents the last buy sell order executed between two traders. The high column is the highest price at which a stock traded during a period. The low is the lowest price of the period. Same is the total amount of trading activity during a period of time. The adjusted closing price is a calculation adjustment made to the stock's closing price. It is more complex and accurate than the closing price. The adjustment made to the closing price depicts the true price of the stock because the outside factors could have altered the true price. Now before I begin the demo, I want to tell you that if you want to get a copy of the source code files and the data sets that I will be using in this session, then please put your email IDs in the chat section of the video. Also, please subscribe to our channel and hit the bell icon to stay updated with all the latest trending technologies. So here is my Jupyter notebook where I have implemented my linear regression code. So I will run through each cell of code and explain what it does. First, we will import the necessary libraries for building our model. So I am importing pandas, numpy and macplotlib for numerical computation, data manipulation and data visualization. We will also import the Plotly library for building our graphs. Now if you are using Plotly for the first time, you will have to install it and then import it onto Jupyter. Let me run this cell. So I have successfully imported all my libraries. Next, I load the tesla.stoprise data set using the pandas library and the read underscore cse function. I will also give the location where my csv data set is present. Let me import the data set. I will hit shift enter. So now I have successfully imported my data set. Now let's see my data set. For that I will use the head function, I will load tesla.head. So this will return the top 5 rows from the data set. In the next cell, I am using the info function to find the total rows and columns in my data set. The info function will also return the data type of the variables and check if there are any null values. The UO. So we have total 7 columns and there are 2193 entries. Here you can see the data type of each column and each column has non null values. Moving ahead, in the next step, we are converting the date column into date time format using pandas library and 2 underscore date time function. Up next, let's do some exploratory data analysis and get more insights from our data. I am using the print function and a formatted string literal that is f. These strings contain replacement fields which are expressions delimited by curly braces. You can see here, I am finding out the data frame contains top prices between what dates and the total number of dates. So the total number of days can be calculated by subtracting the maximum date value and the minimum date value. So let me go ahead and run it. You can see stock prices are from 29th of June 2010 till 15th of March 2019 and the total number of days are 3181 days. Now let's see some summary statistics for our data using the describe function. So the describe function gives you the count, mean, standard deviation, the maximum and minimum from each column, the 25th quartile, the 50th quartile and the 75th quartile. Let me now go ahead and create a box plot to visually check our outliers. I am considering 5 columns, open, high, low, close and adjusted clues. So this is how our box plot looks like. In this cell, we will plot a graph using the plotly library that we have imported. We are setting the layout for our graph using the go layout function and providing a title to the graph. I am also setting my x-axis for giving the title. So the x-axis will have the date column you can see it here. We are also defining the title font, the family, size and color. Similarly, I am providing the layout for the y-axis you can see it here. Finally, I am passing my data list and the layout created to plot variable. Let me go ahead and run it. Now I will plot my graph using the iplot function. There you go. So we have the stock prices of Tesla plotted in this graph. On x-axis, we have the year from 2011 to 2019 and on the y-axis, you have the price which is basically the close column. You can see from the graph that initially during 2011 or 2010, the stock prices were growing a little lower than expected. But towards 2015, 16 and 17 onwards, the stock prices grew higher. Now coming to the most important part, that is to build the linear regression model. So in this cell, I am importing the necessary libraries and their respective functions. First, I am importing the train underscore test underscore split function from the scikit learn library. Next, I am also importing some pre-processing functions like minmax scalar and standard scalar from scikit learn library. Also, for evaluating the model and finding the accuracy, we will use the mean squared error and r squared error from scikit learn matrix library. Let me run it. So we have successfully imported our required libraries. Moving ahead, in the current step, we are splitting the data into training and testing sets. The x variable contains the independent features and the y variable has the dependent variable or the target variable that is close column. I am taking the test data sizes 0.3 or 30% of the total and I am assigning a random state of 101. Let's run it. Okay. Now I will perform feature scaling on the extrained dataset. For that, I am using the standard scalar dot fit function and passing in my extrained data. The standardization of a dataset is a common requirement for any machine learning algorithm. They might behave badly if the individual features are not normally distributed. So that's why feature scaling is important. With that, it's time for us to import the linear regression function from the scikit learn library. Now using a variable lm which stands for linear model, I will declare a linear regression function and then I will use the fit method to pass the training datasets that is x train and y train. So let me run it. Now we have successfully created a linear regression model. Next we will plot the graph for actual and predicted values for the training dataset. Here we will be creating a scatterplot and draw our prediction line. So I have used the go.scatter function. I am using markers for plotting the actual data points and I have used a line to draw the prediction line. Let me run it. Now to plot the graph, I used the iplot function. If I scroll down, you can see on the x axis, we have the day column or the day variable and on the y axis, we have the prices of our stocks. The blue dots represent the actual stock values. If I hover over these blue dots, you can see the actual values and the red line is a predicted regression line. The final step will calculate the scores for evaluating our model. So here we are using two matrix. One is r squared error and mean squared error. For finding the r squared error, we have used r2 underscore score function and I am passing my y train as well as x train using the lm predict function. Similarly, for finding the r squared error for testing dataset, I am using y test and lm predict for x test. Likewise to find the mean squared error value, I have used the y train and y test data along with predicted x train and x test data. Now let me run it. Below you can see the two matrix scores. So our r squared error score is around 0.86 for the training set and it is around the same value of 0.86 for testing dataset and similarly you can see the mean squared error as well. With that, you saw how to predict the tesla stock prices using linear regression model in Python. If you want to get a copy of the source code files and the datasets that I am using in this session, then please put your email IDs in the chat section. We will share the files over email. Also please subscribe to our channel and stay updated with all the latest technologies. Now we will understand about long short term memory networks. So LSTMs are a type of recurrent neural networks for learning long term dependencies. It is commonly used for processing and predicting on the basis of time series data. From the image on the left, you can see LSTMs have a chain like structure. Instead of having a single neural network layer, there are four interacting layers communicating with each other in a very special way. Now LSTMs work in a three step process. The first step in LSTM is to decide which information to be omitted from the cell in that particular time step. It is decided by the help of a sigmoid function. It looks at the previous state that is h t minus 1 and the current input state that is x t and computes the function. In the second layer, there are two parts. One is the sigmoid function and the other is the tanh function or the hyperbolic tangent function. In the sigmoid function, it decides which values to let through, that is 0 or 1. The hyperbolic tangent function gives the weightage to the values which are passed deciding their level of importance from minus 1 to plus 1. In the third step, it decides what will be your final output. First, it will run a sigmoid layer which decides which parts of the cell state make it to the output. Then we put the cell state through the tanh function to push the values to be between minus 1 and plus 1 and multiply it by the output of the sigmoid gate. Now, let's go to our Jupyter notebook and implement a long short term memory network to predict the stock prices of Google. Before that, let me first show you the data set that we will be using. So this is my Jupyter lab and on the left, you can see we have our Google data sets. So we will be using two data sets for this demo, a training data set and a testing data set. Let me show you how the training data set looks like. I'll open the CSV table. So this is our training data set of Google. It has the same columns like date, open, high, low, close and volume. And if I scroll down, you can see we have data from 2012 till 2016. We close this. Let me open my Google test data set. So this is my test data set and we'll be using this data set to evaluate our model. So first, let me go ahead and import all the libraries that will be needing to build our LSTM model. You can see I'm importing the num p pandas and matplotlib library for numerical computation, data manipulation and data visualization. We are also importing minmax scalar function from scikit-learn preprocessing library. Then we have some built-in functions from the Keras library, such as sequential to analyze a sequence of data, then dense LSTM and drop out to measure the dropout rate. I'll hit shift enter to run this cell. You can see it says we are using TensorFlow backend. Now let me go ahead and import the Google training data set using read underscore CSV function from pandas. I have imported my data set. Now if you want to check the head of the data set, you can use data.head. Run again. So it will display the top five rows from the data set. Similarly, now let's see the total rows and columns we have in this data set and the data types of each variable. We'll use the info function for this. You can see this is my output. So we have a total of six columns and 1258 entries. And here you can see the data type. So date it has taken as object, open it has taken as float, high it has taken as float, similarly close and volume column it has taken as object. Now we will do some pre-processing of data to transform our closing price variable to a numeric type. Drop the non-available data and keep only the close column for training the data. Now to convert the close column into numeric, I have used PD dot to underscore numeric function. Now to drop my missing values, I have used drop any function. And similarly, to consider only closing column as my training data, I'm using i-lock or index location. Now let me run it. Now let's once again see the data types. Scroll down. You can see we have changed the close column data type to float. Earlier it was object. Now it's float. Next, we will rescale our data into values between zero and one for better performances. Now that you can use the minmax scalar function and give the range. Then I have used fit underscore transform method to transform the values. And then I'm also printing the shape of my training data. Let me run it. Now we will prepare our data for our training. First, we need to prepare our input sequences with 60 time steps of X train data alongside the respective Y train labels. Next, we'll be adding another axis for the batch size since the input for an LSTM network is a 3D tensor. So it will have a sequence length, the time steps and batch size. Now, we'll build a model containing four layers of LSTM network all followed by a dropout layer. On the top, we'll also have a final dense layer which is this one. All of this compiled using an atom optimizer and a mean squared error as a loss function. Let me run it. Next, I'll train the data using 20 epochs and batch size of 32 using the model dot fit function and passing my X train and Y train data. This will take some time to run since it will complete 20 iterations. So you can see it has started with first epoch and it will run for 20 epochs. Now we are into our second epoch. You can see the loss that was incurred during the training of the first epoch. Meanwhile, when our model is getting trained, if you have any questions, please put it in the chat section. You can see we have completed our fifth epoch as well. Now we are into our seventh epoch. Now we have entered our fifteenth epoch. Now we are almost about to finish our training. We have entered into our final epoch now. I think we have successfully completed training our model. Next, let's visualize the loss that was incurred during the training process for each epoch. I am using the matplotlib library and the plot function. I have given a title to my visualization. I have also defined my X labels and Y labels. So below you can see this is how the graph looks like. On the top you can see the title that is training model loss. You can see the loss has been a steep decline. With that, let's test the model using a new dataset. We will continue with the same steps of inputting the dataset. So you can see I am using the read underscore csv function to import my test Google dataset. Then we will convert the closed column into a numeric type. I will then drop the missing values and select the closing price columns for testing. Next, I am selecting the labels for Y test data. Finally, we are providing the input array for the model and converting the X test data into a numpy array and printing its shape. Let me hit shift enter to run it. In the next cell, I am predicting the model output using the model dot predict function and passing the X test data. So let me run it. Now if you want to check the values of Y prediction, you can just give the variable name and hit shift enter. So these are my values. It's not in a proper order or a proper format. Now, to plot the data between actual and predicted stock prices, we will use the inverse underscore transform function over Y-Pred data. And finally, we will plot the graph in order to visualize the actual stock price and the predicted stock price. I am using the Macplotlib library and I will pass in the data. We are also providing a title to the plot, the X labels and the Y labels. So this is how the graph looks like. On the X axis, you have time and on the Y axis, you have the stock price. The red line indicates actual stock price, while the green line indicates the predicted stock price. With that, we have successfully created our model and predicted the stock price values using long short term memory networks. If you have any questions, please put it in the chat section. We'll be happy to help you. Also, if you want to get the source code files and datasets I have used for linear regression and LSTM, then please put your email address in the chat section. We'll send it to you over email. With that, we have reached the end of this live session. I hope it was useful and informative. If you liked the video, then please consider subscribing to our YouTube channel and hit the bell icon to never miss an update from Simply Learn. Thank you for watching. Stay safe and keep learning."
+}

@@ -1,0 +1,1160 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 43.4,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " Hello everyone and welcome to another series in machine learning for disease prediction. This series is sponsored by Simply Learn and I'm Dr. Yuwana Thissen and I'll be guiding you through this series of machine learning starting with the basics of the data science and fundamentals all the way to modeling the data and showing you how machine learning can be used for risk prediction as far as cardiovascular disease is concerned and how this is helping"
+        },
+        {
+            "id": 5,
+            "start": 43.4,
+            "end": 78.74,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " to make a difference in how cardiovascular disease and other types of chronic illnesses are being helped by the practice of machine learning. So cardiovascular disease it still is the number one killer. Over 12 million people die from cardiovascular diseases every day and what we have learned so far is that these some of these deaths are preventable and so there is quite a lot"
+        },
+        {
+            "id": 10,
+            "start": 78.74,
+            "end": 114.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of research that is going on both in the lab and in the field and as we will see here in the area of data science that is helping to make a difference. And so there's the famous Framingham heart study started way back in 1948 and continues to date in its third generation of participants but this study was instrumental in us beginning to collect data specifically for studying heart disease."
+        },
+        {
+            "id": 15,
+            "start": 114.66,
+            "end": 153.1,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " It's now been extended to study other kinds of diseases but we can use the data which is now a mass several thousands of participants and we can use this data applying machine learning techniques to help us understand the disease, how it is manifested, how it, you know, what are the signs and symptoms of the disease and then use that also to predict the presence of the potential presence of the disease in some, in asymptomatic patients"
+        },
+        {
+            "id": 20,
+            "start": 153.1,
+            "end": 178.22,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and so help to guide them such that they do not develop the disease. Also help those who have developed disease what steps can be taken to reduce their risk of dying from the disease. So machine learning has been very helpful to medical practitioners in the field of cardiovascular disease as well as other diseases."
+        },
+        {
+            "id": 25,
+            "start": 178.22,
+            "end": 202.14000000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " If getting your learning started is half the battle what if you can do that for free? Visit SkillUp by Simply Learn. Click on the link in the description to know more. So when I talk about the steps in the machine learning project that we will be embarking on I want you to keep these five steps in mind right I use the acronym of Actors to"
+        },
+        {
+            "id": 30,
+            "start": 202.14,
+            "end": 232.94,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " help you remember you know first there's the acquisition of the data or acquiring the data then you will filter and clean the data and then there are this transforming the data then you explore the data then you split the data. So I think of it kind of like you are following a recipe so of course you first have to gather all the ingredients together that's the acquire or the acquisition of data states."
+        },
+        {
+            "id": 35,
+            "start": 232.94,
+            "end": 265.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " Then next is you will be filtering your data similar to if you are baking a cake you want to filter and sift your flour and other dry ingredients to make sure that it's clear and clean and so too with the data we want to make sure that the data is accurate and that is suitable and then you know when you are baking a cake or even making bread or any kind of recipe sometimes it requires you to transform the ingredients and similarly when you just"
+        },
+        {
+            "id": 40,
+            "start": 265.66,
+            "end": 302.21999999999997,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " like you would be melting the butter taking it from solid to liquid we need sometimes to transform more data from text data to numerical data or transform feet to meters. You know there's always some kind of transformation of our data is concerned so that we have one accurate data and we have a uniformity of the data that is suitable for our model requirements. Then the next step is after we sort of transform the data and we have it uniform we do an exploration"
+        },
+        {
+            "id": 45,
+            "start": 302.21999999999997,
+            "end": 340.18,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of the data and this is where you get the understanding of your data so there is some exploratory data analysis there's lots of generation of plots so for visualizing so there are some patterns and certain trends in the data that you will begin to understand as you explore your data and that will guide the kind of machine model that you'll be able to build from your data and sometimes you will go back to the transformation or even the filtering stage so there's kind"
+        },
+        {
+            "id": 50,
+            "start": 340.18,
+            "end": 380.58,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of a cyclic process here until you get your data in the state that is just right for making generating the model and then once you get to that state there is splitting of the data so you first are going to split into the x data's the x variables and the y that's provided that you are doing some kind of particular kind of machine learning model meaning that you're making models where the labels are important or maybe not but you will require splitting and then there's another split that you"
+        },
+        {
+            "id": 55,
+            "start": 380.58,
+            "end": 419.62,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " do more of a horizontal split so you split your data more sometimes 80 20 or even 70 30 so that you can save some or reserve some for the testing so the first 70% you will use for training your models and then the 30% you'll use to test the performance of your model and evaluate it and then decide how and when if you need to make some changes so that you can improve the performance of your model so those are the main five main stages there are others that are involved and we'll"
+        },
+        {
+            "id": 60,
+            "start": 419.62,
+            "end": 457.86,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " see those as we go along but you want to remember acquiring filtering transforming exploring and then finally splitting up the data before you start modeling so acquiring data acquisition is the first stage of any machine learning project and so there are various ways by which you can acquire the data that you need it's important that that data is suitable of course to the problem the business problem the societal problem you know whatever the issue is the phenomenon that you are"
+        },
+        {
+            "id": 65,
+            "start": 457.86,
+            "end": 498.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " trying to model or to learn or to gain insight from you want to first make sure that you have suitable data so you can get the data by scraping the internet you can extract that data from another source you can be involved in your own data collection in terms of whether it's a survey or some type of other activity and or you may have to combine data from different sources but these are ways that you can actually acquire the data that you need and so sometimes it's just simply getting the data"
+        },
+        {
+            "id": 70,
+            "start": 499.3,
+            "end": 539.54,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " from the internet as we will be doing my data acquisition stage is actually quite short because I am using data that is available when it comes to the Framingham Heart Study data set it's quite popular a lot of people use it you can get it from of github you can get it from many different sources you can google just google Framingham Heart Study data set and it'll show up and so I've downloaded it and saved it to my computer and so I'm going to so of course"
+        },
+        {
+            "id": 75,
+            "start": 539.54,
+            "end": 587.54,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " first before I can load it onto my notebook which here is the google collab notebook and so I need certain tools right so these are the tools that we need to start our you know project and so first we will have the importing of pandas numpy matplotlib scipy escalord and seaborn so pandas is for the data frame numpy's for numerical type activities my matplotlib is for our graphs basic graphs and charts scipy's for statistic sklearn as well as well seaborn is also for graphing and"
+        },
+        {
+            "id": 80,
+            "start": 587.54,
+            "end": 633.86,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " esklearn is for when we actually do the modeling so we will import those by running this cell here and once that has run we will then you install I need to install this pyread stat because my data set is in the seab form now yours may be in excel or csv so you would use a different function here method here for loading your data set but this is what I'm doing so now we have all of these modules now I can install my pyread stat module and then I can load"
+        },
+        {
+            "id": 85,
+            "start": 633.86,
+            "end": 684.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " my data so for that I am going to make sure that my data set is actually loaded here and so I'm going to make sure that I'm loading this data set that I need from my computer and here it's going to tell me that this is a temporary load and that's okay because we can always load it together so now that I have all of these in place now I can go ahead and actually read my data set in into my notebook and so once I've done that then I can take a look at my data set"
+        },
+        {
+            "id": 90,
+            "start": 684.5,
+            "end": 729.78,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " by looking at the first five rows and so that's what the dot head method does then I can see you know I'll give an example just a snapshot of what is contained in my data set in terms of the types of columns or types of features and then what the rows look like so it's showing here that I have 34 columns in all but we don't know how many rows so that's where the dot shape comes in so if I do that it gives me it says that I have 4578 rows the first value it's the number of rows"
+        },
+        {
+            "id": 95,
+            "start": 729.78,
+            "end": 778.9,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and the second is the number of columns as we saw here then if I want to just take a more detailed look at what is in my data set I use the dot info method and that gives me a list of all of the columns in my data set as well as whether those columns are filled contained information on aren't you the extent that so we have 4578 rows and so we see age is all of the age rows are filled but not so much with cholesterol so anything that is less than 4578 we know that it's missing"
+        },
+        {
+            "id": 100,
+            "start": 779.4599999999999,
+            "end": 828.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " some values also this dot info gives you information about the type of data that's in each column so some are floats and others are categories and then the final thing we do when it comes to just looking at our data is using the dot describe method so I can show here in terms of what the average value is for all of the features and then I can see what the minimum value in the max and 25th and 75th percentile and so on so for that I've used the dot describe and so I've transformed the matrix"
+        },
+        {
+            "id": 105,
+            "start": 828.66,
+            "end": 872.26,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " so that it's in a different arrangement and then I've also applied this display dot float so that I can remove the extraneous numbers after the decimal point so that's what we would do when it comes to you know just acquiring the data and taking a look at it and making sure that it is what we wanted it to be so after you have acquired your data this is the this is where you will do the filtering of your data and the main idea of the filtering is to get rid of the errors"
+        },
+        {
+            "id": 110,
+            "start": 872.26,
+            "end": 911.7,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of duplications any kind of data that doesn't belong that is not going to be helpful to you in your modeling process as well as looking for outliers and any kind of extraneous type of it for that we may have to make some do some transformation to depending and so we would look for outliers of course then we'd see if you know there are values that are entered that don't belong we also want to get rid of duplicates because that could cause bias and inefficient modeling"
+        },
+        {
+            "id": 115,
+            "start": 911.7,
+            "end": 950.42,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and we also want to look for invalid data right so if it's supposed to be measurement of heights then we want to make sure that it's all numerical and that there is no text in there etc so that's what the filtering is in another shell so let's do some filtering of our data so for the filtering I noticed that we had first of all when I did do the dot describe now that mind you that gives you only the numerical or values that are labeled floats in this case not the ones that are"
+        },
+        {
+            "id": 120,
+            "start": 950.42,
+            "end": 987.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " categorical and if we looked at the dot info method right we'll see that there is as far as the seventh column or the eighth column is concerned there's a PID or some kind of ID and it's labeled as a float but that is you know it's not an information that we can use for our modeling and then there was another ID measurement somewhere in here in terms of the ID type so I wanted to first go ahead and remove those two columns so I'm using the dot drop method"
+        },
+        {
+            "id": 125,
+            "start": 987.46,
+            "end": 1031.7,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " I put the tuned column names into square brackets as a list and then identify the axis one to note that these are in the columns ID so once we do that I reassign that back to the data frame we can do simply do it in place equals true as an option so I do that and I've gotten rid of that and if I do dot shape again we would see that now we have actually 32 rows to 32 columns now and we do have 457 rows so we have"
+        },
+        {
+            "id": 130,
+            "start": 1032.02,
+            "end": 1079.8600000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " so when I get rid of the columns the PID and the ID type and I check my the dimensions of my data frame I can see that instead of 34 I now have 32 columns and I still have the same number of rows so now we've gotten rid of those you know invalid in pieces of information they're not important to our modeling secondly now we want to look for missing values and that's where we use the is null so what that'll do it will show us wherever there are values missing it will say true"
+        },
+        {
+            "id": 135,
+            "start": 1079.86,
+            "end": 1122.1,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " if the values are there and they're valid that well whether they're valid or not as long as their values there it will say false so we want to get a count of all the missing values in each of the columns so we would use the is null and then we would add the dot sum to it so it'll tell us for LDL cholesterol 67 values are missing for diabetes status 11 and so on and if I want to get that as a percentage of the columns of the total number of observations I can then do divide by the"
+        },
+        {
+            "id": 140,
+            "start": 1122.1,
+            "end": 1167.62,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " length and multiply by 100 to get a percentage so for the LDL cholesterol column 1.4 64% of the values are missing so that's how we would identify the missing values now there are other ways we can look for missing values and that is using this missing goal module and once I import that then I can use the smsmo to get a visual of my data frame so I would use msno dot bar and I would put the name of my data frame into the as an argument and that is going to give me this lovely"
+        },
+        {
+            "id": 145,
+            "start": 1168.1799999999998,
+            "end": 1210.26,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " bar chart where we can see in anything that is not the length of the other bars we know that there are some missing values now our data set does not contain a lot of missing values so the bars look almost identical but just as an example alternatively we can use the dot matrix method and what that does it gives you a printout of the matrix where when a missing a number or value is missing you will get a white space not much missing so not much to look for then finally when it comes to"
+        },
+        {
+            "id": 150,
+            "start": 1210.34,
+            "end": 1260.42,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " missing values visualizing missing values we can use the heat map right we can now do the msno heat map and that gives us some idea of the you know the correlation between the missingness of one column relative to another and so we can see that of course certainly glucose times HDL so this is a interaction column or feature created from the glucose and the HDL measures and certainly that is going to be correlated with HDL cholesterol because it's generated from that and so we can"
+        },
+        {
+            "id": 155,
+            "start": 1260.5,
+            "end": 1295.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " get an idea in terms of the relationship between the missingness of one feature relative to another because that's going to determine how we deal with these missing values right so depending on the nature of the missingness whether it's related to another column or not or whether it's related to the target column or outcome variable that we're trying to model for or predict then we're going to treat those differently from those that mean whose missingness are not correlated with the"
+        },
+        {
+            "id": 160,
+            "start": 1295.38,
+            "end": 1334.34,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " target variable so you want to bear those things in mind so when it comes to dealing with the missing values there are a number of things that we can do now we are in this case for example we're going to delete the rows from two of the columns where they're missing values in fact not delete we're going to impute or we're going to fill those with the mean of that column so in the first place when it comes to the LDL cholesterol we're going to fill in all the missing values with the"
+        },
+        {
+            "id": 165,
+            "start": 1334.34,
+            "end": 1372.98,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " mean for the LDL cholesterol similarly we're going to fill in all the missing values for the fasting blood sugar with the mean of the fasting blood sugar and so once I run that that's what's going to happen and so if I do that now I can see that when it comes to LDL cholesterol there is no longer missing values as well as for the fasting blood sugar so they've now been um filled in and so for the other columns where there's still some missing values because the percentages"
+        },
+        {
+            "id": 170,
+            "start": 1373.54,
+            "end": 1415.62,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " are so low we can go ahead and simply drop the rows that contain missing values and that's what we use the drop and A4 and we apply that to our data frame and then uh reassign it back to the data frame we can also alternatively do and in place equals true but so we don't have to reassign it it will actually happen to the data frame itself but we now have that and then if we check for missingness we see now all of our columns are complete so we are good to go as far as missing"
+        },
+        {
+            "id": 175,
+            "start": 1415.62,
+            "end": 1452.26,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " values are concerned no more missing values that's one of the ways there are other ways you know Python and an SK learn comes with some very fancy modules or different programs algorithms that you can use for filling in missing data doing whether it's the mean or the median or the mode depending on what type of variable it is but these are some of the basic ways you can either fill in with the mean using the fill NA or in this case if the missingness is"
+        },
+        {
+            "id": 180,
+            "start": 1453.14,
+            "end": 1493.78,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " usually not more than 10 percent then you can go ahead and drop those columns so now we have accounted for all our missing values and so the last thing it would do for filtering as far as our data set is concerned is to check for any duplication and our data frame there are no duplication as far as the entire roles are concerned right there are no two roles that are the same now if we wanted to look for duplication by way of say you know one column or group of columns"
+        },
+        {
+            "id": 185,
+            "start": 1493.78,
+            "end": 1534.02,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " then we could use the subset inside of the drop underscore duplication duplicates method right so this is giving you info here about this method and it's showing you that you know by default it's there's nothing that you will be using as kind of a subset so it's looking for the entire role and you know if it does find it it will generally keep the first and you can stipulate whether you want to keep the first or keep the last and so that's because we don't have anything"
+        },
+        {
+            "id": 190,
+            "start": 1534.74,
+            "end": 1575.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " any miss any duplications then we can't really we don't have to use this so that's what we would do for filtering we would first look for missing values in this case I also got rid of firstly the those PID numbers because they were not important to our modeling then I checked for missing values and I dealt with that and then I checked for duplicates and I also dealt with that so that's how basic filtering method would occur so the third step in our machine learning process"
+        },
+        {
+            "id": 195,
+            "start": 1575.3,
+            "end": 1617.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " is that of transformation and remember these steps can be fluid there's no hard and fast rules because as you will see there's some there might be some filtering going on in transformation and vice versa but essentially transformation is mainly about changing the values into a form that is suitable for modeling so first and foremost the models can only accept numerical values and so if we want to use a certain column a certain feature in our model algorithm then we"
+        },
+        {
+            "id": 200,
+            "start": 1617.54,
+            "end": 1659.3799999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " would have to change any text into a type of numbers whether that's integers or floats so that's the main model transformation that happens there's also sometimes you know some mapping going on where we may be changing a continuous variable into some kind of a grouping binning also there is of course the formatting when it comes to date you know if we're doing type series type of of modeling then we would want usually when we get the data set it comes in as text as far as the"
+        },
+        {
+            "id": 205,
+            "start": 1659.3799999999999,
+            "end": 1699.9399999999998,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " date values are concerned and so we would have to convert them to the special python date type mod pictures so those are some examples of the transformation data transformation that we do when it comes to mission there are quite a few more but we'll just touch on some of the basics for now so the transformation that we're going to do here so first let's remind ourselves what kind of data we have in our data set and I think I made some changes so let me go back to"
+        },
+        {
+            "id": 210,
+            "start": 1700.6599999999999,
+            "end": 1744.82,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " I'm going to run all of this again just to make sure I'm giving you everything so this is we load the data then we did we what were some of the other changes we got rid of these IDs then we looked at the missing values then we actually built in those two columns with the mean and they also dropped other columns with missing values so that's the main steps that we've done so far so now with the data transformation so if we look at our you know data set as far as the data"
+        },
+        {
+            "id": 215,
+            "start": 1744.82,
+            "end": 1781.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " frame is concerned you see we have floats and we have some categorical variables some of which should be very should be categoricals others possibly not but so for example if we have these date values that we're going to need to take care of if we want to use them in the model as they are intended also things like gender now here it is a float so we also look at this diabetic status so that's if we saw what the categories are so it's non-diabetic diabetic so just two categories so"
+        },
+        {
+            "id": 220,
+            "start": 1782.3400000000001,
+            "end": 1831.7,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " this is labeled here in the data frame if I can find diabetic status right and it's oh it is categorical here so right now it's fine using it as categorical we can then see what those values look like in terms of if we wanted to get an idea of the distribution of diabetics in our data set we would do values counts and that would give us what that looks like we want to do it as percentage we would do normalize equals true and so 0.035 our diabetic very low percentage of"
+        },
+        {
+            "id": 225,
+            "start": 1831.7,
+            "end": 1872.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " diabetes diabetics in this data set but if we wanted to convert that to a numerical say one included in our model then we can use the dot replace method and how that works is you identify the column using calling it out with the square brackets and dot replace and inside of that method we're going to include the categories that are the original feature and then as a list and then we include another list for the values that we'd like to replace these with so if I run that so now"
+        },
+        {
+            "id": 230,
+            "start": 1872.5,
+            "end": 1921.1399999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " I'm reassigning it back to the data frame so it's actually changing my data frame and then if I do the unique that's what happens now if we were to run this again a second time here then we would see that instead of saying non diabetic diabetic it's now saying one and two so that's one of the other ways this is a this is a second way that we can do some kind of data transformation and that is using the pandas get dummy and it's usually used when we have these categorical variables that we"
+        },
+        {
+            "id": 235,
+            "start": 1921.1399999999999,
+            "end": 1966.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " want to change into some numerical values so that we can now include them in our model and so what the get dummy's does is actually going to give each of the category its own numbers and so if we ran that we see here now it's doing one and we wherever there's that person is actually diabetic it would get a one here and then that person would be a zero so it's taken that one column and split it into two columns and so now we see whenever there's a diabetic it's one in this first column"
+        },
+        {
+            "id": 240,
+            "start": 1967.22,
+            "end": 2017.5400000000002,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and if that person is now if that person is not diabetic then the one would be in in a different column for the diabetics for the non-diabetics so that's how that would work now if i were to say use this with a different column that maybe we can do the age group feature and if i ran that so the first thing we would do is let us see what are the categories for age group so if we did that we put our age group column in here and i want to make sure like get the name correct so i would"
+        },
+        {
+            "id": 245,
+            "start": 2017.54,
+            "end": 2059.94,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " do age group and i would put that in here in place and that would give me so there are the age groups so there's 26 to 40 and 41 to 60 and 7 so 1 2 3 4 5 age groups so we could go ahead and we could do something like we did here for the diabetics column and so we put that in there now are going to replace our age group so we have all of these as the various column headings now oh and we're going to use that here"
+        },
+        {
+            "id": 250,
+            "start": 2060.02,
+            "end": 2124.58,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and this is also going to be age group as well and so for these now what we're going to do is we're going to replace these with actual text that we can use so less than 25 we're going to call these the young the youth let's say oh you the age and then the next grouping we're going to say young adults then the 41 to 55 we are going to call these adults then for 56 to 70 we'll say middle aged and then we will say old right so those will be the categories"
+        },
+        {
+            "id": 255,
+            "start": 2124.58,
+            "end": 2168.4199999999996,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " that we are replacing them with so we can run that and now if we were to do a values count we can see how those are distributed in our data set and so there we have it we have adults young adults middle age and if i want you to do a lot of that I would do kind bar so that's using the belton python plotting method and that would generate"
+        },
+        {
+            "id": 260,
+            "start": 2168.4199999999996,
+            "end": 2205.78,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " this lovely plot so we can see the distribution and so that's how that would work and now if we also wanted to say do the get dummies what that's going to do it's going to create a new column for each of our categories and we did that um now we have one two three four five columns and of course here this person is adult so it's one here and zero elsewhere the first person is a young adult so it's one there and zero elsewhere and so on so that's what this get dummy does it's"
+        },
+        {
+            "id": 265,
+            "start": 2205.78,
+            "end": 2244.34,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " going to create an additional column for each of the categories so that's one of the ways that we usually convert categorical variables to numerical variables now you want to be careful that there aren't excess of categories right because then you have the curse of dimensionality as far as your model is concerned so we want to avoid that uh there's other method here we can do is to use the label in coder and so we import that from the pre-processing module and once we've done that we"
+        },
+        {
+            "id": 270,
+            "start": 2244.34,
+            "end": 2290.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " create an instance or we get a blueprint of that algorithm we assign that to the name le and now we can use it here we're using the model here and we're going to fit it on transform it on the data set for gender and I already did that here but that was what if we so if we took a look at the this column as it was originally in the data set so let's do a value counts on that and that was show us how many males and how many females um so it's giving us"
+        },
+        {
+            "id": 275,
+            "start": 2290.5,
+            "end": 2331.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " that two and one and I'm not sure which is which but we can also always check the data source and find out so if we do I think I already applied that to my data set which is why so let's go back so if we wanted to look at the categories in a categorical variable of course we always we can use the dot unique and that would give us just the name of the categories and so we see those categories here but if we wanted to find out what the distribution of those categories are that's why we use the"
+        },
+        {
+            "id": 280,
+            "start": 2331.78,
+            "end": 2382.7400000000002,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " categories that's why we use the values counts so here we see for the BMI grouping we have four categories now we could to use the label encoder module that is built into python so we just loaded into our data to a notebook and once we have used that we create an instance we can use it to transmit and transform the picture or the column value and then we can see how it is distributed so what it is done it's converted or each of the names of the categories into numbers so now we have"
+        },
+        {
+            "id": 285,
+            "start": 2383.7,
+            "end": 2434.02,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " overweight is one and normal is zero and morbid obesity is now three and underweight is two so that's how that would work now the final transformation is that of transforming converting the text to a date time feature so we want to convert the text date to the pandas date time feature right so it's date as the text and we're going to now convert that to pandas date time and for that we use two underscore date time and we include that column inside of the parentheses as the argument"
+        },
+        {
+            "id": 290,
+            "start": 2434.02,
+            "end": 2477.14,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " to that function so once we do that so it's PD to underscore date time with the column identified here and we reassign that back to our data frame so now when we look at our data frame and here we had date time as a float or whatever it was before now it is an actual pandas date time object so those are the main basic types of transformation that you would do to your data set in preparation for modeling so the fourth step in our data science machine learning project is that of exploration"
+        },
+        {
+            "id": 295,
+            "start": 2477.62,
+            "end": 2513.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " data exploration or a eda exploratory data analysis is an extremely important step in our modeling process right this is where we get an insight into the trends and the relationships that may exist in our data there we can find what the anomalies are we may also do some univariate, bifuriate or even multi-barret analysis and if necessary where we want to determine a relationship but it's not an obvious linear relationship then we would do some hypothesis"
+        },
+        {
+            "id": 300,
+            "start": 2513.46,
+            "end": 2551.94,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " testing whether that's between two of the predictor variables or between a predictor variables and the outcome and of course all of this is going to involve data visualizations so this is where you're going to generate your charts and graphs and other types of visualizations that would help you to understand what is the information contained in your data because looking at the numbers in data frame that is generally not going to give you all of the insights that"
+        },
+        {
+            "id": 305,
+            "start": 2551.94,
+            "end": 2588.26,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " you that is contained in there and so we're going to do some of that now so when it comes to exploratory data analysis right so the first thing is understanding the distribution of the values in your variables right whether they are continuous variables integer variables so the numerical can be integer or they can be continuous and then for the categorical whether it's a binary variable or they're more than two categories so looking firstly at our"
+        },
+        {
+            "id": 310,
+            "start": 2588.26,
+            "end": 2633.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " target variable which is chd coronary heart disease we can do a value count with the normalized equals true and that gives us a nice table showing the percentage of values or observations in each of the categories similarly we can add the dot plot with the kind equal bar and generate a graph for that and so we see significant imbalance which we're going to have to deal with before modeling but another way we can look at the distribution of variables relative to one of the features"
+        },
+        {
+            "id": 315,
+            "start": 2633.3,
+            "end": 2675.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " so now we're moving on from a uni-variate type of analysis to a bivariate analysis so we want to look at all of the variables as far as sex is concerned right so we are going to use the group by method and then to that we're going to apply the mean so what the group by does it creates a data frame a separate data frame for each of the categories in a particular variable so here we have sex and it's going to divide our data set our data frame into the two categories and then"
+        },
+        {
+            "id": 320,
+            "start": 2675.3,
+            "end": 2719.54,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " find the mean for each of those values so if we ran that what it shows us here now we have age and cholesterol and smoking and so for the gender labeled one we have an age an average age of 40.979 and for the gender labeled two we'd have an average age of 40.84 so not much difference as far as the age is concerned when it comes to cholesterol certainly there is a difference the gender age is up 1.19 and those who are labeled two are 1.07 and so if we just from the fact that there are higher"
+        },
+        {
+            "id": 325,
+            "start": 2719.54,
+            "end": 2761.14,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " percentage of smokers in category one i'm going to assume those are the male i may be wrong but that's my assumption so and then there is a 13 you know as far as smoking is concerned is a 13% measure of smokers and then fasting blood sugar and so if we can look at all of the values that we have here and see if there are any differences as far as the gender is concerned now if we wanted to say just focus on our outcome variable right we can just choose that and that would give us the"
+        },
+        {
+            "id": 330,
+            "start": 2761.7,
+            "end": 2817.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " distribution as far as the gender is concerned so for one there is a point of 0.04 average heart disease whereas for two it's a 0.0159 so we can you know choose other values here too to select from our sex group by but that's how you would do a binary type a bivariate type of analysis and you can also plot that as well if you did plot that kind let's see kind equals bar here that would give you a general so now we can see here as far as the gender is concerned"
+        },
+        {
+            "id": 335,
+            "start": 2817.38,
+            "end": 2866.1000000000004,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the percentage of those with heart disease and that's that's binary bivariate distribution now because I had wanted to convert to those and based on what I had seen before in my table I just want to go back to that to remind me again and I'm going to remove that because I am saying here that two is male let's change that and that one is new and usually there's a info package which comes with these datasets so you can confirm that but so if we now instead of having the zeros"
+        },
+        {
+            "id": 340,
+            "start": 2866.1000000000004,
+            "end": 2912.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and one which is good for modeling but when we want to do graphs and charts you know the exploratory type data analysis then we need to have that labeled so what I'm going to do is I'm going to create a separate you know column an additional column now for gender of for sex and I'm going to call this the categorical version so here I do that and now if I do my group by again this time with my new column then I can see female and males there and so now what I want to do is generate a plot"
+        },
+        {
+            "id": 345,
+            "start": 2912.5,
+            "end": 2959.62,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and we saw we can do it directly from you know using pep pythons syntax but if we wanted to use the sns module right so sns allows us to do categorical variables and so you can use the female male categories and actually generate a plot so we have our heart disease and I'm going to replace this with our new features I want to make sure that I'm identifying the right column and so now we can see a lovely graph that shows us the average you know what average male percentage"
+        },
+        {
+            "id": 350,
+            "start": 2959.62,
+            "end": 3001.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of heart disease is relative to the average female percentage of heart disease so on average males are 4.5 something percent whereas with a female it's probably 1.8 percent or so and so that's what that 1.6 actually so that's how we would do our bivariate type of analysis in general right you can do the group by and then generate a chart or a graph in or select a column in particular or we can actually use our cat plot where we identify"
+        },
+        {
+            "id": 355,
+            "start": 3001.46,
+            "end": 3042.58,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the data frame then we identify the y you know values right so those are going to be what's you know is on the x-axis and then we choose a particular column so now for the x-axis and we can see what that looks like so that's you know we can also do things like we can do instead of just a cat plot we can do a scatter plot for our variables and here we're going to have to use make sure that we're using you know continuous variables even though there's some variables in here that are"
+        },
+        {
+            "id": 360,
+            "start": 3042.58,
+            "end": 3083.78,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " labeled continuous that are not so what we're going to do is we're going to go back to our list of variables and at least see so i'm assuming that this is a continuous variable and we're going to put that in here and then we'll choose another continuous variable and we put that in here and now we can generate a scatter plot for those two variables right and so that's what our scatter plot looks like and i'm going to just kind of make it a little bigger"
+        },
+        {
+            "id": 365,
+            "start": 3083.78,
+            "end": 3132.98,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and for that i have to make sure that i have the object so i can do plt.figure and then i can do fig size and i'm going to say 12 by 7 or so so yeah so we need to have the equal sign there see how it was telling me something is wrong so now we have that now what does this mean let's see what happens here and it is saying that i need another comma okay perfect so now we have our plot and it's you know bigger and we see we have some outliers here that's the other thing that"
+        },
+        {
+            "id": 370,
+            "start": 3133.06,
+            "end": 3175.54,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " data exploration helps you to see these outliers and these anomalies right and so we'd have to figure out how we're going to deal with it so certainly when it comes to the cholesterol measure there is some there isn't an outlier if we wanted now this is a bivariate analysis we can make this a a tri-variant analysis by adding q equals to in this case we're going to use our target variable and if we ran that now we get a plot and we can see where the those who are considered having had"
+        },
+        {
+            "id": 375,
+            "start": 3175.54,
+            "end": 3230.18,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the heart disease they are how they're distributed so that's what we would do as far as these things are concerned now so if we wanted to we could also use the sms.reg or wrench plot and what that does it gives us a trend line so we can see if the variables the two variables that we're plotting if there is any linear relationship between those variables and so that would be this trend line depending on the the angle of the trend line if it's a steep angle that we know that there is a"
+        },
+        {
+            "id": 380,
+            "start": 3230.18,
+            "end": 3267.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " strong relationship if it's a small angle then it says a weak relationship if it's a straight line then there is no relationship so that's the general gist of doing these type of bivariate analysis for our variables using either scatter plot or red plot and then when it comes to the categorical variables we would use the value count or we would use our goodby. So if we wanted to do a multivariate analysis which so we could separate our data frame into"
+        },
+        {
+            "id": 385,
+            "start": 3268.26,
+            "end": 3308.1000000000004,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " categorical variables and numerical variables so here I'm creating a subset of categorical variables and I'm using the select underscore d types method and here I identify the columns type that I want to select for so when I run that I get only the categorical variables or at least those that are labeled categorical variables and so I can now look at my variables and here this is where I am seeing you know so we see here that these are the different categories but if I were"
+        },
+        {
+            "id": 390,
+            "start": 3308.1,
+            "end": 3355.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " to look specifically at the variables that I am now identifying as categorical so we see those are the ones with only two three for the max here is seven categories right and so these are these are the original variables diabetic status and then tenure update and even there's a filter variable created here and we have these variables so this was an extra so they bend the variables so HDL they bend into three groups and SBP the systolic bar pressure they built into four groups"
+        },
+        {
+            "id": 395,
+            "start": 3355.46,
+            "end": 3399.94,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and BMI they also built into four groups age they built into five so this is all the variables where they created additional variables so they did some type of transformation essentially in this dataset and then if we wanted to we can actually now do some separation of our variables as far as we can look at and what I want to show how we did just the numerical variables but what I noticed was that there were some variables that were labeled categorical or not that were labeled either"
+        },
+        {
+            "id": 400,
+            "start": 3400.9,
+            "end": 3444.34,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " floats numerical values that were not necessarily categorical variables and I'll give you an example so if we looked at the number of unique values in some of our data set some of our columns for example smoking only has two unique values that tells me it is actually a categorical variable but it is not labeled categorical because it doesn't show up when we separate those label categoricals from those label that not label category smoking should be categorical so should sex it's not shown up here"
+        },
+        {
+            "id": 405,
+            "start": 3444.42,
+            "end": 3491.2999999999997,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of course our target variable is also categorical then tenure debate tenure update there are a bunch of these variables that actually should be labeled as category or should be treated as categorical and some of them are but others and some of them are but others are not and so when we go to do our modeling we want to make sure that we have transformed the variables of pre-opricting now let's look at the numerical values choose from over 300 in-demand skills and get access to"
+        },
+        {
+            "id": 410,
+            "start": 3491.2999999999997,
+            "end": 3533.54,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " 1000 plus hours of video content for free visit skill up by simply learn click on the link in the description to know more so continuing with our exploratory data analysis all right so we're separating out the categorical variables at least those that are labeled categorical but when we do our dot unique for the entire data set we see that there are some cats some of these features that are that only have two unique set of values that should ideally be categorical variables"
+        },
+        {
+            "id": 415,
+            "start": 3533.54,
+            "end": 3582.74,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and they're not so what i'm doing here is i'm going to now assign the entire data frame you know to a separate data frame based on those unique values and then i'm going to you know give this new data frame well by putting it as using dot reset index i've now converting it to a data frame effectively and so that's what it looks like here except that the column labels are weird so that's why i'm giving the the column labels actual names features here and categories and so one i do that"
+        },
+        {
+            "id": 420,
+            "start": 3582.74,
+            "end": 3631.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " now i can convert all of the data types to integers because summer floats summer integers but what what i'm converting to integers are use these values right because i want to be able to sort those values and once i'm i've sorted those values now i well i probably didn't need to sort it necessarily but i am now going to create a subset of features that have unique categories less than 10 because those are the true categorical variables and so once i do that now i get a list"
+        },
+        {
+            "id": 425,
+            "start": 3631.38,
+            "end": 3684.9,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of these columns that ideally that accurately should be labeled as categorical and so now i can use this list of feature name or column names to create my true categorical data's frame subset and so this is what we have here and so once i have done that now i i don't need to to print this out again so i'm going to delete that but now once i've done that now i can use this data set which is of categorical variables and i can produce count plots so count plots is one of the plot type in"
+        },
+        {
+            "id": 430,
+            "start": 3685.78,
+            "end": 3737.7,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the sns module and that allows you to plot a categorical variables and so you can see what those looks like look like as far as the distribution is concerned so if we did count plot of this feature now when it comes to sns you always have to do data and you have to identify the data frame and then you can identify what the x values that you are wanting to count for essentially so now we can generate that count plot if i spell it correctly and we can see here"
+        },
+        {
+            "id": 435,
+            "start": 3737.7799999999997,
+            "end": 3780.26,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " a distribution of all of the categories in that particular variable so most of the data status made up of those between the ages of 26 and 40 and 41 and 45 so from 26 to 55 sorry that's the majority of and it gives you an actual count of observations in each of these categories so now that these are all categorical variables i can include them in my for loop so i am using a for loop and i'm saying for i in and i'm enumerating over the list of columns and so when you use"
+        },
+        {
+            "id": 440,
+            "start": 3780.26,
+            "end": 3830.9,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the enumerate identifies the index as well as the value so i'm enumerating over this list of columns and then so for every column name i will then use that the first object identified for my enumeration and that's going to be the x and of course the data is coming from the data frame and now i'm using the hue as the target variable so i can see how each of my variable is distributed as far as the outcome variable is concerned now because there is such significant imbalance"
+        },
+        {
+            "id": 445,
+            "start": 3831.46,
+            "end": 3866.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " there isn't much to see we you know when it comes to the percentage of persons with heart disease it's so low that you know you get these very small very low bars but that's what you would do so we can see here for smoking so if this is the smoking category these other people this is the count of persons without without heart disease whereas those with heart disease similarly so there is not much to see here but if you had a data set where there wasn't as much imbalance"
+        },
+        {
+            "id": 450,
+            "start": 3866.66,
+            "end": 3914.34,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " this would be something very useful as far as the distribution of our variables are concerned so now we are moving to our continuous variables right and so we are looking at those variables labeled plots and if we generate a subset of the data set we would get these variables here now we see heart disease is still here and some of the others now what i could do is do a subset of the data frame that is actually um minusing all that i have chosen for my category of variables so let's"
+        },
+        {
+            "id": 455,
+            "start": 3914.34,
+            "end": 3964.18,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " do that so i'm using the dot drop method and i'm going to drop all of the categories that i have considered now as all of the columns that i consider categorical variables so as i do that now i see that they're all listed as float but i also want to get rid of this date column because it's a different type of data so we get rid of that and now we have some we have our columns here actually i'm dropping it from this data frame not the main data frame necessarily so now i drop that and"
+        },
+        {
+            "id": 460,
+            "start": 3964.2599999999998,
+            "end": 4016.82,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " apparently it's already dropped from the data frame so let's see if i ran this again it is still there so why am i not able to drop it from this data frame ch data access equals one here we go so now it's dropped and now we can do some things with our numerical data set one of the first things that we can do is to actually generate a correlation matrix and so for that we would have the name of our data frame and reduce the dot core method and that will give us a nice"
+        },
+        {
+            "id": 465,
+            "start": 4016.82,
+            "end": 4060.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " matrix that shows the correlation between each pair of variable now because it's you know not as easy to look at all of these numbers and this is where the charts and graphs makes things a whole lot easier so we're going to use a heat map and that will give us a nice visual as far as the relationship between our variables are concerned so now i'm going to try to make this bigger by using PLT but bigger and i'm not sure if this is going to improve we're going to try"
+        },
+        {
+            "id": 470,
+            "start": 4060.66,
+            "end": 4114.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " i may have to actually do it inside of the heat map function itself so we are going to do 12 and seven and see what happens here well that worked so now we see our data frame as far as the continuous variables were concerned and where there is some correlation now of course this end of the data frame with seeing a lot of correlation LDL is correlated with the the variable that's created from LDL HDL yeah so it's also correlated with this variable here which is the cholesterol"
+        },
+        {
+            "id": 475,
+            "start": 4114.66,
+            "end": 4157.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " so we have LDL cholesterol this is a intersection or a bisection variable or a interaction variable that's created between LDL and cholesterol and so of course it's going to be correlated with LDL as well as correlated with cholesterol so the other variables that it's correlated with let's see anything other than those mentioned not much happening here and HDL cholesterol oh so if we look at our legend here though light values is positive strongly positive correlation whereas the dark values are"
+        },
+        {
+            "id": 480,
+            "start": 4157.46,
+            "end": 4201.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the negative correlations and these negative correlations are not more than minus 0.3 so not very strong so for light correlations though so we can see that the that's a blood sugar BMI interaction is strongly correlated with systolic well let me see that's about a seven strongly well that's five strongly correlated with um or moderate the correlated with systolic blood pressure here we have so so there's a first one is the interaction variables are concerned"
+        },
+        {
+            "id": 485,
+            "start": 4201.38,
+            "end": 4251.14,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " quite a lot so not much in terms of inferring anything you know if we look at some of these raw values age is not very strongly correlated with anything so usually the heat maps are a lot more informative but in our case um not so much but we can do some box plots to see how the variables the distribution of the variables so for a simple box plot you would simply do dot box plot so using the built-in python plotting but of course because the variables are on different"
+        },
+        {
+            "id": 490,
+            "start": 4251.14,
+            "end": 4302.900000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " scales it really kind of you know doesn't show much so if we do the facet grid now where we have a separate box plot for each all the variables and not only do we have a separate box plot we can also now um separate based on additional variables so we can do bivariate as well as a tri-variage type of analysis here so here we're looking at gender versus age and so we can get each of the age groups as a separate plot as well as we can see um you know how those age groups the count of the"
+        },
+        {
+            "id": 495,
+            "start": 4302.900000000001,
+            "end": 4351.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " different number of observations in in each of those categories relative to the outcome variable so we have the rows representing the gender so we have gender in the rows here and these are the two genders so we'll have the male and female so this is x sex one for this row and sex two for the second row and then for each of the columns now we have age groups so we have the young people the 41 to 55 here and the 56 to 70 and then uh we have the ones who are less than 25 and then those"
+        },
+        {
+            "id": 500,
+            "start": 4351.46,
+            "end": 4394.02,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " that are more than 70 so we get an idea of how the heart disease is distributed now mind you it's showing here this is zero and this is one even you know you know you know what the x-axis is so this would be no heart disease heart disease no heart disease heart disease and so on um and not much difference as far as the gender it's hard to see anything clear uh alternatively we could use the facet grid and instead of the the histogram now we're using a scatter plot and so we're looking"
+        },
+        {
+            "id": 505,
+            "start": 4394.02,
+            "end": 4440.34,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " at these two variables comparing these um you know the relationship between fasting blood sugar and total cholesterol but we're now dividing uh based on the age groupings so we have the age groupings here and we have uh the fasting blood sugar versus the total cholesterol and then we have the hue for as far as the weather that person had heart disease or not so that's how you can do some of these bivariate and even multivariate type of analysis if we wanted to look at uh just"
+        },
+        {
+            "id": 510,
+            "start": 4440.900000000001,
+            "end": 4484.740000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " one you know just doing bivariate analysis for a particular variable then we could do that so here we have the x as the age grouping and then we have y as the total cholesterol so instead of having a series of maps or graphs or charts this would just be one so we can do that one at a time so we create our uh objects our plot objects uh thick and x is equal to PLT sub plot and this is determinant aside so when we do s and s box plot where we identify the x and the y axis from this data frame"
+        },
+        {
+            "id": 515,
+            "start": 4485.3,
+            "end": 4527.78,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and we say the a x is based on this a x we defined here when we run that it gives us this really nice graph where we can see the relationship between the age groups and the total cholesterol in terms of the or the mean of these values for each age group so we see definitely that those under 25 had a lower median value as far as uh the total cholesterol is concerned and then for the 26 to 40 we see there's definitely some type of an outlier happening here now this is interesting because"
+        },
+        {
+            "id": 520,
+            "start": 4527.78,
+            "end": 4575.62,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " what it's showing here that there's a total cholesterol outlier but remember we have different measures for our cholesterol so if instead of the total cholesterol we use the LDL cholesterol in that plot and we replaced it here so what that would show us now is that there is no longer an outlier in this group so the extreme value is actually the HDL cholesterol because remember total cholesterol is the sum of LDL and the HDL so just some further insights and then"
+        },
+        {
+            "id": 525,
+            "start": 4575.62,
+            "end": 4623.86,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " there is this uh outlier here possibly but LDL cholesterol you know something that you want to be wearier you know HDL is the healthy cholesterol so just some ways you can gain some insight and then finally if we were to generate these box plots for each of the variables we can see the one so there we see that total cholesterol with the outlier there and then if we were to look for specifically that LDL cholesterol so we see HDL so there is the outlier in HDL and not so much in LDL"
+        },
+        {
+            "id": 530,
+            "start": 4625.139999999999,
+            "end": 4660.58,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " just looking at it and so that's what we're looking so now we've kind of looked all the ways we can do exploration of our data whether it's categorical variables using the count plot or numerical variables we looked at the heat map and then we looked at some box plots and of course scatter plots so just some ideas of how you can explore your data there's a whole lot more to it but just to give you some idea so now that we have filtered our data sets we've transformed some of the"
+        },
+        {
+            "id": 535,
+            "start": 4660.58,
+            "end": 4706.42,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " variables now we're ready to generate our machine learning model so when we did our data exploration however we learned that our target variable which is uh chd or coronary heart disease is significantly imbalanced and what that means is that there are very few observations in one of the categories and in this case it is the category of interest which represents the persons who've had heart disease so if we do our values count we see that off the for the"
+        },
+        {
+            "id": 540,
+            "start": 4706.42,
+            "end": 4759.7,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " 4500 or so only 125 actually are recorded as having heart disease and if we do normalize equals true that shows us that about 2.78 9% or so are those who've had heart disease so that is would be considered an imbalance and if we were to look at that graphically we'd see that in the bar chart here using plots dot uh kind equal barf on the value counts alternatively we can do a plot kind equal pi and get a bar chart and i've added uh the labels here as well as the syntax"
+        },
+        {
+            "id": 545,
+            "start": 4759.78,
+            "end": 4801.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " for removing some of the numbers after the decimal point so this is just to illustrate just how imbalanced the data set is and so we would need to do some kind of bootstrappings you know over sampling to balance out that target variable so before that though we first have to we're going to do a splitting of the data set so we would normally do two split it splitting into the x and y or the input and output or the predictors and the outcome variables and then we would split"
+        },
+        {
+            "id": 550,
+            "start": 4801.46,
+            "end": 4844.34,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " that into our train and test so if we wanted we can do so here we see what our data frame looks like and we're using the numerical uh the continuous variables because these are more tenurable to smoothing and we'll learn what that is in a second but we um we want to smoke this over sampling and so that's going to be based on the continuous variables so we've filtered out a subset of those variables and that is going to be our x matrix or input matrix"
+        },
+        {
+            "id": 555,
+            "start": 4844.34,
+            "end": 4890.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " or our predictor variables so we have the shape here 4557 by 18 columns right and then of course the y is simply going to be uh the column for with our target variables so that's going to have the corresponding dimension you know it's a matrix but this one has just it's just a series or just an array whereas the others it's a it's a two-dimensional so we now have our x and our y so we can go ahead and smote our variables and smote stands for the synthetic minority over sampling so because our"
+        },
+        {
+            "id": 560,
+            "start": 4891.38,
+            "end": 4939.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " target outcome or category is so low as far as the proportion is concerned we are going to do a sampling an oversampling but we're going to be oversampling of the minority set to generate synthetic observations so that's what the smoting does so the first thing we do is we uh load the algorithm into our data set so we're going to get the smote algorithm from the uh IMB learn oversampling module and so once we have that loaded then we create an instance of that algorithm"
+        },
+        {
+            "id": 565,
+            "start": 4939.86,
+            "end": 4986.02,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and we assign it to the variable name os for oversampling then we take that oversampling algorithm the it's just a blueprint of the algorithm so now we're going to use the data to train this smote model and get the features so we use fit underscore resample now with other algorithms we use fit underscore transform in this case we're using fit underscore resample and the parameters are the x matrix first and then the y matrix or the y series and we are going to assign the results"
+        },
+        {
+            "id": 570,
+            "start": 4986.02,
+            "end": 5038.660000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " of that fit resample back to what would be now our new x matrix and our new y values created by the oversampling so once we've done that we can take a look at the dimensions of these new objects now for the x we see it has dimensions 8860 by 18 now remember our x was 4557 by 18 so now it's 8860 so we've doubled the number of observations right the number of columns remain the same similarly for the x variable we have doubled the number of outcomes to match our x and so we can"
+        },
+        {
+            "id": 575,
+            "start": 5038.660000000001,
+            "end": 5098.0199999999995,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " take a look at that if we did a value counts on our y series here we would see that it's distributed equally remember what the distribution was here it was 97 to 2.78 that was the ratio now that we have smoked the data set our new ratio is one to one so 50 percent of the observations are those who had heart disease and 50 percent are those who had who not so that is what the smoking does so it has used the the minority outcomes and oversampled for those to create synthetic"
+        },
+        {
+            "id": 580,
+            "start": 5098.0199999999995,
+            "end": 5139.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " variables and if we plotted the bar chart here we see that the both bars are the same using the dot plot if we use s and s it gives us a nice colorful plot version but we can see definitely that the count for each category is identical now if we wanted to look at the distribution of these synthetic observations we could recombine the x and dy back into a data frame such that we can do some bivariate and even multivariate type analysis so that's what I did here so I've assigned the x"
+        },
+        {
+            "id": 585,
+            "start": 5139.46,
+            "end": 5181.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " matrix to a data created a data frame with it using pd dot data frame and this df underscore os is now the new oversampling or smoked data frame and then I add the outcome variable or heart disease to that data frame so now we have a complete data frame and we can do all the things we did with the original data frame here so in this case I'm creating a scatter plot with the data frame and I'm using bmi choose any random uh any one of the the many variables I'm plotting bmi"
+        },
+        {
+            "id": 590,
+            "start": 5182.42,
+            "end": 5231.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " versus h or h versus bmi because y uh versus x and I'm using heart disease as the hue so when I plot that I get this lovely scatter plot here and what you see is all of the blues are the ones that did not have heart disease and now the orange are the synthetic well mostly mostly the synthetic observations and so you can see how it's distributed um as far as these two variables are concerned you can choose any of the other variables and substitute so we can look at uh we had age and bmi"
+        },
+        {
+            "id": 595,
+            "start": 5231.46,
+            "end": 5275.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " we can do fasting blood glucose against um so we'll just leave the age in there maybe and do the fasting blood glucose and see so there we can see how the synthetic variables are created right so this is the blue no heart disease orange heart disease and so some of the synthetic are going over here into this sparse so that's the general idea of how the smoking works so now once we have our smote it um data set we can now do our second split which is into train and test right"
+        },
+        {
+            "id": 600,
+            "start": 5275.3,
+            "end": 5322.98,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and for that we're using the train underscore test underscore split uh method and uh we're using the x and the y as arguments for that method we identify the size of the split point three would be the test and then we give a random state so when I run that I get now four matrices x train x test y train y test so we're going to use x train and y train to train our model and x test at y test to test the performance of our model so before we actually you know fit the model we're going to"
+        },
+        {
+            "id": 605,
+            "start": 5322.98,
+            "end": 5369.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " standardize our data right because these data points or these features we we know from our when we did the box plot we saw that the ranges for these values were quite different you know for example um you know the age of course is going from that 18 to 70 something but you have things like blood pressure and others going up into the hundreds so in that case if we were to plot just the head values here just to see what that looks like right we can see age right so that's"
+        },
+        {
+            "id": 610,
+            "start": 5369.3,
+            "end": 5414.42,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " kind of the range maybe if I did a dot to describe that would actually give ranges yeah so age is ranging from 19 to 83 but when we look at some of the other values in our data set for example blood pressure is going from 70 to 196 um blood sugar is going from 54 to 404 then of course these interaction variables that are created by combining two variables together they even have a wider range the glucose BMI interaction it is that has a maximum of uh 16 000 so the range is different so"
+        },
+        {
+            "id": 615,
+            "start": 5414.42,
+            "end": 5461.54,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " this is why we are going to scale our variables and make sure that they're all in the same scale so we use the standard scalar and that's going to um convert all of the values to the z-score so the values are going to be in standard deviations essentially so we create an instance of the standard scalar and we fit that on the train data set and once we fit it we can then transform all of the variable based on those uh the values in our standard scalar model so this is what our values now look"
+        },
+        {
+            "id": 620,
+            "start": 5461.54,
+            "end": 5499.46,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " like right so we have values going from in this case um there's no the columns headings are missing but you can see there's minus 1.8 and there is three so the values are all in standard deviations right now either one or two when in some case three standard deviations above the mean or two or one point five standard deviations below the mean so the range is now much smaller so now that we've scaled our variable so we have this x underscore train underscore sc with standard"
+        },
+        {
+            "id": 625,
+            "start": 5499.46,
+            "end": 5541.06,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " scalar and now we can use that in our model so we are going to do a linear a logistic regression model remember because our outcome is categorical so we're using logistic regression model and the logistic regression model is going to do a classification of yes or no binary classification zero or one heart disease or not so that's what the the logistic regression is going to tell you now there's a lot of um some math and some integration involved but just understand that it's doing a"
+        },
+        {
+            "id": 630,
+            "start": 5541.14,
+            "end": 5582.660000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " classification um we have identify the solver here as the lib linear and we generate an instance of the logistic regression model once we've done that we can use our data now we're using the x train scaled and the y train to fit our model so let's run that and so now we have our model and we can test the performance of our model but now instead of the train data set we're going to use the test data set right because we don't want to test the model on the same data that was used to"
+        },
+        {
+            "id": 635,
+            "start": 5582.660000000001,
+            "end": 5626.900000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " train the data right because you know we're going to get elevated risk um you know performance and not accurate indication of how well our model will generalize to data that it has not seen before and that's the whole idea so now we are going to use the test data set but remember this model is built on data that has been scaled so we have to scale our test data as well so we generate us another instance of the standard scalar and we train it on the test data set we don't want to use the"
+        },
+        {
+            "id": 640,
+            "start": 5626.900000000001,
+            "end": 5660.1,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " same standard scalar that we trained with the train data set because that's going to cause data leakage and so the features of the the scalar from the train model are going to be slightly different so we want to treat this test data set as data fresh new data that's coming in from who knows where that we have not seen before so it's going to be subject to its own set of values and and inputs and so we are going to standardize and get new features for our scalar"
+        },
+        {
+            "id": 645,
+            "start": 5660.1,
+            "end": 5700.18,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and then we will transform the test data and once we have that x on the score test on the score sc now we can use that x test scale and our y test to test the performance of our model and what we do is we do model name dot score right so this is one of the attributes that are built in with the logistic model class and we can apply that directly to our model and as long as we put in the x values and the y values it is going to give you a result so what"
+        },
+        {
+            "id": 650,
+            "start": 5700.26,
+            "end": 5747.3,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " it's going to do is it's going to take the x test values and put it into our model and generate results those are going to be our predicted results and then the algorithm will compare how many times the predicted results match the actual results in the y test data and give us an accuracy score and so that's what the results are and we multiply by 100 to get 100 to get the percentage so we run our model we do the x test and then"
+        },
+        {
+            "id": 655,
+            "start": 5747.860000000001,
+            "end": 5803.06,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " we get the score for our model so now so now we can use the x test scaled and the y test to test the performance of our model and see what the accuracy percentage is so in this case it's 76% accurate if we compare that with the train data set we see that it's 77% accurate so not much of overfitting happening but those are the results such far this is our base model then in the next video we're going to look at ways other ways we can test the performance of"
+        },
+        {
+            "id": 660,
+            "start": 5803.14,
+            "end": 5846.1,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " our models using other metrics and then even maybe some ways of improving on the performance but the general idea is you would get your data you would separate the x from the y as we did here we had separate x and separate y and we then smote our data set if there is imbalance you smote if not you just move right on to separating into train and test once you've done that you scale the train the x train data and you use that to fit that instance of the model that you generate so now"
+        },
+        {
+            "id": 665,
+            "start": 5846.1,
+            "end": 5888.82,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " you have your model and once you have your model you can now test the model but you've got to scale the x data whatever you did to the train you have to scale but with a different instance of the or standard scalar and you then now use that scaled data to test the performance of your model so when we did our last version of the model this was the accuracy score 77 so meaning every time we made a measurement we generated a prediction using our model 77 percent of the times we correct"
+        },
+        {
+            "id": 670,
+            "start": 5888.82,
+            "end": 5922.1,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " we're work correct the other times we're not so we want to see if we can improve on that accuracy score somewhat right so remember these were the values these were the features we included in our model the ones that were numerical float data type specifically and these were the categorical errors that that were left out so what I did was I'm going to add some back some of these variables that I think will make a difference in terms of the performance of the model so I think"
+        },
+        {
+            "id": 675,
+            "start": 5922.1,
+            "end": 5963.22,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " gender is important I think diabetic status is important as well as smoking status so I'm going to add these back to my working data frame right now when I do that I'm going to notice that at least one of them is categorical so we can't use it in the model in that data type so I'm going to so this is how it's distributed non-diabetic and diabetic so it's you know categorical text label so what I'm going to do is I am going to change that and I'm going to replace these text"
+        },
+        {
+            "id": 680,
+            "start": 5963.860000000001,
+            "end": 6016.099999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " labels with integers right so now when I do my info I will see here that indeed my diabetic status is now of data type integer and so I can use it in my model algorithm as such but before the doing so I want to generate a plot of the correlation between each of these features and the target now this is only going to look at linear correlation and so it's you know just kind of a measure and this the graph is generating generated showing the different features and how they are"
+        },
+        {
+            "id": 685,
+            "start": 6016.98,
+            "end": 6057.459999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " contributing the correlation between the target right so we can see age is very strongly correlated whereas LDL cholesterol is not so much HDL cholesterol on the other hand this is strongly correlated to not having a heart disease whereas age is strongly correlated to having a heart disease so as the age increases the probability or the likelihood of a disease increases whereas as the HDL increases the probability of heart disease goes down systolic blood pressure is"
+        },
+        {
+            "id": 690,
+            "start": 6057.459999999999,
+            "end": 6099.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " strongly correlated with having the disease and so on and sex you know going from one sex to another there is a stronger possibility and I'm going to assume that that's going from female to male there is a stronger likelihood of heart disease so I want to include these measures namely gender diabetic status smoking so that one is not as strong as these two so hoping that by including these two these three variables that we would get a higher accuracy right so now we have a new data"
+        },
+        {
+            "id": 695,
+            "start": 6099.38,
+            "end": 6152.58,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " frame with the additional of columns so instead of the 19 that we had a 41819 we now have 21 so then our y value is still the same and then now we can smoke we're going to do that oversampling of the minority again and we are going to use that also I did not load my smoked algorithm and let's go ahead and do that it is inside here so I've done that so now I can go back to my smoking and I can then create that instance of the model and generate my new x and my new y"
+        },
+        {
+            "id": 700,
+            "start": 6152.58,
+            "end": 6198.98,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " so now with the new x and the new y I can now separate so remember the two two divisions separating into x and y and then separating into train and test so now we have our new train and test based on our new x and y so now we can model we create an instance of the logistic regression model using the same solver again and then we use this uh this is our new model um you know frame work is the the blueprint but first we have to of course scale our data so we using the standard scalar"
+        },
+        {
+            "id": 705,
+            "start": 6198.98,
+            "end": 6242.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " here and we create scaled versions of the x and y just to show you what that looks like so now we have these values instead of age of 50 or 70 or something we now have them in terms of their standard deviation or their z score I should say and so now we take these new x scaled x trains and the y train and we fit the model and now we are going to test the model and this is my test for the model I move that up here so we're using the test data set oh that's why that's why"
+        },
+        {
+            "id": 710,
+            "start": 6242.5,
+            "end": 6287.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " this is here because we need to scale the test value so we fit our standard scalar on the x test and then we transform all of the values so those values now look similar to what the train value x train values are and now that they're more like that now we can put that into our model and we can generate our uh score not much of an improvement to win from 77 to 78 um and as far as the training set yeah so not much of an improvement here but you know that"
+        },
+        {
+            "id": 715,
+            "start": 6287.38,
+            "end": 6334.98,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " which we added some variables that I thought were important um didn't prove to be so much but we can now look at some other things we can do as far as our model is concerned using some different metrics right so we're going to do some cross validation and remember cross validation is where we are separating our model our data set into test and train but doing so um several times and changing what values are in the train versus what's in the track test so we're kind of mixing"
+        },
+        {
+            "id": 720,
+            "start": 6334.98,
+            "end": 6377.14,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " things up as a way so we create a we need the k-fold algorithm and we need our cross values on the score score to to use for the cross validation so we're going to divide the data several times over and then we're going to test that uh the model each time and save the score and then find the average so I wanted to show an example of what happens with the cross validation right so if this is our data set we would divide into the train and the test and we would train use"
+        },
+        {
+            "id": 725,
+            "start": 6377.14,
+            "end": 6418.9,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " this proportion of the data set to train the model and then this proportion in the yellow to test the model then the next iteration we would reserve a different proportion different set of observations for testing and use these in the blue for the training and then we would change that you know depending on how many folds we have indicated in our data so that's what that is so we have the k-fold and the cross value and we are loading in the data set so now we create an instance of the"
+        },
+        {
+            "id": 730,
+            "start": 6418.9,
+            "end": 6457.459999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " k-fold we state how many splits we want so here this is 10 these does five splits we are using 10 splits um you know the splits of course the more splits you have the more times you will be running your your training but you also have to take into consideration the size of your data set and how long each of these training are going to run and how much computing power it's going to utilize and you know different factors so we are doing 10 splits so instead of five we'll have 10"
+        },
+        {
+            "id": 735,
+            "start": 6458.02,
+            "end": 6498.0199999999995,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and we're creating a random state so if you want to repeat what i'm doing you use the same random state and just get the same value and then we are saying shuffle is true so we're changing around how the data is being split every time right so that's what that does so we now have a k-fold and then we have an instance of the logistic regression model so now we're using our cross validation here and we are going to use the model that we created here and then we're training it on"
+        },
+        {
+            "id": 740,
+            "start": 6498.0199999999995,
+            "end": 6542.82,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the x-train and y-train and that should be our scaled data and we're using the y-train so x-train scaled and y-train and then for the cross validation we have this k-fold object that has all the information in there so when we run that we are going to get a set of values so we ran 10 different models and each of them had a different accuracy score because that's a default metric that's been used so some had 77.9 of those one had 80 and then one had 76 so the values are between like 75"
+        },
+        {
+            "id": 745,
+            "start": 6542.82,
+            "end": 6594.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " for the lowest accuracy and 82 for the highest accuracy and on average it had a mean of 78 percent accuracy with a standard deviation of 1.86. Now we can use a different scoring method other than the default accuracy and here we're using the negative log loss and we can run that with the same parameters and here we see that the average negative log loss is negative 0.47 with a standard deviation of 0.18 so that's another way of you know measuring the performance of your"
+        },
+        {
+            "id": 750,
+            "start": 6594.66,
+            "end": 6639.06,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " variable and you can then make changes and use the same kind of cross validation again but we can also change it to the ROC, AUC or area under the curve method of estimation because this is a logistic regression and accuracy is generally not the best method for assessing the performance so if we use the ROC, AUC so now we're creating a different model here we're training it and I'm forgetting to make sure that this is the scaled version of"
+        },
+        {
+            "id": 755,
+            "start": 6642.26,
+            "end": 6693.06,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " great what am I doing the scaled version of my X train so let's see that didn't make much of a difference but here we have the X train and we are all see as the measure and so it's given an ROC score of an AUC score of 86 percent and so we can look at that to see what that looks like graphically so we're going to use the confusion matrix and the classification report so the confusion matrix that is the matrix that gives in a case so I should have those in there and make sure that"
+        },
+        {
+            "id": 760,
+            "start": 6693.06,
+            "end": 6739.379999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " I have one of these models as I rightly called them so after you've loaded the confusion matrix and the classification report you can use them for different representations of the different types of metrics that you can use with your logistic regression to evaluate the performance of your logistic regression so if we did the confusion if we did the confusion matrix using our X test and the predicted Y predicted"
+        },
+        {
+            "id": 765,
+            "start": 6739.379999999999,
+            "end": 6781.78,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " Y meaning the values we would get from our model if we put in the test values or the values from our test data set that's been scaled we get a set of values and we use that to compare with the you know the what the actual values are in the data set and we would get we use it to generate a confusion matrix and this syntax here is what is going to allow us to view the confusion matrix as such and so we have our true positives here and our true negatives and we have our false"
+        },
+        {
+            "id": 770,
+            "start": 6781.86,
+            "end": 6819.299999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " negatives and our false positive so we can see where the model is doing well and where it is not and so this gives us a further insight into our model's performance and so we make here more about one type of performance in terms of whether we care more about the precision or the recall or maybe you know some balance of both right and so we want to make sure that we're doing that and when we have this confusion matrix now we can see where we are now and in addition the"
+        },
+        {
+            "id": 775,
+            "start": 6819.94,
+            "end": 6861.7,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " precision recall we can also get the F1 score so we use the classification report again with the Y test which is what is in the actual data set and the predicted values and so we can see what the precision is and the recall is for the one category of the data and the same for the other category of the data and then of course we have the accuracy score and then we have the macro average and weighted average so that's what the precision the classification report will tell us"
+        },
+        {
+            "id": 780,
+            "start": 6862.5,
+            "end": 6900.339999999999,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " and finally if we wanted to look at the list of features and in terms of the feature importance so what we do here is we are first going to get a list of the features names from our column right so now we have the names of all the features that are included in our model now we also can generate the coefficients for each of these features in the model and we're using lr1 in this case that's our model and so this is the list of"
+        },
+        {
+            "id": 785,
+            "start": 6900.339999999999,
+            "end": 6950.98,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the coefficients that correspond to each of these features now to combine that into one data frame right so firstly we are going to convert those coefficients into an array then into a list as such and now once we have that list we can use those two to the features and the coefficients the names and create two dictionary items right and that's what we're doing here and then we can change that into a data frame and we will sort that by the coefficient values so this is what it"
+        },
+        {
+            "id": 790,
+            "start": 6950.98,
+            "end": 6997.38,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " looks like here and so we see that glucose is the most the glucose blood pressure interaction is the strongest now it's kind of hard to see all of them here so then of course we can now that it is in the form of a data frame it's easy to plot that as a bar chart and so I plot it as a bar chart and then I've used the names of the features as the x tick labeled and this is what you get so here we can see the contribution of each of the features to the models performance"
+        },
+        {
+            "id": 795,
+            "start": 6997.38,
+            "end": 7043.14,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " so age is the strongest in this case negative indication meaning that as age increases you're more likely to have a cardiovascular disease similarly the LDL cholesterol interaction and HDL cholesterol interaction those are strong contributors then we have here and I don't know why I have limited this to 17 let's change that so we can get the names of all of them so now we have sex as being possibly not the strongest so one of the strong age it seems it's the strongest"
+        },
+        {
+            "id": 800,
+            "start": 7044.02,
+            "end": 7078.66,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " contributor to heart disease diabetic status is also a strong contributor smoking is a strong contributor now remember when we did the linear correlation it was not because the correlation between smoking and heart disease apparently is not linear but it is strong and then fasting blood sugar BMI and fasting blood sugar systolic systolic blood pressure so that's how you would do that so remember what I did I simply added back some of the variables that I thought that might"
+        },
+        {
+            "id": 805,
+            "start": 7078.66,
+            "end": 7120.74,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " have been important that got left out so I added smoking diabetic status and sex and I didn't get much of an increase in the accuracy of the model but it did increase now we didn't measure things like the precision and recall prior to adding those so we don't know what those changes might occur you know as far as it concerns but we all we did the cross validation 10 fold and we got the average values we also got the the neck log loss we got the ROC AUC score and we generated"
+        },
+        {
+            "id": 810,
+            "start": 7121.299999999999,
+            "end": 7156.660000000001,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " the plot for that as well as the classification report and then finally we did a table of feature importance that we plotted on a graph so that's how you would do your model optimization so you can keep on further tweaking and optimizing your model adding some more variables taking away others you know for example like we could probably lose some of these features here because they don't seem to be contributing much to the model's performance and just keep testing it and see what"
+        },
+        {
+            "id": 815,
+            "start": 7156.660000000001,
+            "end": 7186.5,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " happens but that's it in a nutshell how you would do that now there are other types of models besides the logistic regression and maybe the next video I will do a decision tree or random forest and see how those perform but that's it so I hope you've enjoyed watching and if you want to know more about how these model machine learning algorithms work remember to like and subscribe bye"
+        },
+        {
+            "id": 820,
+            "start": 7188.0199999999995,
+            "end": 7198.82,
+            "topic": "Heart Disease Prediction Using Machine Learning",
+            "text": " hi there if you like this video subscribe to the simple learn youtube channel and click here to watch similar videos turn it up and get certified click here"
+        }
+    ],
+    "text": " Hello everyone and welcome to another series in machine learning for disease prediction. This series is sponsored by Simply Learn and I'm Dr. Yuwana Thissen and I'll be guiding you through this series of machine learning starting with the basics of the data science and fundamentals all the way to modeling the data and showing you how machine learning can be used for risk prediction as far as cardiovascular disease is concerned and how this is helping to make a difference in how cardiovascular disease and other types of chronic illnesses are being helped by the practice of machine learning. So cardiovascular disease it still is the number one killer. Over 12 million people die from cardiovascular diseases every day and what we have learned so far is that these some of these deaths are preventable and so there is quite a lot of research that is going on both in the lab and in the field and as we will see here in the area of data science that is helping to make a difference. And so there's the famous Framingham heart study started way back in 1948 and continues to date in its third generation of participants but this study was instrumental in us beginning to collect data specifically for studying heart disease. It's now been extended to study other kinds of diseases but we can use the data which is now a mass several thousands of participants and we can use this data applying machine learning techniques to help us understand the disease, how it is manifested, how it, you know, what are the signs and symptoms of the disease and then use that also to predict the presence of the potential presence of the disease in some, in asymptomatic patients and so help to guide them such that they do not develop the disease. Also help those who have developed disease what steps can be taken to reduce their risk of dying from the disease. So machine learning has been very helpful to medical practitioners in the field of cardiovascular disease as well as other diseases. If getting your learning started is half the battle what if you can do that for free? Visit SkillUp by Simply Learn. Click on the link in the description to know more. So when I talk about the steps in the machine learning project that we will be embarking on I want you to keep these five steps in mind right I use the acronym of Actors to help you remember you know first there's the acquisition of the data or acquiring the data then you will filter and clean the data and then there are this transforming the data then you explore the data then you split the data. So I think of it kind of like you are following a recipe so of course you first have to gather all the ingredients together that's the acquire or the acquisition of data states. Then next is you will be filtering your data similar to if you are baking a cake you want to filter and sift your flour and other dry ingredients to make sure that it's clear and clean and so too with the data we want to make sure that the data is accurate and that is suitable and then you know when you are baking a cake or even making bread or any kind of recipe sometimes it requires you to transform the ingredients and similarly when you just like you would be melting the butter taking it from solid to liquid we need sometimes to transform more data from text data to numerical data or transform feet to meters. You know there's always some kind of transformation of our data is concerned so that we have one accurate data and we have a uniformity of the data that is suitable for our model requirements. Then the next step is after we sort of transform the data and we have it uniform we do an exploration of the data and this is where you get the understanding of your data so there is some exploratory data analysis there's lots of generation of plots so for visualizing so there are some patterns and certain trends in the data that you will begin to understand as you explore your data and that will guide the kind of machine model that you'll be able to build from your data and sometimes you will go back to the transformation or even the filtering stage so there's kind of a cyclic process here until you get your data in the state that is just right for making generating the model and then once you get to that state there is splitting of the data so you first are going to split into the x data's the x variables and the y that's provided that you are doing some kind of particular kind of machine learning model meaning that you're making models where the labels are important or maybe not but you will require splitting and then there's another split that you do more of a horizontal split so you split your data more sometimes 80 20 or even 70 30 so that you can save some or reserve some for the testing so the first 70% you will use for training your models and then the 30% you'll use to test the performance of your model and evaluate it and then decide how and when if you need to make some changes so that you can improve the performance of your model so those are the main five main stages there are others that are involved and we'll see those as we go along but you want to remember acquiring filtering transforming exploring and then finally splitting up the data before you start modeling so acquiring data acquisition is the first stage of any machine learning project and so there are various ways by which you can acquire the data that you need it's important that that data is suitable of course to the problem the business problem the societal problem you know whatever the issue is the phenomenon that you are trying to model or to learn or to gain insight from you want to first make sure that you have suitable data so you can get the data by scraping the internet you can extract that data from another source you can be involved in your own data collection in terms of whether it's a survey or some type of other activity and or you may have to combine data from different sources but these are ways that you can actually acquire the data that you need and so sometimes it's just simply getting the data from the internet as we will be doing my data acquisition stage is actually quite short because I am using data that is available when it comes to the Framingham Heart Study data set it's quite popular a lot of people use it you can get it from of github you can get it from many different sources you can google just google Framingham Heart Study data set and it'll show up and so I've downloaded it and saved it to my computer and so I'm going to so of course first before I can load it onto my notebook which here is the google collab notebook and so I need certain tools right so these are the tools that we need to start our you know project and so first we will have the importing of pandas numpy matplotlib scipy escalord and seaborn so pandas is for the data frame numpy's for numerical type activities my matplotlib is for our graphs basic graphs and charts scipy's for statistic sklearn as well as well seaborn is also for graphing and esklearn is for when we actually do the modeling so we will import those by running this cell here and once that has run we will then you install I need to install this pyread stat because my data set is in the seab form now yours may be in excel or csv so you would use a different function here method here for loading your data set but this is what I'm doing so now we have all of these modules now I can install my pyread stat module and then I can load my data so for that I am going to make sure that my data set is actually loaded here and so I'm going to make sure that I'm loading this data set that I need from my computer and here it's going to tell me that this is a temporary load and that's okay because we can always load it together so now that I have all of these in place now I can go ahead and actually read my data set in into my notebook and so once I've done that then I can take a look at my data set by looking at the first five rows and so that's what the dot head method does then I can see you know I'll give an example just a snapshot of what is contained in my data set in terms of the types of columns or types of features and then what the rows look like so it's showing here that I have 34 columns in all but we don't know how many rows so that's where the dot shape comes in so if I do that it gives me it says that I have 4578 rows the first value it's the number of rows and the second is the number of columns as we saw here then if I want to just take a more detailed look at what is in my data set I use the dot info method and that gives me a list of all of the columns in my data set as well as whether those columns are filled contained information on aren't you the extent that so we have 4578 rows and so we see age is all of the age rows are filled but not so much with cholesterol so anything that is less than 4578 we know that it's missing some values also this dot info gives you information about the type of data that's in each column so some are floats and others are categories and then the final thing we do when it comes to just looking at our data is using the dot describe method so I can show here in terms of what the average value is for all of the features and then I can see what the minimum value in the max and 25th and 75th percentile and so on so for that I've used the dot describe and so I've transformed the matrix so that it's in a different arrangement and then I've also applied this display dot float so that I can remove the extraneous numbers after the decimal point so that's what we would do when it comes to you know just acquiring the data and taking a look at it and making sure that it is what we wanted it to be so after you have acquired your data this is the this is where you will do the filtering of your data and the main idea of the filtering is to get rid of the errors of duplications any kind of data that doesn't belong that is not going to be helpful to you in your modeling process as well as looking for outliers and any kind of extraneous type of it for that we may have to make some do some transformation to depending and so we would look for outliers of course then we'd see if you know there are values that are entered that don't belong we also want to get rid of duplicates because that could cause bias and inefficient modeling and we also want to look for invalid data right so if it's supposed to be measurement of heights then we want to make sure that it's all numerical and that there is no text in there etc so that's what the filtering is in another shell so let's do some filtering of our data so for the filtering I noticed that we had first of all when I did do the dot describe now that mind you that gives you only the numerical or values that are labeled floats in this case not the ones that are categorical and if we looked at the dot info method right we'll see that there is as far as the seventh column or the eighth column is concerned there's a PID or some kind of ID and it's labeled as a float but that is you know it's not an information that we can use for our modeling and then there was another ID measurement somewhere in here in terms of the ID type so I wanted to first go ahead and remove those two columns so I'm using the dot drop method I put the tuned column names into square brackets as a list and then identify the axis one to note that these are in the columns ID so once we do that I reassign that back to the data frame we can do simply do it in place equals true as an option so I do that and I've gotten rid of that and if I do dot shape again we would see that now we have actually 32 rows to 32 columns now and we do have 457 rows so we have so when I get rid of the columns the PID and the ID type and I check my the dimensions of my data frame I can see that instead of 34 I now have 32 columns and I still have the same number of rows so now we've gotten rid of those you know invalid in pieces of information they're not important to our modeling secondly now we want to look for missing values and that's where we use the is null so what that'll do it will show us wherever there are values missing it will say true if the values are there and they're valid that well whether they're valid or not as long as their values there it will say false so we want to get a count of all the missing values in each of the columns so we would use the is null and then we would add the dot sum to it so it'll tell us for LDL cholesterol 67 values are missing for diabetes status 11 and so on and if I want to get that as a percentage of the columns of the total number of observations I can then do divide by the length and multiply by 100 to get a percentage so for the LDL cholesterol column 1.4 64% of the values are missing so that's how we would identify the missing values now there are other ways we can look for missing values and that is using this missing goal module and once I import that then I can use the smsmo to get a visual of my data frame so I would use msno dot bar and I would put the name of my data frame into the as an argument and that is going to give me this lovely bar chart where we can see in anything that is not the length of the other bars we know that there are some missing values now our data set does not contain a lot of missing values so the bars look almost identical but just as an example alternatively we can use the dot matrix method and what that does it gives you a printout of the matrix where when a missing a number or value is missing you will get a white space not much missing so not much to look for then finally when it comes to missing values visualizing missing values we can use the heat map right we can now do the msno heat map and that gives us some idea of the you know the correlation between the missingness of one column relative to another and so we can see that of course certainly glucose times HDL so this is a interaction column or feature created from the glucose and the HDL measures and certainly that is going to be correlated with HDL cholesterol because it's generated from that and so we can get an idea in terms of the relationship between the missingness of one feature relative to another because that's going to determine how we deal with these missing values right so depending on the nature of the missingness whether it's related to another column or not or whether it's related to the target column or outcome variable that we're trying to model for or predict then we're going to treat those differently from those that mean whose missingness are not correlated with the target variable so you want to bear those things in mind so when it comes to dealing with the missing values there are a number of things that we can do now we are in this case for example we're going to delete the rows from two of the columns where they're missing values in fact not delete we're going to impute or we're going to fill those with the mean of that column so in the first place when it comes to the LDL cholesterol we're going to fill in all the missing values with the mean for the LDL cholesterol similarly we're going to fill in all the missing values for the fasting blood sugar with the mean of the fasting blood sugar and so once I run that that's what's going to happen and so if I do that now I can see that when it comes to LDL cholesterol there is no longer missing values as well as for the fasting blood sugar so they've now been um filled in and so for the other columns where there's still some missing values because the percentages are so low we can go ahead and simply drop the rows that contain missing values and that's what we use the drop and A4 and we apply that to our data frame and then uh reassign it back to the data frame we can also alternatively do and in place equals true but so we don't have to reassign it it will actually happen to the data frame itself but we now have that and then if we check for missingness we see now all of our columns are complete so we are good to go as far as missing values are concerned no more missing values that's one of the ways there are other ways you know Python and an SK learn comes with some very fancy modules or different programs algorithms that you can use for filling in missing data doing whether it's the mean or the median or the mode depending on what type of variable it is but these are some of the basic ways you can either fill in with the mean using the fill NA or in this case if the missingness is usually not more than 10 percent then you can go ahead and drop those columns so now we have accounted for all our missing values and so the last thing it would do for filtering as far as our data set is concerned is to check for any duplication and our data frame there are no duplication as far as the entire roles are concerned right there are no two roles that are the same now if we wanted to look for duplication by way of say you know one column or group of columns then we could use the subset inside of the drop underscore duplication duplicates method right so this is giving you info here about this method and it's showing you that you know by default it's there's nothing that you will be using as kind of a subset so it's looking for the entire role and you know if it does find it it will generally keep the first and you can stipulate whether you want to keep the first or keep the last and so that's because we don't have anything any miss any duplications then we can't really we don't have to use this so that's what we would do for filtering we would first look for missing values in this case I also got rid of firstly the those PID numbers because they were not important to our modeling then I checked for missing values and I dealt with that and then I checked for duplicates and I also dealt with that so that's how basic filtering method would occur so the third step in our machine learning process is that of transformation and remember these steps can be fluid there's no hard and fast rules because as you will see there's some there might be some filtering going on in transformation and vice versa but essentially transformation is mainly about changing the values into a form that is suitable for modeling so first and foremost the models can only accept numerical values and so if we want to use a certain column a certain feature in our model algorithm then we would have to change any text into a type of numbers whether that's integers or floats so that's the main model transformation that happens there's also sometimes you know some mapping going on where we may be changing a continuous variable into some kind of a grouping binning also there is of course the formatting when it comes to date you know if we're doing type series type of of modeling then we would want usually when we get the data set it comes in as text as far as the date values are concerned and so we would have to convert them to the special python date type mod pictures so those are some examples of the transformation data transformation that we do when it comes to mission there are quite a few more but we'll just touch on some of the basics for now so the transformation that we're going to do here so first let's remind ourselves what kind of data we have in our data set and I think I made some changes so let me go back to I'm going to run all of this again just to make sure I'm giving you everything so this is we load the data then we did we what were some of the other changes we got rid of these IDs then we looked at the missing values then we actually built in those two columns with the mean and they also dropped other columns with missing values so that's the main steps that we've done so far so now with the data transformation so if we look at our you know data set as far as the data frame is concerned you see we have floats and we have some categorical variables some of which should be very should be categoricals others possibly not but so for example if we have these date values that we're going to need to take care of if we want to use them in the model as they are intended also things like gender now here it is a float so we also look at this diabetic status so that's if we saw what the categories are so it's non-diabetic diabetic so just two categories so this is labeled here in the data frame if I can find diabetic status right and it's oh it is categorical here so right now it's fine using it as categorical we can then see what those values look like in terms of if we wanted to get an idea of the distribution of diabetics in our data set we would do values counts and that would give us what that looks like we want to do it as percentage we would do normalize equals true and so 0.035 our diabetic very low percentage of diabetes diabetics in this data set but if we wanted to convert that to a numerical say one included in our model then we can use the dot replace method and how that works is you identify the column using calling it out with the square brackets and dot replace and inside of that method we're going to include the categories that are the original feature and then as a list and then we include another list for the values that we'd like to replace these with so if I run that so now I'm reassigning it back to the data frame so it's actually changing my data frame and then if I do the unique that's what happens now if we were to run this again a second time here then we would see that instead of saying non diabetic diabetic it's now saying one and two so that's one of the other ways this is a this is a second way that we can do some kind of data transformation and that is using the pandas get dummy and it's usually used when we have these categorical variables that we want to change into some numerical values so that we can now include them in our model and so what the get dummy's does is actually going to give each of the category its own numbers and so if we ran that we see here now it's doing one and we wherever there's that person is actually diabetic it would get a one here and then that person would be a zero so it's taken that one column and split it into two columns and so now we see whenever there's a diabetic it's one in this first column and if that person is now if that person is not diabetic then the one would be in in a different column for the diabetics for the non-diabetics so that's how that would work now if i were to say use this with a different column that maybe we can do the age group feature and if i ran that so the first thing we would do is let us see what are the categories for age group so if we did that we put our age group column in here and i want to make sure like get the name correct so i would do age group and i would put that in here in place and that would give me so there are the age groups so there's 26 to 40 and 41 to 60 and 7 so 1 2 3 4 5 age groups so we could go ahead and we could do something like we did here for the diabetics column and so we put that in there now are going to replace our age group so we have all of these as the various column headings now oh and we're going to use that here and this is also going to be age group as well and so for these now what we're going to do is we're going to replace these with actual text that we can use so less than 25 we're going to call these the young the youth let's say oh you the age and then the next grouping we're going to say young adults then the 41 to 55 we are going to call these adults then for 56 to 70 we'll say middle aged and then we will say old right so those will be the categories that we are replacing them with so we can run that and now if we were to do a values count we can see how those are distributed in our data set and so there we have it we have adults young adults middle age and if i want you to do a lot of that I would do kind bar so that's using the belton python plotting method and that would generate this lovely plot so we can see the distribution and so that's how that would work and now if we also wanted to say do the get dummies what that's going to do it's going to create a new column for each of our categories and we did that um now we have one two three four five columns and of course here this person is adult so it's one here and zero elsewhere the first person is a young adult so it's one there and zero elsewhere and so on so that's what this get dummy does it's going to create an additional column for each of the categories so that's one of the ways that we usually convert categorical variables to numerical variables now you want to be careful that there aren't excess of categories right because then you have the curse of dimensionality as far as your model is concerned so we want to avoid that uh there's other method here we can do is to use the label in coder and so we import that from the pre-processing module and once we've done that we create an instance or we get a blueprint of that algorithm we assign that to the name le and now we can use it here we're using the model here and we're going to fit it on transform it on the data set for gender and I already did that here but that was what if we so if we took a look at the this column as it was originally in the data set so let's do a value counts on that and that was show us how many males and how many females um so it's giving us that two and one and I'm not sure which is which but we can also always check the data source and find out so if we do I think I already applied that to my data set which is why so let's go back so if we wanted to look at the categories in a categorical variable of course we always we can use the dot unique and that would give us just the name of the categories and so we see those categories here but if we wanted to find out what the distribution of those categories are that's why we use the categories that's why we use the values counts so here we see for the BMI grouping we have four categories now we could to use the label encoder module that is built into python so we just loaded into our data to a notebook and once we have used that we create an instance we can use it to transmit and transform the picture or the column value and then we can see how it is distributed so what it is done it's converted or each of the names of the categories into numbers so now we have overweight is one and normal is zero and morbid obesity is now three and underweight is two so that's how that would work now the final transformation is that of transforming converting the text to a date time feature so we want to convert the text date to the pandas date time feature right so it's date as the text and we're going to now convert that to pandas date time and for that we use two underscore date time and we include that column inside of the parentheses as the argument to that function so once we do that so it's PD to underscore date time with the column identified here and we reassign that back to our data frame so now when we look at our data frame and here we had date time as a float or whatever it was before now it is an actual pandas date time object so those are the main basic types of transformation that you would do to your data set in preparation for modeling so the fourth step in our data science machine learning project is that of exploration data exploration or a eda exploratory data analysis is an extremely important step in our modeling process right this is where we get an insight into the trends and the relationships that may exist in our data there we can find what the anomalies are we may also do some univariate, bifuriate or even multi-barret analysis and if necessary where we want to determine a relationship but it's not an obvious linear relationship then we would do some hypothesis testing whether that's between two of the predictor variables or between a predictor variables and the outcome and of course all of this is going to involve data visualizations so this is where you're going to generate your charts and graphs and other types of visualizations that would help you to understand what is the information contained in your data because looking at the numbers in data frame that is generally not going to give you all of the insights that you that is contained in there and so we're going to do some of that now so when it comes to exploratory data analysis right so the first thing is understanding the distribution of the values in your variables right whether they are continuous variables integer variables so the numerical can be integer or they can be continuous and then for the categorical whether it's a binary variable or they're more than two categories so looking firstly at our target variable which is chd coronary heart disease we can do a value count with the normalized equals true and that gives us a nice table showing the percentage of values or observations in each of the categories similarly we can add the dot plot with the kind equal bar and generate a graph for that and so we see significant imbalance which we're going to have to deal with before modeling but another way we can look at the distribution of variables relative to one of the features so now we're moving on from a uni-variate type of analysis to a bivariate analysis so we want to look at all of the variables as far as sex is concerned right so we are going to use the group by method and then to that we're going to apply the mean so what the group by does it creates a data frame a separate data frame for each of the categories in a particular variable so here we have sex and it's going to divide our data set our data frame into the two categories and then find the mean for each of those values so if we ran that what it shows us here now we have age and cholesterol and smoking and so for the gender labeled one we have an age an average age of 40.979 and for the gender labeled two we'd have an average age of 40.84 so not much difference as far as the age is concerned when it comes to cholesterol certainly there is a difference the gender age is up 1.19 and those who are labeled two are 1.07 and so if we just from the fact that there are higher percentage of smokers in category one i'm going to assume those are the male i may be wrong but that's my assumption so and then there is a 13 you know as far as smoking is concerned is a 13% measure of smokers and then fasting blood sugar and so if we can look at all of the values that we have here and see if there are any differences as far as the gender is concerned now if we wanted to say just focus on our outcome variable right we can just choose that and that would give us the distribution as far as the gender is concerned so for one there is a point of 0.04 average heart disease whereas for two it's a 0.0159 so we can you know choose other values here too to select from our sex group by but that's how you would do a binary type a bivariate type of analysis and you can also plot that as well if you did plot that kind let's see kind equals bar here that would give you a general so now we can see here as far as the gender is concerned the percentage of those with heart disease and that's that's binary bivariate distribution now because I had wanted to convert to those and based on what I had seen before in my table I just want to go back to that to remind me again and I'm going to remove that because I am saying here that two is male let's change that and that one is new and usually there's a info package which comes with these datasets so you can confirm that but so if we now instead of having the zeros and one which is good for modeling but when we want to do graphs and charts you know the exploratory type data analysis then we need to have that labeled so what I'm going to do is I'm going to create a separate you know column an additional column now for gender of for sex and I'm going to call this the categorical version so here I do that and now if I do my group by again this time with my new column then I can see female and males there and so now what I want to do is generate a plot and we saw we can do it directly from you know using pep pythons syntax but if we wanted to use the sns module right so sns allows us to do categorical variables and so you can use the female male categories and actually generate a plot so we have our heart disease and I'm going to replace this with our new features I want to make sure that I'm identifying the right column and so now we can see a lovely graph that shows us the average you know what average male percentage of heart disease is relative to the average female percentage of heart disease so on average males are 4.5 something percent whereas with a female it's probably 1.8 percent or so and so that's what that 1.6 actually so that's how we would do our bivariate type of analysis in general right you can do the group by and then generate a chart or a graph in or select a column in particular or we can actually use our cat plot where we identify the data frame then we identify the y you know values right so those are going to be what's you know is on the x-axis and then we choose a particular column so now for the x-axis and we can see what that looks like so that's you know we can also do things like we can do instead of just a cat plot we can do a scatter plot for our variables and here we're going to have to use make sure that we're using you know continuous variables even though there's some variables in here that are labeled continuous that are not so what we're going to do is we're going to go back to our list of variables and at least see so i'm assuming that this is a continuous variable and we're going to put that in here and then we'll choose another continuous variable and we put that in here and now we can generate a scatter plot for those two variables right and so that's what our scatter plot looks like and i'm going to just kind of make it a little bigger and for that i have to make sure that i have the object so i can do plt.figure and then i can do fig size and i'm going to say 12 by 7 or so so yeah so we need to have the equal sign there see how it was telling me something is wrong so now we have that now what does this mean let's see what happens here and it is saying that i need another comma okay perfect so now we have our plot and it's you know bigger and we see we have some outliers here that's the other thing that data exploration helps you to see these outliers and these anomalies right and so we'd have to figure out how we're going to deal with it so certainly when it comes to the cholesterol measure there is some there isn't an outlier if we wanted now this is a bivariate analysis we can make this a a tri-variant analysis by adding q equals to in this case we're going to use our target variable and if we ran that now we get a plot and we can see where the those who are considered having had the heart disease they are how they're distributed so that's what we would do as far as these things are concerned now so if we wanted to we could also use the sms.reg or wrench plot and what that does it gives us a trend line so we can see if the variables the two variables that we're plotting if there is any linear relationship between those variables and so that would be this trend line depending on the the angle of the trend line if it's a steep angle that we know that there is a strong relationship if it's a small angle then it says a weak relationship if it's a straight line then there is no relationship so that's the general gist of doing these type of bivariate analysis for our variables using either scatter plot or red plot and then when it comes to the categorical variables we would use the value count or we would use our goodby. So if we wanted to do a multivariate analysis which so we could separate our data frame into categorical variables and numerical variables so here I'm creating a subset of categorical variables and I'm using the select underscore d types method and here I identify the columns type that I want to select for so when I run that I get only the categorical variables or at least those that are labeled categorical variables and so I can now look at my variables and here this is where I am seeing you know so we see here that these are the different categories but if I were to look specifically at the variables that I am now identifying as categorical so we see those are the ones with only two three for the max here is seven categories right and so these are these are the original variables diabetic status and then tenure update and even there's a filter variable created here and we have these variables so this was an extra so they bend the variables so HDL they bend into three groups and SBP the systolic bar pressure they built into four groups and BMI they also built into four groups age they built into five so this is all the variables where they created additional variables so they did some type of transformation essentially in this dataset and then if we wanted to we can actually now do some separation of our variables as far as we can look at and what I want to show how we did just the numerical variables but what I noticed was that there were some variables that were labeled categorical or not that were labeled either floats numerical values that were not necessarily categorical variables and I'll give you an example so if we looked at the number of unique values in some of our data set some of our columns for example smoking only has two unique values that tells me it is actually a categorical variable but it is not labeled categorical because it doesn't show up when we separate those label categoricals from those label that not label category smoking should be categorical so should sex it's not shown up here of course our target variable is also categorical then tenure debate tenure update there are a bunch of these variables that actually should be labeled as category or should be treated as categorical and some of them are but others and some of them are but others are not and so when we go to do our modeling we want to make sure that we have transformed the variables of pre-opricting now let's look at the numerical values choose from over 300 in-demand skills and get access to 1000 plus hours of video content for free visit skill up by simply learn click on the link in the description to know more so continuing with our exploratory data analysis all right so we're separating out the categorical variables at least those that are labeled categorical but when we do our dot unique for the entire data set we see that there are some cats some of these features that are that only have two unique set of values that should ideally be categorical variables and they're not so what i'm doing here is i'm going to now assign the entire data frame you know to a separate data frame based on those unique values and then i'm going to you know give this new data frame well by putting it as using dot reset index i've now converting it to a data frame effectively and so that's what it looks like here except that the column labels are weird so that's why i'm giving the the column labels actual names features here and categories and so one i do that now i can convert all of the data types to integers because summer floats summer integers but what what i'm converting to integers are use these values right because i want to be able to sort those values and once i'm i've sorted those values now i well i probably didn't need to sort it necessarily but i am now going to create a subset of features that have unique categories less than 10 because those are the true categorical variables and so once i do that now i get a list of these columns that ideally that accurately should be labeled as categorical and so now i can use this list of feature name or column names to create my true categorical data's frame subset and so this is what we have here and so once i have done that now i i don't need to to print this out again so i'm going to delete that but now once i've done that now i can use this data set which is of categorical variables and i can produce count plots so count plots is one of the plot type in the sns module and that allows you to plot a categorical variables and so you can see what those looks like look like as far as the distribution is concerned so if we did count plot of this feature now when it comes to sns you always have to do data and you have to identify the data frame and then you can identify what the x values that you are wanting to count for essentially so now we can generate that count plot if i spell it correctly and we can see here a distribution of all of the categories in that particular variable so most of the data status made up of those between the ages of 26 and 40 and 41 and 45 so from 26 to 55 sorry that's the majority of and it gives you an actual count of observations in each of these categories so now that these are all categorical variables i can include them in my for loop so i am using a for loop and i'm saying for i in and i'm enumerating over the list of columns and so when you use the enumerate identifies the index as well as the value so i'm enumerating over this list of columns and then so for every column name i will then use that the first object identified for my enumeration and that's going to be the x and of course the data is coming from the data frame and now i'm using the hue as the target variable so i can see how each of my variable is distributed as far as the outcome variable is concerned now because there is such significant imbalance there isn't much to see we you know when it comes to the percentage of persons with heart disease it's so low that you know you get these very small very low bars but that's what you would do so we can see here for smoking so if this is the smoking category these other people this is the count of persons without without heart disease whereas those with heart disease similarly so there is not much to see here but if you had a data set where there wasn't as much imbalance this would be something very useful as far as the distribution of our variables are concerned so now we are moving to our continuous variables right and so we are looking at those variables labeled plots and if we generate a subset of the data set we would get these variables here now we see heart disease is still here and some of the others now what i could do is do a subset of the data frame that is actually um minusing all that i have chosen for my category of variables so let's do that so i'm using the dot drop method and i'm going to drop all of the categories that i have considered now as all of the columns that i consider categorical variables so as i do that now i see that they're all listed as float but i also want to get rid of this date column because it's a different type of data so we get rid of that and now we have some we have our columns here actually i'm dropping it from this data frame not the main data frame necessarily so now i drop that and apparently it's already dropped from the data frame so let's see if i ran this again it is still there so why am i not able to drop it from this data frame ch data access equals one here we go so now it's dropped and now we can do some things with our numerical data set one of the first things that we can do is to actually generate a correlation matrix and so for that we would have the name of our data frame and reduce the dot core method and that will give us a nice matrix that shows the correlation between each pair of variable now because it's you know not as easy to look at all of these numbers and this is where the charts and graphs makes things a whole lot easier so we're going to use a heat map and that will give us a nice visual as far as the relationship between our variables are concerned so now i'm going to try to make this bigger by using PLT but bigger and i'm not sure if this is going to improve we're going to try i may have to actually do it inside of the heat map function itself so we are going to do 12 and seven and see what happens here well that worked so now we see our data frame as far as the continuous variables were concerned and where there is some correlation now of course this end of the data frame with seeing a lot of correlation LDL is correlated with the the variable that's created from LDL HDL yeah so it's also correlated with this variable here which is the cholesterol so we have LDL cholesterol this is a intersection or a bisection variable or a interaction variable that's created between LDL and cholesterol and so of course it's going to be correlated with LDL as well as correlated with cholesterol so the other variables that it's correlated with let's see anything other than those mentioned not much happening here and HDL cholesterol oh so if we look at our legend here though light values is positive strongly positive correlation whereas the dark values are the negative correlations and these negative correlations are not more than minus 0.3 so not very strong so for light correlations though so we can see that the that's a blood sugar BMI interaction is strongly correlated with systolic well let me see that's about a seven strongly well that's five strongly correlated with um or moderate the correlated with systolic blood pressure here we have so so there's a first one is the interaction variables are concerned quite a lot so not much in terms of inferring anything you know if we look at some of these raw values age is not very strongly correlated with anything so usually the heat maps are a lot more informative but in our case um not so much but we can do some box plots to see how the variables the distribution of the variables so for a simple box plot you would simply do dot box plot so using the built-in python plotting but of course because the variables are on different scales it really kind of you know doesn't show much so if we do the facet grid now where we have a separate box plot for each all the variables and not only do we have a separate box plot we can also now um separate based on additional variables so we can do bivariate as well as a tri-variage type of analysis here so here we're looking at gender versus age and so we can get each of the age groups as a separate plot as well as we can see um you know how those age groups the count of the different number of observations in in each of those categories relative to the outcome variable so we have the rows representing the gender so we have gender in the rows here and these are the two genders so we'll have the male and female so this is x sex one for this row and sex two for the second row and then for each of the columns now we have age groups so we have the young people the 41 to 55 here and the 56 to 70 and then uh we have the ones who are less than 25 and then those that are more than 70 so we get an idea of how the heart disease is distributed now mind you it's showing here this is zero and this is one even you know you know you know what the x-axis is so this would be no heart disease heart disease no heart disease heart disease and so on um and not much difference as far as the gender it's hard to see anything clear uh alternatively we could use the facet grid and instead of the the histogram now we're using a scatter plot and so we're looking at these two variables comparing these um you know the relationship between fasting blood sugar and total cholesterol but we're now dividing uh based on the age groupings so we have the age groupings here and we have uh the fasting blood sugar versus the total cholesterol and then we have the hue for as far as the weather that person had heart disease or not so that's how you can do some of these bivariate and even multivariate type of analysis if we wanted to look at uh just one you know just doing bivariate analysis for a particular variable then we could do that so here we have the x as the age grouping and then we have y as the total cholesterol so instead of having a series of maps or graphs or charts this would just be one so we can do that one at a time so we create our uh objects our plot objects uh thick and x is equal to PLT sub plot and this is determinant aside so when we do s and s box plot where we identify the x and the y axis from this data frame and we say the a x is based on this a x we defined here when we run that it gives us this really nice graph where we can see the relationship between the age groups and the total cholesterol in terms of the or the mean of these values for each age group so we see definitely that those under 25 had a lower median value as far as uh the total cholesterol is concerned and then for the 26 to 40 we see there's definitely some type of an outlier happening here now this is interesting because what it's showing here that there's a total cholesterol outlier but remember we have different measures for our cholesterol so if instead of the total cholesterol we use the LDL cholesterol in that plot and we replaced it here so what that would show us now is that there is no longer an outlier in this group so the extreme value is actually the HDL cholesterol because remember total cholesterol is the sum of LDL and the HDL so just some further insights and then there is this uh outlier here possibly but LDL cholesterol you know something that you want to be wearier you know HDL is the healthy cholesterol so just some ways you can gain some insight and then finally if we were to generate these box plots for each of the variables we can see the one so there we see that total cholesterol with the outlier there and then if we were to look for specifically that LDL cholesterol so we see HDL so there is the outlier in HDL and not so much in LDL just looking at it and so that's what we're looking so now we've kind of looked all the ways we can do exploration of our data whether it's categorical variables using the count plot or numerical variables we looked at the heat map and then we looked at some box plots and of course scatter plots so just some ideas of how you can explore your data there's a whole lot more to it but just to give you some idea so now that we have filtered our data sets we've transformed some of the variables now we're ready to generate our machine learning model so when we did our data exploration however we learned that our target variable which is uh chd or coronary heart disease is significantly imbalanced and what that means is that there are very few observations in one of the categories and in this case it is the category of interest which represents the persons who've had heart disease so if we do our values count we see that off the for the 4500 or so only 125 actually are recorded as having heart disease and if we do normalize equals true that shows us that about 2.78 9% or so are those who've had heart disease so that is would be considered an imbalance and if we were to look at that graphically we'd see that in the bar chart here using plots dot uh kind equal barf on the value counts alternatively we can do a plot kind equal pi and get a bar chart and i've added uh the labels here as well as the syntax for removing some of the numbers after the decimal point so this is just to illustrate just how imbalanced the data set is and so we would need to do some kind of bootstrappings you know over sampling to balance out that target variable so before that though we first have to we're going to do a splitting of the data set so we would normally do two split it splitting into the x and y or the input and output or the predictors and the outcome variables and then we would split that into our train and test so if we wanted we can do so here we see what our data frame looks like and we're using the numerical uh the continuous variables because these are more tenurable to smoothing and we'll learn what that is in a second but we um we want to smoke this over sampling and so that's going to be based on the continuous variables so we've filtered out a subset of those variables and that is going to be our x matrix or input matrix or our predictor variables so we have the shape here 4557 by 18 columns right and then of course the y is simply going to be uh the column for with our target variables so that's going to have the corresponding dimension you know it's a matrix but this one has just it's just a series or just an array whereas the others it's a it's a two-dimensional so we now have our x and our y so we can go ahead and smote our variables and smote stands for the synthetic minority over sampling so because our target outcome or category is so low as far as the proportion is concerned we are going to do a sampling an oversampling but we're going to be oversampling of the minority set to generate synthetic observations so that's what the smoting does so the first thing we do is we uh load the algorithm into our data set so we're going to get the smote algorithm from the uh IMB learn oversampling module and so once we have that loaded then we create an instance of that algorithm and we assign it to the variable name os for oversampling then we take that oversampling algorithm the it's just a blueprint of the algorithm so now we're going to use the data to train this smote model and get the features so we use fit underscore resample now with other algorithms we use fit underscore transform in this case we're using fit underscore resample and the parameters are the x matrix first and then the y matrix or the y series and we are going to assign the results of that fit resample back to what would be now our new x matrix and our new y values created by the oversampling so once we've done that we can take a look at the dimensions of these new objects now for the x we see it has dimensions 8860 by 18 now remember our x was 4557 by 18 so now it's 8860 so we've doubled the number of observations right the number of columns remain the same similarly for the x variable we have doubled the number of outcomes to match our x and so we can take a look at that if we did a value counts on our y series here we would see that it's distributed equally remember what the distribution was here it was 97 to 2.78 that was the ratio now that we have smoked the data set our new ratio is one to one so 50 percent of the observations are those who had heart disease and 50 percent are those who had who not so that is what the smoking does so it has used the the minority outcomes and oversampled for those to create synthetic variables and if we plotted the bar chart here we see that the both bars are the same using the dot plot if we use s and s it gives us a nice colorful plot version but we can see definitely that the count for each category is identical now if we wanted to look at the distribution of these synthetic observations we could recombine the x and dy back into a data frame such that we can do some bivariate and even multivariate type analysis so that's what I did here so I've assigned the x matrix to a data created a data frame with it using pd dot data frame and this df underscore os is now the new oversampling or smoked data frame and then I add the outcome variable or heart disease to that data frame so now we have a complete data frame and we can do all the things we did with the original data frame here so in this case I'm creating a scatter plot with the data frame and I'm using bmi choose any random uh any one of the the many variables I'm plotting bmi versus h or h versus bmi because y uh versus x and I'm using heart disease as the hue so when I plot that I get this lovely scatter plot here and what you see is all of the blues are the ones that did not have heart disease and now the orange are the synthetic well mostly mostly the synthetic observations and so you can see how it's distributed um as far as these two variables are concerned you can choose any of the other variables and substitute so we can look at uh we had age and bmi we can do fasting blood glucose against um so we'll just leave the age in there maybe and do the fasting blood glucose and see so there we can see how the synthetic variables are created right so this is the blue no heart disease orange heart disease and so some of the synthetic are going over here into this sparse so that's the general idea of how the smoking works so now once we have our smote it um data set we can now do our second split which is into train and test right and for that we're using the train underscore test underscore split uh method and uh we're using the x and the y as arguments for that method we identify the size of the split point three would be the test and then we give a random state so when I run that I get now four matrices x train x test y train y test so we're going to use x train and y train to train our model and x test at y test to test the performance of our model so before we actually you know fit the model we're going to standardize our data right because these data points or these features we we know from our when we did the box plot we saw that the ranges for these values were quite different you know for example um you know the age of course is going from that 18 to 70 something but you have things like blood pressure and others going up into the hundreds so in that case if we were to plot just the head values here just to see what that looks like right we can see age right so that's kind of the range maybe if I did a dot to describe that would actually give ranges yeah so age is ranging from 19 to 83 but when we look at some of the other values in our data set for example blood pressure is going from 70 to 196 um blood sugar is going from 54 to 404 then of course these interaction variables that are created by combining two variables together they even have a wider range the glucose BMI interaction it is that has a maximum of uh 16 000 so the range is different so this is why we are going to scale our variables and make sure that they're all in the same scale so we use the standard scalar and that's going to um convert all of the values to the z-score so the values are going to be in standard deviations essentially so we create an instance of the standard scalar and we fit that on the train data set and once we fit it we can then transform all of the variable based on those uh the values in our standard scalar model so this is what our values now look like right so we have values going from in this case um there's no the columns headings are missing but you can see there's minus 1.8 and there is three so the values are all in standard deviations right now either one or two when in some case three standard deviations above the mean or two or one point five standard deviations below the mean so the range is now much smaller so now that we've scaled our variable so we have this x underscore train underscore sc with standard scalar and now we can use that in our model so we are going to do a linear a logistic regression model remember because our outcome is categorical so we're using logistic regression model and the logistic regression model is going to do a classification of yes or no binary classification zero or one heart disease or not so that's what the the logistic regression is going to tell you now there's a lot of um some math and some integration involved but just understand that it's doing a classification um we have identify the solver here as the lib linear and we generate an instance of the logistic regression model once we've done that we can use our data now we're using the x train scaled and the y train to fit our model so let's run that and so now we have our model and we can test the performance of our model but now instead of the train data set we're going to use the test data set right because we don't want to test the model on the same data that was used to train the data right because you know we're going to get elevated risk um you know performance and not accurate indication of how well our model will generalize to data that it has not seen before and that's the whole idea so now we are going to use the test data set but remember this model is built on data that has been scaled so we have to scale our test data as well so we generate us another instance of the standard scalar and we train it on the test data set we don't want to use the same standard scalar that we trained with the train data set because that's going to cause data leakage and so the features of the the scalar from the train model are going to be slightly different so we want to treat this test data set as data fresh new data that's coming in from who knows where that we have not seen before so it's going to be subject to its own set of values and and inputs and so we are going to standardize and get new features for our scalar and then we will transform the test data and once we have that x on the score test on the score sc now we can use that x test scale and our y test to test the performance of our model and what we do is we do model name dot score right so this is one of the attributes that are built in with the logistic model class and we can apply that directly to our model and as long as we put in the x values and the y values it is going to give you a result so what it's going to do is it's going to take the x test values and put it into our model and generate results those are going to be our predicted results and then the algorithm will compare how many times the predicted results match the actual results in the y test data and give us an accuracy score and so that's what the results are and we multiply by 100 to get 100 to get the percentage so we run our model we do the x test and then we get the score for our model so now so now we can use the x test scaled and the y test to test the performance of our model and see what the accuracy percentage is so in this case it's 76% accurate if we compare that with the train data set we see that it's 77% accurate so not much of overfitting happening but those are the results such far this is our base model then in the next video we're going to look at ways other ways we can test the performance of our models using other metrics and then even maybe some ways of improving on the performance but the general idea is you would get your data you would separate the x from the y as we did here we had separate x and separate y and we then smote our data set if there is imbalance you smote if not you just move right on to separating into train and test once you've done that you scale the train the x train data and you use that to fit that instance of the model that you generate so now you have your model and once you have your model you can now test the model but you've got to scale the x data whatever you did to the train you have to scale but with a different instance of the or standard scalar and you then now use that scaled data to test the performance of your model so when we did our last version of the model this was the accuracy score 77 so meaning every time we made a measurement we generated a prediction using our model 77 percent of the times we correct we're work correct the other times we're not so we want to see if we can improve on that accuracy score somewhat right so remember these were the values these were the features we included in our model the ones that were numerical float data type specifically and these were the categorical errors that that were left out so what I did was I'm going to add some back some of these variables that I think will make a difference in terms of the performance of the model so I think gender is important I think diabetic status is important as well as smoking status so I'm going to add these back to my working data frame right now when I do that I'm going to notice that at least one of them is categorical so we can't use it in the model in that data type so I'm going to so this is how it's distributed non-diabetic and diabetic so it's you know categorical text label so what I'm going to do is I am going to change that and I'm going to replace these text labels with integers right so now when I do my info I will see here that indeed my diabetic status is now of data type integer and so I can use it in my model algorithm as such but before the doing so I want to generate a plot of the correlation between each of these features and the target now this is only going to look at linear correlation and so it's you know just kind of a measure and this the graph is generating generated showing the different features and how they are contributing the correlation between the target right so we can see age is very strongly correlated whereas LDL cholesterol is not so much HDL cholesterol on the other hand this is strongly correlated to not having a heart disease whereas age is strongly correlated to having a heart disease so as the age increases the probability or the likelihood of a disease increases whereas as the HDL increases the probability of heart disease goes down systolic blood pressure is strongly correlated with having the disease and so on and sex you know going from one sex to another there is a stronger possibility and I'm going to assume that that's going from female to male there is a stronger likelihood of heart disease so I want to include these measures namely gender diabetic status smoking so that one is not as strong as these two so hoping that by including these two these three variables that we would get a higher accuracy right so now we have a new data frame with the additional of columns so instead of the 19 that we had a 41819 we now have 21 so then our y value is still the same and then now we can smoke we're going to do that oversampling of the minority again and we are going to use that also I did not load my smoked algorithm and let's go ahead and do that it is inside here so I've done that so now I can go back to my smoking and I can then create that instance of the model and generate my new x and my new y so now with the new x and the new y I can now separate so remember the two two divisions separating into x and y and then separating into train and test so now we have our new train and test based on our new x and y so now we can model we create an instance of the logistic regression model using the same solver again and then we use this uh this is our new model um you know frame work is the the blueprint but first we have to of course scale our data so we using the standard scalar here and we create scaled versions of the x and y just to show you what that looks like so now we have these values instead of age of 50 or 70 or something we now have them in terms of their standard deviation or their z score I should say and so now we take these new x scaled x trains and the y train and we fit the model and now we are going to test the model and this is my test for the model I move that up here so we're using the test data set oh that's why that's why this is here because we need to scale the test value so we fit our standard scalar on the x test and then we transform all of the values so those values now look similar to what the train value x train values are and now that they're more like that now we can put that into our model and we can generate our uh score not much of an improvement to win from 77 to 78 um and as far as the training set yeah so not much of an improvement here but you know that which we added some variables that I thought were important um didn't prove to be so much but we can now look at some other things we can do as far as our model is concerned using some different metrics right so we're going to do some cross validation and remember cross validation is where we are separating our model our data set into test and train but doing so um several times and changing what values are in the train versus what's in the track test so we're kind of mixing things up as a way so we create a we need the k-fold algorithm and we need our cross values on the score score to to use for the cross validation so we're going to divide the data several times over and then we're going to test that uh the model each time and save the score and then find the average so I wanted to show an example of what happens with the cross validation right so if this is our data set we would divide into the train and the test and we would train use this proportion of the data set to train the model and then this proportion in the yellow to test the model then the next iteration we would reserve a different proportion different set of observations for testing and use these in the blue for the training and then we would change that you know depending on how many folds we have indicated in our data so that's what that is so we have the k-fold and the cross value and we are loading in the data set so now we create an instance of the k-fold we state how many splits we want so here this is 10 these does five splits we are using 10 splits um you know the splits of course the more splits you have the more times you will be running your your training but you also have to take into consideration the size of your data set and how long each of these training are going to run and how much computing power it's going to utilize and you know different factors so we are doing 10 splits so instead of five we'll have 10 and we're creating a random state so if you want to repeat what i'm doing you use the same random state and just get the same value and then we are saying shuffle is true so we're changing around how the data is being split every time right so that's what that does so we now have a k-fold and then we have an instance of the logistic regression model so now we're using our cross validation here and we are going to use the model that we created here and then we're training it on the x-train and y-train and that should be our scaled data and we're using the y-train so x-train scaled and y-train and then for the cross validation we have this k-fold object that has all the information in there so when we run that we are going to get a set of values so we ran 10 different models and each of them had a different accuracy score because that's a default metric that's been used so some had 77.9 of those one had 80 and then one had 76 so the values are between like 75 for the lowest accuracy and 82 for the highest accuracy and on average it had a mean of 78 percent accuracy with a standard deviation of 1.86. Now we can use a different scoring method other than the default accuracy and here we're using the negative log loss and we can run that with the same parameters and here we see that the average negative log loss is negative 0.47 with a standard deviation of 0.18 so that's another way of you know measuring the performance of your variable and you can then make changes and use the same kind of cross validation again but we can also change it to the ROC, AUC or area under the curve method of estimation because this is a logistic regression and accuracy is generally not the best method for assessing the performance so if we use the ROC, AUC so now we're creating a different model here we're training it and I'm forgetting to make sure that this is the scaled version of great what am I doing the scaled version of my X train so let's see that didn't make much of a difference but here we have the X train and we are all see as the measure and so it's given an ROC score of an AUC score of 86 percent and so we can look at that to see what that looks like graphically so we're going to use the confusion matrix and the classification report so the confusion matrix that is the matrix that gives in a case so I should have those in there and make sure that I have one of these models as I rightly called them so after you've loaded the confusion matrix and the classification report you can use them for different representations of the different types of metrics that you can use with your logistic regression to evaluate the performance of your logistic regression so if we did the confusion if we did the confusion matrix using our X test and the predicted Y predicted Y meaning the values we would get from our model if we put in the test values or the values from our test data set that's been scaled we get a set of values and we use that to compare with the you know the what the actual values are in the data set and we would get we use it to generate a confusion matrix and this syntax here is what is going to allow us to view the confusion matrix as such and so we have our true positives here and our true negatives and we have our false negatives and our false positive so we can see where the model is doing well and where it is not and so this gives us a further insight into our model's performance and so we make here more about one type of performance in terms of whether we care more about the precision or the recall or maybe you know some balance of both right and so we want to make sure that we're doing that and when we have this confusion matrix now we can see where we are now and in addition the precision recall we can also get the F1 score so we use the classification report again with the Y test which is what is in the actual data set and the predicted values and so we can see what the precision is and the recall is for the one category of the data and the same for the other category of the data and then of course we have the accuracy score and then we have the macro average and weighted average so that's what the precision the classification report will tell us and finally if we wanted to look at the list of features and in terms of the feature importance so what we do here is we are first going to get a list of the features names from our column right so now we have the names of all the features that are included in our model now we also can generate the coefficients for each of these features in the model and we're using lr1 in this case that's our model and so this is the list of the coefficients that correspond to each of these features now to combine that into one data frame right so firstly we are going to convert those coefficients into an array then into a list as such and now once we have that list we can use those two to the features and the coefficients the names and create two dictionary items right and that's what we're doing here and then we can change that into a data frame and we will sort that by the coefficient values so this is what it looks like here and so we see that glucose is the most the glucose blood pressure interaction is the strongest now it's kind of hard to see all of them here so then of course we can now that it is in the form of a data frame it's easy to plot that as a bar chart and so I plot it as a bar chart and then I've used the names of the features as the x tick labeled and this is what you get so here we can see the contribution of each of the features to the models performance so age is the strongest in this case negative indication meaning that as age increases you're more likely to have a cardiovascular disease similarly the LDL cholesterol interaction and HDL cholesterol interaction those are strong contributors then we have here and I don't know why I have limited this to 17 let's change that so we can get the names of all of them so now we have sex as being possibly not the strongest so one of the strong age it seems it's the strongest contributor to heart disease diabetic status is also a strong contributor smoking is a strong contributor now remember when we did the linear correlation it was not because the correlation between smoking and heart disease apparently is not linear but it is strong and then fasting blood sugar BMI and fasting blood sugar systolic systolic blood pressure so that's how you would do that so remember what I did I simply added back some of the variables that I thought that might have been important that got left out so I added smoking diabetic status and sex and I didn't get much of an increase in the accuracy of the model but it did increase now we didn't measure things like the precision and recall prior to adding those so we don't know what those changes might occur you know as far as it concerns but we all we did the cross validation 10 fold and we got the average values we also got the the neck log loss we got the ROC AUC score and we generated the plot for that as well as the classification report and then finally we did a table of feature importance that we plotted on a graph so that's how you would do your model optimization so you can keep on further tweaking and optimizing your model adding some more variables taking away others you know for example like we could probably lose some of these features here because they don't seem to be contributing much to the model's performance and just keep testing it and see what happens but that's it in a nutshell how you would do that now there are other types of models besides the logistic regression and maybe the next video I will do a decision tree or random forest and see how those perform but that's it so I hope you've enjoyed watching and if you want to know more about how these model machine learning algorithms work remember to like and subscribe bye hi there if you like this video subscribe to the simple learn youtube channel and click here to watch similar videos turn it up and get certified click here"
+}

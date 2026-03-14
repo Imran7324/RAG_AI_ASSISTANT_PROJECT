@@ -1,0 +1,292 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 23.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Feature selection in machine learning. My name is Richard Kirschner with the Simply Learn team. That's www.simplerne.com. Get certified. Get ahead. Today we're going to look at what's in it for you. The need for feature selection. What is feature selection?"
+        },
+        {
+            "id": 5,
+            "start": 23.0,
+            "end": 44.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Feature selection methods. Feature selection statistics. Feature selection statistics. So the need for feature selection. To train a model, we collect huge quantities of data to help the machine learn better. Consider a table which contains information on old cars. The model decides which cars must be crushed for spare parts."
+        },
+        {
+            "id": 10,
+            "start": 44.0,
+            "end": 69.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " When we talk about huge quantities of data, they save everything from people's favorite cat pictures. You can imagine there's so much data out there. Even in a company, they'll save all these little pieces of information about people and companies and corporations. You need some way to sort it through because if you try to run your models on all of it, you'll end up with these very clunky models and they might have issues, which we'll talk about later."
+        },
+        {
+            "id": 15,
+            "start": 69.0,
+            "end": 91.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " In this case, we're talking about cars and crushing. But not all this data will be useful to us. Some classes, or part of the data, may not contribute much to our model and can be dropped. You can see right here, we have who was the owner of the car. In our data, a car will not be crushed based on its previous owner. So that's kind of a clear cut. You can see that."
+        },
+        {
+            "id": 20,
+            "start": 91.0,
+            "end": 112.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Why would I care who owned the car before once it's in the junkyard and we're crushing the cars? We're not going to really care about that. So here we have dropped the owner column as it does not contribute to the model. Having too much unnecessary data can cause the model to be slow. They also learn from this irrelevant data and be inaccurate."
+        },
+        {
+            "id": 25,
+            "start": 112.0,
+            "end": 142.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " So feature selection is a process of reducing the input variable to your model by using only relevant data and getting rid of the noise in the data. Consider the database given below. A library wants to donate some old books to make place in their shells for new books. We want to train a model to automate this task. In this case, the color of the book does not matter and keeping it can cause a model to learn to donate books based on color. We can remove this as a feature."
+        },
+        {
+            "id": 30,
+            "start": 142.0,
+            "end": 164.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Using feature selection, we can optimize our model in several ways. And so the number one is to prevent learning from noise and overfitting. That's actually the huge one because we don't want it to give us the wrong prediction. That means also improved accuracy. Instead of giving us a wrong prediction, we also want it to be as close to the right answer as we can get."
+        },
+        {
+            "id": 35,
+            "start": 164.0,
+            "end": 182.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And we want to reduce the training time. It's an exponential growth in some of these models. So each feature you add in increases that much more training time. We talk about feature selection methods. We put together a nice little flow chart that shows the various methods used for feature selection."
+        },
+        {
+            "id": 40,
+            "start": 182.0,
+            "end": 211.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " You have your basic feature selection, and then there is supervised and unsupervised. Under supervised, there's intrinsic wrapper method, filter method. So we talk about unsupervised feature selection. It refers to the method which does not need the output label class for feature selection. You can see here under unsupervised, we don't have, that's really a growing market right now, unsupervised learning."
+        },
+        {
+            "id": 45,
+            "start": 211.0,
+            "end": 230.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And so feature selection is the same thing. Supervised feature selection refers to the method which uses the output label class for the feature selection. And if you remember, we looked at three different, we have intrinsic wrapper and filter method. So we're going to start with the filter method on this. Now remember, we know what the output is."
+        },
+        {
+            "id": 50,
+            "start": 230.0,
+            "end": 255.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " So we're going to be looking at that output to see how well it's doing versus the features. In this method, features are dropped based on their relation to the output, or how they are correlating to the output. And you can see here we have a set of features, selecting best feature, learning algorithm, and then performance. And so we want to find out which feature correlates to the performance on the output. Consider the example of book classifier."
+        },
+        {
+            "id": 55,
+            "start": 255.0,
+            "end": 274.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Here we drop the color column based on simple deduction. And that kind of sums it up in a nutshell, as we want to filter out things that clearly do not go with what we're looking for. We look at the wrapper method. In the wrapper method, we split our data into subsets. And train a model using this."
+        },
+        {
+            "id": 60,
+            "start": 274.0,
+            "end": 299.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Based on the output of the model, we add them to subtract features and train the model again. And you can see here in the wrapper method, we have a set of features. We generate a subset, we run it through the algorithm, and we see how each one of those subset of features perform. Consider the book data set. By using the wrapper method, we would use a subset of different features to train the machine and adjust the subset according to the output."
+        },
+        {
+            "id": 65,
+            "start": 299.0,
+            "end": 326.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And so you can see here, let's say we take a name and number of times red, and we run just those, and we look at the output. And if we looked at them with all four inputs and look at the output, we'd see quite a different variation in there. And we might say, you know what, condition of the book in color really doesn't affect what we're looking for. And you can see here we've run it on condition of the book in color. Depending on the output of the model, we will choose our final set of features."
+        },
+        {
+            "id": 70,
+            "start": 326.0,
+            "end": 350.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " These features will give us the best result for our model. And I might come up with the name, number of times red is probably pretty important. The intrinsic method, this method combines the qualities of both filter and wrapper method to create the best subset. The model will train and check the accuracy of different subsets and select the best among them. We kind of looked at a little overview of some of the stuff."
+        },
+        {
+            "id": 75,
+            "start": 350.0,
+            "end": 380.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Some of the common feature selection algorithms based on which method they belong to are given below. And you'll see this primarily under supervised. There's not, like I said, a lot of unsupervised methods, and the ones that are usually used, these methods, and finds a way to create a supervised connection between the data. And we talk about supervised methods. We have our filter method, which we talked about. And it uses the Pearson's coefficient, Chi squared, ANOVA coefficient."
+        },
+        {
+            "id": 80,
+            "start": 380.0,
+            "end": 403.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Those are all under the filter method. And in the wrapper method, recursive feature elimination. So remember we're choosing a subset, and we want to go through there and look at each one. So you're just doing a lot of loops or recursive calculations to see which one works best and which ones don't have an impact on the output. And there's a lot of genetic algorithms to go with us too on the wrapper method and how they evaluate it."
+        },
+        {
+            "id": 85,
+            "start": 403.0,
+            "end": 434.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And with the intrinsic method, the two main ones we're looking at is the lasso regularization. The lasso algorithms are basically your standard regression model. So it's finding out how these different methods fit together, in which ones have the best add together to have the least amount of error. The other one used in the intrinsic method is the decision tree. It says, hey, if this one produces this result, this one produces this result, yes, no, which way do we go?"
+        },
+        {
+            "id": 90,
+            "start": 434.0,
+            "end": 470.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Based on the input and the output variables, we can choose our feature selection model. So you have your numeric input coming in, you have your numeric output. If you use the Pearson's correlation coefficient or Spearman's rank coefficient, you can then select what features you're going to feed into that specific model. And you maybe have a numerical input and a categorical input, so we're going to be looking more at a Nova correlation coefficient or Kindle's rank coefficient. And if you have a categorical input and a numerical output, we might be looking at a Nova correlation coefficient in Kindle's rank coefficient."
+        },
+        {
+            "id": 95,
+            "start": 470.0,
+            "end": 497.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " So based on the input and the output variables, we can choose our feature selection model. And you can see we have categorical to categorical. We might be looking at the chisquared test contingency tables and mutual information. Let's go ahead and take a look and see in the Python code what we're talking about here. And I'm going to go ahead and use for my IDE, the Jupyter notebook, and I always launch it out of Anaconda on here."
+        },
+        {
+            "id": 100,
+            "start": 497.0,
+            "end": 527.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And we'll go ahead and go up here and create a new Python 3 module. And we'll call it a feature. Select. Since we're in Python, we're going to be working mainly with your NumPy, your Pandas, your Matplot library. So we have our number array, our data frame set up, which goes with the number array, the NumPy, the Pandas data frame."
+        },
+        {
+            "id": 105,
+            "start": 527.0,
+            "end": 552.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And then we want to go ahead and graph everything. So we're going to import these three modules. And then we put together some data. We're going to read this in. It's Kobe Bryant. I guess he's a basketball player. Our guys in the back, we have a number of them. Guys, we have a lot of men and women, so it's probably a misnomer. Our team in the back, some of them have a liking for basketball."
+        },
+        {
+            "id": 110,
+            "start": 552.0,
+            "end": 585.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " They know who Kobe Bryant is. And they want to learn a little bit more about Kobe Bryant and what's going in for whatever's going on with his game in basketball. So we're going to take a look at him. And once we import the data, we can see what columns are available. Original features count. So we can see how many features there are. The length of it, we'll actually have a list of them. And then print just the data head, the top five rows. And so when we do this, we can see from the CSV file, we have 25 original features."
+        },
+        {
+            "id": 115,
+            "start": 585.0,
+            "end": 608.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Our original features are your action type, combined shot type, game event ID, and so forth. There's a lot of features in here that they're recorded on all of his shots. This is what we talk about, like a massive amount of data. I mean, people are sitting there and they record all this stuff and they import this stuff for different reasons. But depending on what we want to look at, do we really want all those features?"
+        },
+        {
+            "id": 120,
+            "start": 608.0,
+            "end": 640.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Maybe the question we're going to ask is, what's the chance of him making any one specific shot? And right from the beginning, we can look at some of these things and say, team name, team name probably, maybe it does matter because the other team might be really good at defense. Game date, maybe we don't really want to look at the game date. Team ID definitely not of importance in any of this. So when we look at this, we have 25 features and some of these features just really don't matter to us."
+        },
+        {
+            "id": 125,
+            "start": 640.0,
+            "end": 667.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " We also have location X, location Y, latitude, and longitude. I'm guessing that's the same data. We've actually imported the very similar data. Maybe they're slightly zoned differently. But as far as our program, we don't want to repeat data. Some of the models, when you repeat data into them, and this is true for most models, create a huge bias. They weigh that data over other data. So just at a glance, these are the things we're looking at."
+        },
+        {
+            "id": 130,
+            "start": 667.0,
+            "end": 700.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " We want to find out, well, how do we get these features down and get rid of this bias and all these extraneous features that we don't really want to spend time running our models on and programming on? As I pointed out, there's a location X, a location Y, latitude, and longitude. Let's just take a look at that and see what we're looking at here. We'll go ahead and create a plot of these. And we'll just plot, we'll do a scatter plot of location X and location Y."
+        },
+        {
+            "id": 135,
+            "start": 700.0,
+            "end": 733.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And then we'll do a scatter plot of data, long data, lat, which is probably longitude and latitude. And the scatter plot, let's go ahead and actually put a little title here, location and scatter on there. And we'll just go ahead and plot these. And when you look at this coming in, these two graphs are pretty identical, except they're flipped. And so when we look at the location from which they're shooting from, they're probably the same. And at this point, we can say, okay, we can get rid of one of these sets of data."
+        },
+        {
+            "id": 140,
+            "start": 733.0,
+            "end": 785.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " We don't need both X and Y and latitude and longitude, because it's the same data coming in. And as we look at this particular data, the latitude, longitude, we might also ask, does it really make a difference with side of the core, or the right side? And so we might go ahead and explore, instead of looking at this as X, Y, we might look at it as a distance and an angle. We can easily compute that. And you can see we can create our data distance equals the location X plus the location Y squared, standard Euclidean geometry, or triangular geometry. So we can compute the angle, and then we can compute the angle. So the data angle is based on the arc tangent, and so forth on here."
+        },
+        {
+            "id": 145,
+            "start": 785.0,
+            "end": 832.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " So this is all this is, we're just going to compute the angle here, and then set that up pi over 2 to get our angle. And we'll go ahead and run that. And you'll see some errors come up, and that's because when we took slices over here, we took a slice of a slice. There's ways to fix that, but it's really not important for this example. So if you do see that, you want to start looking up here for, instead of data location X of not location X zero, this would be like, I believe the term is I load dot I location. If this was, yeah, this is in pandas. So there's different things in there, but for this, it doesn't really matter."
+        },
+        {
+            "id": 150,
+            "start": 832.0,
+            "end": 878.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " These are just warnings. That's all they are. And then let's combine our remaining minutes and seconds column into one. There's another one. So if you remember up here, we're trying to get rid of these columns. Do we really need, let me see if I can find it on here. There we go. So here's our minutes remaining. And then they had, what was it? It was a minutes remaining and seconds column. So there's also a seconds column on here. Let me see if I can find that one. This is where it really gets kind of crazy because here's our seconds remaining. So you can see that and here's our minutes remaining. So it's crazy when you're looking at hundreds of these features. And you can see that if I'm going to say write a model that's going to predict a lot of this."
+        },
+        {
+            "id": 155,
+            "start": 878.0,
+            "end": 927.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And I wanted to run, in this case, it's a basketball and how good his shots are as the data comes in. Let's say I want to have it run on your phone. If I'm running it across hundreds of features, it's going to just hang up on your phone where if I can get it down to just a handful, we'll actually be able to come in here and run it on a smaller device. And I use up as much memory or processing power. So we'll go ahead and take data remaining time here. And data minutes remaining, times 60 plus data seconds remaining. So we're just going to combine those. And we'll go ahead and reprint our data so we can see what we got coming across. We have our action type combined. And we do this a lot. We want to take a look at. So zoom down. Let me see if I can zoom out just a little bit."
+        },
+        {
+            "id": 160,
+            "start": 927.0,
+            "end": 973.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " There we go. Boom. Alright, so we come up here. You can see that we now have our distance or angle remaining time, which is now just a number that computes both the minutes and seconds together. And we still have. We've been adding columns. I thought you were supposed to subtract columns, right? We're going to delete the obsolete columns when we get to them. So we're just filtering out. And this is the filter method. We're just filtering through the things that we really don't need. And next, let's go ahead and explore team ID and team name. Let me just go ahead and run that. And if you look at this, we have Los Angeles Lakers and then they have the team ID here and they're unique."
+        },
+        {
+            "id": 165,
+            "start": 973.0,
+            "end": 1024.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " There's not that's not really anything that's going to come up because that's this particular athletes works for that team. So it's the same on every line. So there's another thing we can filter out on there. Team ID and team name is just useless. The whole column contains only one value each and it's pretty much useless. Let's go ahead and take a look at matchup and opponent. That's an interesting one. And we see here that we have the LAL versus POR and the opponent is POR and IND. Again, here's a lot of duplicate information. So this basically contains the same information on here. Again, we're filtering all this stuff out. And this is because we're only looking at one athlete. This might change if you're looking at multiple athletes, that kind of thing."
+        },
+        {
+            "id": 170,
+            "start": 1024.0,
+            "end": 1071.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " Now, these are easy to see. We might have something that looks more like this. We might have something where we're looking at the distance which we computed and the shot distance. Are they the same thing? And what we can do is we can plot that and plot them against each other on here. And we see it just draws a nice straight line. And so again, we're looking at the same information. So again, we're repeating stuff and we really don't want to be running our model on repeat information on here. So again, it contains the same information. So now let's look at the shot zone area, shot zone basic, shot zone range. So now we're looking at the zones and what does that mean? And we'll go ahead and do this also in a scatter plot."
+        },
+        {
+            "id": 175,
+            "start": 1071.0,
+            "end": 1114.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " In this case, we're going to just create three of these side by side. So we're going to create our plot figure side 20 by 10. And then we're going to define our scatter plot by category feature. And we're going to do each one set up on here, give it a slightly different color. And so our shot zone area is going to be plot subplot 131. Scatter 131 is how this read by the way. Meaning that it's number one. We have three across. And this is the first one down. So one one one. Our scatter plot by category is going to be the shot zone area. We're going to plot that. And then we're going to do the shot zone basic."
+        },
+        {
+            "id": 180,
+            "start": 1114.0,
+            "end": 1163.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And then the shot zone range and each just push them through our definition. So each of those areas go through and you'll see 131, 132, 133. Again, it's a one by three set up. And then it's just a place on each one. And so we look at this. We can see that these shots, they map out the same. So it's very, again, redundant information. That should be intuitive. When we're looking at this in these color graphs, it kind of helps. And you start looking at something you, it's very intuitive like this is. And you start to realize that some of this stuff you'll be looking for in data you might not understand. And you'll see these circular patterns where they match or they mostly match. And you start to realize when you're looking at these, that they're repetitive data."
+        },
+        {
+            "id": 185,
+            "start": 1163.0,
+            "end": 1216.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And then you want to explore them more closely depending on what domain you're working in. So we look at these and we look at them and they look just like the regions of the court. But we already have stored this information in angle and distance columns. So we've seen this image before. We go back up here. And here's our similar image. And repeating that image is down here. And so let's go ahead and drop some of this stuff. So let's drop all the useless columns. And we can drop the shot ID, team ID, team name, shot zone area, shot zone range, shot zone basic, the match up, the longitude and latitude. And then we're going to put that into distance, seconds remaining, minutes remaining because we combine that into one column, shot distance because we have just distance on there, location X, location Y, the game event ID, game ID, all of this stuff is just being dropped on here."
+        },
+        {
+            "id": 190,
+            "start": 1216.0,
+            "end": 1271.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " And we'll just go ahead and loop through our drops. And this is a nice way of doing this because as you're playing with this, this kind of data, putting your list into one setup helps because then you're just running it through an iteration. And you can come back and change it. You might be playing with different models and do this with models. You might be looking at all kinds of different things that you can drop and add in as you test these out. And again, we're working in the filter method. So this is a lot of human interaction with the data. And it takes a lot of critical thinking to look at this stuff and say what matches and what doesn't. And so when we look at the remaining features, let me go ahead and just run this. The original to the new count, we had 25 features. Now we have 11 features. You can see that right there. Just circle that. There's our 25 and there's old new. Now we're down to 11."
+        },
+        {
+            "id": 195,
+            "start": 1271.0,
+            "end": 1318.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " So we've cut it down to less than half. And you can just see the actual different information on here and the remaining time. At this point, we filtered it through and then we'd move into the next process, which would be to run our model on this. And maybe we would drop some of the features and see if it runs better or worse and what happens. That's kind of would be the next step on there versus the filter setup. And that would be one of the other setups, depending on which algorithm you use. So that wraps up our demo on filter, the feature selection and going through and seeing how these different features are being repeated in this particular in a basketball setup. There's luck. I said there's a lot of other methods on there, but the filter one is really good because that's where you usually start."
+        },
+        {
+            "id": 200,
+            "start": 1318.0,
+            "end": 1343.0,
+            "topic": "Feature Selection In Machine Learning",
+            "text": " You want to have your own visual and try to understand how it works. Thank you for joining us for Simply Learn. That's www.simplelern.com. Get certified. Get ahead. For more information, please visit www.simplelern.com. You can also post information on the YouTube below and we will reply to that if you want a copy of the data we use for this. You can also request that from there."
+        }
+    ],
+    "text": " Feature selection in machine learning. My name is Richard Kirschner with the Simply Learn team. That's www.simplerne.com. Get certified. Get ahead. Today we're going to look at what's in it for you. The need for feature selection. What is feature selection? Feature selection methods. Feature selection statistics. Feature selection statistics. So the need for feature selection. To train a model, we collect huge quantities of data to help the machine learn better. Consider a table which contains information on old cars. The model decides which cars must be crushed for spare parts. When we talk about huge quantities of data, they save everything from people's favorite cat pictures. You can imagine there's so much data out there. Even in a company, they'll save all these little pieces of information about people and companies and corporations. You need some way to sort it through because if you try to run your models on all of it, you'll end up with these very clunky models and they might have issues, which we'll talk about later. In this case, we're talking about cars and crushing. But not all this data will be useful to us. Some classes, or part of the data, may not contribute much to our model and can be dropped. You can see right here, we have who was the owner of the car. In our data, a car will not be crushed based on its previous owner. So that's kind of a clear cut. You can see that. Why would I care who owned the car before once it's in the junkyard and we're crushing the cars? We're not going to really care about that. So here we have dropped the owner column as it does not contribute to the model. Having too much unnecessary data can cause the model to be slow. They also learn from this irrelevant data and be inaccurate. So feature selection is a process of reducing the input variable to your model by using only relevant data and getting rid of the noise in the data. Consider the database given below. A library wants to donate some old books to make place in their shells for new books. We want to train a model to automate this task. In this case, the color of the book does not matter and keeping it can cause a model to learn to donate books based on color. We can remove this as a feature. Using feature selection, we can optimize our model in several ways. And so the number one is to prevent learning from noise and overfitting. That's actually the huge one because we don't want it to give us the wrong prediction. That means also improved accuracy. Instead of giving us a wrong prediction, we also want it to be as close to the right answer as we can get. And we want to reduce the training time. It's an exponential growth in some of these models. So each feature you add in increases that much more training time. We talk about feature selection methods. We put together a nice little flow chart that shows the various methods used for feature selection. You have your basic feature selection, and then there is supervised and unsupervised. Under supervised, there's intrinsic wrapper method, filter method. So we talk about unsupervised feature selection. It refers to the method which does not need the output label class for feature selection. You can see here under unsupervised, we don't have, that's really a growing market right now, unsupervised learning. And so feature selection is the same thing. Supervised feature selection refers to the method which uses the output label class for the feature selection. And if you remember, we looked at three different, we have intrinsic wrapper and filter method. So we're going to start with the filter method on this. Now remember, we know what the output is. So we're going to be looking at that output to see how well it's doing versus the features. In this method, features are dropped based on their relation to the output, or how they are correlating to the output. And you can see here we have a set of features, selecting best feature, learning algorithm, and then performance. And so we want to find out which feature correlates to the performance on the output. Consider the example of book classifier. Here we drop the color column based on simple deduction. And that kind of sums it up in a nutshell, as we want to filter out things that clearly do not go with what we're looking for. We look at the wrapper method. In the wrapper method, we split our data into subsets. And train a model using this. Based on the output of the model, we add them to subtract features and train the model again. And you can see here in the wrapper method, we have a set of features. We generate a subset, we run it through the algorithm, and we see how each one of those subset of features perform. Consider the book data set. By using the wrapper method, we would use a subset of different features to train the machine and adjust the subset according to the output. And so you can see here, let's say we take a name and number of times red, and we run just those, and we look at the output. And if we looked at them with all four inputs and look at the output, we'd see quite a different variation in there. And we might say, you know what, condition of the book in color really doesn't affect what we're looking for. And you can see here we've run it on condition of the book in color. Depending on the output of the model, we will choose our final set of features. These features will give us the best result for our model. And I might come up with the name, number of times red is probably pretty important. The intrinsic method, this method combines the qualities of both filter and wrapper method to create the best subset. The model will train and check the accuracy of different subsets and select the best among them. We kind of looked at a little overview of some of the stuff. Some of the common feature selection algorithms based on which method they belong to are given below. And you'll see this primarily under supervised. There's not, like I said, a lot of unsupervised methods, and the ones that are usually used, these methods, and finds a way to create a supervised connection between the data. And we talk about supervised methods. We have our filter method, which we talked about. And it uses the Pearson's coefficient, Chi squared, ANOVA coefficient. Those are all under the filter method. And in the wrapper method, recursive feature elimination. So remember we're choosing a subset, and we want to go through there and look at each one. So you're just doing a lot of loops or recursive calculations to see which one works best and which ones don't have an impact on the output. And there's a lot of genetic algorithms to go with us too on the wrapper method and how they evaluate it. And with the intrinsic method, the two main ones we're looking at is the lasso regularization. The lasso algorithms are basically your standard regression model. So it's finding out how these different methods fit together, in which ones have the best add together to have the least amount of error. The other one used in the intrinsic method is the decision tree. It says, hey, if this one produces this result, this one produces this result, yes, no, which way do we go? Based on the input and the output variables, we can choose our feature selection model. So you have your numeric input coming in, you have your numeric output. If you use the Pearson's correlation coefficient or Spearman's rank coefficient, you can then select what features you're going to feed into that specific model. And you maybe have a numerical input and a categorical input, so we're going to be looking more at a Nova correlation coefficient or Kindle's rank coefficient. And if you have a categorical input and a numerical output, we might be looking at a Nova correlation coefficient in Kindle's rank coefficient. So based on the input and the output variables, we can choose our feature selection model. And you can see we have categorical to categorical. We might be looking at the chisquared test contingency tables and mutual information. Let's go ahead and take a look and see in the Python code what we're talking about here. And I'm going to go ahead and use for my IDE, the Jupyter notebook, and I always launch it out of Anaconda on here. And we'll go ahead and go up here and create a new Python 3 module. And we'll call it a feature. Select. Since we're in Python, we're going to be working mainly with your NumPy, your Pandas, your Matplot library. So we have our number array, our data frame set up, which goes with the number array, the NumPy, the Pandas data frame. And then we want to go ahead and graph everything. So we're going to import these three modules. And then we put together some data. We're going to read this in. It's Kobe Bryant. I guess he's a basketball player. Our guys in the back, we have a number of them. Guys, we have a lot of men and women, so it's probably a misnomer. Our team in the back, some of them have a liking for basketball. They know who Kobe Bryant is. And they want to learn a little bit more about Kobe Bryant and what's going in for whatever's going on with his game in basketball. So we're going to take a look at him. And once we import the data, we can see what columns are available. Original features count. So we can see how many features there are. The length of it, we'll actually have a list of them. And then print just the data head, the top five rows. And so when we do this, we can see from the CSV file, we have 25 original features. Our original features are your action type, combined shot type, game event ID, and so forth. There's a lot of features in here that they're recorded on all of his shots. This is what we talk about, like a massive amount of data. I mean, people are sitting there and they record all this stuff and they import this stuff for different reasons. But depending on what we want to look at, do we really want all those features? Maybe the question we're going to ask is, what's the chance of him making any one specific shot? And right from the beginning, we can look at some of these things and say, team name, team name probably, maybe it does matter because the other team might be really good at defense. Game date, maybe we don't really want to look at the game date. Team ID definitely not of importance in any of this. So when we look at this, we have 25 features and some of these features just really don't matter to us. We also have location X, location Y, latitude, and longitude. I'm guessing that's the same data. We've actually imported the very similar data. Maybe they're slightly zoned differently. But as far as our program, we don't want to repeat data. Some of the models, when you repeat data into them, and this is true for most models, create a huge bias. They weigh that data over other data. So just at a glance, these are the things we're looking at. We want to find out, well, how do we get these features down and get rid of this bias and all these extraneous features that we don't really want to spend time running our models on and programming on? As I pointed out, there's a location X, a location Y, latitude, and longitude. Let's just take a look at that and see what we're looking at here. We'll go ahead and create a plot of these. And we'll just plot, we'll do a scatter plot of location X and location Y. And then we'll do a scatter plot of data, long data, lat, which is probably longitude and latitude. And the scatter plot, let's go ahead and actually put a little title here, location and scatter on there. And we'll just go ahead and plot these. And when you look at this coming in, these two graphs are pretty identical, except they're flipped. And so when we look at the location from which they're shooting from, they're probably the same. And at this point, we can say, okay, we can get rid of one of these sets of data. We don't need both X and Y and latitude and longitude, because it's the same data coming in. And as we look at this particular data, the latitude, longitude, we might also ask, does it really make a difference with side of the core, or the right side? And so we might go ahead and explore, instead of looking at this as X, Y, we might look at it as a distance and an angle. We can easily compute that. And you can see we can create our data distance equals the location X plus the location Y squared, standard Euclidean geometry, or triangular geometry. So we can compute the angle, and then we can compute the angle. So the data angle is based on the arc tangent, and so forth on here. So this is all this is, we're just going to compute the angle here, and then set that up pi over 2 to get our angle. And we'll go ahead and run that. And you'll see some errors come up, and that's because when we took slices over here, we took a slice of a slice. There's ways to fix that, but it's really not important for this example. So if you do see that, you want to start looking up here for, instead of data location X of not location X zero, this would be like, I believe the term is I load dot I location. If this was, yeah, this is in pandas. So there's different things in there, but for this, it doesn't really matter. These are just warnings. That's all they are. And then let's combine our remaining minutes and seconds column into one. There's another one. So if you remember up here, we're trying to get rid of these columns. Do we really need, let me see if I can find it on here. There we go. So here's our minutes remaining. And then they had, what was it? It was a minutes remaining and seconds column. So there's also a seconds column on here. Let me see if I can find that one. This is where it really gets kind of crazy because here's our seconds remaining. So you can see that and here's our minutes remaining. So it's crazy when you're looking at hundreds of these features. And you can see that if I'm going to say write a model that's going to predict a lot of this. And I wanted to run, in this case, it's a basketball and how good his shots are as the data comes in. Let's say I want to have it run on your phone. If I'm running it across hundreds of features, it's going to just hang up on your phone where if I can get it down to just a handful, we'll actually be able to come in here and run it on a smaller device. And I use up as much memory or processing power. So we'll go ahead and take data remaining time here. And data minutes remaining, times 60 plus data seconds remaining. So we're just going to combine those. And we'll go ahead and reprint our data so we can see what we got coming across. We have our action type combined. And we do this a lot. We want to take a look at. So zoom down. Let me see if I can zoom out just a little bit. There we go. Boom. Alright, so we come up here. You can see that we now have our distance or angle remaining time, which is now just a number that computes both the minutes and seconds together. And we still have. We've been adding columns. I thought you were supposed to subtract columns, right? We're going to delete the obsolete columns when we get to them. So we're just filtering out. And this is the filter method. We're just filtering through the things that we really don't need. And next, let's go ahead and explore team ID and team name. Let me just go ahead and run that. And if you look at this, we have Los Angeles Lakers and then they have the team ID here and they're unique. There's not that's not really anything that's going to come up because that's this particular athletes works for that team. So it's the same on every line. So there's another thing we can filter out on there. Team ID and team name is just useless. The whole column contains only one value each and it's pretty much useless. Let's go ahead and take a look at matchup and opponent. That's an interesting one. And we see here that we have the LAL versus POR and the opponent is POR and IND. Again, here's a lot of duplicate information. So this basically contains the same information on here. Again, we're filtering all this stuff out. And this is because we're only looking at one athlete. This might change if you're looking at multiple athletes, that kind of thing. Now, these are easy to see. We might have something that looks more like this. We might have something where we're looking at the distance which we computed and the shot distance. Are they the same thing? And what we can do is we can plot that and plot them against each other on here. And we see it just draws a nice straight line. And so again, we're looking at the same information. So again, we're repeating stuff and we really don't want to be running our model on repeat information on here. So again, it contains the same information. So now let's look at the shot zone area, shot zone basic, shot zone range. So now we're looking at the zones and what does that mean? And we'll go ahead and do this also in a scatter plot. In this case, we're going to just create three of these side by side. So we're going to create our plot figure side 20 by 10. And then we're going to define our scatter plot by category feature. And we're going to do each one set up on here, give it a slightly different color. And so our shot zone area is going to be plot subplot 131. Scatter 131 is how this read by the way. Meaning that it's number one. We have three across. And this is the first one down. So one one one. Our scatter plot by category is going to be the shot zone area. We're going to plot that. And then we're going to do the shot zone basic. And then the shot zone range and each just push them through our definition. So each of those areas go through and you'll see 131, 132, 133. Again, it's a one by three set up. And then it's just a place on each one. And so we look at this. We can see that these shots, they map out the same. So it's very, again, redundant information. That should be intuitive. When we're looking at this in these color graphs, it kind of helps. And you start looking at something you, it's very intuitive like this is. And you start to realize that some of this stuff you'll be looking for in data you might not understand. And you'll see these circular patterns where they match or they mostly match. And you start to realize when you're looking at these, that they're repetitive data. And then you want to explore them more closely depending on what domain you're working in. So we look at these and we look at them and they look just like the regions of the court. But we already have stored this information in angle and distance columns. So we've seen this image before. We go back up here. And here's our similar image. And repeating that image is down here. And so let's go ahead and drop some of this stuff. So let's drop all the useless columns. And we can drop the shot ID, team ID, team name, shot zone area, shot zone range, shot zone basic, the match up, the longitude and latitude. And then we're going to put that into distance, seconds remaining, minutes remaining because we combine that into one column, shot distance because we have just distance on there, location X, location Y, the game event ID, game ID, all of this stuff is just being dropped on here. And we'll just go ahead and loop through our drops. And this is a nice way of doing this because as you're playing with this, this kind of data, putting your list into one setup helps because then you're just running it through an iteration. And you can come back and change it. You might be playing with different models and do this with models. You might be looking at all kinds of different things that you can drop and add in as you test these out. And again, we're working in the filter method. So this is a lot of human interaction with the data. And it takes a lot of critical thinking to look at this stuff and say what matches and what doesn't. And so when we look at the remaining features, let me go ahead and just run this. The original to the new count, we had 25 features. Now we have 11 features. You can see that right there. Just circle that. There's our 25 and there's old new. Now we're down to 11. So we've cut it down to less than half. And you can just see the actual different information on here and the remaining time. At this point, we filtered it through and then we'd move into the next process, which would be to run our model on this. And maybe we would drop some of the features and see if it runs better or worse and what happens. That's kind of would be the next step on there versus the filter setup. And that would be one of the other setups, depending on which algorithm you use. So that wraps up our demo on filter, the feature selection and going through and seeing how these different features are being repeated in this particular in a basketball setup. There's luck. I said there's a lot of other methods on there, but the filter one is really good because that's where you usually start. You want to have your own visual and try to understand how it works. Thank you for joining us for Simply Learn. That's www.simplelern.com. Get certified. Get ahead. For more information, please visit www.simplelern.com. You can also post information on the YouTube below and we will reply to that if you want a copy of the data we use for this. You can also request that from there."
+}

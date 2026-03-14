@@ -1,0 +1,1629 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 7.0,
+            "text": " Feature selection in machine learning.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 7.0,
+            "end": 11.0,
+            "text": " My name is Richard Kirschner with the Simply Learn team.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 11.0,
+            "end": 15.0,
+            "text": " That's www.simplerne.com. Get certified. Get ahead.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 15.0,
+            "end": 18.0,
+            "text": " Today we're going to look at what's in it for you.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 18.0,
+            "end": 23.0,
+            "text": " The need for feature selection. What is feature selection?",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 23.0,
+            "end": 28.0,
+            "text": " Feature selection methods. Feature selection statistics.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 28.0,
+            "end": 32.0,
+            "text": " Feature selection statistics. So the need for feature selection.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 32.0,
+            "end": 37.0,
+            "text": " To train a model, we collect huge quantities of data to help the machine learn better.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 37.0,
+            "end": 40.0,
+            "text": " Consider a table which contains information on old cars.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 40.0,
+            "end": 44.0,
+            "text": " The model decides which cars must be crushed for spare parts.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 44.0,
+            "end": 51.0,
+            "text": " When we talk about huge quantities of data, they save everything from people's favorite cat pictures.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 51.0,
+            "end": 54.0,
+            "text": " You can imagine there's so much data out there.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 54.0,
+            "end": 60.0,
+            "text": " Even in a company, they'll save all these little pieces of information about people and companies and corporations.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 60.0,
+            "end": 64.0,
+            "text": " You need some way to sort it through because if you try to run your models on all of it,",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 64.0,
+            "end": 69.0,
+            "text": " you'll end up with these very clunky models and they might have issues, which we'll talk about later.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 69.0,
+            "end": 72.0,
+            "text": " In this case, we're talking about cars and crushing.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 72.0,
+            "end": 80.0,
+            "text": " But not all this data will be useful to us. Some classes, or part of the data, may not contribute much to our model and can be dropped.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 80.0,
+            "end": 83.0,
+            "text": " You can see right here, we have who was the owner of the car.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 83.0,
+            "end": 88.0,
+            "text": " In our data, a car will not be crushed based on its previous owner.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 88.0,
+            "end": 91.0,
+            "text": " So that's kind of a clear cut. You can see that.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 91.0,
+            "end": 96.0,
+            "text": " Why would I care who owned the car before once it's in the junkyard and we're crushing the cars?",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 96.0,
+            "end": 98.0,
+            "text": " We're not going to really care about that.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 98.0,
+            "end": 103.0,
+            "text": " So here we have dropped the owner column as it does not contribute to the model.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 103.0,
+            "end": 108.0,
+            "text": " Having too much unnecessary data can cause the model to be slow.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 108.0,
+            "end": 112.0,
+            "text": " They also learn from this irrelevant data and be inaccurate.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 112.0,
+            "end": 122.0,
+            "text": " So feature selection is a process of reducing the input variable to your model by using only relevant data and getting rid of the noise in the data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 122.0,
+            "end": 130.0,
+            "text": " Consider the database given below. A library wants to donate some old books to make place in their shells for new books.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 130.0,
+            "end": 133.0,
+            "text": " We want to train a model to automate this task.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 133.0,
+            "end": 140.0,
+            "text": " In this case, the color of the book does not matter and keeping it can cause a model to learn to donate books based on color.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 140.0,
+            "end": 142.0,
+            "text": " We can remove this as a feature.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 142.0,
+            "end": 147.0,
+            "text": " Using feature selection, we can optimize our model in several ways.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 147.0,
+            "end": 151.0,
+            "text": " And so the number one is to prevent learning from noise and overfitting.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 151.0,
+            "end": 156.0,
+            "text": " That's actually the huge one because we don't want it to give us the wrong prediction.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 156.0,
+            "end": 159.0,
+            "text": " That means also improved accuracy.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 159.0,
+            "end": 164.0,
+            "text": " Instead of giving us a wrong prediction, we also want it to be as close to the right answer as we can get.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 164.0,
+            "end": 166.0,
+            "text": " And we want to reduce the training time.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 166.0,
+            "end": 169.0,
+            "text": " It's an exponential growth in some of these models.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 169.0,
+            "end": 174.0,
+            "text": " So each feature you add in increases that much more training time.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 174.0,
+            "end": 177.0,
+            "text": " We talk about feature selection methods.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 177.0,
+            "end": 182.0,
+            "text": " We put together a nice little flow chart that shows the various methods used for feature selection.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 182.0,
+            "end": 188.0,
+            "text": " You have your basic feature selection, and then there is supervised and unsupervised.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 188.0,
+            "end": 194.0,
+            "text": " Under supervised, there's intrinsic wrapper method, filter method.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 194.0,
+            "end": 197.0,
+            "text": " So we talk about unsupervised feature selection.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 197.0,
+            "end": 202.0,
+            "text": " It refers to the method which does not need the output label class for feature selection.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 202.0,
+            "end": 211.0,
+            "text": " You can see here under unsupervised, we don't have, that's really a growing market right now, unsupervised learning.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 211.0,
+            "end": 214.0,
+            "text": " And so feature selection is the same thing.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 214.0,
+            "end": 220.0,
+            "text": " Supervised feature selection refers to the method which uses the output label class for the feature selection.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 220.0,
+            "end": 225.0,
+            "text": " And if you remember, we looked at three different, we have intrinsic wrapper and filter method.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 225.0,
+            "end": 228.0,
+            "text": " So we're going to start with the filter method on this.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 228.0,
+            "end": 230.0,
+            "text": " Now remember, we know what the output is.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 230.0,
+            "end": 235.0,
+            "text": " So we're going to be looking at that output to see how well it's doing versus the features.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 235.0,
+            "end": 242.0,
+            "text": " In this method, features are dropped based on their relation to the output, or how they are correlating to the output.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 242.0,
+            "end": 248.0,
+            "text": " And you can see here we have a set of features, selecting best feature, learning algorithm, and then performance.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 248.0,
+            "end": 253.0,
+            "text": " And so we want to find out which feature correlates to the performance on the output.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 253.0,
+            "end": 255.0,
+            "text": " Consider the example of book classifier.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 255.0,
+            "end": 259.0,
+            "text": " Here we drop the color column based on simple deduction.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 259.0,
+            "end": 266.0,
+            "text": " And that kind of sums it up in a nutshell, as we want to filter out things that clearly do not go with what we're looking for.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 266.0,
+            "end": 268.0,
+            "text": " We look at the wrapper method.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 268.0,
+            "end": 272.0,
+            "text": " In the wrapper method, we split our data into subsets.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 272.0,
+            "end": 274.0,
+            "text": " And train a model using this.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 274.0,
+            "end": 279.0,
+            "text": " Based on the output of the model, we add them to subtract features and train the model again.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 279.0,
+            "end": 282.0,
+            "text": " And you can see here in the wrapper method, we have a set of features.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 282.0,
+            "end": 288.0,
+            "text": " We generate a subset, we run it through the algorithm, and we see how each one of those subset of features perform.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 288.0,
+            "end": 291.0,
+            "text": " Consider the book data set.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 291.0,
+            "end": 299.0,
+            "text": " By using the wrapper method, we would use a subset of different features to train the machine and adjust the subset according to the output.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 299.0,
+            "end": 306.0,
+            "text": " And so you can see here, let's say we take a name and number of times red, and we run just those, and we look at the output.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 306.0,
+            "end": 313.0,
+            "text": " And if we looked at them with all four inputs and look at the output, we'd see quite a different variation in there.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 313.0,
+            "end": 318.0,
+            "text": " And we might say, you know what, condition of the book in color really doesn't affect what we're looking for.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 318.0,
+            "end": 322.0,
+            "text": " And you can see here we've run it on condition of the book in color.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 322.0,
+            "end": 326.0,
+            "text": " Depending on the output of the model, we will choose our final set of features.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 326.0,
+            "end": 329.0,
+            "text": " These features will give us the best result for our model.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 329.0,
+            "end": 334.0,
+            "text": " And I might come up with the name, number of times red is probably pretty important.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 334.0,
+            "end": 342.0,
+            "text": " The intrinsic method, this method combines the qualities of both filter and wrapper method to create the best subset.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 342.0,
+            "end": 347.0,
+            "text": " The model will train and check the accuracy of different subsets and select the best among them.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 347.0,
+            "end": 350.0,
+            "text": " We kind of looked at a little overview of some of the stuff.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 350.0,
+            "end": 356.0,
+            "text": " Some of the common feature selection algorithms based on which method they belong to are given below.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 356.0,
+            "end": 359.0,
+            "text": " And you'll see this primarily under supervised.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 359.0,
+            "end": 370.0,
+            "text": " There's not, like I said, a lot of unsupervised methods, and the ones that are usually used, these methods, and finds a way to create a supervised connection between the data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 370.0,
+            "end": 375.0,
+            "text": " And we talk about supervised methods. We have our filter method, which we talked about.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 375.0,
+            "end": 380.0,
+            "text": " And it uses the Pearson's coefficient, Chi squared, ANOVA coefficient.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 380.0,
+            "end": 382.0,
+            "text": " Those are all under the filter method.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 382.0,
+            "end": 386.0,
+            "text": " And in the wrapper method, recursive feature elimination.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 386.0,
+            "end": 390.0,
+            "text": " So remember we're choosing a subset, and we want to go through there and look at each one.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 390.0,
+            "end": 397.0,
+            "text": " So you're just doing a lot of loops or recursive calculations to see which one works best and which ones don't have an impact on the output.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 397.0,
+            "end": 403.0,
+            "text": " And there's a lot of genetic algorithms to go with us too on the wrapper method and how they evaluate it.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 403.0,
+            "end": 409.0,
+            "text": " And with the intrinsic method, the two main ones we're looking at is the lasso regularization.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 409.0,
+            "end": 414.0,
+            "text": " The lasso algorithms are basically your standard regression model.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 414.0,
+            "end": 423.0,
+            "text": " So it's finding out how these different methods fit together, in which ones have the best add together to have the least amount of error.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 423.0,
+            "end": 427.0,
+            "text": " The other one used in the intrinsic method is the decision tree.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 427.0,
+            "end": 434.0,
+            "text": " It says, hey, if this one produces this result, this one produces this result, yes, no, which way do we go?",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 434.0,
+            "end": 439.0,
+            "text": " Based on the input and the output variables, we can choose our feature selection model.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 439.0,
+            "end": 442.0,
+            "text": " So you have your numeric input coming in, you have your numeric output.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 442.0,
+            "end": 452.0,
+            "text": " If you use the Pearson's correlation coefficient or Spearman's rank coefficient, you can then select what features you're going to feed into that specific model.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 452.0,
+            "end": 461.0,
+            "text": " And you maybe have a numerical input and a categorical input, so we're going to be looking more at a Nova correlation coefficient or Kindle's rank coefficient.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 461.0,
+            "end": 470.0,
+            "text": " And if you have a categorical input and a numerical output, we might be looking at a Nova correlation coefficient in Kindle's rank coefficient.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 95,
+            "start": 470.0,
+            "end": 474.0,
+            "text": " So based on the input and the output variables, we can choose our feature selection model.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 96,
+            "start": 474.0,
+            "end": 478.0,
+            "text": " And you can see we have categorical to categorical.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 97,
+            "start": 478.0,
+            "end": 485.0,
+            "text": " We might be looking at the chisquared test contingency tables and mutual information.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 98,
+            "start": 485.0,
+            "end": 490.0,
+            "text": " Let's go ahead and take a look and see in the Python code what we're talking about here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 99,
+            "start": 490.0,
+            "end": 497.0,
+            "text": " And I'm going to go ahead and use for my IDE, the Jupyter notebook, and I always launch it out of Anaconda on here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 100,
+            "start": 497.0,
+            "end": 502.0,
+            "text": " And we'll go ahead and go up here and create a new Python 3 module.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 101,
+            "start": 502.0,
+            "end": 508.0,
+            "text": " And we'll call it a feature.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 102,
+            "start": 508.0,
+            "end": 513.0,
+            "text": " Select.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 103,
+            "start": 513.0,
+            "end": 520.0,
+            "text": " Since we're in Python, we're going to be working mainly with your NumPy, your Pandas, your Matplot library.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 104,
+            "start": 520.0,
+            "end": 527.0,
+            "text": " So we have our number array, our data frame set up, which goes with the number array, the NumPy, the Pandas data frame.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 105,
+            "start": 527.0,
+            "end": 532.0,
+            "text": " And then we want to go ahead and graph everything. So we're going to import these three modules.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 106,
+            "start": 532.0,
+            "end": 538.0,
+            "text": " And then we put together some data. We're going to read this in. It's Kobe Bryant.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 107,
+            "start": 538.0,
+            "end": 543.0,
+            "text": " I guess he's a basketball player. Our guys in the back, we have a number of them.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 108,
+            "start": 543.0,
+            "end": 547.0,
+            "text": " Guys, we have a lot of men and women, so it's probably a misnomer.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 109,
+            "start": 547.0,
+            "end": 552.0,
+            "text": " Our team in the back, some of them have a liking for basketball.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 110,
+            "start": 552.0,
+            "end": 560.0,
+            "text": " They know who Kobe Bryant is. And they want to learn a little bit more about Kobe Bryant and what's going in for whatever's going on with his game in basketball.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 111,
+            "start": 560.0,
+            "end": 566.0,
+            "text": " So we're going to take a look at him. And once we import the data, we can see what columns are available.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 112,
+            "start": 566.0,
+            "end": 570.0,
+            "text": " Original features count. So we can see how many features there are.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 113,
+            "start": 570.0,
+            "end": 577.0,
+            "text": " The length of it, we'll actually have a list of them. And then print just the data head, the top five rows.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 114,
+            "start": 577.0,
+            "end": 585.0,
+            "text": " And so when we do this, we can see from the CSV file, we have 25 original features.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 115,
+            "start": 585.0,
+            "end": 590.0,
+            "text": " Our original features are your action type, combined shot type, game event ID, and so forth.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 116,
+            "start": 590.0,
+            "end": 594.0,
+            "text": " There's a lot of features in here that they're recorded on all of his shots.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 117,
+            "start": 594.0,
+            "end": 597.0,
+            "text": " This is what we talk about, like a massive amount of data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 118,
+            "start": 597.0,
+            "end": 603.0,
+            "text": " I mean, people are sitting there and they record all this stuff and they import this stuff for different reasons.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 119,
+            "start": 603.0,
+            "end": 608.0,
+            "text": " But depending on what we want to look at, do we really want all those features?",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 120,
+            "start": 608.0,
+            "end": 616.0,
+            "text": " Maybe the question we're going to ask is, what's the chance of him making any one specific shot?",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 121,
+            "start": 616.0,
+            "end": 623.0,
+            "text": " And right from the beginning, we can look at some of these things and say, team name, team name probably,",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 122,
+            "start": 623.0,
+            "end": 627.0,
+            "text": " maybe it does matter because the other team might be really good at defense.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 123,
+            "start": 627.0,
+            "end": 634.0,
+            "text": " Game date, maybe we don't really want to look at the game date. Team ID definitely not of importance in any of this.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 124,
+            "start": 634.0,
+            "end": 640.0,
+            "text": " So when we look at this, we have 25 features and some of these features just really don't matter to us.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 125,
+            "start": 640.0,
+            "end": 645.0,
+            "text": " We also have location X, location Y, latitude, and longitude.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 126,
+            "start": 645.0,
+            "end": 651.0,
+            "text": " I'm guessing that's the same data. We've actually imported the very similar data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 127,
+            "start": 651.0,
+            "end": 656.0,
+            "text": " Maybe they're slightly zoned differently. But as far as our program, we don't want to repeat data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 128,
+            "start": 656.0,
+            "end": 661.0,
+            "text": " Some of the models, when you repeat data into them, and this is true for most models, create a huge bias.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 129,
+            "start": 661.0,
+            "end": 667.0,
+            "text": " They weigh that data over other data. So just at a glance, these are the things we're looking at.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 130,
+            "start": 667.0,
+            "end": 675.0,
+            "text": " We want to find out, well, how do we get these features down and get rid of this bias and all these extraneous features",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 131,
+            "start": 675.0,
+            "end": 680.0,
+            "text": " that we don't really want to spend time running our models on and programming on?",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 132,
+            "start": 680.0,
+            "end": 688.0,
+            "text": " As I pointed out, there's a location X, a location Y, latitude, and longitude.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 133,
+            "start": 688.0,
+            "end": 692.0,
+            "text": " Let's just take a look at that and see what we're looking at here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 134,
+            "start": 692.0,
+            "end": 700.0,
+            "text": " We'll go ahead and create a plot of these. And we'll just plot, we'll do a scatter plot of location X and location Y.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 135,
+            "start": 700.0,
+            "end": 708.0,
+            "text": " And then we'll do a scatter plot of data, long data, lat, which is probably longitude and latitude.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 136,
+            "start": 708.0,
+            "end": 714.0,
+            "text": " And the scatter plot, let's go ahead and actually put a little title here, location and scatter on there.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 137,
+            "start": 714.0,
+            "end": 724.0,
+            "text": " And we'll just go ahead and plot these. And when you look at this coming in, these two graphs are pretty identical, except they're flipped.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 138,
+            "start": 724.0,
+            "end": 729.0,
+            "text": " And so when we look at the location from which they're shooting from, they're probably the same.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 139,
+            "start": 729.0,
+            "end": 733.0,
+            "text": " And at this point, we can say, okay, we can get rid of one of these sets of data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 140,
+            "start": 733.0,
+            "end": 738.0,
+            "text": " We don't need both X and Y and latitude and longitude, because it's the same data coming in.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 141,
+            "start": 738.0,
+            "end": 747.0,
+            "text": " And as we look at this particular data, the latitude, longitude, we might also ask, does it really make a difference with side of the core,",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 142,
+            "start": 747.0,
+            "end": 760.0,
+            "text": " or the right side? And so we might go ahead and explore, instead of looking at this as X, Y, we might look at it as a distance and an angle.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 143,
+            "start": 760.0,
+            "end": 773.0,
+            "text": " We can easily compute that. And you can see we can create our data distance equals the location X plus the location Y squared, standard Euclidean geometry, or triangular geometry.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 144,
+            "start": 773.0,
+            "end": 785.0,
+            "text": " So we can compute the angle, and then we can compute the angle. So the data angle is based on the arc tangent, and so forth on here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 145,
+            "start": 785.0,
+            "end": 793.0,
+            "text": " So this is all this is, we're just going to compute the angle here, and then set that up pi over 2 to get our angle.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 146,
+            "start": 793.0,
+            "end": 806.0,
+            "text": " And we'll go ahead and run that. And you'll see some errors come up, and that's because when we took slices over here, we took a slice of a slice.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 147,
+            "start": 806.0,
+            "end": 811.0,
+            "text": " There's ways to fix that, but it's really not important for this example.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 148,
+            "start": 811.0,
+            "end": 822.0,
+            "text": " So if you do see that, you want to start looking up here for, instead of data location X of not location X zero, this would be like,",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 149,
+            "start": 822.0,
+            "end": 832.0,
+            "text": " I believe the term is I load dot I location. If this was, yeah, this is in pandas. So there's different things in there, but for this, it doesn't really matter.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 150,
+            "start": 832.0,
+            "end": 839.0,
+            "text": " These are just warnings. That's all they are. And then let's combine our remaining minutes and seconds column into one. There's another one.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 151,
+            "start": 839.0,
+            "end": 848.0,
+            "text": " So if you remember up here, we're trying to get rid of these columns. Do we really need, let me see if I can find it on here. There we go.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 152,
+            "start": 848.0,
+            "end": 859.0,
+            "text": " So here's our minutes remaining. And then they had, what was it? It was a minutes remaining and seconds column. So there's also a seconds column on here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 153,
+            "start": 859.0,
+            "end": 868.0,
+            "text": " Let me see if I can find that one. This is where it really gets kind of crazy because here's our seconds remaining. So you can see that and here's our minutes remaining.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 154,
+            "start": 868.0,
+            "end": 878.0,
+            "text": " So it's crazy when you're looking at hundreds of these features. And you can see that if I'm going to say write a model that's going to predict a lot of this.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 155,
+            "start": 878.0,
+            "end": 885.0,
+            "text": " And I wanted to run, in this case, it's a basketball and how good his shots are as the data comes in. Let's say I want to have it run on your phone.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 156,
+            "start": 885.0,
+            "end": 897.0,
+            "text": " If I'm running it across hundreds of features, it's going to just hang up on your phone where if I can get it down to just a handful, we'll actually be able to come in here and run it on a smaller device.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 157,
+            "start": 897.0,
+            "end": 906.0,
+            "text": " And I use up as much memory or processing power. So we'll go ahead and take data remaining time here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 158,
+            "start": 906.0,
+            "end": 917.0,
+            "text": " And data minutes remaining, times 60 plus data seconds remaining. So we're just going to combine those. And we'll go ahead and reprint our data so we can see what we got coming across.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 159,
+            "start": 917.0,
+            "end": 927.0,
+            "text": " We have our action type combined. And we do this a lot. We want to take a look at. So zoom down. Let me see if I can zoom out just a little bit.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 160,
+            "start": 927.0,
+            "end": 931.0,
+            "text": " There we go. Boom.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 161,
+            "start": 931.0,
+            "end": 942.0,
+            "text": " Alright, so we come up here. You can see that we now have our distance or angle remaining time, which is now just a number that computes both the minutes and seconds together.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 162,
+            "start": 942.0,
+            "end": 951.0,
+            "text": " And we still have. We've been adding columns. I thought you were supposed to subtract columns, right? We're going to delete the obsolete columns when we get to them.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 163,
+            "start": 951.0,
+            "end": 960.0,
+            "text": " So we're just filtering out. And this is the filter method. We're just filtering through the things that we really don't need.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 164,
+            "start": 960.0,
+            "end": 973.0,
+            "text": " And next, let's go ahead and explore team ID and team name. Let me just go ahead and run that. And if you look at this, we have Los Angeles Lakers and then they have the team ID here and they're unique.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 165,
+            "start": 973.0,
+            "end": 986.0,
+            "text": " There's not that's not really anything that's going to come up because that's this particular athletes works for that team. So it's the same on every line. So there's another thing we can filter out on there.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 166,
+            "start": 986.0,
+            "end": 997.0,
+            "text": " Team ID and team name is just useless. The whole column contains only one value each and it's pretty much useless. Let's go ahead and take a look at matchup and opponent.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 167,
+            "start": 997.0,
+            "end": 1007.0,
+            "text": " That's an interesting one. And we see here that we have the LAL versus POR and the opponent is POR and IND.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 168,
+            "start": 1008.0,
+            "end": 1017.0,
+            "text": " Again, here's a lot of duplicate information. So this basically contains the same information on here. Again, we're filtering all this stuff out.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 169,
+            "start": 1017.0,
+            "end": 1024.0,
+            "text": " And this is because we're only looking at one athlete. This might change if you're looking at multiple athletes, that kind of thing.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 170,
+            "start": 1024.0,
+            "end": 1034.0,
+            "text": " Now, these are easy to see. We might have something that looks more like this. We might have something where we're looking at the distance which we computed and the shot distance.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 171,
+            "start": 1034.0,
+            "end": 1043.0,
+            "text": " Are they the same thing? And what we can do is we can plot that and plot them against each other on here. And we see it just draws a nice straight line.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 172,
+            "start": 1043.0,
+            "end": 1055.0,
+            "text": " And so again, we're looking at the same information. So again, we're repeating stuff and we really don't want to be running our model on repeat information on here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 173,
+            "start": 1055.0,
+            "end": 1064.0,
+            "text": " So again, it contains the same information. So now let's look at the shot zone area, shot zone basic, shot zone range.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 174,
+            "start": 1064.0,
+            "end": 1071.0,
+            "text": " So now we're looking at the zones and what does that mean? And we'll go ahead and do this also in a scatter plot.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 175,
+            "start": 1071.0,
+            "end": 1078.0,
+            "text": " In this case, we're going to just create three of these side by side. So we're going to create our plot figure side 20 by 10.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 176,
+            "start": 1079.0,
+            "end": 1087.0,
+            "text": " And then we're going to define our scatter plot by category feature. And we're going to do each one set up on here, give it a slightly different color.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 177,
+            "start": 1087.0,
+            "end": 1095.0,
+            "text": " And so our shot zone area is going to be plot subplot 131. Scatter 131 is how this read by the way.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 178,
+            "start": 1095.0,
+            "end": 1105.0,
+            "text": " Meaning that it's number one. We have three across. And this is the first one down. So one one one.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 179,
+            "start": 1106.0,
+            "end": 1114.0,
+            "text": " Our scatter plot by category is going to be the shot zone area. We're going to plot that. And then we're going to do the shot zone basic.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 180,
+            "start": 1114.0,
+            "end": 1123.0,
+            "text": " And then the shot zone range and each just push them through our definition. So each of those areas go through and you'll see 131, 132, 133.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 181,
+            "start": 1123.0,
+            "end": 1133.0,
+            "text": " Again, it's a one by three set up. And then it's just a place on each one. And so we look at this. We can see that these shots, they map out the same.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 182,
+            "start": 1133.0,
+            "end": 1143.0,
+            "text": " So it's very, again, redundant information. That should be intuitive. When we're looking at this in these color graphs, it kind of helps.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 183,
+            "start": 1143.0,
+            "end": 1153.0,
+            "text": " And you start looking at something you, it's very intuitive like this is. And you start to realize that some of this stuff you'll be looking for in data you might not understand.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 184,
+            "start": 1154.0,
+            "end": 1163.0,
+            "text": " And you'll see these circular patterns where they match or they mostly match. And you start to realize when you're looking at these, that they're repetitive data.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 185,
+            "start": 1163.0,
+            "end": 1171.0,
+            "text": " And then you want to explore them more closely depending on what domain you're working in. So we look at these and we look at them and they look just like the regions of the court.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 186,
+            "start": 1171.0,
+            "end": 1178.0,
+            "text": " But we already have stored this information in angle and distance columns. So we've seen this image before. We go back up here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 187,
+            "start": 1178.0,
+            "end": 1188.0,
+            "text": " And here's our similar image. And repeating that image is down here. And so let's go ahead and drop some of this stuff.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 188,
+            "start": 1188.0,
+            "end": 1201.0,
+            "text": " So let's drop all the useless columns. And we can drop the shot ID, team ID, team name, shot zone area, shot zone range, shot zone basic, the match up, the longitude and latitude.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 189,
+            "start": 1201.0,
+            "end": 1216.0,
+            "text": " And then we're going to put that into distance, seconds remaining, minutes remaining because we combine that into one column, shot distance because we have just distance on there, location X, location Y, the game event ID, game ID, all of this stuff is just being dropped on here.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 190,
+            "start": 1216.0,
+            "end": 1230.0,
+            "text": " And we'll just go ahead and loop through our drops. And this is a nice way of doing this because as you're playing with this, this kind of data, putting your list into one setup helps because then you're just running it through an iteration.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 191,
+            "start": 1230.0,
+            "end": 1240.0,
+            "text": " And you can come back and change it. You might be playing with different models and do this with models. You might be looking at all kinds of different things that you can drop and add in as you test these out.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 192,
+            "start": 1240.0,
+            "end": 1253.0,
+            "text": " And again, we're working in the filter method. So this is a lot of human interaction with the data. And it takes a lot of critical thinking to look at this stuff and say what matches and what doesn't.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 193,
+            "start": 1253.0,
+            "end": 1259.0,
+            "text": " And so when we look at the remaining features, let me go ahead and just run this.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 194,
+            "start": 1259.0,
+            "end": 1271.0,
+            "text": " The original to the new count, we had 25 features. Now we have 11 features. You can see that right there. Just circle that. There's our 25 and there's old new. Now we're down to 11.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 195,
+            "start": 1271.0,
+            "end": 1280.0,
+            "text": " So we've cut it down to less than half. And you can just see the actual different information on here and the remaining time.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 196,
+            "start": 1280.0,
+            "end": 1294.0,
+            "text": " At this point, we filtered it through and then we'd move into the next process, which would be to run our model on this. And maybe we would drop some of the features and see if it runs better or worse and what happens.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 197,
+            "start": 1294.0,
+            "end": 1301.0,
+            "text": " That's kind of would be the next step on there versus the filter setup. And that would be one of the other setups, depending on which algorithm you use.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 198,
+            "start": 1301.0,
+            "end": 1312.0,
+            "text": " So that wraps up our demo on filter, the feature selection and going through and seeing how these different features are being repeated in this particular in a basketball setup.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 199,
+            "start": 1312.0,
+            "end": 1318.0,
+            "text": " There's luck. I said there's a lot of other methods on there, but the filter one is really good because that's where you usually start.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 200,
+            "start": 1318.0,
+            "end": 1324.0,
+            "text": " You want to have your own visual and try to understand how it works. Thank you for joining us for Simply Learn.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 201,
+            "start": 1324.0,
+            "end": 1328.0,
+            "text": " That's www.simplelern.com. Get certified. Get ahead.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 202,
+            "start": 1328.0,
+            "end": 1343.0,
+            "text": " For more information, please visit www.simplelern.com. You can also post information on the YouTube below and we will reply to that if you want a copy of the data we use for this. You can also request that from there.",
+            "topic": "Feature Selection In Machine Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " Feature selection in machine learning. My name is Richard Kirschner with the Simply Learn team. That's www.simplerne.com. Get certified. Get ahead. Today we're going to look at what's in it for you. The need for feature selection. What is feature selection? Feature selection methods. Feature selection statistics. Feature selection statistics. So the need for feature selection. To train a model, we collect huge quantities of data to help the machine learn better. Consider a table which contains information on old cars. The model decides which cars must be crushed for spare parts. When we talk about huge quantities of data, they save everything from people's favorite cat pictures. You can imagine there's so much data out there. Even in a company, they'll save all these little pieces of information about people and companies and corporations. You need some way to sort it through because if you try to run your models on all of it, you'll end up with these very clunky models and they might have issues, which we'll talk about later. In this case, we're talking about cars and crushing. But not all this data will be useful to us. Some classes, or part of the data, may not contribute much to our model and can be dropped. You can see right here, we have who was the owner of the car. In our data, a car will not be crushed based on its previous owner. So that's kind of a clear cut. You can see that. Why would I care who owned the car before once it's in the junkyard and we're crushing the cars? We're not going to really care about that. So here we have dropped the owner column as it does not contribute to the model. Having too much unnecessary data can cause the model to be slow. They also learn from this irrelevant data and be inaccurate. So feature selection is a process of reducing the input variable to your model by using only relevant data and getting rid of the noise in the data. Consider the database given below. A library wants to donate some old books to make place in their shells for new books. We want to train a model to automate this task. In this case, the color of the book does not matter and keeping it can cause a model to learn to donate books based on color. We can remove this as a feature. Using feature selection, we can optimize our model in several ways. And so the number one is to prevent learning from noise and overfitting. That's actually the huge one because we don't want it to give us the wrong prediction. That means also improved accuracy. Instead of giving us a wrong prediction, we also want it to be as close to the right answer as we can get. And we want to reduce the training time. It's an exponential growth in some of these models. So each feature you add in increases that much more training time. We talk about feature selection methods. We put together a nice little flow chart that shows the various methods used for feature selection. You have your basic feature selection, and then there is supervised and unsupervised. Under supervised, there's intrinsic wrapper method, filter method. So we talk about unsupervised feature selection. It refers to the method which does not need the output label class for feature selection. You can see here under unsupervised, we don't have, that's really a growing market right now, unsupervised learning. And so feature selection is the same thing. Supervised feature selection refers to the method which uses the output label class for the feature selection. And if you remember, we looked at three different, we have intrinsic wrapper and filter method. So we're going to start with the filter method on this. Now remember, we know what the output is. So we're going to be looking at that output to see how well it's doing versus the features. In this method, features are dropped based on their relation to the output, or how they are correlating to the output. And you can see here we have a set of features, selecting best feature, learning algorithm, and then performance. And so we want to find out which feature correlates to the performance on the output. Consider the example of book classifier. Here we drop the color column based on simple deduction. And that kind of sums it up in a nutshell, as we want to filter out things that clearly do not go with what we're looking for. We look at the wrapper method. In the wrapper method, we split our data into subsets. And train a model using this. Based on the output of the model, we add them to subtract features and train the model again. And you can see here in the wrapper method, we have a set of features. We generate a subset, we run it through the algorithm, and we see how each one of those subset of features perform. Consider the book data set. By using the wrapper method, we would use a subset of different features to train the machine and adjust the subset according to the output. And so you can see here, let's say we take a name and number of times red, and we run just those, and we look at the output. And if we looked at them with all four inputs and look at the output, we'd see quite a different variation in there. And we might say, you know what, condition of the book in color really doesn't affect what we're looking for. And you can see here we've run it on condition of the book in color. Depending on the output of the model, we will choose our final set of features. These features will give us the best result for our model. And I might come up with the name, number of times red is probably pretty important. The intrinsic method, this method combines the qualities of both filter and wrapper method to create the best subset. The model will train and check the accuracy of different subsets and select the best among them. We kind of looked at a little overview of some of the stuff. Some of the common feature selection algorithms based on which method they belong to are given below. And you'll see this primarily under supervised. There's not, like I said, a lot of unsupervised methods, and the ones that are usually used, these methods, and finds a way to create a supervised connection between the data. And we talk about supervised methods. We have our filter method, which we talked about. And it uses the Pearson's coefficient, Chi squared, ANOVA coefficient. Those are all under the filter method. And in the wrapper method, recursive feature elimination. So remember we're choosing a subset, and we want to go through there and look at each one. So you're just doing a lot of loops or recursive calculations to see which one works best and which ones don't have an impact on the output. And there's a lot of genetic algorithms to go with us too on the wrapper method and how they evaluate it. And with the intrinsic method, the two main ones we're looking at is the lasso regularization. The lasso algorithms are basically your standard regression model. So it's finding out how these different methods fit together, in which ones have the best add together to have the least amount of error. The other one used in the intrinsic method is the decision tree. It says, hey, if this one produces this result, this one produces this result, yes, no, which way do we go? Based on the input and the output variables, we can choose our feature selection model. So you have your numeric input coming in, you have your numeric output. If you use the Pearson's correlation coefficient or Spearman's rank coefficient, you can then select what features you're going to feed into that specific model. And you maybe have a numerical input and a categorical input, so we're going to be looking more at a Nova correlation coefficient or Kindle's rank coefficient. And if you have a categorical input and a numerical output, we might be looking at a Nova correlation coefficient in Kindle's rank coefficient. So based on the input and the output variables, we can choose our feature selection model. And you can see we have categorical to categorical. We might be looking at the chisquared test contingency tables and mutual information. Let's go ahead and take a look and see in the Python code what we're talking about here. And I'm going to go ahead and use for my IDE, the Jupyter notebook, and I always launch it out of Anaconda on here. And we'll go ahead and go up here and create a new Python 3 module. And we'll call it a feature. Select. Since we're in Python, we're going to be working mainly with your NumPy, your Pandas, your Matplot library. So we have our number array, our data frame set up, which goes with the number array, the NumPy, the Pandas data frame. And then we want to go ahead and graph everything. So we're going to import these three modules. And then we put together some data. We're going to read this in. It's Kobe Bryant. I guess he's a basketball player. Our guys in the back, we have a number of them. Guys, we have a lot of men and women, so it's probably a misnomer. Our team in the back, some of them have a liking for basketball. They know who Kobe Bryant is. And they want to learn a little bit more about Kobe Bryant and what's going in for whatever's going on with his game in basketball. So we're going to take a look at him. And once we import the data, we can see what columns are available. Original features count. So we can see how many features there are. The length of it, we'll actually have a list of them. And then print just the data head, the top five rows. And so when we do this, we can see from the CSV file, we have 25 original features. Our original features are your action type, combined shot type, game event ID, and so forth. There's a lot of features in here that they're recorded on all of his shots. This is what we talk about, like a massive amount of data. I mean, people are sitting there and they record all this stuff and they import this stuff for different reasons. But depending on what we want to look at, do we really want all those features? Maybe the question we're going to ask is, what's the chance of him making any one specific shot? And right from the beginning, we can look at some of these things and say, team name, team name probably, maybe it does matter because the other team might be really good at defense. Game date, maybe we don't really want to look at the game date. Team ID definitely not of importance in any of this. So when we look at this, we have 25 features and some of these features just really don't matter to us. We also have location X, location Y, latitude, and longitude. I'm guessing that's the same data. We've actually imported the very similar data. Maybe they're slightly zoned differently. But as far as our program, we don't want to repeat data. Some of the models, when you repeat data into them, and this is true for most models, create a huge bias. They weigh that data over other data. So just at a glance, these are the things we're looking at. We want to find out, well, how do we get these features down and get rid of this bias and all these extraneous features that we don't really want to spend time running our models on and programming on? As I pointed out, there's a location X, a location Y, latitude, and longitude. Let's just take a look at that and see what we're looking at here. We'll go ahead and create a plot of these. And we'll just plot, we'll do a scatter plot of location X and location Y. And then we'll do a scatter plot of data, long data, lat, which is probably longitude and latitude. And the scatter plot, let's go ahead and actually put a little title here, location and scatter on there. And we'll just go ahead and plot these. And when you look at this coming in, these two graphs are pretty identical, except they're flipped. And so when we look at the location from which they're shooting from, they're probably the same. And at this point, we can say, okay, we can get rid of one of these sets of data. We don't need both X and Y and latitude and longitude, because it's the same data coming in. And as we look at this particular data, the latitude, longitude, we might also ask, does it really make a difference with side of the core, or the right side? And so we might go ahead and explore, instead of looking at this as X, Y, we might look at it as a distance and an angle. We can easily compute that. And you can see we can create our data distance equals the location X plus the location Y squared, standard Euclidean geometry, or triangular geometry. So we can compute the angle, and then we can compute the angle. So the data angle is based on the arc tangent, and so forth on here. So this is all this is, we're just going to compute the angle here, and then set that up pi over 2 to get our angle. And we'll go ahead and run that. And you'll see some errors come up, and that's because when we took slices over here, we took a slice of a slice. There's ways to fix that, but it's really not important for this example. So if you do see that, you want to start looking up here for, instead of data location X of not location X zero, this would be like, I believe the term is I load dot I location. If this was, yeah, this is in pandas. So there's different things in there, but for this, it doesn't really matter. These are just warnings. That's all they are. And then let's combine our remaining minutes and seconds column into one. There's another one. So if you remember up here, we're trying to get rid of these columns. Do we really need, let me see if I can find it on here. There we go. So here's our minutes remaining. And then they had, what was it? It was a minutes remaining and seconds column. So there's also a seconds column on here. Let me see if I can find that one. This is where it really gets kind of crazy because here's our seconds remaining. So you can see that and here's our minutes remaining. So it's crazy when you're looking at hundreds of these features. And you can see that if I'm going to say write a model that's going to predict a lot of this. And I wanted to run, in this case, it's a basketball and how good his shots are as the data comes in. Let's say I want to have it run on your phone. If I'm running it across hundreds of features, it's going to just hang up on your phone where if I can get it down to just a handful, we'll actually be able to come in here and run it on a smaller device. And I use up as much memory or processing power. So we'll go ahead and take data remaining time here. And data minutes remaining, times 60 plus data seconds remaining. So we're just going to combine those. And we'll go ahead and reprint our data so we can see what we got coming across. We have our action type combined. And we do this a lot. We want to take a look at. So zoom down. Let me see if I can zoom out just a little bit. There we go. Boom. Alright, so we come up here. You can see that we now have our distance or angle remaining time, which is now just a number that computes both the minutes and seconds together. And we still have. We've been adding columns. I thought you were supposed to subtract columns, right? We're going to delete the obsolete columns when we get to them. So we're just filtering out. And this is the filter method. We're just filtering through the things that we really don't need. And next, let's go ahead and explore team ID and team name. Let me just go ahead and run that. And if you look at this, we have Los Angeles Lakers and then they have the team ID here and they're unique. There's not that's not really anything that's going to come up because that's this particular athletes works for that team. So it's the same on every line. So there's another thing we can filter out on there. Team ID and team name is just useless. The whole column contains only one value each and it's pretty much useless. Let's go ahead and take a look at matchup and opponent. That's an interesting one. And we see here that we have the LAL versus POR and the opponent is POR and IND. Again, here's a lot of duplicate information. So this basically contains the same information on here. Again, we're filtering all this stuff out. And this is because we're only looking at one athlete. This might change if you're looking at multiple athletes, that kind of thing. Now, these are easy to see. We might have something that looks more like this. We might have something where we're looking at the distance which we computed and the shot distance. Are they the same thing? And what we can do is we can plot that and plot them against each other on here. And we see it just draws a nice straight line. And so again, we're looking at the same information. So again, we're repeating stuff and we really don't want to be running our model on repeat information on here. So again, it contains the same information. So now let's look at the shot zone area, shot zone basic, shot zone range. So now we're looking at the zones and what does that mean? And we'll go ahead and do this also in a scatter plot. In this case, we're going to just create three of these side by side. So we're going to create our plot figure side 20 by 10. And then we're going to define our scatter plot by category feature. And we're going to do each one set up on here, give it a slightly different color. And so our shot zone area is going to be plot subplot 131. Scatter 131 is how this read by the way. Meaning that it's number one. We have three across. And this is the first one down. So one one one. Our scatter plot by category is going to be the shot zone area. We're going to plot that. And then we're going to do the shot zone basic. And then the shot zone range and each just push them through our definition. So each of those areas go through and you'll see 131, 132, 133. Again, it's a one by three set up. And then it's just a place on each one. And so we look at this. We can see that these shots, they map out the same. So it's very, again, redundant information. That should be intuitive. When we're looking at this in these color graphs, it kind of helps. And you start looking at something you, it's very intuitive like this is. And you start to realize that some of this stuff you'll be looking for in data you might not understand. And you'll see these circular patterns where they match or they mostly match. And you start to realize when you're looking at these, that they're repetitive data. And then you want to explore them more closely depending on what domain you're working in. So we look at these and we look at them and they look just like the regions of the court. But we already have stored this information in angle and distance columns. So we've seen this image before. We go back up here. And here's our similar image. And repeating that image is down here. And so let's go ahead and drop some of this stuff. So let's drop all the useless columns. And we can drop the shot ID, team ID, team name, shot zone area, shot zone range, shot zone basic, the match up, the longitude and latitude. And then we're going to put that into distance, seconds remaining, minutes remaining because we combine that into one column, shot distance because we have just distance on there, location X, location Y, the game event ID, game ID, all of this stuff is just being dropped on here. And we'll just go ahead and loop through our drops. And this is a nice way of doing this because as you're playing with this, this kind of data, putting your list into one setup helps because then you're just running it through an iteration. And you can come back and change it. You might be playing with different models and do this with models. You might be looking at all kinds of different things that you can drop and add in as you test these out. And again, we're working in the filter method. So this is a lot of human interaction with the data. And it takes a lot of critical thinking to look at this stuff and say what matches and what doesn't. And so when we look at the remaining features, let me go ahead and just run this. The original to the new count, we had 25 features. Now we have 11 features. You can see that right there. Just circle that. There's our 25 and there's old new. Now we're down to 11. So we've cut it down to less than half. And you can just see the actual different information on here and the remaining time. At this point, we filtered it through and then we'd move into the next process, which would be to run our model on this. And maybe we would drop some of the features and see if it runs better or worse and what happens. That's kind of would be the next step on there versus the filter setup. And that would be one of the other setups, depending on which algorithm you use. So that wraps up our demo on filter, the feature selection and going through and seeing how these different features are being repeated in this particular in a basketball setup. There's luck. I said there's a lot of other methods on there, but the filter one is really good because that's where you usually start. You want to have your own visual and try to understand how it works. Thank you for joining us for Simply Learn. That's www.simplelern.com. Get certified. Get ahead. For more information, please visit www.simplelern.com. You can also post information on the YouTube below and we will reply to that if you want a copy of the data we use for this. You can also request that from there."
+}

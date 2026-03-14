@@ -1,0 +1,474 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 23.04,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Hello everyone, I am Aang and welcome to Simply Learn. Today we will take you through the hands of lab demo of how you can implement loan approval prediction using python. Before we start, I hope this screen is clearly visible and the audio is fine. If yes, please type in yes."
+        },
+        {
+            "id": 5,
+            "start": 23.04,
+            "end": 62.080000000000005,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " If there are any issues, do let us know in the chat section so that we can resolve them. Let's wait for some more minutes to let the people join. Until then, let me tell you guys that we have regular updates on multiple technologies. If you are a tech geek in a continuous hunt for the latest technological trends, then consider getting subscribed to our YouTube channel and press that bell icon to never miss any"
+        },
+        {
+            "id": 10,
+            "start": 62.080000000000005,
+            "end": 77.44,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " updates from Simply Learn. I am repeating again, let me tell you guys that we have regular updates on multiple technologies. If you are a tech geek in a continuous hunt for the latest technological trends, consider getting subscribed to our YouTube channel and press that bell icon to never miss any"
+        },
+        {
+            "id": 15,
+            "start": 77.44,
+            "end": 91.52,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " updates from Simply Learn. Great. I think we can get started. In today's session, we will go through what is loan prediction system. After that, we will move on to the hands-of-life demo to perform loan approval prediction system."
+        },
+        {
+            "id": 20,
+            "start": 92.08,
+            "end": 108.4,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Moving forward, we will be using different classification algorithms to implement loan approval prediction system. We already have a loan approval data set with us. We will perform different function elaboraries using Python. You can download this dataset from the description box flow."
+        },
+        {
+            "id": 25,
+            "start": 109.28,
+            "end": 128.08,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Before, move on to the programming part. Let's discuss what is loan prediction system first and proceed further for the same. A mechanism called loan prediction system gives you a way to apply for loans and receive notifications when they are approved. In accordance with the data provided by the applicant, the system notifies the applicant"
+        },
+        {
+            "id": 30,
+            "start": 128.08,
+            "end": 148.88,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " of the loans available. I am repeating again. Here is one question for you. I will give you one minute for this. You can comment or you can give your answer in the chat section so I can see if the answer is"
+        },
+        {
+            "id": 35,
+            "start": 148.88,
+            "end": 172.08,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " given by your right or wrong. So the question is which keyword is used for function in Python language? Option 1, Python, Option 2, DEF, Option C, F, U and C, Option D, Define. So let us know your answer in the comment section below. So I am starting of timer 1 minutes."
+        },
+        {
+            "id": 40,
+            "start": 172.88,
+            "end": 191.12,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Type your answer in the comment section or in the chat section. Do let me know your answers please. I currently ask that everyone take part in this to make this live session exciting. So I am starting the timer of 1 minute. Which keyword is used for function in Python language?"
+        },
+        {
+            "id": 45,
+            "start": 191.76,
+            "end": 218.8,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Option 1, Function, Option 2, DEF, Option C, Punk, Option D, Define. Which keyword is used for function in Python language? 47, Kindred remaining. 30 seconds. Let us know your answer in the comment section below."
+        },
+        {
+            "id": 50,
+            "start": 220.88,
+            "end": 241.76,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " This is the easy one. Which keyword is used for function in Python language? Function, DEF, Punk or Define. I currently ask that everyone take part in this to make this exciting. A second move."
+        },
+        {
+            "id": 55,
+            "start": 249.44,
+            "end": 270.96,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Yeah. After that allotted time has passed, those who provided the correct response will receive a response. And those who provided the incorrect response will receive one. So now let us move to our programming part to implement loan approval prediction system. So first we will open a command prompt to write a command to open Jupyter Notebook."
+        },
+        {
+            "id": 60,
+            "start": 270.96,
+            "end": 292.96000000000004,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So here we will write Jupyter Notebook. A center. So this is the landing page of Jupyter Notebook. And here you have to select new Python 3 file. So this is how the Jupyter Notebook UI looks like."
+        },
+        {
+            "id": 65,
+            "start": 293.52000000000004,
+            "end": 318.96000000000004,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So at first we will import some major libraries of Python which will help us creating a loan approval prediction system. So here I will write import. NumPy as NP. So NumPy is a Python library used for working with arrays. It also has a function for working in domain of linear algebra and matrices."
+        },
+        {
+            "id": 70,
+            "start": 319.76000000000005,
+            "end": 339.15999999999997,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " It is an open source project and you can use it freely. NumPy stands for numerical Python. And the second one is port pandas as PD. Pandas is a software library written for the Python programming language for data manipulation"
+        },
+        {
+            "id": 75,
+            "start": 339.15999999999997,
+            "end": 368.82000000000005,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " and analysis. In particular, it offers data suction and operations for manipulating numerical tables and time series. And the third one is import matplotlib.pyplot as PLT. So matplotlib Python scripts can be used to create 2D graphs and plots using the matplotlib"
+        },
+        {
+            "id": 80,
+            "start": 368.82000000000005,
+            "end": 400.34000000000003,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " by module with features to control line styles, point attributes, formatting axis and other features. It offers a module called pyplot that makes things simple for plotting. So, the fourth one is import cborn as an s. So, cborn an open source Python library based on matplotlib is called cborn."
+        },
+        {
+            "id": 85,
+            "start": 400.34000000000003,
+            "end": 442.66,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " It is utilized for data exploration and data visualization with data frames and the pandas library cborn function with ease. So, there is one more like brom, sk learn port, svm. So, after importing libraries, let us move forward and import data set. So, df equals to ed.read underscore csv on dot csv."
+        },
+        {
+            "id": 90,
+            "start": 442.66,
+            "end": 458.34000000000003,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " You can download this data set from the description box below. So, yeah. So, data set is imported. Let us see our data set. So, we will write df dot head here."
+        },
+        {
+            "id": 95,
+            "start": 458.34000000000003,
+            "end": 474.02000000000004,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Yeah. Here you can see we have data set of top 5 rows. So, basically head is used for showing first 5 rows of the data set. If we will use tail instead of head. So, it will show the last 5 rows of the data set."
+        },
+        {
+            "id": 100,
+            "start": 474.02000000000004,
+            "end": 501.06,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, let us move forward and use info function to see the information about the data set. Okay. So, here we will write df dot info. So, the data frame information is printed by the info method. The data includes the total number of columns, their labels, data kinds, memory use, range"
+        },
+        {
+            "id": 105,
+            "start": 501.06,
+            "end": 520.1800000000001,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " index and the number of cells in each column. That is non-null values. Note that the info method does indeed print the information. Okay. So, here you can see low-end is object, then this applicant income is n64, then co-applicate"
+        },
+        {
+            "id": 110,
+            "start": 520.1800000000001,
+            "end": 536.5,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " income is float. So, non-null values like this. So, we know all the columns names, data types and information. Let us move forward and see missing values in the data set. So, for that we will use here I will write."
+        },
+        {
+            "id": 115,
+            "start": 536.5,
+            "end": 559.38,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " df dot is null and this is dot sum. Yeah. Is null dot sum. The data set total number of missing values is written via sum. Skip rows in the data set that have missing values as a state forward solution for the"
+        },
+        {
+            "id": 120,
+            "start": 559.38,
+            "end": 577.42,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " missing value data. So, we have missing values in loan ID is 0, gender is 13, then loan amount is 22, self-employed is 32. So, I hope you guys understand till here. If you have any questions or any query regarding any code."
+        },
+        {
+            "id": 125,
+            "start": 577.42,
+            "end": 594.1,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, just put as in comments our team will shortly provide you the correct solution. I am repeating again. I hope you guys understand till here. If you have any questions or any query regarding any code or any question related to python. Just put as in comments our team will shortly provide you the correct solution."
+        },
+        {
+            "id": 130,
+            "start": 594.1,
+            "end": 611.4599999999999,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Moving forward we will create one more column that is loan amount log using loan amount detail and then we will display i histogram for that. Okay. So, let me do first what the better view I can do this. Yeah."
+        },
+        {
+            "id": 135,
+            "start": 612.46,
+            "end": 661.86,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " I will write here df loan amount let us go log. Yeah. First, so np dot log f. Now, we will do df loan amount underscore log. Dot his for the histogram then wins I will take 20."
+        },
+        {
+            "id": 140,
+            "start": 661.86,
+            "end": 687.86,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " numpy dot log a mathematical function that helps user to calculate natural logarithms of x where x belongs to all the input array elements. You can see histograms is looking fine. Let's see the null values in our new column. So, I will write here f dot is null or sum."
+        },
+        {
+            "id": 145,
+            "start": 687.86,
+            "end": 734.26,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, here you can see in loan amount log there are 22 missing values. So, moving forward let us create one more column named total income. In this we will add two columns, applicant income and co-applicant income. And we will display histogram for the same. f, right total income equals to df applicant income."
+        },
+        {
+            "id": 150,
+            "start": 734.26,
+            "end": 815.74,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Then we will add one more data front f that is co-applicant f total income underscore log plus so np dot log df return total df will income underscore log dot hist ends equals to 20. So, here you can see histogram of that total income log moving forward let us fill those null values in all the respective columns."
+        },
+        {
+            "id": 155,
+            "start": 815.74,
+            "end": 912.86,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, here for that we will write df gender dot will an a df gender dot mode 0 comma in place question true. And what I will do I will copy from here change here gender to married. We are also married and here self employed we are able to self employed for dependent on just everything will be same."
+        },
+        {
+            "id": 160,
+            "start": 912.86,
+            "end": 1032.58,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, here I will add df dot, don't amount was to df dot, don't amount dot fill an a df dot, don't amount dot me. So, here I will write instead of this I will copy from here and paste it here. Change column name to loan amount term. Add it underscore history gain get it underscore history."
+        },
+        {
+            "id": 165,
+            "start": 1032.58,
+            "end": 1099.02,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Here I will write df dot is null sum. It is it is what giving a self-employed what is the issue is that is capital gain dependent a it is dependence. So, there is no missing values now what we going to do is we will select some specific columns and rows for the training and testing."
+        },
+        {
+            "id": 170,
+            "start": 1099.02,
+            "end": 1165.02,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, for that I will write here x equals to dot I log dot r. In column 11 comma 13 column 15 dot values y equals to df dot I log then column 12 dot values. Let me see the x values. So, may know these are the x values and let me see the y values."
+        },
+        {
+            "id": 175,
+            "start": 1165.02,
+            "end": 1186.7,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, the i log function in python is defined in the Pandas module that helps us to select a specific row or column from the data set. Using the i log method in python we can easily retrieve any particular value from a row or column by using index values. So, moving forward let see the percentage of missing genders from the data set and we"
+        },
+        {
+            "id": 180,
+            "start": 1186.7,
+            "end": 1259.54,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " will do it for many other columns. So, it if it will be 0 so it will be great for us. So, we will write print percent of missing gender is percent to f sin and we will write this f in gender column dot is null dot sum f dot shape 0 multiplied by 100. The same function object has no attribute sum."
+        },
+        {
+            "id": 185,
+            "start": 1259.54,
+            "end": 1321.42,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " Why? Because here percent of missing gender is 0 great. So, like so moving forward we will see number of people who take loan as a group by gender. So, for that we will write print numbers like of people who take loan as group by gender. For that print df under dot value value counts"
+        },
+        {
+            "id": 190,
+            "start": 1321.42,
+            "end": 1370.8200000000002,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " as dot count plot x equals to sender comma data equals to df let us to set 1. You can use either set 2 or set 3. Here you can see like male is 502 female are 112 you can see the bar plot. So, the number of observation in each category bins are displayed using bars. Using the count plot technique the following parameters are accepted by the procedure and"
+        },
+        {
+            "id": 195,
+            "start": 1370.8200000000002,
+            "end": 1418.82,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " are listed below. This parameter accept optional variable names for data or vector data inputs for long form data plotting. So, moving forward we will do for the same like number of people who take a loan group by marital status. So, what I will do I will just copy from here and I will change it to here. So, I will write my term status and the guys were married here I have to write the 8."
+        },
+        {
+            "id": 200,
+            "start": 1418.82,
+            "end": 1467.82,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, here you can see like 401 R s like N 2 1 3 unknown. So, moving forward we will see number of people who take loan group by dependence. So, same of what I will do I will paste it here I will just change the name here. Dependence change to here. So, here you can see the dependence and the y label is the count."
+        },
+        {
+            "id": 205,
+            "start": 1467.82,
+            "end": 1526.82,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, like 0 R 360, 102, 101 and 51 and many more. So, moving forward we will see number of people who take loan group as a self-employed. For that what we have to do is we have to just change names. So, moving forward we will see number of people who take loan group by loan amount. For that I have to write here with let me make a better visibility."
+        },
+        {
+            "id": 210,
+            "start": 1526.82,
+            "end": 1603.82,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, as a loan amount, there you can see the bar graph. So, at the end we will see the number of people who take loan group by credit history. So, I will write here same as the credit history, credit history and history."
+        },
+        {
+            "id": 215,
+            "start": 1603.82,
+            "end": 1654.82,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, here you can see 525 and this 89. So, based on my assessment we do not have any missing values in the data set now. So, moving forward let us import scikit-learn library for training and testing data set. So, here I will write from a skill-learn.model. Underscore selection port train underscore test underscore split."
+        },
+        {
+            "id": 220,
+            "start": 1654.82,
+            "end": 1735.82,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, I have like train comma x test comma y train comma y test. So, here I will write train underscore test underscore split comma y comma test underscore size equals to 0.2 Random state equals to 0 on skaskylearn.preprocessing import label encoder."
+        },
+        {
+            "id": 225,
+            "start": 1735.82,
+            "end": 1850.1,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " And label score x equals to label encoder. Scale on in my bat x is not defined. It would be abo-s write and label encoder encode label with a value between 0 and n classes minus 1 where n is"
+        },
+        {
+            "id": 230,
+            "start": 1850.1,
+            "end": 1914.02,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " the number of distinct label. Moving forward let's fit and transfer data for training. So here we will write for i in range 0, 5 x underscore train comma i equals to label and order underscore x dot fit transform and x underscore train colon comma i."
+        },
+        {
+            "id": 235,
+            "start": 1914.02,
+            "end": 1990.2199999999998,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " And x underscore train 7 equals to order underscore x dot fit transform. And x underscore train 7 let's see x underscore sorry. So train and yeah this i this is capital X. If it transform joins these two steps and you use for the initial fitting of the parameter on the tree tree set while also returning the transform x internally the transfer object"
+        },
+        {
+            "id": 240,
+            "start": 1990.22,
+            "end": 2047.1,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " just calls first fit and then transform on the same data and we will perform same for the y. So I will write here label encoder underscore y. So label encoder okay i underscore train equals to label encoder underscore y dot fit underscore transform."
+        },
+        {
+            "id": 245,
+            "start": 2047.1,
+            "end": 2130.8599999999997,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " See the results yeah. So training of the data set is done let's do for same for the testing data. So I will write here for i in range 0, 5 underscore test i equals to label encoder underscore x dot fit underscore transform underscore test of i. And again x underscore test colon comma 7 equals to label encoder underscore dot fit"
+        },
+        {
+            "id": 250,
+            "start": 2130.86,
+            "end": 2208.46,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " underscore transform underscore test then colon comma 7 yeah and see the results x underscore test okay it seems good all the values. So we will do for the same y test so we will write here label encoder let me put. So y underscore y plus you label encoder so y underscore test equals to E underscore y dot fit underscore transform underscore test let's see okay moving forward we will"
+        },
+        {
+            "id": 255,
+            "start": 2208.46,
+            "end": 2294.7400000000002,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " import standard scalar for the further process. So for that we will write here arm s colon dot pre processing port standard scalar just equals to like we will assign this standard I will do I will copy it from here. So x train equals to s s dot fit underscore transform x underscore train then x underscore test equals to s s dot fit underscore transform underscore test will a okay scalar dot pre"
+        },
+        {
+            "id": 260,
+            "start": 2294.74,
+            "end": 2357.7400000000002,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " processing okay as colon pre processing standard scalar okay sorry and again like standard okay ER yeah so standard scalar removes the mean and scales each feature variable to unit variance this operation is performed feature wise in an independent way everything is done let's see which classifies best for prediction by seeing their accuracy so for that I will write here let me do one thing yeah so like I will write from colon dot ensemble yeah import"
+        },
+        {
+            "id": 265,
+            "start": 2357.74,
+            "end": 2478.2999999999997,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " random forest classifier so I will write I have under class CLF classifier equals to random forest sorry my bad so RF underscore CLF dot fit x underscore train comma y underscore train train so I will write here from sk learn import matrix y underscore prediction equals to RF underscore classifier dot predict dot predict x underscore test so here I will print accuracy of random random forest classifier is comma matrix it dot accuracy"
+        },
+        {
+            "id": 270,
+            "start": 2480.74,
+            "end": 2525.38,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " score score then y underscore prediction comma y underscore test y underscore prediction so let's see the prediction from the using random forest classifier and the accuracy a random forest is a meta estimator that employs averaging to increase predicted accuracy and reduce overfitting if boost app equals to true the size of the sub sample is determined by the max sample argument otherwise each tree is constructed using the entire data set so here you can see the accuracy"
+        },
+        {
+            "id": 275,
+            "start": 2525.38,
+            "end": 2607.94,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " is like 78 percent and here prediction you can see like here one denotes that loan approved and zero means loan will not approve so accuracy is quite less so let's see for another classification methods nav base so here I will write from a sk learn port Gaussian and be nav base okay so nb classifier first to Gaussian and b e underscore classifier equals to sorry dot fit strain comma y train oh"
+        },
+        {
+            "id": 280,
+            "start": 2611.06,
+            "end": 2706.5,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " a not equals to oh like Gaussian okay g is capital sorry yeah so let's predict the value y underscore predict pursue nb score classifier dot predict it's underscore test and print accuracy of nav base is comma like matrix dot accuracy score score y underscore prediction comma y underscore test so accuracy of Gaussian and b is 0.8 means 82 percent let's predict the value y predict prediction like one is like loan approved and zero is loan or"
+        },
+        {
+            "id": 285,
+            "start": 2706.5,
+            "end": 2736.58,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " not approved so nav base is a classification algorithm for binary two classes and multi-classes classification problem it is called nav base the calculation of the probabilities for each class are simplified to make that calculation tractable so the accuracy is 82 percent and here prediction you can see one denotes loan approved and zero means loan will not approve so let's see for another classification method like decision tree classifier for that I will write here"
+        },
+        {
+            "id": 290,
+            "start": 2739.22,
+            "end": 2800.42,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " from a sk learn dot tree import port decision tree classifier here I will write dt underscore classifier s2 I will copy it from here I will write here dt underscore clf equals to so dot fit x underscore train comma y underscore train"
+        },
+        {
+            "id": 295,
+            "start": 2807.1400000000003,
+            "end": 2850.9799999999996,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " y is small so here I will see the accuracy so dt underscore classifier dot predict so here I will print accuracy of dt is comma matrix"
+        },
+        {
+            "id": 300,
+            "start": 2855.3799999999997,
+            "end": 2889.1400000000003,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " or accuracy underscore underscore predict comma y underscore test so here you can see the accuracy is 70 percent so let me predict so decision tree the non-parametric supervised learning approach used for classification and regression application and it is organized"
+        },
+        {
+            "id": 305,
+            "start": 2889.1400000000003,
+            "end": 2913.46,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " hierarchically as and has a node root branches internal nodes and leaf nodes so the accuracy is 70 percent and here prediction you can see one denotes the loan approved and zero means loan will not approve so let's do one more classification we will do it from the k neighbors using k neighbors so here we will write from"
+        },
+        {
+            "id": 310,
+            "start": 2913.46,
+            "end": 2999.52,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " come We will classifier, KN classifier we will assign this. Here we will write KN underscore classifier dot fit x under both train comma y underscore train, I scale on sorry and again, capital here, capital here, yeah, it, yeah."
+        },
+        {
+            "id": 315,
+            "start": 2999.52,
+            "end": 3073.64,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, here I will see the accuracy, okay. So, the prediction equals to KN underscore classifier dot predict x underscore test, and accuracy of K neighbors is matrix dot accuracy, score score y underscore prediction comma y underscore test. So, let us see the accuracy, accuracy is 79 percent and it is quite good. So, the K neighbors, the five closer neighbors are sought for the K neighbors classifier."
+        },
+        {
+            "id": 320,
+            "start": 3073.64,
+            "end": 3106.84,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " The classifier must be explicitly instructed to utilize Euclidean distance to determine the proximity of nearby points. So, the accuracy is 79 percent and here prediction you can see one denotes the loan approved and zero means loan will not approve. So, you can see nave base, base nave base, yeah. So, here you can see we have nave base classifier with the best accuracy of 82 percent. So, we can use it for the loan approval prediction system."
+        },
+        {
+            "id": 325,
+            "start": 3107.84,
+            "end": 3131.6400000000003,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " So, I hope you guys understand till here, if you have any questions or any query regarding any code, just put as in comments our team will shortly provide you the correct solution. I hope you guys must have understood the concept of how we can implement loan approval prediction system using Python. If you have any queries, you can ask in the comment section below, our team will shortly respond to you as soon as possible. And if you want this full code"
+        },
+        {
+            "id": 330,
+            "start": 3131.64,
+            "end": 3144.24,
+            "topic": "Loan Approval Prediction using Machine Learning",
+            "text": " and if you want this full code, just comment for the same. Thank you so much for being here. If you enjoyed this video, please do subscribe to our YouTube channel and give a like to this video. Thank you and keep learning."
+        }
+    ],
+    "text": " Hello everyone, I am Aang and welcome to Simply Learn. Today we will take you through the hands of lab demo of how you can implement loan approval prediction using python. Before we start, I hope this screen is clearly visible and the audio is fine. If yes, please type in yes. If there are any issues, do let us know in the chat section so that we can resolve them. Let's wait for some more minutes to let the people join. Until then, let me tell you guys that we have regular updates on multiple technologies. If you are a tech geek in a continuous hunt for the latest technological trends, then consider getting subscribed to our YouTube channel and press that bell icon to never miss any updates from Simply Learn. I am repeating again, let me tell you guys that we have regular updates on multiple technologies. If you are a tech geek in a continuous hunt for the latest technological trends, consider getting subscribed to our YouTube channel and press that bell icon to never miss any updates from Simply Learn. Great. I think we can get started. In today's session, we will go through what is loan prediction system. After that, we will move on to the hands-of-life demo to perform loan approval prediction system. Moving forward, we will be using different classification algorithms to implement loan approval prediction system. We already have a loan approval data set with us. We will perform different function elaboraries using Python. You can download this dataset from the description box flow. Before, move on to the programming part. Let's discuss what is loan prediction system first and proceed further for the same. A mechanism called loan prediction system gives you a way to apply for loans and receive notifications when they are approved. In accordance with the data provided by the applicant, the system notifies the applicant of the loans available. I am repeating again. Here is one question for you. I will give you one minute for this. You can comment or you can give your answer in the chat section so I can see if the answer is given by your right or wrong. So the question is which keyword is used for function in Python language? Option 1, Python, Option 2, DEF, Option C, F, U and C, Option D, Define. So let us know your answer in the comment section below. So I am starting of timer 1 minutes. Type your answer in the comment section or in the chat section. Do let me know your answers please. I currently ask that everyone take part in this to make this live session exciting. So I am starting the timer of 1 minute. Which keyword is used for function in Python language? Option 1, Function, Option 2, DEF, Option C, Punk, Option D, Define. Which keyword is used for function in Python language? 47, Kindred remaining. 30 seconds. Let us know your answer in the comment section below. This is the easy one. Which keyword is used for function in Python language? Function, DEF, Punk or Define. I currently ask that everyone take part in this to make this exciting. A second move. Yeah. After that allotted time has passed, those who provided the correct response will receive a response. And those who provided the incorrect response will receive one. So now let us move to our programming part to implement loan approval prediction system. So first we will open a command prompt to write a command to open Jupyter Notebook. So here we will write Jupyter Notebook. A center. So this is the landing page of Jupyter Notebook. And here you have to select new Python 3 file. So this is how the Jupyter Notebook UI looks like. So at first we will import some major libraries of Python which will help us creating a loan approval prediction system. So here I will write import. NumPy as NP. So NumPy is a Python library used for working with arrays. It also has a function for working in domain of linear algebra and matrices. It is an open source project and you can use it freely. NumPy stands for numerical Python. And the second one is port pandas as PD. Pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data suction and operations for manipulating numerical tables and time series. And the third one is import matplotlib.pyplot as PLT. So matplotlib Python scripts can be used to create 2D graphs and plots using the matplotlib by module with features to control line styles, point attributes, formatting axis and other features. It offers a module called pyplot that makes things simple for plotting. So, the fourth one is import cborn as an s. So, cborn an open source Python library based on matplotlib is called cborn. It is utilized for data exploration and data visualization with data frames and the pandas library cborn function with ease. So, there is one more like brom, sk learn port, svm. So, after importing libraries, let us move forward and import data set. So, df equals to ed.read underscore csv on dot csv. You can download this data set from the description box below. So, yeah. So, data set is imported. Let us see our data set. So, we will write df dot head here. Yeah. Here you can see we have data set of top 5 rows. So, basically head is used for showing first 5 rows of the data set. If we will use tail instead of head. So, it will show the last 5 rows of the data set. So, let us move forward and use info function to see the information about the data set. Okay. So, here we will write df dot info. So, the data frame information is printed by the info method. The data includes the total number of columns, their labels, data kinds, memory use, range index and the number of cells in each column. That is non-null values. Note that the info method does indeed print the information. Okay. So, here you can see low-end is object, then this applicant income is n64, then co-applicate income is float. So, non-null values like this. So, we know all the columns names, data types and information. Let us move forward and see missing values in the data set. So, for that we will use here I will write. df dot is null and this is dot sum. Yeah. Is null dot sum. The data set total number of missing values is written via sum. Skip rows in the data set that have missing values as a state forward solution for the missing value data. So, we have missing values in loan ID is 0, gender is 13, then loan amount is 22, self-employed is 32. So, I hope you guys understand till here. If you have any questions or any query regarding any code. So, just put as in comments our team will shortly provide you the correct solution. I am repeating again. I hope you guys understand till here. If you have any questions or any query regarding any code or any question related to python. Just put as in comments our team will shortly provide you the correct solution. Moving forward we will create one more column that is loan amount log using loan amount detail and then we will display i histogram for that. Okay. So, let me do first what the better view I can do this. Yeah. I will write here df loan amount let us go log. Yeah. First, so np dot log f. Now, we will do df loan amount underscore log. Dot his for the histogram then wins I will take 20. numpy dot log a mathematical function that helps user to calculate natural logarithms of x where x belongs to all the input array elements. You can see histograms is looking fine. Let's see the null values in our new column. So, I will write here f dot is null or sum. So, here you can see in loan amount log there are 22 missing values. So, moving forward let us create one more column named total income. In this we will add two columns, applicant income and co-applicant income. And we will display histogram for the same. f, right total income equals to df applicant income. Then we will add one more data front f that is co-applicant f total income underscore log plus so np dot log df return total df will income underscore log dot hist ends equals to 20. So, here you can see histogram of that total income log moving forward let us fill those null values in all the respective columns. So, here for that we will write df gender dot will an a df gender dot mode 0 comma in place question true. And what I will do I will copy from here change here gender to married. We are also married and here self employed we are able to self employed for dependent on just everything will be same. So, here I will add df dot, don't amount was to df dot, don't amount dot fill an a df dot, don't amount dot me. So, here I will write instead of this I will copy from here and paste it here. Change column name to loan amount term. Add it underscore history gain get it underscore history. Here I will write df dot is null sum. It is it is what giving a self-employed what is the issue is that is capital gain dependent a it is dependence. So, there is no missing values now what we going to do is we will select some specific columns and rows for the training and testing. So, for that I will write here x equals to dot I log dot r. In column 11 comma 13 column 15 dot values y equals to df dot I log then column 12 dot values. Let me see the x values. So, may know these are the x values and let me see the y values. So, the i log function in python is defined in the Pandas module that helps us to select a specific row or column from the data set. Using the i log method in python we can easily retrieve any particular value from a row or column by using index values. So, moving forward let see the percentage of missing genders from the data set and we will do it for many other columns. So, it if it will be 0 so it will be great for us. So, we will write print percent of missing gender is percent to f sin and we will write this f in gender column dot is null dot sum f dot shape 0 multiplied by 100. The same function object has no attribute sum. Why? Because here percent of missing gender is 0 great. So, like so moving forward we will see number of people who take loan as a group by gender. So, for that we will write print numbers like of people who take loan as group by gender. For that print df under dot value value counts as dot count plot x equals to sender comma data equals to df let us to set 1. You can use either set 2 or set 3. Here you can see like male is 502 female are 112 you can see the bar plot. So, the number of observation in each category bins are displayed using bars. Using the count plot technique the following parameters are accepted by the procedure and are listed below. This parameter accept optional variable names for data or vector data inputs for long form data plotting. So, moving forward we will do for the same like number of people who take a loan group by marital status. So, what I will do I will just copy from here and I will change it to here. So, I will write my term status and the guys were married here I have to write the 8. So, here you can see like 401 R s like N 2 1 3 unknown. So, moving forward we will see number of people who take loan group by dependence. So, same of what I will do I will paste it here I will just change the name here. Dependence change to here. So, here you can see the dependence and the y label is the count. So, like 0 R 360, 102, 101 and 51 and many more. So, moving forward we will see number of people who take loan group as a self-employed. For that what we have to do is we have to just change names. So, moving forward we will see number of people who take loan group by loan amount. For that I have to write here with let me make a better visibility. So, as a loan amount, there you can see the bar graph. So, at the end we will see the number of people who take loan group by credit history. So, I will write here same as the credit history, credit history and history. So, here you can see 525 and this 89. So, based on my assessment we do not have any missing values in the data set now. So, moving forward let us import scikit-learn library for training and testing data set. So, here I will write from a skill-learn.model. Underscore selection port train underscore test underscore split. So, I have like train comma x test comma y train comma y test. So, here I will write train underscore test underscore split comma y comma test underscore size equals to 0.2 Random state equals to 0 on skaskylearn.preprocessing import label encoder. And label score x equals to label encoder. Scale on in my bat x is not defined. It would be abo-s write and label encoder encode label with a value between 0 and n classes minus 1 where n is the number of distinct label. Moving forward let's fit and transfer data for training. So here we will write for i in range 0, 5 x underscore train comma i equals to label and order underscore x dot fit transform and x underscore train colon comma i. And x underscore train 7 equals to order underscore x dot fit transform. And x underscore train 7 let's see x underscore sorry. So train and yeah this i this is capital X. If it transform joins these two steps and you use for the initial fitting of the parameter on the tree tree set while also returning the transform x internally the transfer object just calls first fit and then transform on the same data and we will perform same for the y. So I will write here label encoder underscore y. So label encoder okay i underscore train equals to label encoder underscore y dot fit underscore transform. See the results yeah. So training of the data set is done let's do for same for the testing data. So I will write here for i in range 0, 5 underscore test i equals to label encoder underscore x dot fit underscore transform underscore test of i. And again x underscore test colon comma 7 equals to label encoder underscore dot fit underscore transform underscore test then colon comma 7 yeah and see the results x underscore test okay it seems good all the values. So we will do for the same y test so we will write here label encoder let me put. So y underscore y plus you label encoder so y underscore test equals to E underscore y dot fit underscore transform underscore test let's see okay moving forward we will import standard scalar for the further process. So for that we will write here arm s colon dot pre processing port standard scalar just equals to like we will assign this standard I will do I will copy it from here. So x train equals to s s dot fit underscore transform x underscore train then x underscore test equals to s s dot fit underscore transform underscore test will a okay scalar dot pre processing okay as colon pre processing standard scalar okay sorry and again like standard okay ER yeah so standard scalar removes the mean and scales each feature variable to unit variance this operation is performed feature wise in an independent way everything is done let's see which classifies best for prediction by seeing their accuracy so for that I will write here let me do one thing yeah so like I will write from colon dot ensemble yeah import random forest classifier so I will write I have under class CLF classifier equals to random forest sorry my bad so RF underscore CLF dot fit x underscore train comma y underscore train train so I will write here from sk learn import matrix y underscore prediction equals to RF underscore classifier dot predict dot predict x underscore test so here I will print accuracy of random random forest classifier is comma matrix it dot accuracy score score then y underscore prediction comma y underscore test y underscore prediction so let's see the prediction from the using random forest classifier and the accuracy a random forest is a meta estimator that employs averaging to increase predicted accuracy and reduce overfitting if boost app equals to true the size of the sub sample is determined by the max sample argument otherwise each tree is constructed using the entire data set so here you can see the accuracy is like 78 percent and here prediction you can see like here one denotes that loan approved and zero means loan will not approve so accuracy is quite less so let's see for another classification methods nav base so here I will write from a sk learn port Gaussian and be nav base okay so nb classifier first to Gaussian and b e underscore classifier equals to sorry dot fit strain comma y train oh a not equals to oh like Gaussian okay g is capital sorry yeah so let's predict the value y underscore predict pursue nb score classifier dot predict it's underscore test and print accuracy of nav base is comma like matrix dot accuracy score score y underscore prediction comma y underscore test so accuracy of Gaussian and b is 0.8 means 82 percent let's predict the value y predict prediction like one is like loan approved and zero is loan or not approved so nav base is a classification algorithm for binary two classes and multi-classes classification problem it is called nav base the calculation of the probabilities for each class are simplified to make that calculation tractable so the accuracy is 82 percent and here prediction you can see one denotes loan approved and zero means loan will not approve so let's see for another classification method like decision tree classifier for that I will write here from a sk learn dot tree import port decision tree classifier here I will write dt underscore classifier s2 I will copy it from here I will write here dt underscore clf equals to so dot fit x underscore train comma y underscore train y is small so here I will see the accuracy so dt underscore classifier dot predict so here I will print accuracy of dt is comma matrix or accuracy underscore underscore predict comma y underscore test so here you can see the accuracy is 70 percent so let me predict so decision tree the non-parametric supervised learning approach used for classification and regression application and it is organized hierarchically as and has a node root branches internal nodes and leaf nodes so the accuracy is 70 percent and here prediction you can see one denotes the loan approved and zero means loan will not approve so let's do one more classification we will do it from the k neighbors using k neighbors so here we will write from come We will classifier, KN classifier we will assign this. Here we will write KN underscore classifier dot fit x under both train comma y underscore train, I scale on sorry and again, capital here, capital here, yeah, it, yeah. So, here I will see the accuracy, okay. So, the prediction equals to KN underscore classifier dot predict x underscore test, and accuracy of K neighbors is matrix dot accuracy, score score y underscore prediction comma y underscore test. So, let us see the accuracy, accuracy is 79 percent and it is quite good. So, the K neighbors, the five closer neighbors are sought for the K neighbors classifier. The classifier must be explicitly instructed to utilize Euclidean distance to determine the proximity of nearby points. So, the accuracy is 79 percent and here prediction you can see one denotes the loan approved and zero means loan will not approve. So, you can see nave base, base nave base, yeah. So, here you can see we have nave base classifier with the best accuracy of 82 percent. So, we can use it for the loan approval prediction system. So, I hope you guys understand till here, if you have any questions or any query regarding any code, just put as in comments our team will shortly provide you the correct solution. I hope you guys must have understood the concept of how we can implement loan approval prediction system using Python. If you have any queries, you can ask in the comment section below, our team will shortly respond to you as soon as possible. And if you want this full code and if you want this full code, just comment for the same. Thank you so much for being here. If you enjoyed this video, please do subscribe to our YouTube channel and give a like to this video. Thank you and keep learning."
+}

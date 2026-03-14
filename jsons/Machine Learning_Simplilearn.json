@@ -1,0 +1,981 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 7.0,
+            "text": " We know humans learn from their past experiences and machines follow instructions given by humans.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 1,
+            "start": 7.0,
+            "end": 14.0,
+            "text": " But what if humans can train the machines to learn from their past data and do what humans can do and much faster?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 2,
+            "start": 14.0,
+            "end": 18.0,
+            "text": " Well, that's called machine learning, but it's a lot more than just learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 3,
+            "start": 18.0,
+            "end": 20.0,
+            "text": " It's also about understanding and reasoning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 4,
+            "start": 20.0,
+            "end": 24.0,
+            "text": " So today we will learn about the basics of machine learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 5,
+            "start": 24.0,
+            "end": 28.0,
+            "text": " So that's Paul. He loves listening to new songs.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 6,
+            "start": 28.0,
+            "end": 34.0,
+            "text": " He either likes them or dislikes them. Paul decides this on the basis of the song's tempo,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 7,
+            "start": 34.0,
+            "end": 38.0,
+            "text": " general intensity and the gender of voice.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 8,
+            "start": 38.0,
+            "end": 42.0,
+            "text": " For simplicity, let's just use tempo and intensity for now.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 9,
+            "start": 42.0,
+            "end": 47.0,
+            "text": " So here, tempo is on the x-axis ranging from relaxed to fast.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 10,
+            "start": 47.0,
+            "end": 52.0,
+            "text": " Whereas intensity is on the y-axis ranging from light to soaring.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 11,
+            "start": 52.0,
+            "end": 58.0,
+            "text": " We see that Paul likes the song with fast tempo and soaring intensity",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 12,
+            "start": 58.0,
+            "end": 63.0,
+            "text": " while he dislikes the song with relaxed tempo and light intensity.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 13,
+            "start": 63.0,
+            "end": 65.0,
+            "text": " So now we know Paul's choices.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 14,
+            "start": 65.0,
+            "end": 69.0,
+            "text": " Let's say Paul listens to a new song. Let's name it a song A.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 15,
+            "start": 69.0,
+            "end": 74.0,
+            "text": " Song A has fast tempo and a soaring intensity. So it lies somewhere here.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 16,
+            "start": 74.0,
+            "end": 78.0,
+            "text": " Looking at the data, can you guess whether Paul will like the song or not?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 17,
+            "start": 78.0,
+            "end": 81.0,
+            "text": " Correct. So Paul likes this song.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 18,
+            "start": 81.0,
+            "end": 86.0,
+            "text": " By looking at Paul's past choices, we were able to classify the unknown song very easily.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 19,
+            "start": 86.0,
+            "end": 87.0,
+            "text": " Right?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 20,
+            "start": 87.0,
+            "end": 92.0,
+            "text": " Let's say now Paul listens to a new song. Let's label it a song B.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 21,
+            "start": 92.0,
+            "end": 98.0,
+            "text": " So song B lies somewhere here with medium tempo and medium intensity.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 22,
+            "start": 98.0,
+            "end": 102.0,
+            "text": " Neither relaxed nor fast. Neither light nor soaring.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 23,
+            "start": 102.0,
+            "end": 104.0,
+            "text": " Now can you guess whether Paul likes it or not?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 24,
+            "start": 104.0,
+            "end": 107.0,
+            "text": " Not able to guess whether Paul will like it or dislike it?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 25,
+            "start": 107.0,
+            "end": 109.0,
+            "text": " Are the choices unclear? Correct.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 26,
+            "start": 109.0,
+            "end": 112.0,
+            "text": " We could easily classify song A.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 27,
+            "start": 112.0,
+            "end": 116.0,
+            "text": " But when the choice became complicated as in the case of song B, yes.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 28,
+            "start": 116.0,
+            "end": 119.0,
+            "text": " And that's where machine learning comes in.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 29,
+            "start": 119.0,
+            "end": 124.0,
+            "text": " Let's see how. In the same example for song B, if we draw a circle around the song B,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 30,
+            "start": 124.0,
+            "end": 129.0,
+            "text": " we see that there are four words for like. Whereas one word for dislike.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 31,
+            "start": 129.0,
+            "end": 133.0,
+            "text": " If we go for the majority of words, we can say that Paul will definitely like the song.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 32,
+            "start": 133.0,
+            "end": 136.0,
+            "text": " That's all. This was a basic machine learning algorithm also.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 33,
+            "start": 136.0,
+            "end": 138.0,
+            "text": " It's called K-nearest neighbors.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 34,
+            "start": 138.0,
+            "end": 142.0,
+            "text": " So this is just a small example in one of the many machine learning algorithms.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 35,
+            "start": 142.0,
+            "end": 146.0,
+            "text": " Quite easy, right? Believe me, it is.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 36,
+            "start": 146.0,
+            "end": 151.0,
+            "text": " But what happens when the choices become complicated as in the case of song B?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 37,
+            "start": 151.0,
+            "end": 155.0,
+            "text": " That's when machine learning comes in. It learns the data, builds the prediction model,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 38,
+            "start": 155.0,
+            "end": 159.0,
+            "text": " and when the new data point comes in, it can easily protect for it.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 39,
+            "start": 159.0,
+            "end": 163.0,
+            "text": " More the data, better the model, higher will be the accuracy.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 40,
+            "start": 163.0,
+            "end": 166.0,
+            "text": " There are many ways in which the machine learns.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 41,
+            "start": 166.0,
+            "end": 171.0,
+            "text": " It could be either supervised learning, unsupervised learning, or reinforcement learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 42,
+            "start": 171.0,
+            "end": 174.0,
+            "text": " Let's first quickly understand supervised learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 43,
+            "start": 174.0,
+            "end": 178.0,
+            "text": " Suppose your friend gives you 1 million coins of three different currencies.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 44,
+            "start": 178.0,
+            "end": 181.0,
+            "text": " Say one rupee, one euro, and one dirham.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 45,
+            "start": 181.0,
+            "end": 186.0,
+            "text": " Each coin has different weights. For example, a coin of one rupee weighs 3 grams.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 46,
+            "start": 186.0,
+            "end": 189.0,
+            "text": " One euro weighs 7 grams, and one dirham weighs 4 grams.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 47,
+            "start": 189.0,
+            "end": 192.0,
+            "text": " Your model will predict the currency of the coin.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 48,
+            "start": 192.0,
+            "end": 195.0,
+            "text": " Here, your weight becomes the feature of coins,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 49,
+            "start": 195.0,
+            "end": 197.0,
+            "text": " while currency becomes their label.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 50,
+            "start": 197.0,
+            "end": 200.0,
+            "text": " When you feed this data to the machine learning model, it learns.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 51,
+            "start": 200.0,
+            "end": 204.0,
+            "text": " Which feature is associated with which label?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 52,
+            "start": 204.0,
+            "end": 209.0,
+            "text": " For example, it will learn that if a coin is of 3 grams, it will be a 1 rupee coin.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 53,
+            "start": 209.0,
+            "end": 213.0,
+            "text": " Let's give a new coin to the machine. On the basis of the weight of the new coin,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 54,
+            "start": 213.0,
+            "end": 215.0,
+            "text": " your model will predict the currency.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 55,
+            "start": 215.0,
+            "end": 219.0,
+            "text": " Hence, supervised learning uses labelled data to train the model.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 56,
+            "start": 219.0,
+            "end": 225.0,
+            "text": " Here the machine knew the features of the object, and also the labels associated with those features.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 57,
+            "start": 225.0,
+            "end": 228.0,
+            "text": " On this note, let's move to unsupervised learning and see the difference.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 58,
+            "start": 228.0,
+            "end": 234.0,
+            "text": " Suppose you have cricket data set of various players with their respective scores and the wickets taken.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 59,
+            "start": 234.0,
+            "end": 240.0,
+            "text": " When you feed this data set to the machine, the machine identifies the pattern of player performance.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 60,
+            "start": 240.0,
+            "end": 244.0,
+            "text": " So, it plots this data with the respective wickets on the x-axis, while runs on the y-axis.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 61,
+            "start": 244.0,
+            "end": 248.0,
+            "text": " While looking at the data, you will clearly see that there are two clusters.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 62,
+            "start": 248.0,
+            "end": 252.0,
+            "text": " The one cluster are the players who scored high runs and took less wickets.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 63,
+            "start": 252.0,
+            "end": 258.0,
+            "text": " While the other cluster is of the players who scored less runs but took many wickets.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 64,
+            "start": 258.0,
+            "end": 262.0,
+            "text": " So, here we interpret these two clusters as batsmen and bowlers.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 65,
+            "start": 262.0,
+            "end": 267.0,
+            "text": " An important point to note here is that there were no labels of batsmen and bowlers.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 66,
+            "start": 267.0,
+            "end": 271.0,
+            "text": " Hence, the learning with unlabeled data is unsupervised learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 67,
+            "start": 271.0,
+            "end": 277.0,
+            "text": " So, we saw supervised learning where the data was labelled and the unsupervised learning where the data was unlabeled.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 68,
+            "start": 277.0,
+            "end": 281.0,
+            "text": " And then there is reinforcement learning, which is reward-based learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 69,
+            "start": 281.0,
+            "end": 283.0,
+            "text": " Or we can say that it works in the principle of feedback.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 70,
+            "start": 283.0,
+            "end": 288.0,
+            "text": " Here, let's say you provide the system with an image of a dog and ask it to identify it.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 71,
+            "start": 288.0,
+            "end": 291.0,
+            "text": " The system identifies it as a cat.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 72,
+            "start": 291.0,
+            "end": 294.0,
+            "text": " So, you give a negative feedback to the machine saying that it's a dog's image.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 73,
+            "start": 294.0,
+            "end": 299.0,
+            "text": " The machine will learn from the feedback and finally if it comes across any other image of a dog,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 74,
+            "start": 299.0,
+            "end": 301.0,
+            "text": " it will be able to classify it correctly.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 75,
+            "start": 301.0,
+            "end": 303.0,
+            "text": " That is reinforcement learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 76,
+            "start": 303.0,
+            "end": 306.0,
+            "text": " To generalize machine learning model, let's see a flow chart.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 77,
+            "start": 306.0,
+            "end": 311.0,
+            "text": " Input is given to a machine learning model which then gives the output according to the algorithm applied.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 78,
+            "start": 311.0,
+            "end": 314.0,
+            "text": " If it's right, we take the output as a final result.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 79,
+            "start": 314.0,
+            "end": 320.0,
+            "text": " Else, we provide feedback to the training model and ask it to predict until it learns.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 80,
+            "start": 320.0,
+            "end": 323.0,
+            "text": " I hope you've understood supervised and unsupervised learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 81,
+            "start": 323.0,
+            "end": 325.0,
+            "text": " So, let's have a quick quiz.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 82,
+            "start": 325.0,
+            "end": 330.0,
+            "text": " You have to determine whether the given scenarios uses supervised or unsupervised learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 83,
+            "start": 330.0,
+            "end": 331.0,
+            "text": " Simple right?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 84,
+            "start": 331.0,
+            "end": 332.0,
+            "text": " Scenario 1.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 85,
+            "start": 332.0,
+            "end": 337.0,
+            "text": " Facebook recognizes your friend in a picture from an album of tagged photographs.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 86,
+            "start": 337.0,
+            "end": 339.0,
+            "text": " Scenario 2.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 87,
+            "start": 339.0,
+            "end": 344.0,
+            "text": " Netflix recommends new movies based on someone's past movie choices.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 88,
+            "start": 344.0,
+            "end": 345.0,
+            "text": " Scenario 3.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 89,
+            "start": 345.0,
+            "end": 350.0,
+            "text": " Analyzing bank data for suspicious transactions and flagging the fraud transactions.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 90,
+            "start": 350.0,
+            "end": 353.0,
+            "text": " Think wisely and comment below your answers.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 91,
+            "start": 353.0,
+            "end": 358.0,
+            "text": " Moving on, don't you sometimes wonder how is machine learning possible in today's era?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 92,
+            "start": 358.0,
+            "end": 361.0,
+            "text": " Well, that's because today we have humongous data available.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 93,
+            "start": 361.0,
+            "end": 366.0,
+            "text": " Everybody is online, either making a transaction or just surfing the internet.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 94,
+            "start": 366.0,
+            "end": 369.0,
+            "text": " And that's generating a huge amount of data every minute.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 95,
+            "start": 369.0,
+            "end": 372.0,
+            "text": " And that data my friend is the key to analysis.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 96,
+            "start": 372.0,
+            "end": 376.0,
+            "text": " Also, the memory handling capabilities of computers have largely increased",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 97,
+            "start": 376.0,
+            "end": 381.0,
+            "text": " which helps them to process such a huge amount of data at hand without any delay.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 98,
+            "start": 381.0,
+            "end": 385.0,
+            "text": " And yes, computers now have great computational powers.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 99,
+            "start": 385.0,
+            "end": 388.0,
+            "text": " So, there are a lot of applications of machine learning out there.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 100,
+            "start": 388.0,
+            "end": 394.0,
+            "text": " To name a few, machine learning is used in healthcare where diagnostics are predicted for doctors' review.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 101,
+            "start": 394.0,
+            "end": 400.0,
+            "text": " The sentiment analysis that the tech giants are doing on social media is another interesting application of machine learning.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 102,
+            "start": 400.0,
+            "end": 405.0,
+            "text": " Fraud detection in the finance sector and also to predict customer churn in the e-commerce sector.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 103,
+            "start": 405.0,
+            "end": 409.0,
+            "text": " While booking a gap, you must have encountered surge pricing often,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 104,
+            "start": 409.0,
+            "end": 412.0,
+            "text": " where it says the fair of your trip has been updated.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 105,
+            "start": 412.0,
+            "end": 413.0,
+            "text": " Continue booking?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 106,
+            "start": 413.0,
+            "end": 415.0,
+            "text": " Yes, please, I'm getting late for office.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 107,
+            "start": 415.0,
+            "end": 422.0,
+            "text": " Well, that's an interesting machine learning model which is used by global taxi giant Uber and others,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 108,
+            "start": 422.0,
+            "end": 429.0,
+            "text": " where they have differential pricing in real time based on demand, the number of cars available, bad weather, rush, or etc.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 109,
+            "start": 429.0,
+            "end": 434.0,
+            "text": " So they use the surge pricing model to ensure that those who need a cab can get one.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 110,
+            "start": 434.0,
+            "end": 439.0,
+            "text": " Also, it uses predictive modeling to predict where the demand will be high,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 111,
+            "start": 439.0,
+            "end": 444.0,
+            "text": " with a goal that drivers can take care of the demand and surge pricing can be minimized.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 112,
+            "start": 444.0,
+            "end": 445.0,
+            "text": " Great!",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 113,
+            "start": 445.0,
+            "end": 448.0,
+            "text": " Hey Siri, can you remind me to book a cab at 6pm today?",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 114,
+            "start": 448.0,
+            "end": 450.0,
+            "text": " Okay, I'll remind you.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 115,
+            "start": 450.0,
+            "end": 451.0,
+            "text": " Thanks!",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 116,
+            "start": 451.0,
+            "end": 452.0,
+            "text": " No problem!",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 117,
+            "start": 452.0,
+            "end": 455.0,
+            "text": " Comment below some interesting everyday examples around you,",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 118,
+            "start": 455.0,
+            "end": 458.0,
+            "text": " where machines are learning and doing amazing jobs.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 119,
+            "start": 458.0,
+            "end": 461.0,
+            "text": " So that's all for machine learning basics today from my site.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 120,
+            "start": 461.0,
+            "end": 464.0,
+            "text": " Keep watching this space for more interesting videos.",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        },
+        {
+            "id": 121,
+            "start": 464.0,
+            "end": 466.0,
+            "text": " Until then, happy learning!",
+            "topic": "Machine Learning",
+            "source": "Simplilearn"
+        }
+    ],
+    "text": " We know humans learn from their past experiences and machines follow instructions given by humans. But what if humans can train the machines to learn from their past data and do what humans can do and much faster? Well, that's called machine learning, but it's a lot more than just learning. It's also about understanding and reasoning. So today we will learn about the basics of machine learning. So that's Paul. He loves listening to new songs. He either likes them or dislikes them. Paul decides this on the basis of the song's tempo, general intensity and the gender of voice. For simplicity, let's just use tempo and intensity for now. So here, tempo is on the x-axis ranging from relaxed to fast. Whereas intensity is on the y-axis ranging from light to soaring. We see that Paul likes the song with fast tempo and soaring intensity while he dislikes the song with relaxed tempo and light intensity. So now we know Paul's choices. Let's say Paul listens to a new song. Let's name it a song A. Song A has fast tempo and a soaring intensity. So it lies somewhere here. Looking at the data, can you guess whether Paul will like the song or not? Correct. So Paul likes this song. By looking at Paul's past choices, we were able to classify the unknown song very easily. Right? Let's say now Paul listens to a new song. Let's label it a song B. So song B lies somewhere here with medium tempo and medium intensity. Neither relaxed nor fast. Neither light nor soaring. Now can you guess whether Paul likes it or not? Not able to guess whether Paul will like it or dislike it? Are the choices unclear? Correct. We could easily classify song A. But when the choice became complicated as in the case of song B, yes. And that's where machine learning comes in. Let's see how. In the same example for song B, if we draw a circle around the song B, we see that there are four words for like. Whereas one word for dislike. If we go for the majority of words, we can say that Paul will definitely like the song. That's all. This was a basic machine learning algorithm also. It's called K-nearest neighbors. So this is just a small example in one of the many machine learning algorithms. Quite easy, right? Believe me, it is. But what happens when the choices become complicated as in the case of song B? That's when machine learning comes in. It learns the data, builds the prediction model, and when the new data point comes in, it can easily protect for it. More the data, better the model, higher will be the accuracy. There are many ways in which the machine learns. It could be either supervised learning, unsupervised learning, or reinforcement learning. Let's first quickly understand supervised learning. Suppose your friend gives you 1 million coins of three different currencies. Say one rupee, one euro, and one dirham. Each coin has different weights. For example, a coin of one rupee weighs 3 grams. One euro weighs 7 grams, and one dirham weighs 4 grams. Your model will predict the currency of the coin. Here, your weight becomes the feature of coins, while currency becomes their label. When you feed this data to the machine learning model, it learns. Which feature is associated with which label? For example, it will learn that if a coin is of 3 grams, it will be a 1 rupee coin. Let's give a new coin to the machine. On the basis of the weight of the new coin, your model will predict the currency. Hence, supervised learning uses labelled data to train the model. Here the machine knew the features of the object, and also the labels associated with those features. On this note, let's move to unsupervised learning and see the difference. Suppose you have cricket data set of various players with their respective scores and the wickets taken. When you feed this data set to the machine, the machine identifies the pattern of player performance. So, it plots this data with the respective wickets on the x-axis, while runs on the y-axis. While looking at the data, you will clearly see that there are two clusters. The one cluster are the players who scored high runs and took less wickets. While the other cluster is of the players who scored less runs but took many wickets. So, here we interpret these two clusters as batsmen and bowlers. An important point to note here is that there were no labels of batsmen and bowlers. Hence, the learning with unlabeled data is unsupervised learning. So, we saw supervised learning where the data was labelled and the unsupervised learning where the data was unlabeled. And then there is reinforcement learning, which is reward-based learning. Or we can say that it works in the principle of feedback. Here, let's say you provide the system with an image of a dog and ask it to identify it. The system identifies it as a cat. So, you give a negative feedback to the machine saying that it's a dog's image. The machine will learn from the feedback and finally if it comes across any other image of a dog, it will be able to classify it correctly. That is reinforcement learning. To generalize machine learning model, let's see a flow chart. Input is given to a machine learning model which then gives the output according to the algorithm applied. If it's right, we take the output as a final result. Else, we provide feedback to the training model and ask it to predict until it learns. I hope you've understood supervised and unsupervised learning. So, let's have a quick quiz. You have to determine whether the given scenarios uses supervised or unsupervised learning. Simple right? Scenario 1. Facebook recognizes your friend in a picture from an album of tagged photographs. Scenario 2. Netflix recommends new movies based on someone's past movie choices. Scenario 3. Analyzing bank data for suspicious transactions and flagging the fraud transactions. Think wisely and comment below your answers. Moving on, don't you sometimes wonder how is machine learning possible in today's era? Well, that's because today we have humongous data available. Everybody is online, either making a transaction or just surfing the internet. And that's generating a huge amount of data every minute. And that data my friend is the key to analysis. Also, the memory handling capabilities of computers have largely increased which helps them to process such a huge amount of data at hand without any delay. And yes, computers now have great computational powers. So, there are a lot of applications of machine learning out there. To name a few, machine learning is used in healthcare where diagnostics are predicted for doctors' review. The sentiment analysis that the tech giants are doing on social media is another interesting application of machine learning. Fraud detection in the finance sector and also to predict customer churn in the e-commerce sector. While booking a gap, you must have encountered surge pricing often, where it says the fair of your trip has been updated. Continue booking? Yes, please, I'm getting late for office. Well, that's an interesting machine learning model which is used by global taxi giant Uber and others, where they have differential pricing in real time based on demand, the number of cars available, bad weather, rush, or etc. So they use the surge pricing model to ensure that those who need a cab can get one. Also, it uses predictive modeling to predict where the demand will be high, with a goal that drivers can take care of the demand and surge pricing can be minimized. Great! Hey Siri, can you remind me to book a cab at 6pm today? Okay, I'll remind you. Thanks! No problem! Comment below some interesting everyday examples around you, where machines are learning and doing amazing jobs. So that's all for machine learning basics today from my site. Keep watching this space for more interesting videos. Until then, happy learning!"
+}

@@ -1,0 +1,467 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 30.240000000000002,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " Hello and welcome to K nearest neighbors algorithm tutorial. My name is Richard Kirschner and I'm with the Simply Learn team. Today we're going to cover the K nearest neighbors, a lot of refer to as KNN. KNN is really a fundamental place to start in the machine learning. It's a basis of a lot of other things and just the logic behind it is easy to understand and incorporate it in other forms of machine learning. So today what's in it for you? Why"
+        },
+        {
+            "id": 5,
+            "start": 30.240000000000002,
+            "end": 62.04,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " do we need KNN? What is KNN? How do we choose the factor K? When do we use KNN? How does KNN algorithm work? And then we'll dive into my favorite part, the use case. Predict whether a person will have diabetes or not. That is a very common and popular used data set as far as testing out models and learning how to use the different models in machine learning. By now we all know machine learning models make predictions by learning from the past"
+        },
+        {
+            "id": 10,
+            "start": 62.04,
+            "end": 90.52000000000001,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " data available. So we have our input values, our machine learning model builds on those inputs of what we already know and then we use that to create a predicted output. Is that a dog? Little kid looking over there and watching the black cat cross their path. No dear, you can differentiate between a cat and a dog based on their characteristics. Cats. Cats have sharp claws, uses to climb, smaller length of ears, meows and purrs, doesn't"
+        },
+        {
+            "id": 15,
+            "start": 90.52000000000001,
+            "end": 114.88,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " love to play around. Dogs, they have dull claws, bigger length of ears, barks, loves to run around. You usually don't see a cat running around people, otherwise you have a cat that does that, where dogs do. And we can look at these and say we can evaluate the sharpness of the claws, how sharp are their claws, and we can evaluate the length of the ears and we can usually sort out cats from dogs based on even those two characteristics."
+        },
+        {
+            "id": 20,
+            "start": 114.88,
+            "end": 139.68,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " Now tell me, if it is a cat or a dog, not a question usually the little kids know cats and dogs by now, unless you live a place where there's not many cats or dogs. So if we look at the sharpness of the claws, the length of the ears, and we can see that the cat has smaller ears and sharper claws than the other animals. Its features are more like cats, it must be a cat. Sharp claws, length of ears, and it goes in the cat group."
+        },
+        {
+            "id": 25,
+            "start": 139.68,
+            "end": 168.88,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " Because KNN is based on feature similarity, we can do classification using KNN classifier. So we have our input value, the picture of the black cat, it goes into our trained model and it predicts that this is a cat coming out. So what is KNN? What is the KNN algorithm? K nearest neighbors is what that stands for. It's one of the simplest supervised machine learning algorithms mostly used for classification. So we want to know, is this a dog or is not"
+        },
+        {
+            "id": 30,
+            "start": 168.88,
+            "end": 195.84,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " a dog? Is it a cat or not a cat? It classifies the data point based on how its neighbors are classified. KNN stores all available cases and classifies new cases based on a similarity measure. And here we go from cats and dogs right into wine, another favor to mind. KNN stores all available cases and classifies new cases based on a similarity measure. And here you see we have a measurement of sulfur dioxide versus the chloride level and then"
+        },
+        {
+            "id": 35,
+            "start": 195.84,
+            "end": 217.6,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " the different wines they've tested and where they fall on that graph based on how much sulfur dioxide and how much chloride. KNN is a perimeter that refers to the number of nearest neighbors to include in the majority of the voting process. And so if we had a new glass of wine there, red or white, we want to know what the neighbors are. In this case we're going to put K equals five, we'll talk about K in just a minute. A data point"
+        },
+        {
+            "id": 40,
+            "start": 217.6,
+            "end": 243.12,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " is classified by the majority of votes from its five nearest neighbors. Here the unknown point would be classified as red since four out of five neighbors are red. So how do we choose K? How do we know K equals five? I mean that's what's the value we put in there so we're going to talk about it. How do we choose the factor K? KNN algorithm is based on features similarity. Choosing the right value of K is a process called parameter tuning"
+        },
+        {
+            "id": 45,
+            "start": 243.12,
+            "end": 265.56,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " and is important for better accuracy. So at K equals three we can classify, we have a question mark in the middle as either a, as a square or not. Is it a square or is it in this case a triangle? And so if we set K equals to three, we're going to look at the three nearest neighbors. We're going to say this is a square. And if we put K equals to seven, we classify as a triangle depending on what the other data is around it. And you"
+        },
+        {
+            "id": 50,
+            "start": 265.56,
+            "end": 289.48,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " can see as the K changes depending on where that point is, that drastically changes your answer. And we jump here, we go, how do we choose the factor of K? You'll find this in all machine learning. Choosing these factors, that's the face you get. You say, oh my gosh, they choose the right K. Did I set it right, my values and whatever machine learning to you're looking at so that you don't have a huge bias in one direction or the other. And"
+        },
+        {
+            "id": 55,
+            "start": 289.48,
+            "end": 315.56,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " in terms of KNN, the number of K, if you choose it too low, the bias is based on, it's just two noises. It's right next to a couple things and it's going to pick those things and you might get a skewed answer. And if your K is too big, then it's going to take forever to process. So you're going to run into processing issues and resource issues. So what we do, the most common use, and there's other options for choosing K, is to use the square root of"
+        },
+        {
+            "id": 60,
+            "start": 315.56,
+            "end": 339.48,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " N. So it is a total number of values you have, you take the square root of it. In most cases, you also, if it's an even number, so if you're using, like this case squares and triangles, if it's even, you want to make your K value odd, that helps it select better. So in other words, you're not going to have a balance between two different factors that are equal. So usually you take the square root of N and if it's even, you add one to it or subtract"
+        },
+        {
+            "id": 65,
+            "start": 339.48,
+            "end": 366.32,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " one from it and that's where you get the K value from. That is the most common use and it's pretty solid. It works very well. When do we use KNN? We can use KNN when data is labeled. So you need a label on it. We know we have a group of pictures with dogs, dogs, cats, cats. Data is noise free. And so you can see here, when we have a class and we have like underweight 140, 23, Hello Kitty, normal, that's pretty confusing. We have a high variety"
+        },
+        {
+            "id": 70,
+            "start": 366.32,
+            "end": 389.0,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " of data coming in. So it's very noisy and that would cause an issue. Data set is small. So we're usually working with smaller data sets where, I mean, you might get into a gig of data if it's really clean. It doesn't have a lot of noise because KNN is a lazy learner, i.e. it doesn't learn a discrimative function from the training set. So it's very lazy. So if you have very complicated data and you have a large amount of it, you're"
+        },
+        {
+            "id": 75,
+            "start": 389.0,
+            "end": 415.08,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " not going to use the KNN. But it's really great to get a place to start. Even with large data, you can sort out a small sample and get an idea of what that looks like using the KNN. And also just using for smaller data sets, KNN works really good. How does the KNN algorithm work? Consider a data set having two variables, height in centimeters and weight in kilograms. And each point is classified as normal or underweight. So we can see right here, we"
+        },
+        {
+            "id": 80,
+            "start": 415.08,
+            "end": 441.40000000000003,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " have two variables, you know, true false or either normal or they're not, they're underweight. On the basis of the given data, we have to classify the below set as normal or underweight using KNN. So if we have new data coming in that says 57 kilograms and 177 centimeters, is that going to be normal or underweight? To find the nearest neighbors, we'll calculate the Euclidean distance. According to the Euclidean distance formula, the distance between two"
+        },
+        {
+            "id": 85,
+            "start": 441.40000000000003,
+            "end": 468.84000000000003,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " points in the plane with the coordinates x, y and ab is given by distance d equals the square root of x minus a squared plus y minus b squared. And you can remember that from the two edges of a triangle. We're computing the third edge since we know the x side and the y side. Let's calculate it to understand clearly. So we have our unknown point and we placed it there in red and we have our other points where the data is scattered around."
+        },
+        {
+            "id": 90,
+            "start": 468.84000000000003,
+            "end": 497.32,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " The distance d1 is the square root of 170 minus 167 squared plus 57 minus 51 squared, which is about 6.7. And distance 2 is about 13. And distance 3 is about 13.4. Similarly, we will calculate the Euclidean distance of unknown data point from all the points in the data set. And because we're dealing with small amount of data, that's not that hard to do. And it's actually pretty quick for a computer. And it's not a really complicated"
+        },
+        {
+            "id": 95,
+            "start": 497.32,
+            "end": 521.2,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " mass. You can just see how close is the data based on the Euclidean distance. Hence, we have calculated the Euclidean distance of unknown data point from all the points as showing where x1 and y1 equal 57 and 170. Whose class we have to classify. So now we're looking at that and saying, well, here's the Euclidean distance. Who's going to be their closest neighbors? Now let's calculate the nearest neighbor at k equals 3. And we"
+        },
+        {
+            "id": 100,
+            "start": 521.2,
+            "end": 546.48,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " can see the three closest neighbors put some at normal. And that's pretty self-evident. When you look at this graph, it's pretty easy to say, okay, we're just voting. Normal, normal, normal, three votes for normal. This is going to be a normal weight. So majority of neighbors are pointing towards normal. Hence, as per kNN algorithm, the class of 57170 should be normal. So recap of kNN. Positive integer k is specified along with a new sample. We"
+        },
+        {
+            "id": 105,
+            "start": 546.48,
+            "end": 569.4000000000001,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " select the k entries in our database, which are closest to the new sample. We find the most common classification of these entries. This is the classification we give to the new sample. So as you can see, it's pretty straightforward. We're just looking for the closest things that match what we got. So let's take a look and see what that looks like in a use case in Python. So let's dive into the predict diabetes use case. So use"
+        },
+        {
+            "id": 110,
+            "start": 569.4,
+            "end": 596.68,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " case predict diabetes. The objective predict whether a person will be diagnosed with diabetes or not. We have a data set of 768 people who were or were not diagnosed with diabetes. And let's go ahead and open that file and just take a look at that data. And this is in a simple spreadsheet format. The data itself is comma separated, very common set of data. And it's also a very common way to get the data. And you can see here we have columns"
+        },
+        {
+            "id": 115,
+            "start": 596.68,
+            "end": 619.4,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " A through I, that's what one, two, three, four, five, six, seven, eight, eight columns with a particular attribute. And then the ninth column, which is the outcome is whether they have diabetes as a data scientist. The first thing you should be looking at is insulin. Well, you know, if someone has insulin, they have diabetes, because that's why they're taking it. And that could cause issue in some of the machine learning packages. But for"
+        },
+        {
+            "id": 120,
+            "start": 619.4,
+            "end": 644.52,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " very basic setup, this works fine for doing the KNN. And the next thing you notice is it didn't take very much to open it up. I can scroll down to the bottom of the data. There's 768. It's pretty much a small data set. You know, at 769, I can easily fit this into my RAM on my computer. I can look at it. I can manipulate it. And it's not going to really tax just a regular desktop computer. You don't even need an enterprise version"
+        },
+        {
+            "id": 125,
+            "start": 644.52,
+            "end": 670.92,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " to run a lot of this. So let's start with importing all the tools we need. And before that, of course, we need to discuss what IDE I'm using. Certainly you can use any particular editor for Python. But I like to use for doing very basic visual stuff, the Anaconda, which is great for doing demos with the Jupyter Notebook. And just a quick view of the Anaconda Navigator, which is the new release out there, which is really nice. You can see under home,"
+        },
+        {
+            "id": 130,
+            "start": 670.92,
+            "end": 691.4,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " I can choose my application. We're going to be using Python 36. I have a couple different versions on this particular machine. If I go under environments, I can create a unique environment for each one, which is nice. And there's even a little button there where I can install different packages. So if I click on that button and open the terminal, I can then use a simple pip install to install different packages I'm working with. Let's"
+        },
+        {
+            "id": 135,
+            "start": 691.4,
+            "end": 711.0,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " go ahead and go back under home. And we're going to launch our notebook. And I've already you know, kind of like the old cooking shows, I've already prepared a lot of my stuff. So we don't have to wait for it to launch because it takes a few minutes for it to open up a browser window. In this case, I'm going to open up Chrome because that's my default that I use. And since the script is pre done, you'll see you have a number of windows open"
+        },
+        {
+            "id": 140,
+            "start": 711.04,
+            "end": 734.44,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " up at the top, the one we're working in. And since we're working on the KNN predict whether a person will have diabetes or not, let's go and put that title in there. And I'm also going to go up here and click on sell. Actually, we want to go ahead and first insert a sell below. And then I'm going to go back up to the top sell. And I'm going to change the sell type to markdown. That means this is not going to run as Python. It's a markdown"
+        },
+        {
+            "id": 145,
+            "start": 734.44,
+            "end": 761.12,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " language. So if I run this first one, it comes up in nice big letters, which is kind of nice. Mine just what we're working on. And by now, you should be familiar with doing all of our imports, we're going to import the pandas as PD import numpy is NP pandas is the pandas data frame and numpy is the number array, very powerful tools to use in here. So we have our imports. So we've brought in our pandas are numpy or to general Python tools. And"
+        },
+        {
+            "id": 150,
+            "start": 761.12,
+            "end": 785.8,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " then you can see over here, we have our train test split by nice to be familiar with splitting the data. We want to split part of it for training our thing and then training our particular model. And then we want to go ahead and test the remaining data to see how good it is pre processing a standard scalar pre processor. So we don't have a bias of really large numbers. Remember in the data, we had like number pregnancies isn't going to get very large where the amount"
+        },
+        {
+            "id": 155,
+            "start": 785.8,
+            "end": 813.36,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " of insulin they take you up to 256. So 256 versus six, that will skew results. So we want to go ahead and change that so that they're all uniform between minus one and one. And then the actual tool, this is the K neighbors classifier we're going to use. And finally, the last three are three tools to test all about testing our model. How good is it? We just put down test on there. And we have our confusion matrix, our F one score and our accuracy. So we have"
+        },
+        {
+            "id": 160,
+            "start": 813.36,
+            "end": 838.4,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " our two general Python modules were importing. And then we have our six modules specific from the sklearn setup. And then we do need to go ahead and run this. So these are actually imported. There we go. And then move on to the next step. And so in this set, we're going to go ahead and load the database. We're going to use pandas. We remember pandas is PD. And we'll take a look at the data in Python. We looked at it in a simple spreadsheet. But"
+        },
+        {
+            "id": 165,
+            "start": 838.4,
+            "end": 866.28,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " usually I like to also pull it up so that we can see what we're doing. So here's our data set equals PD.ReadCSV. That's a pandas command. And the diabetes folder I just put in the same folder where my Python script is. If you put in a different folder, you'd need the full length on there. We can also do a quick length of the data set. That is a simple Python command, LEN for length. We might even let's go ahead and print that. We'll go print. And"
+        },
+        {
+            "id": 170,
+            "start": 866.28,
+            "end": 888.44,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " if you do it on its own line, length.dataset that you put in notebook, it'll automatically print it. But when you're in most of your different setups, you want to do the print in front of there. And then we want to take a look at the actual data set. And since we're in pandas, we can simply do data set head. And again, let's go ahead and add the print in there. If you put a bunch of these in a row, you know, that data set one head, data"
+        },
+        {
+            "id": 175,
+            "start": 888.44,
+            "end": 912.6,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " set two head, it only prints out the last one. So I always like to keep the print statement in there. But because most projects only use one data frame, pandas data frame, doing it this way, it doesn't really matter. The other way works just fine. And you can see when we hit the run button, we have the 768 lines, which we knew. And we have our pregnancies. It's automatically given a label on the left. Remember, the head only shows the first five"
+        },
+        {
+            "id": 180,
+            "start": 912.6,
+            "end": 938.84,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " lines. So we have zero through four. And just a quick look at the data, you can see it matches what we looked at before. We have pregnancy glucose, blood pressure all the way to age. And then the outcome on the end. And we're going to do a couple of things in this next step. We're going to create a list of columns where we can't have zero. There's no such thing as zero skin thickness or zero blood pressure, zero glucose. Any of those you'd"
+        },
+        {
+            "id": 185,
+            "start": 938.84,
+            "end": 958.8000000000001,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " be dead. So not a really good factor if they don't, if they have a zero in there, because they didn't have the data. And we'll take a look at that because we're going to start replacing that information with a couple of different things. And let's see what that looks like. So first we create a nice list. As you can see, we have the values talked about glucose, blood pressure, skin thickness. And this is a nice way when you're working"
+        },
+        {
+            "id": 190,
+            "start": 958.8000000000001,
+            "end": 983.24,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " with columns is to list the columns you need to do some kind of transformation on. A very common thing to do. And then for this particular setup, we certainly could use the, there's some panda tools that will do a lot of this where we can replace the NA. But we're going to go ahead and do it as a data set column equals data set column dot replace. This is, this is still pandas. You can do it direct. There's also one that you look for your NAN."
+        },
+        {
+            "id": 195,
+            "start": 983.24,
+            "end": 1008.28,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " A lot of different options in here. But the NAN, NMP NAN is what that stands for is, is none, it doesn't exist. So the first thing we're doing here is we're replacing the zero with a Numpy none. There's no data there. That's what that says. That's what this is saying right here. So put the zero in and we're going to replace zeros with no data. So if it's a zero, that means the person's, well, hopefully not dead. Hopefully it just didn't get the"
+        },
+        {
+            "id": 200,
+            "start": 1008.28,
+            "end": 1033.64,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " data. The next thing they want to do is we're going to create the mean, which is the integer from the data set from the column dot mean where we skip NAs. We can do that. That is a pandas come in there, the skip NA. So we're going to figure out the mean of that data set. And then we're going to take that data set column and we're going to replace all the NPNAN with the means. Why did we do that? And we could have actually just taken this"
+        },
+        {
+            "id": 205,
+            "start": 1033.64,
+            "end": 1054.8000000000002,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " step and gone right down here and just replaced zero and skip anything where, except you can actually, there's a way to skip zeros and then just replace all the zeros. But in this case, we want to go ahead and do it this way. So you can see that we're switching this to a non-existent value. Then we're going to create the mean, well, this is the average person. So if we don't know what it is, if they did not get the data and the data is"
+        },
+        {
+            "id": 210,
+            "start": 1054.8000000000002,
+            "end": 1078.2,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " missing, one of the tricks is you replace it with the average. What is the most common data for that? This way, you can still use the rest of those values to do your computation and it kind of just brings that particular value or those missing values out of the equation. Let's go ahead and take this and we'll go ahead and run it. It doesn't actually do anything so we're still preparing our data. If you want to see what that looks like,"
+        },
+        {
+            "id": 215,
+            "start": 1078.2,
+            "end": 1102.2800000000002,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " we don't have anything in the first few lines that's not going to show up, but we certainly could look at a row. Let's do that. Let's go into our data set, what's the printed data set. And let's pick, in this case, let's just do glucose. And if I run this, this is going to print all the different glucose levels going down. And we thankfully don't see anything in here that looks like missing data, at least on the ones it shows. You can see it skipped"
+        },
+        {
+            "id": 220,
+            "start": 1102.2800000000002,
+            "end": 1123.76,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " a bunch in the middle. That's what it does. If you have too many lines in Jupyter Notebook, it'll skip a few and go on to the next in a data set. Let me go ahead and remove this. We'll just zero out that. And of course, before we do any processing, before proceeding any further, we need to split the data set into our train and testing data. That way we have something to train it with and something to test it on. And you're going to notice we"
+        },
+        {
+            "id": 225,
+            "start": 1123.76,
+            "end": 1148.6,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " did a little something here with the pandas database code. There we go, my drawing tool. We've added in this right here, off the data set. And what this says is that the first one in pandas, this is from the PD pandas, it's going to say within the data set, we want to look at the I location and it is all rows. That's what that says. So we're going to keep all the rows. But we're only looking at zero column zero to eight. Remember column"
+        },
+        {
+            "id": 230,
+            "start": 1148.6,
+            "end": 1172.3600000000001,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " nine, here it is right up here. We printed it in here as outcome. Well, that's not part of the training data. That's part of the answer. Yes, column nine, but it's listed as eight number eight. So zero to eight is nine columns. So eight is the value. And when you see it in here, zero, this is actually zero to seven. It doesn't include the last one. And then we go down here to why, which is our answer. And we want just the last one,"
+        },
+        {
+            "id": 235,
+            "start": 1172.3600000000001,
+            "end": 1195.76,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " just column eight. And you can do it this way with this particular notation. And then if you remember, we imported the train test split. That's part of the SK learn right there. And we simply put in our X and our Y. We're going to do random state equals zero. You don't have to necessarily seed it. That's a seed number. I think the default is one when you seed it. I have to look that up. And then the test size. Test size is point two. That simply"
+        },
+        {
+            "id": 240,
+            "start": 1195.76,
+            "end": 1218.0,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " means we're going to take 20% of the data and put it aside so that we can test it later. That's all that is. And again, we're going to run it. Not very exciting. So far, we haven't had any print out other than to look at the data. But that is a lot of this is prepping this data. Once you prep it, the actual lines of code are quick and easy. And we're almost there. But the actual running of our KNN, we need to go ahead and do a scale the data."
+        },
+        {
+            "id": 245,
+            "start": 1218.0,
+            "end": 1243.76,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " If you remember correctly, we're fitting the data in a standard scalar, which means instead of the data being from five to three hundred three in one column. And the next column is one to six. We're going to set that all so that all the data is between minus one and one. That's what that standard scalar does. Keeps it standardized. And we only want to fit the scalar with the training set. But we want to make sure the testing set is the"
+        },
+        {
+            "id": 250,
+            "start": 1243.76,
+            "end": 1270.8,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " X test going in is also transformed. So it's processing it the same. So here we go with our standard scalar. We're going to call it SC underscore X for the scalar. And we're going to import the standard scalar into this variable. And then our X train equals SC underscore X dot fit transform. So we're creating the scalar on the X train variable. And then our X test, we're also going to transform it. So we've trained and transformed the X train."
+        },
+        {
+            "id": 255,
+            "start": 1270.8,
+            "end": 1297.96,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " And then the X test isn't part of that training. It isn't part of that training the transformer. It just gets transformed. That's all it does. And again, we're going to go and run this. And if you look at this, we've now gone through these steps, all three of them. We've taken care of replacing our zeros for key columns that shouldn't be zero. And we replace that with the means of those columns that way that they fit right in with our data models. We've"
+        },
+        {
+            "id": 260,
+            "start": 1297.96,
+            "end": 1324.5600000000002,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " come down here and we split the data. So now we have our test data and our training data. And then we've taken and we scaled the data. So all of our data going in, no, we don't we don't train the Y part, the Y train and Y test. That never has to be trained. It's only the data going in. That's what we want to train in there. Then define the model using K neighbors classifier and fit the train data in the model. So we do all that data prep."
+        },
+        {
+            "id": 265,
+            "start": 1324.5600000000002,
+            "end": 1350.8799999999999,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " And you can see down here, we're only going to have a couple lines of code where we're actually building our model and training it. That's one of the cool things about Python and how far we've come. It's such an exciting time to be in machine learning because there's so many automated tools. Let's see, before we do this, let's do a quick link of, and let's do Y. We want, let's just do length of Y. And we get 768. And if we import math, we"
+        },
+        {
+            "id": 270,
+            "start": 1350.8799999999999,
+            "end": 1377.84,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " do math dot square root, let's do Y train. There we go. It's actually supposed to be X train. Before we do this, let's go ahead and do import math and do math square root length of Y test. And when I run that, we get 12.409. I want to show you where this number comes from we're about to use. 12 is an even number. So if you know, if you're ever voting on things, remember the neighbors all vote, don't want to have an even number"
+        },
+        {
+            "id": 275,
+            "start": 1377.84,
+            "end": 1398.96,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " of neighbors voting. So we want to do something odd. And this is take one away, we'll make it 11. Let me delete this out of here. This one, the reasons I love Jupyter Notebook is you can flip around and do all kinds of things on the fly. So we'll go ahead and put in our classifier. We're creating our classifier now. And it's going to be the K neighbors classifier. Some neighbors equal 11. Remember we did 12 minus 1 for 11. So we have an odd number"
+        },
+        {
+            "id": 280,
+            "start": 1398.96,
+            "end": 1423.8000000000002,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " of neighbors. P equals 2 because we're looking for, is it, are they diabetic or not. And we're using the Euclidean metric. There are other means of measuring the distance. You can do like square, square means values, all kinds of measure this. But the Euclidean is the most common one and it works quite well. It's important to evaluate the model. Let's use the confusion matrix to do that. And we're going to use the confusion matrix. Wonderful"
+        },
+        {
+            "id": 285,
+            "start": 1423.8000000000002,
+            "end": 1451.8,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " tool. And then we'll jump into the F1 score. And finally, accuracy score, which is probably the most commonly used quoted number when you go into a meeting or something like that. So let's go ahead and paste that in there. And we'll set the CM equal to confusion matrix. Y test Y predict. So those are the two values we're going to put in there. And let me go and run that and print it out. And the way you interpret this is you have the Y predicted,"
+        },
+        {
+            "id": 290,
+            "start": 1451.8,
+            "end": 1484.48,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " which would be your title up here. You can do, let's just do PRED, predicted across the top and actual going down. It's always hard to write in here actual. That means that this column here down the middle, that's the important column. And it means that our prediction set 94 and prediction in the actual agreed on 94 and 32. This number here, the 13 and the 15, those are what was wrong. So you could have like three different, if you're looking"
+        },
+        {
+            "id": 295,
+            "start": 1484.48,
+            "end": 1512.32,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " at this across three different variables instead of just two, you'd end up with a third row down here and the column going down the middle. So in the first case we have the, and I believe the zero is a 94 people who don't have diabetes. The prediction said that 13 of those people did have diabetes and were at high risk. And the 32 that had diabetes that had correct. But our prediction said another 15 out of that 15 it classified as incorrect. So you"
+        },
+        {
+            "id": 300,
+            "start": 1512.32,
+            "end": 1541.52,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " can see where that classification comes in and how that works on the confusion matrix. Then we're going to go ahead and print the F1 score. Let me just run that. And you see we get a .69 in our F1 score. The F1 takes into account both sides of the balance of false positives. Where if we go ahead and just do the accuracy account, and that's what most people think of, is it looks at just how many we got right out of how many we got wrong."
+        },
+        {
+            "id": 305,
+            "start": 1541.52,
+            "end": 1566.16,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " So a lot of people we need are data scientists and you're talking to other data scientists, they're going to ask you what the F1 score, the F score is. If you're talking to the general public or the decision makers in the business, they're going to ask what the accuracy is. And the accuracy is always better than the F1 score. But the F1 score is more telling. It lets us know that there's more false positives than we would like on here. But 82% not too"
+        },
+        {
+            "id": 310,
+            "start": 1566.16,
+            "end": 1592.6399999999999,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " bad for a quick flash look at people's different statistics and running an SK Learn. And running the KNN, the K nearest neighbor on it. So we have created a model using KNN, which can predict whether a person will have diabetes or not. Or the very least, whether they should go get a checkup and have their glucose checked regularly or not. The print accuracy score, we got the .818, it was pretty close to what we got. And we can pretty much round that off and just"
+        },
+        {
+            "id": 315,
+            "start": 1592.6399999999999,
+            "end": 1614.16,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " say we have an accuracy of 80%. Tells us it is a pretty fair fit in the model. To pull that all together, there's always a lot of fun. Make sure we cover everything we went over today. We covered why we need a KNN, looking at cats and dogs. Great if you have a cat door, you want to figure out whether there's a cat or dog coming in, don't let the dog in or out. Using Euclidean distance, the simple distance calculated by the two"
+        },
+        {
+            "id": 320,
+            "start": 1614.16,
+            "end": 1639.6399999999999,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " sides of the triangle or the square root of the two sides squared. Choosing the value of K. We discussed that a little bit, at least one of the main choices that people use for choosing K. And how KNN works, then finally we did a full KNN classifier for diabetes prediction. Thank you for joining us today. For more information visit www.simplerne.com. Feel free to post your questions in the YouTube video here or visit us on our website and"
+        },
+        {
+            "id": 325,
+            "start": 1639.6399999999999,
+            "end": 1646.28,
+            "topic": "KNN Algorithm In Machine Learning",
+            "text": " we'll also have a support page there you can go to and post additional questions. Again, thank you for joining us today."
+        }
+    ],
+    "text": " Hello and welcome to K nearest neighbors algorithm tutorial. My name is Richard Kirschner and I'm with the Simply Learn team. Today we're going to cover the K nearest neighbors, a lot of refer to as KNN. KNN is really a fundamental place to start in the machine learning. It's a basis of a lot of other things and just the logic behind it is easy to understand and incorporate it in other forms of machine learning. So today what's in it for you? Why do we need KNN? What is KNN? How do we choose the factor K? When do we use KNN? How does KNN algorithm work? And then we'll dive into my favorite part, the use case. Predict whether a person will have diabetes or not. That is a very common and popular used data set as far as testing out models and learning how to use the different models in machine learning. By now we all know machine learning models make predictions by learning from the past data available. So we have our input values, our machine learning model builds on those inputs of what we already know and then we use that to create a predicted output. Is that a dog? Little kid looking over there and watching the black cat cross their path. No dear, you can differentiate between a cat and a dog based on their characteristics. Cats. Cats have sharp claws, uses to climb, smaller length of ears, meows and purrs, doesn't love to play around. Dogs, they have dull claws, bigger length of ears, barks, loves to run around. You usually don't see a cat running around people, otherwise you have a cat that does that, where dogs do. And we can look at these and say we can evaluate the sharpness of the claws, how sharp are their claws, and we can evaluate the length of the ears and we can usually sort out cats from dogs based on even those two characteristics. Now tell me, if it is a cat or a dog, not a question usually the little kids know cats and dogs by now, unless you live a place where there's not many cats or dogs. So if we look at the sharpness of the claws, the length of the ears, and we can see that the cat has smaller ears and sharper claws than the other animals. Its features are more like cats, it must be a cat. Sharp claws, length of ears, and it goes in the cat group. Because KNN is based on feature similarity, we can do classification using KNN classifier. So we have our input value, the picture of the black cat, it goes into our trained model and it predicts that this is a cat coming out. So what is KNN? What is the KNN algorithm? K nearest neighbors is what that stands for. It's one of the simplest supervised machine learning algorithms mostly used for classification. So we want to know, is this a dog or is not a dog? Is it a cat or not a cat? It classifies the data point based on how its neighbors are classified. KNN stores all available cases and classifies new cases based on a similarity measure. And here we go from cats and dogs right into wine, another favor to mind. KNN stores all available cases and classifies new cases based on a similarity measure. And here you see we have a measurement of sulfur dioxide versus the chloride level and then the different wines they've tested and where they fall on that graph based on how much sulfur dioxide and how much chloride. KNN is a perimeter that refers to the number of nearest neighbors to include in the majority of the voting process. And so if we had a new glass of wine there, red or white, we want to know what the neighbors are. In this case we're going to put K equals five, we'll talk about K in just a minute. A data point is classified by the majority of votes from its five nearest neighbors. Here the unknown point would be classified as red since four out of five neighbors are red. So how do we choose K? How do we know K equals five? I mean that's what's the value we put in there so we're going to talk about it. How do we choose the factor K? KNN algorithm is based on features similarity. Choosing the right value of K is a process called parameter tuning and is important for better accuracy. So at K equals three we can classify, we have a question mark in the middle as either a, as a square or not. Is it a square or is it in this case a triangle? And so if we set K equals to three, we're going to look at the three nearest neighbors. We're going to say this is a square. And if we put K equals to seven, we classify as a triangle depending on what the other data is around it. And you can see as the K changes depending on where that point is, that drastically changes your answer. And we jump here, we go, how do we choose the factor of K? You'll find this in all machine learning. Choosing these factors, that's the face you get. You say, oh my gosh, they choose the right K. Did I set it right, my values and whatever machine learning to you're looking at so that you don't have a huge bias in one direction or the other. And in terms of KNN, the number of K, if you choose it too low, the bias is based on, it's just two noises. It's right next to a couple things and it's going to pick those things and you might get a skewed answer. And if your K is too big, then it's going to take forever to process. So you're going to run into processing issues and resource issues. So what we do, the most common use, and there's other options for choosing K, is to use the square root of N. So it is a total number of values you have, you take the square root of it. In most cases, you also, if it's an even number, so if you're using, like this case squares and triangles, if it's even, you want to make your K value odd, that helps it select better. So in other words, you're not going to have a balance between two different factors that are equal. So usually you take the square root of N and if it's even, you add one to it or subtract one from it and that's where you get the K value from. That is the most common use and it's pretty solid. It works very well. When do we use KNN? We can use KNN when data is labeled. So you need a label on it. We know we have a group of pictures with dogs, dogs, cats, cats. Data is noise free. And so you can see here, when we have a class and we have like underweight 140, 23, Hello Kitty, normal, that's pretty confusing. We have a high variety of data coming in. So it's very noisy and that would cause an issue. Data set is small. So we're usually working with smaller data sets where, I mean, you might get into a gig of data if it's really clean. It doesn't have a lot of noise because KNN is a lazy learner, i.e. it doesn't learn a discrimative function from the training set. So it's very lazy. So if you have very complicated data and you have a large amount of it, you're not going to use the KNN. But it's really great to get a place to start. Even with large data, you can sort out a small sample and get an idea of what that looks like using the KNN. And also just using for smaller data sets, KNN works really good. How does the KNN algorithm work? Consider a data set having two variables, height in centimeters and weight in kilograms. And each point is classified as normal or underweight. So we can see right here, we have two variables, you know, true false or either normal or they're not, they're underweight. On the basis of the given data, we have to classify the below set as normal or underweight using KNN. So if we have new data coming in that says 57 kilograms and 177 centimeters, is that going to be normal or underweight? To find the nearest neighbors, we'll calculate the Euclidean distance. According to the Euclidean distance formula, the distance between two points in the plane with the coordinates x, y and ab is given by distance d equals the square root of x minus a squared plus y minus b squared. And you can remember that from the two edges of a triangle. We're computing the third edge since we know the x side and the y side. Let's calculate it to understand clearly. So we have our unknown point and we placed it there in red and we have our other points where the data is scattered around. The distance d1 is the square root of 170 minus 167 squared plus 57 minus 51 squared, which is about 6.7. And distance 2 is about 13. And distance 3 is about 13.4. Similarly, we will calculate the Euclidean distance of unknown data point from all the points in the data set. And because we're dealing with small amount of data, that's not that hard to do. And it's actually pretty quick for a computer. And it's not a really complicated mass. You can just see how close is the data based on the Euclidean distance. Hence, we have calculated the Euclidean distance of unknown data point from all the points as showing where x1 and y1 equal 57 and 170. Whose class we have to classify. So now we're looking at that and saying, well, here's the Euclidean distance. Who's going to be their closest neighbors? Now let's calculate the nearest neighbor at k equals 3. And we can see the three closest neighbors put some at normal. And that's pretty self-evident. When you look at this graph, it's pretty easy to say, okay, we're just voting. Normal, normal, normal, three votes for normal. This is going to be a normal weight. So majority of neighbors are pointing towards normal. Hence, as per kNN algorithm, the class of 57170 should be normal. So recap of kNN. Positive integer k is specified along with a new sample. We select the k entries in our database, which are closest to the new sample. We find the most common classification of these entries. This is the classification we give to the new sample. So as you can see, it's pretty straightforward. We're just looking for the closest things that match what we got. So let's take a look and see what that looks like in a use case in Python. So let's dive into the predict diabetes use case. So use case predict diabetes. The objective predict whether a person will be diagnosed with diabetes or not. We have a data set of 768 people who were or were not diagnosed with diabetes. And let's go ahead and open that file and just take a look at that data. And this is in a simple spreadsheet format. The data itself is comma separated, very common set of data. And it's also a very common way to get the data. And you can see here we have columns A through I, that's what one, two, three, four, five, six, seven, eight, eight columns with a particular attribute. And then the ninth column, which is the outcome is whether they have diabetes as a data scientist. The first thing you should be looking at is insulin. Well, you know, if someone has insulin, they have diabetes, because that's why they're taking it. And that could cause issue in some of the machine learning packages. But for very basic setup, this works fine for doing the KNN. And the next thing you notice is it didn't take very much to open it up. I can scroll down to the bottom of the data. There's 768. It's pretty much a small data set. You know, at 769, I can easily fit this into my RAM on my computer. I can look at it. I can manipulate it. And it's not going to really tax just a regular desktop computer. You don't even need an enterprise version to run a lot of this. So let's start with importing all the tools we need. And before that, of course, we need to discuss what IDE I'm using. Certainly you can use any particular editor for Python. But I like to use for doing very basic visual stuff, the Anaconda, which is great for doing demos with the Jupyter Notebook. And just a quick view of the Anaconda Navigator, which is the new release out there, which is really nice. You can see under home, I can choose my application. We're going to be using Python 36. I have a couple different versions on this particular machine. If I go under environments, I can create a unique environment for each one, which is nice. And there's even a little button there where I can install different packages. So if I click on that button and open the terminal, I can then use a simple pip install to install different packages I'm working with. Let's go ahead and go back under home. And we're going to launch our notebook. And I've already you know, kind of like the old cooking shows, I've already prepared a lot of my stuff. So we don't have to wait for it to launch because it takes a few minutes for it to open up a browser window. In this case, I'm going to open up Chrome because that's my default that I use. And since the script is pre done, you'll see you have a number of windows open up at the top, the one we're working in. And since we're working on the KNN predict whether a person will have diabetes or not, let's go and put that title in there. And I'm also going to go up here and click on sell. Actually, we want to go ahead and first insert a sell below. And then I'm going to go back up to the top sell. And I'm going to change the sell type to markdown. That means this is not going to run as Python. It's a markdown language. So if I run this first one, it comes up in nice big letters, which is kind of nice. Mine just what we're working on. And by now, you should be familiar with doing all of our imports, we're going to import the pandas as PD import numpy is NP pandas is the pandas data frame and numpy is the number array, very powerful tools to use in here. So we have our imports. So we've brought in our pandas are numpy or to general Python tools. And then you can see over here, we have our train test split by nice to be familiar with splitting the data. We want to split part of it for training our thing and then training our particular model. And then we want to go ahead and test the remaining data to see how good it is pre processing a standard scalar pre processor. So we don't have a bias of really large numbers. Remember in the data, we had like number pregnancies isn't going to get very large where the amount of insulin they take you up to 256. So 256 versus six, that will skew results. So we want to go ahead and change that so that they're all uniform between minus one and one. And then the actual tool, this is the K neighbors classifier we're going to use. And finally, the last three are three tools to test all about testing our model. How good is it? We just put down test on there. And we have our confusion matrix, our F one score and our accuracy. So we have our two general Python modules were importing. And then we have our six modules specific from the sklearn setup. And then we do need to go ahead and run this. So these are actually imported. There we go. And then move on to the next step. And so in this set, we're going to go ahead and load the database. We're going to use pandas. We remember pandas is PD. And we'll take a look at the data in Python. We looked at it in a simple spreadsheet. But usually I like to also pull it up so that we can see what we're doing. So here's our data set equals PD.ReadCSV. That's a pandas command. And the diabetes folder I just put in the same folder where my Python script is. If you put in a different folder, you'd need the full length on there. We can also do a quick length of the data set. That is a simple Python command, LEN for length. We might even let's go ahead and print that. We'll go print. And if you do it on its own line, length.dataset that you put in notebook, it'll automatically print it. But when you're in most of your different setups, you want to do the print in front of there. And then we want to take a look at the actual data set. And since we're in pandas, we can simply do data set head. And again, let's go ahead and add the print in there. If you put a bunch of these in a row, you know, that data set one head, data set two head, it only prints out the last one. So I always like to keep the print statement in there. But because most projects only use one data frame, pandas data frame, doing it this way, it doesn't really matter. The other way works just fine. And you can see when we hit the run button, we have the 768 lines, which we knew. And we have our pregnancies. It's automatically given a label on the left. Remember, the head only shows the first five lines. So we have zero through four. And just a quick look at the data, you can see it matches what we looked at before. We have pregnancy glucose, blood pressure all the way to age. And then the outcome on the end. And we're going to do a couple of things in this next step. We're going to create a list of columns where we can't have zero. There's no such thing as zero skin thickness or zero blood pressure, zero glucose. Any of those you'd be dead. So not a really good factor if they don't, if they have a zero in there, because they didn't have the data. And we'll take a look at that because we're going to start replacing that information with a couple of different things. And let's see what that looks like. So first we create a nice list. As you can see, we have the values talked about glucose, blood pressure, skin thickness. And this is a nice way when you're working with columns is to list the columns you need to do some kind of transformation on. A very common thing to do. And then for this particular setup, we certainly could use the, there's some panda tools that will do a lot of this where we can replace the NA. But we're going to go ahead and do it as a data set column equals data set column dot replace. This is, this is still pandas. You can do it direct. There's also one that you look for your NAN. A lot of different options in here. But the NAN, NMP NAN is what that stands for is, is none, it doesn't exist. So the first thing we're doing here is we're replacing the zero with a Numpy none. There's no data there. That's what that says. That's what this is saying right here. So put the zero in and we're going to replace zeros with no data. So if it's a zero, that means the person's, well, hopefully not dead. Hopefully it just didn't get the data. The next thing they want to do is we're going to create the mean, which is the integer from the data set from the column dot mean where we skip NAs. We can do that. That is a pandas come in there, the skip NA. So we're going to figure out the mean of that data set. And then we're going to take that data set column and we're going to replace all the NPNAN with the means. Why did we do that? And we could have actually just taken this step and gone right down here and just replaced zero and skip anything where, except you can actually, there's a way to skip zeros and then just replace all the zeros. But in this case, we want to go ahead and do it this way. So you can see that we're switching this to a non-existent value. Then we're going to create the mean, well, this is the average person. So if we don't know what it is, if they did not get the data and the data is missing, one of the tricks is you replace it with the average. What is the most common data for that? This way, you can still use the rest of those values to do your computation and it kind of just brings that particular value or those missing values out of the equation. Let's go ahead and take this and we'll go ahead and run it. It doesn't actually do anything so we're still preparing our data. If you want to see what that looks like, we don't have anything in the first few lines that's not going to show up, but we certainly could look at a row. Let's do that. Let's go into our data set, what's the printed data set. And let's pick, in this case, let's just do glucose. And if I run this, this is going to print all the different glucose levels going down. And we thankfully don't see anything in here that looks like missing data, at least on the ones it shows. You can see it skipped a bunch in the middle. That's what it does. If you have too many lines in Jupyter Notebook, it'll skip a few and go on to the next in a data set. Let me go ahead and remove this. We'll just zero out that. And of course, before we do any processing, before proceeding any further, we need to split the data set into our train and testing data. That way we have something to train it with and something to test it on. And you're going to notice we did a little something here with the pandas database code. There we go, my drawing tool. We've added in this right here, off the data set. And what this says is that the first one in pandas, this is from the PD pandas, it's going to say within the data set, we want to look at the I location and it is all rows. That's what that says. So we're going to keep all the rows. But we're only looking at zero column zero to eight. Remember column nine, here it is right up here. We printed it in here as outcome. Well, that's not part of the training data. That's part of the answer. Yes, column nine, but it's listed as eight number eight. So zero to eight is nine columns. So eight is the value. And when you see it in here, zero, this is actually zero to seven. It doesn't include the last one. And then we go down here to why, which is our answer. And we want just the last one, just column eight. And you can do it this way with this particular notation. And then if you remember, we imported the train test split. That's part of the SK learn right there. And we simply put in our X and our Y. We're going to do random state equals zero. You don't have to necessarily seed it. That's a seed number. I think the default is one when you seed it. I have to look that up. And then the test size. Test size is point two. That simply means we're going to take 20% of the data and put it aside so that we can test it later. That's all that is. And again, we're going to run it. Not very exciting. So far, we haven't had any print out other than to look at the data. But that is a lot of this is prepping this data. Once you prep it, the actual lines of code are quick and easy. And we're almost there. But the actual running of our KNN, we need to go ahead and do a scale the data. If you remember correctly, we're fitting the data in a standard scalar, which means instead of the data being from five to three hundred three in one column. And the next column is one to six. We're going to set that all so that all the data is between minus one and one. That's what that standard scalar does. Keeps it standardized. And we only want to fit the scalar with the training set. But we want to make sure the testing set is the X test going in is also transformed. So it's processing it the same. So here we go with our standard scalar. We're going to call it SC underscore X for the scalar. And we're going to import the standard scalar into this variable. And then our X train equals SC underscore X dot fit transform. So we're creating the scalar on the X train variable. And then our X test, we're also going to transform it. So we've trained and transformed the X train. And then the X test isn't part of that training. It isn't part of that training the transformer. It just gets transformed. That's all it does. And again, we're going to go and run this. And if you look at this, we've now gone through these steps, all three of them. We've taken care of replacing our zeros for key columns that shouldn't be zero. And we replace that with the means of those columns that way that they fit right in with our data models. We've come down here and we split the data. So now we have our test data and our training data. And then we've taken and we scaled the data. So all of our data going in, no, we don't we don't train the Y part, the Y train and Y test. That never has to be trained. It's only the data going in. That's what we want to train in there. Then define the model using K neighbors classifier and fit the train data in the model. So we do all that data prep. And you can see down here, we're only going to have a couple lines of code where we're actually building our model and training it. That's one of the cool things about Python and how far we've come. It's such an exciting time to be in machine learning because there's so many automated tools. Let's see, before we do this, let's do a quick link of, and let's do Y. We want, let's just do length of Y. And we get 768. And if we import math, we do math dot square root, let's do Y train. There we go. It's actually supposed to be X train. Before we do this, let's go ahead and do import math and do math square root length of Y test. And when I run that, we get 12.409. I want to show you where this number comes from we're about to use. 12 is an even number. So if you know, if you're ever voting on things, remember the neighbors all vote, don't want to have an even number of neighbors voting. So we want to do something odd. And this is take one away, we'll make it 11. Let me delete this out of here. This one, the reasons I love Jupyter Notebook is you can flip around and do all kinds of things on the fly. So we'll go ahead and put in our classifier. We're creating our classifier now. And it's going to be the K neighbors classifier. Some neighbors equal 11. Remember we did 12 minus 1 for 11. So we have an odd number of neighbors. P equals 2 because we're looking for, is it, are they diabetic or not. And we're using the Euclidean metric. There are other means of measuring the distance. You can do like square, square means values, all kinds of measure this. But the Euclidean is the most common one and it works quite well. It's important to evaluate the model. Let's use the confusion matrix to do that. And we're going to use the confusion matrix. Wonderful tool. And then we'll jump into the F1 score. And finally, accuracy score, which is probably the most commonly used quoted number when you go into a meeting or something like that. So let's go ahead and paste that in there. And we'll set the CM equal to confusion matrix. Y test Y predict. So those are the two values we're going to put in there. And let me go and run that and print it out. And the way you interpret this is you have the Y predicted, which would be your title up here. You can do, let's just do PRED, predicted across the top and actual going down. It's always hard to write in here actual. That means that this column here down the middle, that's the important column. And it means that our prediction set 94 and prediction in the actual agreed on 94 and 32. This number here, the 13 and the 15, those are what was wrong. So you could have like three different, if you're looking at this across three different variables instead of just two, you'd end up with a third row down here and the column going down the middle. So in the first case we have the, and I believe the zero is a 94 people who don't have diabetes. The prediction said that 13 of those people did have diabetes and were at high risk. And the 32 that had diabetes that had correct. But our prediction said another 15 out of that 15 it classified as incorrect. So you can see where that classification comes in and how that works on the confusion matrix. Then we're going to go ahead and print the F1 score. Let me just run that. And you see we get a .69 in our F1 score. The F1 takes into account both sides of the balance of false positives. Where if we go ahead and just do the accuracy account, and that's what most people think of, is it looks at just how many we got right out of how many we got wrong. So a lot of people we need are data scientists and you're talking to other data scientists, they're going to ask you what the F1 score, the F score is. If you're talking to the general public or the decision makers in the business, they're going to ask what the accuracy is. And the accuracy is always better than the F1 score. But the F1 score is more telling. It lets us know that there's more false positives than we would like on here. But 82% not too bad for a quick flash look at people's different statistics and running an SK Learn. And running the KNN, the K nearest neighbor on it. So we have created a model using KNN, which can predict whether a person will have diabetes or not. Or the very least, whether they should go get a checkup and have their glucose checked regularly or not. The print accuracy score, we got the .818, it was pretty close to what we got. And we can pretty much round that off and just say we have an accuracy of 80%. Tells us it is a pretty fair fit in the model. To pull that all together, there's always a lot of fun. Make sure we cover everything we went over today. We covered why we need a KNN, looking at cats and dogs. Great if you have a cat door, you want to figure out whether there's a cat or dog coming in, don't let the dog in or out. Using Euclidean distance, the simple distance calculated by the two sides of the triangle or the square root of the two sides squared. Choosing the value of K. We discussed that a little bit, at least one of the main choices that people use for choosing K. And how KNN works, then finally we did a full KNN classifier for diabetes prediction. Thank you for joining us today. For more information visit www.simplerne.com. Feel free to post your questions in the YouTube video here or visit us on our website and we'll also have a support page there you can go to and post additional questions. Again, thank you for joining us today."
+}

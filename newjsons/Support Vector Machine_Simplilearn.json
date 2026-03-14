@@ -1,0 +1,985 @@
+{
+    "chunks": [
+        {
+            "id": 0,
+            "start": 0.0,
+            "end": 15.040000000000001,
+            "topic": "Support Vector Machine",
+            "text": " Welcome to Support Vector Machine. A lot of times referred to as the SVM algorithm. My name is Richard Kirschner. I'm with SimplyLearn. Before we dive into the SVM,"
+        },
+        {
+            "id": 5,
+            "start": 15.040000000000001,
+            "end": 31.88,
+            "topic": "Support Vector Machine",
+            "text": " let's take a look at applications of the support vector machine. At least some general ones that are commonly used with it. Face detection, text and hypertext categorization, classification of images and bioinformatics. These are only about a few of those that are used with this SVM."
+        },
+        {
+            "id": 10,
+            "start": 31.88,
+            "end": 41.76,
+            "topic": "Support Vector Machine",
+            "text": " As we go through this lesson, see if you can figure out what other ones you could apply it to. And also what you would want to use some other tools for. What's in it for you? Today we're going to cover about six different sections."
+        },
+        {
+            "id": 15,
+            "start": 41.76,
+            "end": 52.28,
+            "topic": "Support Vector Machine",
+            "text": " We're going to start with what is machine learning, so we can see where the vector machine fits in. Why the support vector machine? What is a support vector machine? And understanding the support vector machine."
+        },
+        {
+            "id": 20,
+            "start": 52.28,
+            "end": 63.160000000000004,
+            "topic": "Support Vector Machine",
+            "text": " Once we go through an understanding of how it works and what it looks like, we're going to look at the advantages of support vector machine and finally dive into a use case in Python. We'll write some script on it."
+        },
+        {
+            "id": 25,
+            "start": 63.160000000000004,
+            "end": 76.0,
+            "topic": "Support Vector Machine",
+            "text": " Let's start with what is machine learning? And even more specific, where does a support vector machine algorithm fit in? The biggest split in machine learning is between the three categories, supervised learning."
+        },
+        {
+            "id": 30,
+            "start": 76.0,
+            "end": 85.56,
+            "topic": "Support Vector Machine",
+            "text": " Where we have data, we can train it. Unsupervised learning, where we're just guessing at what we can make sense of the data. And reinforcement learning, where we reinforce a good or bad behavior."
+        },
+        {
+            "id": 35,
+            "start": 85.56,
+            "end": 99.72,
+            "topic": "Support Vector Machine",
+            "text": " Since the SVM is specific to supervised learning, machine learning model learns from the past input data and makes future predictions as output. So we teach the model, we teach it what a strawberry is and once the model is trained, it can identify a strawberry."
+        },
+        {
+            "id": 40,
+            "start": 99.72,
+            "end": 110.48,
+            "topic": "Support Vector Machine",
+            "text": " That's what's mean by supervised learning. In the larger picture of the machine learning model and under supervised learning, you can see that the support vector fits in under classification, deciding what yes and no is."
+        },
+        {
+            "id": 45,
+            "start": 110.48,
+            "end": 124.72,
+            "topic": "Support Vector Machine",
+            "text": " And there is also a regression version, but it is primarily used for classification. Let's take a detour and see if we can connect us to the human experience and find out why support vector machine. So in this example, last week, my son and I visited a fruit shop."
+        },
+        {
+            "id": 50,
+            "start": 124.72,
+            "end": 134.56,
+            "topic": "Support Vector Machine",
+            "text": " Dad, is that an apple or a strawberry? So the question comes up, what fruit did they just pick up from the fruit stand? After a couple of seconds, you can figure out that it was a strawberry."
+        },
+        {
+            "id": 55,
+            "start": 134.56,
+            "end": 145.0,
+            "topic": "Support Vector Machine",
+            "text": " So let's take this model a step further and let's why not build a model which can predict an unknown data. And in this, we're gonna be looking at some sweet strawberries or crispy apples."
+        },
+        {
+            "id": 60,
+            "start": 145.0,
+            "end": 155.08,
+            "topic": "Support Vector Machine",
+            "text": " We want it to be able to label those two and decide what the fruit is. And we do that by having data already put in. So we already have a bunch of strawberries, we know our strawberries and they already label this such."
+        },
+        {
+            "id": 65,
+            "start": 155.08,
+            "end": 163.36,
+            "topic": "Support Vector Machine",
+            "text": " We already have a bunch of apples, we know our apples and our label this such. Then once we train our model, that model then can be given the new data. And the new data is this image."
+        },
+        {
+            "id": 70,
+            "start": 163.36,
+            "end": 178.0,
+            "topic": "Support Vector Machine",
+            "text": " In this case, you can see a question mark on it and it comes through and goes, it's a strawberry. In this case, we're using the support vector machine model. SVM is a supervised learning method that looks at data and sorts it into one of two categories."
+        },
+        {
+            "id": 75,
+            "start": 178.0,
+            "end": 188.44,
+            "topic": "Support Vector Machine",
+            "text": " And in this case, we're sorting the strawberry into the strawberry site. At this point, you should be asking the question, how does the prediction work? Before we dig into an example with numbers,"
+        },
+        {
+            "id": 80,
+            "start": 188.44,
+            "end": 203.6,
+            "topic": "Support Vector Machine",
+            "text": " let's apply this to our fruit scenario. We have our support vector machine, we've taken it and we've taken labeled sample of data, strawberries and apples, and we draw on a line down the middle between the two groups. This split now allows us to take new data,"
+        },
+        {
+            "id": 85,
+            "start": 203.6,
+            "end": 213.79999999999998,
+            "topic": "Support Vector Machine",
+            "text": " in this case an apple and a strawberry, and place them in the appropriate group based on which side of the line they fall in. And that way we can predict the unknown. As colorful and tasty as the fruit example is,"
+        },
+        {
+            "id": 90,
+            "start": 213.79999999999998,
+            "end": 224.72,
+            "topic": "Support Vector Machine",
+            "text": " let's take a look at another example with some numbers involved. And we can take a closer look at how the math works. In this example, we're gonna be classifying men and women. And we're gonna start with a set of people"
+        },
+        {
+            "id": 95,
+            "start": 224.72,
+            "end": 238.12,
+            "topic": "Support Vector Machine",
+            "text": " with a different height and a different weight. And to make this work, we'll have to have a sample data set of female, where you have their height weight, 174, 65, 174, 88, and so on. And we'll need a sample data set of the male."
+        },
+        {
+            "id": 100,
+            "start": 238.12,
+            "end": 249.12,
+            "topic": "Support Vector Machine",
+            "text": " They have a height, 179, 90, 180 to 80, and so on. Let's go ahead and put this on a graph, so we have a nice visual. So you can see here we have two groups based on the height versus the weight."
+        },
+        {
+            "id": 105,
+            "start": 249.12,
+            "end": 258.15999999999997,
+            "topic": "Support Vector Machine",
+            "text": " And on the left side, we're gonna have the women, on the right side, we're gonna have the men. Now if we're gonna create a classifier, let's add a new data point and figure out if it's male or female."
+        },
+        {
+            "id": 110,
+            "start": 258.16,
+            "end": 272.88000000000005,
+            "topic": "Support Vector Machine",
+            "text": " So before we can do that, we need to split our data first. We can split our data by choosing any of these lines. In this case, we draw in two lines through the data in the middle that separates the men from the women. But to predict the gender of a new data point,"
+        },
+        {
+            "id": 115,
+            "start": 272.88000000000005,
+            "end": 284.76000000000005,
+            "topic": "Support Vector Machine",
+            "text": " we should split the data in the best possible way. And we say the best possible way, because this line has a maximum space that separates the two classes. Here you can see there's a clear split"
+        },
+        {
+            "id": 120,
+            "start": 284.76000000000005,
+            "end": 297.84000000000003,
+            "topic": "Support Vector Machine",
+            "text": " between the two different classes. And in this one, there's not so much a clear split. This doesn't have the maximum space that separates the two. That is why this line best splits the data. We don't want to just do this by eyeballing it."
+        },
+        {
+            "id": 125,
+            "start": 297.84000000000003,
+            "end": 307.12,
+            "topic": "Support Vector Machine",
+            "text": " And before we go further, we need to add some technical terms to this. We can also say that the distance between the points and the line should be as far as possible."
+        },
+        {
+            "id": 130,
+            "start": 307.12,
+            "end": 318.2,
+            "topic": "Support Vector Machine",
+            "text": " In technical terms, we can say the distance between the support vector and the hyperplane should be as far as possible. And this is where the support vectors are the extreme points in the data set."
+        },
+        {
+            "id": 135,
+            "start": 318.2,
+            "end": 327.92,
+            "topic": "Support Vector Machine",
+            "text": " And if you look at this data set, they have circled two points, which seem to be right on the outskirts of the women and one on the outskirts of the men. And hyperplane has a maximum distance"
+        },
+        {
+            "id": 140,
+            "start": 327.92,
+            "end": 337.2,
+            "topic": "Support Vector Machine",
+            "text": " to the support vectors of any class. Now you'll see the line down the middle. And we call this the hyperplane because when you're dealing with multiple dimensions, it's really not just a line,"
+        },
+        {
+            "id": 145,
+            "start": 337.2,
+            "end": 347.92,
+            "topic": "Support Vector Machine",
+            "text": " but a plane of intersections. And you can see here where the support vectors have been drawn in dashed lines. The math behind this is very simple. We take D plus the shortest distance"
+        },
+        {
+            "id": 150,
+            "start": 347.92,
+            "end": 359.88,
+            "topic": "Support Vector Machine",
+            "text": " to the closest positive point, which would be on the men's side, and D minus is the shortest distance to the closest negative point, which is on the women's side. The sum of D plus and D minus is called the distance margin,"
+        },
+        {
+            "id": 155,
+            "start": 359.88,
+            "end": 372.28000000000003,
+            "topic": "Support Vector Machine",
+            "text": " or the distance between the two support vectors that are shown in the dashed lines. And then by finding the largest distance margin, we can get the optimal hyperplane. Once we've created an optimal hyperplane,"
+        },
+        {
+            "id": 160,
+            "start": 372.28000000000003,
+            "end": 384.88,
+            "topic": "Support Vector Machine",
+            "text": " we can easily see which side the new data fits in. And based on the hyperplane, we can say the new data point belongs to the male gender. Hopefully that's clear at how that works on a visual level. As a data scientist, you should also be asking"
+        },
+        {
+            "id": 165,
+            "start": 384.88,
+            "end": 400.08,
+            "topic": "Support Vector Machine",
+            "text": " what happens if the hyperplane is not optimal. If we select a hyperplane having low margin, then there is a high chance of misclassification. This particular SVM model, the one we discussed so far, is also called referred to as the LSVM."
+        },
+        {
+            "id": 170,
+            "start": 400.08,
+            "end": 411.28000000000003,
+            "topic": "Support Vector Machine",
+            "text": " So far so clear, but a question should be coming up. We have our sample data set, but instead of looking like this, what if it looked like this, where we have two sets of data,"
+        },
+        {
+            "id": 175,
+            "start": 411.28000000000003,
+            "end": 424.68,
+            "topic": "Support Vector Machine",
+            "text": " but one of them occurs in the middle of another set. You can see here where we have the blue and the yellow, and then blue again on the other side of our data line. In this data set, we can't use a hyperplane. So when you see data like this,"
+        },
+        {
+            "id": 180,
+            "start": 424.68,
+            "end": 435.96000000000004,
+            "topic": "Support Vector Machine",
+            "text": " it's necessary to move away from a 1D view of the data to a two-dimensional view of the data. And for the transformation we use was called a kernel function. The kernel function will take the 1D input"
+        },
+        {
+            "id": 185,
+            "start": 435.96000000000004,
+            "end": 449.6,
+            "topic": "Support Vector Machine",
+            "text": " and transfer it to a two-dimensional output. As you can see in this picture here, the 1D when transferred to a two-dimensional makes it very easy to draw a line between the two data sets. What if we make it even more complicated?"
+        },
+        {
+            "id": 190,
+            "start": 449.6,
+            "end": 462.88,
+            "topic": "Support Vector Machine",
+            "text": " How do we perform an SVM for this type of data set? Here you can see we have a two-dimensional data set where the data is in the middle, surrounded by the green data on the outside. In this case, we're going to segregate the two classes."
+        },
+        {
+            "id": 195,
+            "start": 462.88,
+            "end": 474.32,
+            "topic": "Support Vector Machine",
+            "text": " We have our sample data set. And if you draw a line through, it's obviously not an optimal hyperplane in there. So to do that, we need to transfer the 2D to a 3D array. And when you translate it into a three-dimensional array"
+        },
+        {
+            "id": 200,
+            "start": 474.32,
+            "end": 486.08,
+            "topic": "Support Vector Machine",
+            "text": " using the kernel, you can see we can place a hyperplane right through it and easily split the data. Before we start looking at a programming example and dive into the script, let's look at the advantage of the support vector machine."
+        },
+        {
+            "id": 205,
+            "start": 486.08,
+            "end": 497.92,
+            "topic": "Support Vector Machine",
+            "text": " We'll start with high-dimensional input space, or sometimes referred to as the curse of dimensionality. We looked at earlier one dimension, two dimension, three dimension. When you get to a thousand dimensions,"
+        },
+        {
+            "id": 210,
+            "start": 497.92,
+            "end": 509.44,
+            "topic": "Support Vector Machine",
+            "text": " a lot of problems start occurring with both algorithms that have to be adjusted for. The SVM automatically does that in high-dimensional space. One of the high-dimensional space, one high-dimensional space that we work on"
+        },
+        {
+            "id": 215,
+            "start": 509.44,
+            "end": 522.0,
+            "topic": "Support Vector Machine",
+            "text": " is sparse document vectors. This is where we tokenize the words and documents so we can run our machine learning algorithms over them. I've seen ones get as high as 2.4 million different tokens. That's a lot of vectors to look at."
+        },
+        {
+            "id": 220,
+            "start": 522.0,
+            "end": 534.8,
+            "topic": "Support Vector Machine",
+            "text": " And finally, we have regularization parameter. The realization parameter, or lambda, is a parameter that helps figure out whether we're gonna have a bias or overfitting of the data. Whether it's gonna be overfitted to a very specific instance"
+        },
+        {
+            "id": 225,
+            "start": 534.8,
+            "end": 549.36,
+            "topic": "Support Vector Machine",
+            "text": " or it's gonna be biased to a higher low value. With the SVM, it naturally avoids the overfitting and bias problems that we see in many other algorithms. These three advantages of the support vector machine make it a very powerful tool to add to your repertoire"
+        },
+        {
+            "id": 230,
+            "start": 549.36,
+            "end": 559.16,
+            "topic": "Support Vector Machine",
+            "text": " of machine learning tools. Now, we did promise you a use-case study. We're actually gonna dive into some Python programming. And so we're gonna go into a problem statement and start off with the zoo."
+        },
+        {
+            "id": 235,
+            "start": 559.16,
+            "end": 571.76,
+            "topic": "Support Vector Machine",
+            "text": " So in the zoo example, we have family members going to the zoo and we have the young child going, Dad, is that a group of crocodiles or alligators? Well, that's hard to differentiate. And zoos are a great place to start looking at science"
+        },
+        {
+            "id": 240,
+            "start": 571.76,
+            "end": 579.76,
+            "topic": "Support Vector Machine",
+            "text": " and understanding how things work, especially as a young child. And so we can see the parents in here thinking, well, what is the difference between a crocodile and an alligator?"
+        },
+        {
+            "id": 245,
+            "start": 579.8,
+            "end": 590.3199999999999,
+            "topic": "Support Vector Machine",
+            "text": " Well, one, crocodiles are larger in size. Alligators are smaller in size. Snout widths, the crocodiles have a narrow snout, and alligators have a wider snout. And of course, in the modern day and age,"
+        },
+        {
+            "id": 250,
+            "start": 590.3199999999999,
+            "end": 599.08,
+            "topic": "Support Vector Machine",
+            "text": " the father's sitting here thinking, how can I turn this into a lesson for my son? And he goes, let us support vector machines segregate the two groups. I don't know if my dad ever told me that,"
+        },
+        {
+            "id": 255,
+            "start": 599.08,
+            "end": 610.0,
+            "topic": "Support Vector Machine",
+            "text": " but that would be funny. Now, in this example, we're not gonna use actual measurements and data, we're just using that for imagery. And that's very common in a lot of machine learning algorithms and setting them up."
+        },
+        {
+            "id": 260,
+            "start": 610.0,
+            "end": 621.36,
+            "topic": "Support Vector Machine",
+            "text": " But let's roll up our sleeves, and we'll talk about that more in just a moment as we break into our Python script. So here we arrive in our actual coding. And I'm gonna move this into a Python editor"
+        },
+        {
+            "id": 265,
+            "start": 621.36,
+            "end": 631.84,
+            "topic": "Support Vector Machine",
+            "text": " in just a moment. But let's talk a little bit about what we're gonna cover. First, we're gonna cover in the code the setup, how to actually create our SVM. And you're gonna find that there's only two lines of code"
+        },
+        {
+            "id": 270,
+            "start": 631.84,
+            "end": 641.4399999999999,
+            "topic": "Support Vector Machine",
+            "text": " that actually create it, and the rest of it is done so quick and fast that it's all here in the first page. And we'll show you what that looks like as far as our data, because we're gonna create some data."
+        },
+        {
+            "id": 275,
+            "start": 641.4399999999999,
+            "end": 650.76,
+            "topic": "Support Vector Machine",
+            "text": " I talked about creating data just a minute ago. And so we'll get into the creating data here, and you'll see this nice correction of our two blobs. And we'll go through that in just a second. And then the second part is we're gonna take this"
+        },
+        {
+            "id": 280,
+            "start": 650.76,
+            "end": 661.88,
+            "topic": "Support Vector Machine",
+            "text": " and we're gonna bump it up a notch. We're gonna show you what it looks like behind the scenes. But let's start with actually creating our setup. I like to use the Anaconda Jupyter notebook, because it's very easy to use,"
+        },
+        {
+            "id": 285,
+            "start": 661.88,
+            "end": 672.7199999999999,
+            "topic": "Support Vector Machine",
+            "text": " but you can use any of your favorite Python editors or setups and go in there. But let's go ahead and switch over there and see what that looks like. So here we are in the Anaconda Python notebook,"
+        },
+        {
+            "id": 290,
+            "start": 672.7199999999999,
+            "end": 683.48,
+            "topic": "Support Vector Machine",
+            "text": " or Anaconda Jupyter notebook with Python. We're using Python 3. I believe this is 3.5, but it should be work in any of your 3X versions. And you'd have to look at the SK Learn"
+        },
+        {
+            "id": 295,
+            "start": 683.48,
+            "end": 691.72,
+            "topic": "Support Vector Machine",
+            "text": " and make sure if you're using a 2X version and an earlier version. Now let's go ahead and put our code in there. And one of the things I like about the Jupyter notebook is I'm going to go up to View,"
+        },
+        {
+            "id": 300,
+            "start": 691.72,
+            "end": 701.96,
+            "topic": "Support Vector Machine",
+            "text": " and I'm gonna go ahead and toggle the line numbers on to make it a little bit easier to talk about. And we can even increase the size, because this is edited in, in this case I'm using Google Chrome Explorer,"
+        },
+        {
+            "id": 305,
+            "start": 701.96,
+            "end": 713.16,
+            "topic": "Support Vector Machine",
+            "text": " and that's how it opens up for the editor. Although anyone, like I said, any editor will work. Now the first step is gonna be our imports. And we're gonna import four different parts. The first two I want you to look at"
+        },
+        {
+            "id": 310,
+            "start": 713.16,
+            "end": 726.8,
+            "topic": "Support Vector Machine",
+            "text": " are line one and line two, our NumPy as Np and MatplotLibrary.pyplot as PLT. Now these are very standardized imports when you're doing work. The first one is the numbers Python."
+        },
+        {
+            "id": 315,
+            "start": 726.8,
+            "end": 737.0,
+            "topic": "Support Vector Machine",
+            "text": " We need that because part of the platform we're using uses app for the NumPy array. And I'll talk about that in a minute so you can understand why we want to use a NumPy array versus the standard Python array."
+        },
+        {
+            "id": 320,
+            "start": 737.0,
+            "end": 751.76,
+            "topic": "Support Vector Machine",
+            "text": " And normally it's pretty standard setup to use Np for NumPy. The MatplotLibrary is how we're gonna view our data. So this has, you do need the Np for the SK Learn module, but the MatplotLibrary is purely for our use for visualization."
+        },
+        {
+            "id": 325,
+            "start": 751.76,
+            "end": 758.7199999999999,
+            "topic": "Support Vector Machine",
+            "text": " And so you really don't need that for the SVM, but we're gonna put it there so you have a nice visual aid and we can show you what it looks like. That's really important at the end"
+        },
+        {
+            "id": 330,
+            "start": 758.7199999999999,
+            "end": 770.9599999999999,
+            "topic": "Support Vector Machine",
+            "text": " when you finish everything. So you have a nice display for everybody to look at. And then finally, I'm gonna jump one ahead to line number four. That's the sklearn.datasets.samples generator import"
+        },
+        {
+            "id": 335,
+            "start": 770.9599999999999,
+            "end": 780.8,
+            "topic": "Support Vector Machine",
+            "text": " make blobs. And I told you that we were gonna make up data. And this is a tool that's in the SK Learn to make up data. I personally don't want to go to the zoo, get in trouble for jumping over the fence"
+        },
+        {
+            "id": 340,
+            "start": 780.8,
+            "end": 794.52,
+            "topic": "Support Vector Machine",
+            "text": " and probably get eaten by the crocodiles or alligators as I work on measuring their snouts and width and length. Instead, we're just gonna make up some data. And that's what that make blobs is. It's a wonderful tool if you're ready to test your setup"
+        },
+        {
+            "id": 345,
+            "start": 794.52,
+            "end": 806.6800000000001,
+            "topic": "Support Vector Machine",
+            "text": " and you're not sure about what data you're gonna put in there. You can create this blob and it makes it real easy to use. And finally, we have our actual SVM, the SK Learn import SVM on line three. So that covers all our imports."
+        },
+        {
+            "id": 350,
+            "start": 806.6800000000001,
+            "end": 821.2399999999999,
+            "topic": "Support Vector Machine",
+            "text": " We're gonna create, remember I used the make blobs to create data and we're gonna create a capital X and a lowercase Y equals make blobs in samples equals 40. So we're gonna make 40 lines of data. It's gonna have two centers with a random state equals 20."
+        },
+        {
+            "id": 355,
+            "start": 821.2399999999999,
+            "end": 835.16,
+            "topic": "Support Vector Machine",
+            "text": " So each group's gonna have 20 different pieces of data in it. And the way that looks is that we'll have under X, an X Y plane. So I'll have two numbers under X and Y will be zero or one. That's the two different centers."
+        },
+        {
+            "id": 360,
+            "start": 835.16,
+            "end": 850.36,
+            "topic": "Support Vector Machine",
+            "text": " So we have yes or no, in this case, alligator or crocodile, that's what that represents. And then I told you that the actual SK Learn or the SVM is in two lines of code. And we see it right here with CLF equals SVM.SVC kernel"
+        },
+        {
+            "id": 365,
+            "start": 850.36,
+            "end": 860.6800000000001,
+            "topic": "Support Vector Machine",
+            "text": " equals linear and I set SQL to one. Although in this example, since we are not regularizing the data, since we want it to be very clear and easy to see, I went ahead, you can set it to a thousand,"
+        },
+        {
+            "id": 370,
+            "start": 860.6800000000001,
+            "end": 869.72,
+            "topic": "Support Vector Machine",
+            "text": " a lot of times when you're not doing that. But for this thing, linear, because it's a very simple linear example, we only have the two dimensions and it'll be a nice linear hyperplane,"
+        },
+        {
+            "id": 375,
+            "start": 869.72,
+            "end": 882.5600000000001,
+            "topic": "Support Vector Machine",
+            "text": " it'll be a nice linear line instead of a full plane. So we're not dealing with a huge amount of data. And then all we have to do is do CLF.fit X comma Y. And that's it. CLF has been created and then we're gonna go ahead"
+        },
+        {
+            "id": 380,
+            "start": 882.5600000000001,
+            "end": 892.4,
+            "topic": "Support Vector Machine",
+            "text": " and display it. And I'm gonna talk about this display here in just a second, but let me go ahead and run this code. And this is what we've done is we've created two blobs. You'll see the blue on the side"
+        },
+        {
+            "id": 385,
+            "start": 892.4,
+            "end": 901.32,
+            "topic": "Support Vector Machine",
+            "text": " and then kind of an orange-ish on the other side. That's our two sets of data. They represent, one represents crocodiles and one represents alligators. And then we have our measurements."
+        },
+        {
+            "id": 390,
+            "start": 901.32,
+            "end": 912.52,
+            "topic": "Support Vector Machine",
+            "text": " In this case, we have like the width and length of the snout. And I did say I was gonna come up here and talk just a little bit about our plot. And you'll see PLT, that's what we imported. We're gonna do a scatter plot."
+        },
+        {
+            "id": 395,
+            "start": 912.52,
+            "end": 921.92,
+            "topic": "Support Vector Machine",
+            "text": " That means we're just putting dots on there. And then look at this notation. I have the capital X and then in brackets, I have a colon comma zero. That's from Numpy."
+        },
+        {
+            "id": 400,
+            "start": 921.92,
+            "end": 932.44,
+            "topic": "Support Vector Machine",
+            "text": " If you did that in a regular array, you'll get an error in a Python array. You have to have that in a Numpy array. It turns out that our make blobs returns a Numpy array. And this notation is great"
+        },
+        {
+            "id": 405,
+            "start": 932.44,
+            "end": 945.2,
+            "topic": "Support Vector Machine",
+            "text": " because what it means is the first part is the colon means we're gonna do all the rows. That's all the data in our blob we created under capital X. And then the second part has a comma zero. We're only gonna take the first value."
+        },
+        {
+            "id": 410,
+            "start": 945.2,
+            "end": 956.84,
+            "topic": "Support Vector Machine",
+            "text": " And then if you notice, we do the same thing, but we're gonna take the second value. Remember, we always start with zero and then one. So we have column zero and column one. And you can look at this as our X-Y plots."
+        },
+        {
+            "id": 415,
+            "start": 956.84,
+            "end": 967.36,
+            "topic": "Support Vector Machine",
+            "text": " The first one is the X-plot and the second one is the Y-plot. So the first one is on the bottom zero, two, four, six, eight and 10. And then the second one, X of the one,"
+        },
+        {
+            "id": 420,
+            "start": 967.36,
+            "end": 975.9200000000001,
+            "topic": "Support Vector Machine",
+            "text": " is the four, five, six, seven, eight, nine, 10 going up the left-hand side. S equals 30 is just the size of the dots. We can see them. It's had real tiny dots."
+        },
+        {
+            "id": 425,
+            "start": 975.9200000000001,
+            "end": 987.36,
+            "topic": "Support Vector Machine",
+            "text": " And then the C-map equals PLT.CM.paired. And you'll also see the C equals Y. That's the color. We're using two colors, zero, one. And that's why we get the nice blue"
+        },
+        {
+            "id": 430,
+            "start": 987.36,
+            "end": 997.2,
+            "topic": "Support Vector Machine",
+            "text": " and the two different colors for the alligator and the crocodile. Now you can see here that we did this, the actual fit was done in two lines of code. A lot of times there'll be a third line"
+        },
+        {
+            "id": 435,
+            "start": 997.2,
+            "end": 1007.0,
+            "topic": "Support Vector Machine",
+            "text": " where we regularize the data. We set it between like minus one and one and we reshape it. But for this, it's not necessary. And it's also kind of nice because you can actually see what's going on."
+        },
+        {
+            "id": 440,
+            "start": 1007.0,
+            "end": 1018.12,
+            "topic": "Support Vector Machine",
+            "text": " And then if we wanted to, we wanted to actually run a prediction, let's take a look and see what that looks like. And to predict some new data, and we'll show this again as we get towards the end of digging in deep."
+        },
+        {
+            "id": 445,
+            "start": 1018.12,
+            "end": 1031.52,
+            "topic": "Support Vector Machine",
+            "text": " You can simply assign your new data. In this case, I am giving it a width and length three, four and a width and length five, six. And note that I put the data as a set of brackets and then I have the brackets inside."
+        },
+        {
+            "id": 450,
+            "start": 1031.52,
+            "end": 1043.04,
+            "topic": "Support Vector Machine",
+            "text": " And the reason I do that is because when we're looking at data, it's designed to process a large amount of data coming in. We don't want to just process one line at a time. And so in this case, I'm processing two lines."
+        },
+        {
+            "id": 455,
+            "start": 1043.04,
+            "end": 1051.76,
+            "topic": "Support Vector Machine",
+            "text": " And then I'm just going to print and you'll see clf.predict new data. So the clf and the dot predict part is going to give us an answer. And let's see what that looks like."
+        },
+        {
+            "id": 460,
+            "start": 1051.76,
+            "end": 1061.04,
+            "topic": "Support Vector Machine",
+            "text": " And you'll see zero one. So predicted the first one, the three four is going to be on the one side and the five six is going to be on the other side. So one came out as an alligator"
+        },
+        {
+            "id": 465,
+            "start": 1061.04,
+            "end": 1071.48,
+            "topic": "Support Vector Machine",
+            "text": " and one came out as a crocodile. Now that's pretty short explanation for this setup. But really, we want to dig in and see what it's going on behind the scenes. And let's see what that looks like."
+        },
+        {
+            "id": 470,
+            "start": 1071.48,
+            "end": 1083.44,
+            "topic": "Support Vector Machine",
+            "text": " So the next step is to dig in deep and find out what's going on behind the scenes. And also put that in a nice pretty graph. We're going to spend more work on this and we did actually generating the original model."
+        },
+        {
+            "id": 475,
+            "start": 1083.44,
+            "end": 1094.92,
+            "topic": "Support Vector Machine",
+            "text": " And you'll see here that we go through a few steps and I'll move this over to our editor in just a second. We come in, we create our original data. It's exactly identical to the first part and I'll explain why we redid that"
+        },
+        {
+            "id": 480,
+            "start": 1094.92,
+            "end": 1105.24,
+            "topic": "Support Vector Machine",
+            "text": " and show you how not to redo that. And then we're going to go in there and add in those lines. We're going to see what those lines look like and how to set those up. And finally, we're going to plot all that on here"
+        },
+        {
+            "id": 485,
+            "start": 1105.24,
+            "end": 1115.6000000000001,
+            "topic": "Support Vector Machine",
+            "text": " and show it. And you'll get a nice graph with the, what we saw earlier when we were going through the theory behind this, where it shows the support vectors and the hyperplane."
+        },
+        {
+            "id": 490,
+            "start": 1115.6000000000001,
+            "end": 1126.4,
+            "topic": "Support Vector Machine",
+            "text": " And those are done where you can see the support vectors as the dashed lines and the solid line, which is the hyperplane. Let's get that into our Jupiter notebook. Before I scroll down to a new line,"
+        },
+        {
+            "id": 495,
+            "start": 1126.4,
+            "end": 1136.1599999999999,
+            "topic": "Support Vector Machine",
+            "text": " I want you to notice line 13, it has plot show. And we're going to talk about that here in just a second, but let's scroll down to a new line down here. And I'm going to paste that code in."
+        },
+        {
+            "id": 500,
+            "start": 1136.1599999999999,
+            "end": 1147.8,
+            "topic": "Support Vector Machine",
+            "text": " And you'll see that the plot show is moved down below. Let's scroll up a little bit. And if you look at the top here of our new section, one, two, three, and four, is the same code we had before."
+        },
+        {
+            "id": 505,
+            "start": 1147.8,
+            "end": 1157.6399999999999,
+            "topic": "Support Vector Machine",
+            "text": " And let's go back up here and take a look at that. We're going to fit the values on our SVM and then we're going to plot scatter it and then we're going to do a plot show. So you should be asking,"
+        },
+        {
+            "id": 510,
+            "start": 1157.6399999999999,
+            "end": 1167.28,
+            "topic": "Support Vector Machine",
+            "text": " why are we redoing the same code? Well, when you do the plot show, that blanks out what's in the plot. So once I've done this plot show, I have to reload that data."
+        },
+        {
+            "id": 515,
+            "start": 1167.28,
+            "end": 1178.04,
+            "topic": "Support Vector Machine",
+            "text": " Now we could do this simply by removing it up here, rerunning it and then coming down here, and then we wouldn't have to rerun these first four lines of code. Now in this, it doesn't matter too much."
+        },
+        {
+            "id": 520,
+            "start": 1178.04,
+            "end": 1189.0,
+            "topic": "Support Vector Machine",
+            "text": " And you'll see the plot show was down here and then removed right there on line five. I'll go ahead and just delete that out of there. Because we don't want to blank out our screen. We want to move on to the next setup."
+        },
+        {
+            "id": 525,
+            "start": 1189.0,
+            "end": 1202.2,
+            "topic": "Support Vector Machine",
+            "text": " So we can go ahead and just skip the first four lines because we did that before. And let's take a look at the AX equals PLT.GCA. Now right now, we're actually spending a lot of time just graphing, that's all we're doing here."
+        },
+        {
+            "id": 530,
+            "start": 1202.2,
+            "end": 1213.2,
+            "topic": "Support Vector Machine",
+            "text": " Okay, so this is how we display a nice graph with our results and our data. AX is very standard to use variable when you're talking about PLT. And it's just setting it to that axis,"
+        },
+        {
+            "id": 535,
+            "start": 1213.2,
+            "end": 1226.0800000000002,
+            "topic": "Support Vector Machine",
+            "text": " the last axis in the PLT. They can get very confusing if you're working with many different layers of data on the same graph. And this makes it very easy to reference the AX. So this reference is looking at the PLT that we created"
+        },
+        {
+            "id": 540,
+            "start": 1226.0800000000002,
+            "end": 1237.96,
+            "topic": "Support Vector Machine",
+            "text": " and we already mapped out our two blobs on. And then we want to know the limits. So we want to know how big the graph is. We can find out the X limit and the Y limit, simply with the get X limit and get Y limit commands,"
+        },
+        {
+            "id": 545,
+            "start": 1237.96,
+            "end": 1250.96,
+            "topic": "Support Vector Machine",
+            "text": " which is part of our Metplot library. And then we're going to create a grid. And you'll see down here where we have, we've set the variable XX equal to NP dot line space, X limit zero, X limit one comma 30."
+        },
+        {
+            "id": 550,
+            "start": 1250.96,
+            "end": 1263.96,
+            "topic": "Support Vector Machine",
+            "text": " And we've done the same thing for the Y space. And then we're going to go in here and we create a mesh grid. And this is a numpy command. So we're back to our numbers Python. Let's go through what these numpy commands mean"
+        },
+        {
+            "id": 555,
+            "start": 1263.96,
+            "end": 1278.48,
+            "topic": "Support Vector Machine",
+            "text": " with the line space and the mesh grid. We've taken XX small as XX equals NP line space. And we have our X limit zero and our X limit one. And we're going to create 30 points on it. And we're going to do the same thing for the Y axes."
+        },
+        {
+            "id": 560,
+            "start": 1278.48,
+            "end": 1291.6000000000001,
+            "topic": "Support Vector Machine",
+            "text": " Now, this has nothing to do with our evaluation. All we're doing is we're creating a grid of data. And so we're creating a set of points between zero and the X limit. We're creating 30 points and the same thing with the Y."
+        },
+        {
+            "id": 565,
+            "start": 1291.6000000000001,
+            "end": 1306.24,
+            "topic": "Support Vector Machine",
+            "text": " And then the mesh grid loops those all together. So it forms a nice grid. So if we were going to do this, say, between the limit 0 and 10 and do 10 points, we would have a 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 3, 0, 4, it's a 10, and so on."
+        },
+        {
+            "id": 570,
+            "start": 1306.24,
+            "end": 1314.6000000000001,
+            "topic": "Support Vector Machine",
+            "text": " You can just imagine a point at each corner one of those boxes. And the mesh grid combines them all. So we take the YY and the XX we created and creates the full grid."
+        },
+        {
+            "id": 575,
+            "start": 1314.6000000000001,
+            "end": 1326.88,
+            "topic": "Support Vector Machine",
+            "text": " And we've set that grid into the YY coordinates and the XX coordinates. Now remember, we're working with numpy and Python. We like to separate those. We like to have, instead of it being X comma 1,"
+        },
+        {
+            "id": 580,
+            "start": 1326.88,
+            "end": 1341.8000000000002,
+            "topic": "Support Vector Machine",
+            "text": " X comma Y, and then X2 comma Y2. And in the next set of data, it would be a column of X's and a column of Y's. And that's what we have here is we have a column of Y's. We put it as a capital YY and a column of X's, capital XX,"
+        },
+        {
+            "id": 585,
+            "start": 1341.8000000000002,
+            "end": 1357.12,
+            "topic": "Support Vector Machine",
+            "text": " with all those different points being listed. And finally, we get down to the numpy V stack. Just as we created those in the mesh grid, we're now going to put them all into one array, X, Y array. Now that we've created the stack of data points,"
+        },
+        {
+            "id": 590,
+            "start": 1357.12,
+            "end": 1370.6399999999999,
+            "topic": "Support Vector Machine",
+            "text": " we're going to do something interesting here. We're going to create a value Z. And the Z equals the CLF. That's our support vector machine we created. And we've already trained. And we have a dot decision function."
+        },
+        {
+            "id": 595,
+            "start": 1370.6399999999999,
+            "end": 1380.72,
+            "topic": "Support Vector Machine",
+            "text": " And we're going to put the XY in there. So here we have all this data. We're going to put that XY in there, that data. And we're going to reshape it. And you'll see that we have the XX dot shape in here."
+        },
+        {
+            "id": 600,
+            "start": 1380.72,
+            "end": 1399.48,
+            "topic": "Support Vector Machine",
+            "text": " This literally takes the XX, resets it up, connected to the Y. And the Z value lets us know whether it is the left hand side. It's going to generate three different values that Z value does. And it'll tell us whether that data is a support vector to the left, the hyperplane in the middle,"
+        },
+        {
+            "id": 605,
+            "start": 1399.48,
+            "end": 1411.0,
+            "topic": "Support Vector Machine",
+            "text": " or the support vector to the right. So it generates three different values for each of those points. And those points have been reshaped so that they're right on a line on those three different lines. So we've set all of our data up."
+        },
+        {
+            "id": 610,
+            "start": 1411.0,
+            "end": 1420.64,
+            "topic": "Support Vector Machine",
+            "text": " We've labeled it to three different areas. And we reshaped it. And we've just taken 30 points in each direction. If you do the math, you have 30 times 30. So it's 900 points of data."
+        },
+        {
+            "id": 615,
+            "start": 1420.64,
+            "end": 1430.2,
+            "topic": "Support Vector Machine",
+            "text": " And we've separated between the three lines and reshaped it to fit those three lines. We can then go back to our map plot library. We've created the AX. And we're going to create a contour."
+        },
+        {
+            "id": 620,
+            "start": 1430.2,
+            "end": 1440.6000000000001,
+            "topic": "Support Vector Machine",
+            "text": " And you'll see here we have contour capital XX, capital YY. These have been reshaped to fit those lines. Z is the labels. So now we have the three different points with the labels in there."
+        },
+        {
+            "id": 625,
+            "start": 1440.6000000000001,
+            "end": 1452.76,
+            "topic": "Support Vector Machine",
+            "text": " And we can set the colors equals K. And I told you we had three different labels, but we have three levels of data. The alpha just makes it kind of see through. So it's only 0.5 of the value in there."
+        },
+        {
+            "id": 630,
+            "start": 1452.76,
+            "end": 1463.48,
+            "topic": "Support Vector Machine",
+            "text": " So when we graph it, the data will show up from behind it. Wherever the lines go. And finally, the line styles. This is where we set the two support vectors to be dashed dashed lines."
+        },
+        {
+            "id": 635,
+            "start": 1463.48,
+            "end": 1476.36,
+            "topic": "Support Vector Machine",
+            "text": " And then a single one is just a straight line. That's what all that setup does. And then finally, we take our AX.scatter. We're going to go ahead and plot the support vectors. But we've programmed it in there so that they look nice."
+        },
+        {
+            "id": 640,
+            "start": 1476.36,
+            "end": 1490.6399999999999,
+            "topic": "Support Vector Machine",
+            "text": " Like the dash, dash line, and the dash line on that grid. And you can see here when we do the CLF.supportvectors, we are looking at column 0 and column 1. And then again, we have the s equals 100. So we're going to make them larger."
+        },
+        {
+            "id": 645,
+            "start": 1490.6399999999999,
+            "end": 1500.52,
+            "topic": "Support Vector Machine",
+            "text": " And the line width equals 1. Face colors equals none. Let's take a look and see what that looks like when we show it. And you can see we get down to our end result. It creates a really nice graph."
+        },
+        {
+            "id": 650,
+            "start": 1500.52,
+            "end": 1510.52,
+            "topic": "Support Vector Machine",
+            "text": " We have our two support vectors and dash lines. And they have the near data. So you can see those two points. Or in this case, the four points where those lines nicely cleave the data."
+        },
+        {
+            "id": 655,
+            "start": 1510.52,
+            "end": 1522.4399999999998,
+            "topic": "Support Vector Machine",
+            "text": " And then you have your hyperplane down the middle. Which is as far from the two different points as possible. Creating the maximum distance. So you can see that we have our nice output for the size of the body and the width of the snout."
+        },
+        {
+            "id": 660,
+            "start": 1522.4399999999998,
+            "end": 1528.52,
+            "topic": "Support Vector Machine",
+            "text": " And we've easily separated the two groups of crocodile and alligator. Congratulations. You've done it. We've made it."
+        },
+        {
+            "id": 665,
+            "start": 1528.52,
+            "end": 1537.8,
+            "topic": "Support Vector Machine",
+            "text": " Of course, these are pretend data for our crocodiles and alligators. But this hands-on example will help you to encounter any support vector machine projects in the future."
+        },
+        {
+            "id": 670,
+            "start": 1537.8,
+            "end": 1549.6,
+            "topic": "Support Vector Machine",
+            "text": " And you can see how easy they are to set up and look at in depth. Key takeaways, machine learning. What is machine learning? We looked at a little bit at supervised learning, unsupervised learning, and reinforcement learning."
+        },
+        {
+            "id": 675,
+            "start": 1549.6,
+            "end": 1561.28,
+            "topic": "Support Vector Machine",
+            "text": " Specifically, we're working in supervised learning. Why support vector machine? So that we can classify objects. What is support vector machine? Where we learned about the support vectors and the hyperplane."
+        },
+        {
+            "id": 680,
+            "start": 1561.28,
+            "end": 1571.88,
+            "topic": "Support Vector Machine",
+            "text": " We dug in deeper into understanding support vector machine for using multiple data. Where the data is split and you had to create new levels or new planes. And finally, we did our case study of crocodiles"
+        },
+        {
+            "id": 685,
+            "start": 1571.88,
+            "end": 1581.4,
+            "topic": "Support Vector Machine",
+            "text": " and alligators. Where you got to see hands-on how to do a support vector machine and what's going on behind the scenes and how to display that. I want to thank you for joining us today."
+        },
+        {
+            "id": 690,
+            "start": 1581.4,
+            "end": 1591.8400000000001,
+            "topic": "Support Vector Machine",
+            "text": " If you have any questions or any requests, feel free to add that to the comments at the bottom of the page. MUSIC Hi there."
+        },
+        {
+            "id": 695,
+            "start": 1591.8400000000001,
+            "end": 1601.3600000000001,
+            "topic": "Support Vector Machine",
+            "text": " If you like this video, subscribe to the Simple Learning YouTube channel. And click here to watch similar videos. To nerd up and get certified, click here."
+        }
+    ],
+    "text": " Welcome to Support Vector Machine. A lot of times referred to as the SVM algorithm. My name is Richard Kirschner. I'm with SimplyLearn. Before we dive into the SVM, let's take a look at applications of the support vector machine. At least some general ones that are commonly used with it. Face detection, text and hypertext categorization, classification of images and bioinformatics. These are only about a few of those that are used with this SVM. As we go through this lesson, see if you can figure out what other ones you could apply it to. And also what you would want to use some other tools for. What's in it for you? Today we're going to cover about six different sections. We're going to start with what is machine learning, so we can see where the vector machine fits in. Why the support vector machine? What is a support vector machine? And understanding the support vector machine. Once we go through an understanding of how it works and what it looks like, we're going to look at the advantages of support vector machine and finally dive into a use case in Python. We'll write some script on it. Let's start with what is machine learning? And even more specific, where does a support vector machine algorithm fit in? The biggest split in machine learning is between the three categories, supervised learning. Where we have data, we can train it. Unsupervised learning, where we're just guessing at what we can make sense of the data. And reinforcement learning, where we reinforce a good or bad behavior. Since the SVM is specific to supervised learning, machine learning model learns from the past input data and makes future predictions as output. So we teach the model, we teach it what a strawberry is and once the model is trained, it can identify a strawberry. That's what's mean by supervised learning. In the larger picture of the machine learning model and under supervised learning, you can see that the support vector fits in under classification, deciding what yes and no is. And there is also a regression version, but it is primarily used for classification. Let's take a detour and see if we can connect us to the human experience and find out why support vector machine. So in this example, last week, my son and I visited a fruit shop. Dad, is that an apple or a strawberry? So the question comes up, what fruit did they just pick up from the fruit stand? After a couple of seconds, you can figure out that it was a strawberry. So let's take this model a step further and let's why not build a model which can predict an unknown data. And in this, we're gonna be looking at some sweet strawberries or crispy apples. We want it to be able to label those two and decide what the fruit is. And we do that by having data already put in. So we already have a bunch of strawberries, we know our strawberries and they already label this such. We already have a bunch of apples, we know our apples and our label this such. Then once we train our model, that model then can be given the new data. And the new data is this image. In this case, you can see a question mark on it and it comes through and goes, it's a strawberry. In this case, we're using the support vector machine model. SVM is a supervised learning method that looks at data and sorts it into one of two categories. And in this case, we're sorting the strawberry into the strawberry site. At this point, you should be asking the question, how does the prediction work? Before we dig into an example with numbers, let's apply this to our fruit scenario. We have our support vector machine, we've taken it and we've taken labeled sample of data, strawberries and apples, and we draw on a line down the middle between the two groups. This split now allows us to take new data, in this case an apple and a strawberry, and place them in the appropriate group based on which side of the line they fall in. And that way we can predict the unknown. As colorful and tasty as the fruit example is, let's take a look at another example with some numbers involved. And we can take a closer look at how the math works. In this example, we're gonna be classifying men and women. And we're gonna start with a set of people with a different height and a different weight. And to make this work, we'll have to have a sample data set of female, where you have their height weight, 174, 65, 174, 88, and so on. And we'll need a sample data set of the male. They have a height, 179, 90, 180 to 80, and so on. Let's go ahead and put this on a graph, so we have a nice visual. So you can see here we have two groups based on the height versus the weight. And on the left side, we're gonna have the women, on the right side, we're gonna have the men. Now if we're gonna create a classifier, let's add a new data point and figure out if it's male or female. So before we can do that, we need to split our data first. We can split our data by choosing any of these lines. In this case, we draw in two lines through the data in the middle that separates the men from the women. But to predict the gender of a new data point, we should split the data in the best possible way. And we say the best possible way, because this line has a maximum space that separates the two classes. Here you can see there's a clear split between the two different classes. And in this one, there's not so much a clear split. This doesn't have the maximum space that separates the two. That is why this line best splits the data. We don't want to just do this by eyeballing it. And before we go further, we need to add some technical terms to this. We can also say that the distance between the points and the line should be as far as possible. In technical terms, we can say the distance between the support vector and the hyperplane should be as far as possible. And this is where the support vectors are the extreme points in the data set. And if you look at this data set, they have circled two points, which seem to be right on the outskirts of the women and one on the outskirts of the men. And hyperplane has a maximum distance to the support vectors of any class. Now you'll see the line down the middle. And we call this the hyperplane because when you're dealing with multiple dimensions, it's really not just a line, but a plane of intersections. And you can see here where the support vectors have been drawn in dashed lines. The math behind this is very simple. We take D plus the shortest distance to the closest positive point, which would be on the men's side, and D minus is the shortest distance to the closest negative point, which is on the women's side. The sum of D plus and D minus is called the distance margin, or the distance between the two support vectors that are shown in the dashed lines. And then by finding the largest distance margin, we can get the optimal hyperplane. Once we've created an optimal hyperplane, we can easily see which side the new data fits in. And based on the hyperplane, we can say the new data point belongs to the male gender. Hopefully that's clear at how that works on a visual level. As a data scientist, you should also be asking what happens if the hyperplane is not optimal. If we select a hyperplane having low margin, then there is a high chance of misclassification. This particular SVM model, the one we discussed so far, is also called referred to as the LSVM. So far so clear, but a question should be coming up. We have our sample data set, but instead of looking like this, what if it looked like this, where we have two sets of data, but one of them occurs in the middle of another set. You can see here where we have the blue and the yellow, and then blue again on the other side of our data line. In this data set, we can't use a hyperplane. So when you see data like this, it's necessary to move away from a 1D view of the data to a two-dimensional view of the data. And for the transformation we use was called a kernel function. The kernel function will take the 1D input and transfer it to a two-dimensional output. As you can see in this picture here, the 1D when transferred to a two-dimensional makes it very easy to draw a line between the two data sets. What if we make it even more complicated? How do we perform an SVM for this type of data set? Here you can see we have a two-dimensional data set where the data is in the middle, surrounded by the green data on the outside. In this case, we're going to segregate the two classes. We have our sample data set. And if you draw a line through, it's obviously not an optimal hyperplane in there. So to do that, we need to transfer the 2D to a 3D array. And when you translate it into a three-dimensional array using the kernel, you can see we can place a hyperplane right through it and easily split the data. Before we start looking at a programming example and dive into the script, let's look at the advantage of the support vector machine. We'll start with high-dimensional input space, or sometimes referred to as the curse of dimensionality. We looked at earlier one dimension, two dimension, three dimension. When you get to a thousand dimensions, a lot of problems start occurring with both algorithms that have to be adjusted for. The SVM automatically does that in high-dimensional space. One of the high-dimensional space, one high-dimensional space that we work on is sparse document vectors. This is where we tokenize the words and documents so we can run our machine learning algorithms over them. I've seen ones get as high as 2.4 million different tokens. That's a lot of vectors to look at. And finally, we have regularization parameter. The realization parameter, or lambda, is a parameter that helps figure out whether we're gonna have a bias or overfitting of the data. Whether it's gonna be overfitted to a very specific instance or it's gonna be biased to a higher low value. With the SVM, it naturally avoids the overfitting and bias problems that we see in many other algorithms. These three advantages of the support vector machine make it a very powerful tool to add to your repertoire of machine learning tools. Now, we did promise you a use-case study. We're actually gonna dive into some Python programming. And so we're gonna go into a problem statement and start off with the zoo. So in the zoo example, we have family members going to the zoo and we have the young child going, Dad, is that a group of crocodiles or alligators? Well, that's hard to differentiate. And zoos are a great place to start looking at science and understanding how things work, especially as a young child. And so we can see the parents in here thinking, well, what is the difference between a crocodile and an alligator? Well, one, crocodiles are larger in size. Alligators are smaller in size. Snout widths, the crocodiles have a narrow snout, and alligators have a wider snout. And of course, in the modern day and age, the father's sitting here thinking, how can I turn this into a lesson for my son? And he goes, let us support vector machines segregate the two groups. I don't know if my dad ever told me that, but that would be funny. Now, in this example, we're not gonna use actual measurements and data, we're just using that for imagery. And that's very common in a lot of machine learning algorithms and setting them up. But let's roll up our sleeves, and we'll talk about that more in just a moment as we break into our Python script. So here we arrive in our actual coding. And I'm gonna move this into a Python editor in just a moment. But let's talk a little bit about what we're gonna cover. First, we're gonna cover in the code the setup, how to actually create our SVM. And you're gonna find that there's only two lines of code that actually create it, and the rest of it is done so quick and fast that it's all here in the first page. And we'll show you what that looks like as far as our data, because we're gonna create some data. I talked about creating data just a minute ago. And so we'll get into the creating data here, and you'll see this nice correction of our two blobs. And we'll go through that in just a second. And then the second part is we're gonna take this and we're gonna bump it up a notch. We're gonna show you what it looks like behind the scenes. But let's start with actually creating our setup. I like to use the Anaconda Jupyter notebook, because it's very easy to use, but you can use any of your favorite Python editors or setups and go in there. But let's go ahead and switch over there and see what that looks like. So here we are in the Anaconda Python notebook, or Anaconda Jupyter notebook with Python. We're using Python 3. I believe this is 3.5, but it should be work in any of your 3X versions. And you'd have to look at the SK Learn and make sure if you're using a 2X version and an earlier version. Now let's go ahead and put our code in there. And one of the things I like about the Jupyter notebook is I'm going to go up to View, and I'm gonna go ahead and toggle the line numbers on to make it a little bit easier to talk about. And we can even increase the size, because this is edited in, in this case I'm using Google Chrome Explorer, and that's how it opens up for the editor. Although anyone, like I said, any editor will work. Now the first step is gonna be our imports. And we're gonna import four different parts. The first two I want you to look at are line one and line two, our NumPy as Np and MatplotLibrary.pyplot as PLT. Now these are very standardized imports when you're doing work. The first one is the numbers Python. We need that because part of the platform we're using uses app for the NumPy array. And I'll talk about that in a minute so you can understand why we want to use a NumPy array versus the standard Python array. And normally it's pretty standard setup to use Np for NumPy. The MatplotLibrary is how we're gonna view our data. So this has, you do need the Np for the SK Learn module, but the MatplotLibrary is purely for our use for visualization. And so you really don't need that for the SVM, but we're gonna put it there so you have a nice visual aid and we can show you what it looks like. That's really important at the end when you finish everything. So you have a nice display for everybody to look at. And then finally, I'm gonna jump one ahead to line number four. That's the sklearn.datasets.samples generator import make blobs. And I told you that we were gonna make up data. And this is a tool that's in the SK Learn to make up data. I personally don't want to go to the zoo, get in trouble for jumping over the fence and probably get eaten by the crocodiles or alligators as I work on measuring their snouts and width and length. Instead, we're just gonna make up some data. And that's what that make blobs is. It's a wonderful tool if you're ready to test your setup and you're not sure about what data you're gonna put in there. You can create this blob and it makes it real easy to use. And finally, we have our actual SVM, the SK Learn import SVM on line three. So that covers all our imports. We're gonna create, remember I used the make blobs to create data and we're gonna create a capital X and a lowercase Y equals make blobs in samples equals 40. So we're gonna make 40 lines of data. It's gonna have two centers with a random state equals 20. So each group's gonna have 20 different pieces of data in it. And the way that looks is that we'll have under X, an X Y plane. So I'll have two numbers under X and Y will be zero or one. That's the two different centers. So we have yes or no, in this case, alligator or crocodile, that's what that represents. And then I told you that the actual SK Learn or the SVM is in two lines of code. And we see it right here with CLF equals SVM.SVC kernel equals linear and I set SQL to one. Although in this example, since we are not regularizing the data, since we want it to be very clear and easy to see, I went ahead, you can set it to a thousand, a lot of times when you're not doing that. But for this thing, linear, because it's a very simple linear example, we only have the two dimensions and it'll be a nice linear hyperplane, it'll be a nice linear line instead of a full plane. So we're not dealing with a huge amount of data. And then all we have to do is do CLF.fit X comma Y. And that's it. CLF has been created and then we're gonna go ahead and display it. And I'm gonna talk about this display here in just a second, but let me go ahead and run this code. And this is what we've done is we've created two blobs. You'll see the blue on the side and then kind of an orange-ish on the other side. That's our two sets of data. They represent, one represents crocodiles and one represents alligators. And then we have our measurements. In this case, we have like the width and length of the snout. And I did say I was gonna come up here and talk just a little bit about our plot. And you'll see PLT, that's what we imported. We're gonna do a scatter plot. That means we're just putting dots on there. And then look at this notation. I have the capital X and then in brackets, I have a colon comma zero. That's from Numpy. If you did that in a regular array, you'll get an error in a Python array. You have to have that in a Numpy array. It turns out that our make blobs returns a Numpy array. And this notation is great because what it means is the first part is the colon means we're gonna do all the rows. That's all the data in our blob we created under capital X. And then the second part has a comma zero. We're only gonna take the first value. And then if you notice, we do the same thing, but we're gonna take the second value. Remember, we always start with zero and then one. So we have column zero and column one. And you can look at this as our X-Y plots. The first one is the X-plot and the second one is the Y-plot. So the first one is on the bottom zero, two, four, six, eight and 10. And then the second one, X of the one, is the four, five, six, seven, eight, nine, 10 going up the left-hand side. S equals 30 is just the size of the dots. We can see them. It's had real tiny dots. And then the C-map equals PLT.CM.paired. And you'll also see the C equals Y. That's the color. We're using two colors, zero, one. And that's why we get the nice blue and the two different colors for the alligator and the crocodile. Now you can see here that we did this, the actual fit was done in two lines of code. A lot of times there'll be a third line where we regularize the data. We set it between like minus one and one and we reshape it. But for this, it's not necessary. And it's also kind of nice because you can actually see what's going on. And then if we wanted to, we wanted to actually run a prediction, let's take a look and see what that looks like. And to predict some new data, and we'll show this again as we get towards the end of digging in deep. You can simply assign your new data. In this case, I am giving it a width and length three, four and a width and length five, six. And note that I put the data as a set of brackets and then I have the brackets inside. And the reason I do that is because when we're looking at data, it's designed to process a large amount of data coming in. We don't want to just process one line at a time. And so in this case, I'm processing two lines. And then I'm just going to print and you'll see clf.predict new data. So the clf and the dot predict part is going to give us an answer. And let's see what that looks like. And you'll see zero one. So predicted the first one, the three four is going to be on the one side and the five six is going to be on the other side. So one came out as an alligator and one came out as a crocodile. Now that's pretty short explanation for this setup. But really, we want to dig in and see what it's going on behind the scenes. And let's see what that looks like. So the next step is to dig in deep and find out what's going on behind the scenes. And also put that in a nice pretty graph. We're going to spend more work on this and we did actually generating the original model. And you'll see here that we go through a few steps and I'll move this over to our editor in just a second. We come in, we create our original data. It's exactly identical to the first part and I'll explain why we redid that and show you how not to redo that. And then we're going to go in there and add in those lines. We're going to see what those lines look like and how to set those up. And finally, we're going to plot all that on here and show it. And you'll get a nice graph with the, what we saw earlier when we were going through the theory behind this, where it shows the support vectors and the hyperplane. And those are done where you can see the support vectors as the dashed lines and the solid line, which is the hyperplane. Let's get that into our Jupiter notebook. Before I scroll down to a new line, I want you to notice line 13, it has plot show. And we're going to talk about that here in just a second, but let's scroll down to a new line down here. And I'm going to paste that code in. And you'll see that the plot show is moved down below. Let's scroll up a little bit. And if you look at the top here of our new section, one, two, three, and four, is the same code we had before. And let's go back up here and take a look at that. We're going to fit the values on our SVM and then we're going to plot scatter it and then we're going to do a plot show. So you should be asking, why are we redoing the same code? Well, when you do the plot show, that blanks out what's in the plot. So once I've done this plot show, I have to reload that data. Now we could do this simply by removing it up here, rerunning it and then coming down here, and then we wouldn't have to rerun these first four lines of code. Now in this, it doesn't matter too much. And you'll see the plot show was down here and then removed right there on line five. I'll go ahead and just delete that out of there. Because we don't want to blank out our screen. We want to move on to the next setup. So we can go ahead and just skip the first four lines because we did that before. And let's take a look at the AX equals PLT.GCA. Now right now, we're actually spending a lot of time just graphing, that's all we're doing here. Okay, so this is how we display a nice graph with our results and our data. AX is very standard to use variable when you're talking about PLT. And it's just setting it to that axis, the last axis in the PLT. They can get very confusing if you're working with many different layers of data on the same graph. And this makes it very easy to reference the AX. So this reference is looking at the PLT that we created and we already mapped out our two blobs on. And then we want to know the limits. So we want to know how big the graph is. We can find out the X limit and the Y limit, simply with the get X limit and get Y limit commands, which is part of our Metplot library. And then we're going to create a grid. And you'll see down here where we have, we've set the variable XX equal to NP dot line space, X limit zero, X limit one comma 30. And we've done the same thing for the Y space. And then we're going to go in here and we create a mesh grid. And this is a numpy command. So we're back to our numbers Python. Let's go through what these numpy commands mean with the line space and the mesh grid. We've taken XX small as XX equals NP line space. And we have our X limit zero and our X limit one. And we're going to create 30 points on it. And we're going to do the same thing for the Y axes. Now, this has nothing to do with our evaluation. All we're doing is we're creating a grid of data. And so we're creating a set of points between zero and the X limit. We're creating 30 points and the same thing with the Y. And then the mesh grid loops those all together. So it forms a nice grid. So if we were going to do this, say, between the limit 0 and 10 and do 10 points, we would have a 0, 0, 1, 1, 0, 1, 0, 0, 2, 0, 3, 0, 4, it's a 10, and so on. You can just imagine a point at each corner one of those boxes. And the mesh grid combines them all. So we take the YY and the XX we created and creates the full grid. And we've set that grid into the YY coordinates and the XX coordinates. Now remember, we're working with numpy and Python. We like to separate those. We like to have, instead of it being X comma 1, X comma Y, and then X2 comma Y2. And in the next set of data, it would be a column of X's and a column of Y's. And that's what we have here is we have a column of Y's. We put it as a capital YY and a column of X's, capital XX, with all those different points being listed. And finally, we get down to the numpy V stack. Just as we created those in the mesh grid, we're now going to put them all into one array, X, Y array. Now that we've created the stack of data points, we're going to do something interesting here. We're going to create a value Z. And the Z equals the CLF. That's our support vector machine we created. And we've already trained. And we have a dot decision function. And we're going to put the XY in there. So here we have all this data. We're going to put that XY in there, that data. And we're going to reshape it. And you'll see that we have the XX dot shape in here. This literally takes the XX, resets it up, connected to the Y. And the Z value lets us know whether it is the left hand side. It's going to generate three different values that Z value does. And it'll tell us whether that data is a support vector to the left, the hyperplane in the middle, or the support vector to the right. So it generates three different values for each of those points. And those points have been reshaped so that they're right on a line on those three different lines. So we've set all of our data up. We've labeled it to three different areas. And we reshaped it. And we've just taken 30 points in each direction. If you do the math, you have 30 times 30. So it's 900 points of data. And we've separated between the three lines and reshaped it to fit those three lines. We can then go back to our map plot library. We've created the AX. And we're going to create a contour. And you'll see here we have contour capital XX, capital YY. These have been reshaped to fit those lines. Z is the labels. So now we have the three different points with the labels in there. And we can set the colors equals K. And I told you we had three different labels, but we have three levels of data. The alpha just makes it kind of see through. So it's only 0.5 of the value in there. So when we graph it, the data will show up from behind it. Wherever the lines go. And finally, the line styles. This is where we set the two support vectors to be dashed dashed lines. And then a single one is just a straight line. That's what all that setup does. And then finally, we take our AX.scatter. We're going to go ahead and plot the support vectors. But we've programmed it in there so that they look nice. Like the dash, dash line, and the dash line on that grid. And you can see here when we do the CLF.supportvectors, we are looking at column 0 and column 1. And then again, we have the s equals 100. So we're going to make them larger. And the line width equals 1. Face colors equals none. Let's take a look and see what that looks like when we show it. And you can see we get down to our end result. It creates a really nice graph. We have our two support vectors and dash lines. And they have the near data. So you can see those two points. Or in this case, the four points where those lines nicely cleave the data. And then you have your hyperplane down the middle. Which is as far from the two different points as possible. Creating the maximum distance. So you can see that we have our nice output for the size of the body and the width of the snout. And we've easily separated the two groups of crocodile and alligator. Congratulations. You've done it. We've made it. Of course, these are pretend data for our crocodiles and alligators. But this hands-on example will help you to encounter any support vector machine projects in the future. And you can see how easy they are to set up and look at in depth. Key takeaways, machine learning. What is machine learning? We looked at a little bit at supervised learning, unsupervised learning, and reinforcement learning. Specifically, we're working in supervised learning. Why support vector machine? So that we can classify objects. What is support vector machine? Where we learned about the support vectors and the hyperplane. We dug in deeper into understanding support vector machine for using multiple data. Where the data is split and you had to create new levels or new planes. And finally, we did our case study of crocodiles and alligators. Where you got to see hands-on how to do a support vector machine and what's going on behind the scenes and how to display that. I want to thank you for joining us today. If you have any questions or any requests, feel free to add that to the comments at the bottom of the page. MUSIC Hi there. If you like this video, subscribe to the Simple Learning YouTube channel. And click here to watch similar videos. To nerd up and get certified, click here."
+}
